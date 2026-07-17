@@ -1,0 +1,9 @@
+import { render, screen } from "@testing-library/react";
+import { NotFoundPage } from "./NotFoundPage";
+
+describe("NotFoundPage", () => {
+  it("renders the not found message", () => {
+    render(<NotFoundPage />);
+    expect(screen.getByText("Page introuvable")).toBeInTheDocument();
+  });
+});
