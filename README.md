@@ -42,13 +42,37 @@ npm run test
 npm run build
 ```
 
+## Qualité de code
+
+| Commande               | Description                                     |
+| ---------------------- | ----------------------------------------------- |
+| `npm run lint`         | Analyse statique (ESLint, règles type-aware)    |
+| `npm run format`       | Formate le code avec Prettier                   |
+| `npm run format:check` | Vérifie le formatage sans modifier les fichiers |
+| `npm run test`         | Lance les tests (Vitest)                        |
+
+### Pre-commit hooks
+
+[Husky](https://typicode.github.io/husky/) et [lint-staged](https://github.com/okonet/lint-staged) sont configurés pour lancer automatiquement ESLint (`--fix`) et Prettier sur les fichiers stagés avant chaque commit. Le hook s'installe automatiquement à l'exécution de `npm install` (script `prepare`) — aucune action manuelle n'est nécessaire après le clone.
+
+### Intégration continue
+
+Une CI GitHub Actions ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) rejoue `lint`, `format:check`, le typecheck, les tests et le build sur chaque push et pull request vers `main`.
+
 ## Structure
 
 ```
-src/
-├── app/
-├── pages/
-├── lib/
-│   └── configs/
-└── test/
+.
+├── .github/workflows/   # CI (lint, format, typecheck, test, build)
+├── public/               # Assets statiques servis tels quels
+├── src/
+│   ├── app/              # Bootstrap de l'application (App, Router, routes)
+│   ├── lib/
+│   │   └── configs/       # Configuration des libs (React Query, ...)
+│   ├── pages/             # Composants de page, associés à une route
+│   └── test/              # Setup global des tests
+├── .editorconfig
+├── .prettierrc
+├── eslint.config.js
+└── vite.config.ts
 ```
