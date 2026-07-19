@@ -9,6 +9,7 @@
 body {
   min-height: 100svh;
   background-attachment: fixed;
+  background-color: var(--mantine-color-dark-8);
 }
 
 html {
