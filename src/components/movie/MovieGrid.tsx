@@ -12,9 +12,20 @@ type MovieGridProps = {
 
 export function MovieGrid({ title, filters, searchQuery = "" }: MovieGridProps) {
   const isSearching = searchQuery.trim().length > 0;
-  const catalog = useCatalog(filters, !isSearching);
-  const search = useCatalogSearch(searchQuery, filters.page, isSearching);
-  const { data, isLoading, isError } = isSearching ? search : catalog;
+  const {
+    data: catalogData,
+    isLoading: isCatalogLoading,
+    isError: isCatalogError,
+  } = useCatalog(filters, !isSearching);
+  const {
+    data: searchData,
+    isLoading: isSearchLoading,
+    isError: isSearchError,
+  } = useCatalogSearch(searchQuery, filters.page, isSearching);
+
+  const data = isSearching ? searchData : catalogData;
+  const isLoading = isSearching ? isSearchLoading : isCatalogLoading;
+  const isError = isSearching ? isSearchError : isCatalogError;
 
   if (isLoading) {
     return <CenteredLoader />;
@@ -34,6 +45,8 @@ export function MovieGrid({ title, filters, searchQuery = "" }: MovieGridProps) 
             id={movie.id}
             title={movie.title}
             posterPath={movie.poster_path}
+            releaseDate={movie.release_date}
+            voteAverage={movie.vote_average}
           />
         ))}
       </SimpleGrid>
