@@ -12,25 +12,36 @@ const NAVBAR_TOGGLE_HEIGHT = 35;
 const MOBILE_NAVBAR_WIDTH = "66%";
 
 export function MainLayout() {
-  const [opened, { toggle, close }] = useDisclosure(true);
+  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
+  const [mobileOpened, { toggle: toggleMobile, close: closeMobile }] = useDisclosure(false);
   const theme = useMantineTheme();
   const isDesktop = useMediaQuery(`(min-width: ${theme.breakpoints.sm})`, undefined, {
     getInitialValueInEffect: false,
   });
+
+  const isNavbarClosed = isDesktop ? !desktopOpened : !mobileOpened;
+
+  function handleToggle() {
+    if (isDesktop) {
+      toggleDesktop();
+      return;
+    }
+    toggleMobile();
+  }
 
   return (
     <AppShell
       navbar={{
         width: NAVBAR_WIDTH,
         breakpoint: "sm",
-        collapsed: { desktop: !opened, mobile: true },
+        collapsed: { desktop: !desktopOpened, mobile: true },
       }}
       padding="md"
       withBorder={false}
     >
-      {!opened && (
+      {isNavbarClosed && (
         <UnstyledButton
-          onClick={toggle}
+          onClick={handleToggle}
           aria-label="Ouvrir le menu"
           className="fixed z-50 top-5 left-0 rounded-tr-full rounded-br-full cursor-pointer flex items-center justify-center"
           bg="brand"
@@ -50,19 +61,19 @@ export function MainLayout() {
           height: "calc(100dvh - (var(--mantine-spacing-md) * 2))",
         }}
       >
-        <NavbarMenu closeNavbar={close} />
+        <NavbarMenu />
       </AppShell.Navbar>
 
       <Drawer
-        opened={opened && !isDesktop}
-        onClose={close}
+        opened={mobileOpened}
+        onClose={closeMobile}
         position="left"
         size={MOBILE_NAVBAR_WIDTH}
         padding={0}
         withCloseButton={false}
         bg="dark.7"
       >
-        <NavbarMenu closeNavbar={close} />
+        <NavbarMenu closeNavbar={closeMobile} />
       </Drawer>
 
       <AppShell.Main bg="dark.6">

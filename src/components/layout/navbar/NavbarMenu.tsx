@@ -6,7 +6,7 @@ import { Logo } from "./Logo";
 import { NavbarButton } from "./NavbarButton";
 
 type NavbarMenuProps = {
-  closeNavbar: () => void;
+  closeNavbar?: () => void;
 };
 
 export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {

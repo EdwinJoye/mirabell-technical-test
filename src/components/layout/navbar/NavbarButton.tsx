@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 import type { NavItem } from "~/lib/configs/navbar.config";
 
 type NavbarButtonProps = NavItem & {
-  closeNavbar: () => void;
+  closeNavbar?: () => void;
 };
 
 export function NavbarButton({
