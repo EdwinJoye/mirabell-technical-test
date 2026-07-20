@@ -1,5 +1,5 @@
-import { AspectRatio, Badge, Center, Group, Stack, Text, ActionIcon, Modal } from "@mantine/core";
-import { StarIcon, MagnifyingGlassPlusIcon } from "@phosphor-icons/react";
+import { AspectRatio, Badge, Center, Group, Stack, Text, Modal } from "@mantine/core";
+import { StarIcon } from "@phosphor-icons/react";
 import { useDisclosure } from "@mantine/hooks";
 import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
@@ -50,11 +50,6 @@ export function MovieCard({
     setIsHoverExpanded(false);
   }
 
-  function handleMagnifierClick(event: React.MouseEvent) {
-    event.stopPropagation();
-    open();
-  }
-
   return (
     <>
       <AspectRatio
@@ -64,7 +59,7 @@ export function MovieCard({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`rounded-md overflow-hidden group cursor-pointer transition-transform duration-200 ${
-          isHoverExpanded ? "scale-150 z-[150] shadow-2xl" : "scale-100"
+          isHoverExpanded ? "scale-150 z-150 shadow-2xl" : "scale-100"
         }`}
         style={{
           backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
@@ -82,26 +77,10 @@ export function MovieCard({
             </Center>
           )}
           <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/10 to-transparent" />
-          <ActionIcon
-            onClick={handleMagnifierClick}
-            aria-label="Voir les détails"
-            variant="filled"
-            size="md"
-            radius="xl"
-            pos="absolute"
-            top={8}
-            right={8}
-            style={{
-              zIndex: 2,
-              backgroundColor: "rgba(255, 255, 255, 0.16)",
-              backdropFilter: "blur(12px)",
-              WebkitBackdropFilter: "blur(12px)",
-            }}
-          >
-            <MagnifyingGlassPlusIcon size={16} color="white" />
-          </ActionIcon>
           <Stack gap={6} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
-            {isHoverExpanded && <MovieCardHoverDetails movieId={id} genres={movieGenres} />}
+            {isHoverExpanded && (
+              <MovieCardHoverDetails movieId={id} genres={movieGenres} onOpenDetails={open} />
+            )}
             <Text fw={600} c="white" size="sm" lineClamp={1}>
               {title}
             </Text>
