@@ -1,4 +1,4 @@
-import { Stack } from "@mantine/core";
+import { ScrollArea, Stack } from "@mantine/core";
 import { useDebouncedValue } from "@mantine/hooks";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router";
@@ -22,7 +22,7 @@ export function ExplorePage() {
   const { data: catalogData } = useCatalog({ page: 1, sortBy: "popularity.desc" });
 
   const isSearching = debouncedSearchValue.trim().length > 0;
-  const isShowingGrid = isSearching || showAllRequested;
+  const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre);
 
   useEffect(() => {
     setSearchParams(
@@ -71,10 +71,20 @@ export function ExplorePage() {
       label: genre.name,
     })) ?? [];
 
+  const selectedGenre = genresData?.genres.find((genre) => String(genre.id) === urlGenre);
+
+  const gridTitle = isSearching
+    ? `Résultats pour "${debouncedSearchValue.trim()}"`
+    : (selectedGenre?.name ?? "Tous les films");
+
   const featuredMovie = catalogData?.results[0];
 
   return (
-    <Stack gap="xl" p="md">
+    <Stack
+      gap="md"
+      p="md"
+      style={{ height: "calc(100dvh - (var(--mantine-spacing-md) * 4))", overflow: "hidden" }}
+    >
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}
@@ -83,29 +93,34 @@ export function ExplorePage() {
         categoryOptions={categoryOptions}
         categoryDisabled={isSearching}
       />
-      {featuredMovie && !isShowingGrid && (
-        <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
-      )}
-      {!isShowingGrid && (
-        <MovieRow
-          title="You might like"
-          genres={genresData?.genres ?? []}
-          onDiscoverMore={handleDiscoverMore}
-          filters={{
-            page: 1,
-            sortBy: "popularity.desc",
-            withGenres: urlGenre ? [Number(urlGenre)] : undefined,
-          }}
-        />
-      )}
-      {isShowingGrid && (
-        <MovieGrid
-          title={isSearching ? `Résultats pour "${debouncedSearchValue.trim()}"` : "Tous les films"}
-          searchQuery={debouncedSearchValue}
-          genres={genresData?.genres ?? []}
-          filters={{ page: 1, sortBy: "popularity.desc" }}
-        />
-      )}
+
+      <ScrollArea type="auto" style={{ flex: 1 }}>
+        <Stack gap="xl" pb={80}>
+          {featuredMovie && !isShowingGrid && (
+            <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
+          )}
+          {!isShowingGrid && (
+            <MovieRow
+              title="You might like"
+              genres={genresData?.genres ?? []}
+              onDiscoverMore={handleDiscoverMore}
+              filters={{ page: 1, sortBy: "popularity.desc" }}
+            />
+          )}
+          {isShowingGrid && (
+            <MovieGrid
+              title={gridTitle}
+              searchQuery={debouncedSearchValue}
+              genres={genresData?.genres ?? []}
+              filters={{
+                page: 1,
+                sortBy: "popularity.desc",
+                withGenres: urlGenre ? [Number(urlGenre)] : undefined,
+              }}
+            />
+          )}
+        </Stack>
+      </ScrollArea>
     </Stack>
   );
 }
