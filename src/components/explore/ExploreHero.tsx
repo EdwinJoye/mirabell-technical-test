@@ -1,7 +1,7 @@
 import { BackgroundImage, Badge, Button, Flex, Group, Stack, Text, Title } from "@mantine/core";
 import { DownloadSimpleIcon, DotsThreeIcon, FireIcon, PlayIcon } from "@phosphor-icons/react";
-import type { CSSProperties } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
+import { buttonHoverVars } from "~/lib/theme/hover";
 import type { TmdbMovie } from "~/lib/tmdb/tmdb.types";
 import type { Genre } from "~/features/genres/genres.types";
 
@@ -13,14 +13,6 @@ const badgeStyles = {
     WebkitBackdropFilter: "blur(12px)",
   },
 };
-
-function hoverVars(): CSSProperties {
-  return {
-    "--button-hover": "var(--mantine-color-brand-6)",
-    "--button-hover-color": "var(--mantine-color-dark-9)",
-    transition: "background-color 300ms ease, color 300ms ease",
-  } as CSSProperties;
-}
 
 type ExploreHeroProps = {
   movie: TmdbMovie;
@@ -89,7 +81,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               color="white"
               c="dark.9"
               radius="xl"
-              style={hoverVars()}
+              style={buttonHoverVars()}
             >
               Watch Now
             </Button>
@@ -99,7 +91,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               color="dark.9"
               c="white"
               radius="xl"
-              style={hoverVars()}
+              style={buttonHoverVars()}
             >
               Download
             </Button>
@@ -109,7 +101,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               c="white"
               radius="xl"
               px="sm"
-              style={hoverVars()}
+              style={buttonHoverVars()}
             >
               <DotsThreeIcon size={20} />
             </Button>

@@ -1,6 +1,7 @@
 import { ActionIcon, Badge, Group, Stack, Text, Title, Button } from "@mantine/core";
 import { XIcon, PlayIcon, DownloadSimpleIcon, StarIcon } from "@phosphor-icons/react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
+import { buttonHoverVars } from "~/lib/theme/hover";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
 import type { Genre } from "~/features/genres/genres.types";
 
@@ -84,6 +85,7 @@ export function MovieDetailsOverlay({
             color="white"
             c="dark.9"
             radius="xl"
+            style={buttonHoverVars()}
           >
             Watch Now
           </Button>
@@ -93,6 +95,7 @@ export function MovieDetailsOverlay({
             color="dark.9"
             c="white"
             radius="xl"
+            style={buttonHoverVars()}
           >
             Download
           </Button>

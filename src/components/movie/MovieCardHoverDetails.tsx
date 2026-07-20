@@ -1,24 +1,74 @@
 import { ActionIcon, Badge, Group, Stack } from "@mantine/core";
 import { CheckIcon, PlayIcon, ThumbsUpIcon } from "@phosphor-icons/react";
-import { glassActionIconStyles, glassBadgeStyles } from "~/components/movie/movie.styles";
+import { glassBadgeStyles } from "~/components/movie/movie.styles";
+import { actionIconHoverVars, glassActionIconVars } from "~/lib/theme/hover";
+import { useWatchStatusStore } from "~/features/watch-status/watch-status.store";
+import type { CSSProperties } from "react";
 import type { Genre } from "~/features/genres/genres.types";
 
 type MovieCardHoverDetailsProps = {
+  movieId: number;
   genres: Genre[];
 };
 
-export function MovieCardHoverDetails({ genres }: MovieCardHoverDetailsProps) {
+export function MovieCardHoverDetails({ movieId, genres }: MovieCardHoverDetailsProps) {
+  const likedMovieIds = useWatchStatusStore((state) => state.likedMovieIds);
+  const watchedMovieIds = useWatchStatusStore((state) => state.watchedMovieIds);
+  const toggleLiked = useWatchStatusStore((state) => state.toggleLiked);
+  const toggleWatched = useWatchStatusStore((state) => state.toggleWatched);
+
+  const isLiked = likedMovieIds.includes(movieId);
+  const isWatched = watchedMovieIds.includes(movieId);
+
+  function handleWatchedClick(event: React.MouseEvent) {
+    event.stopPropagation();
+    toggleWatched(movieId);
+  }
+
+  function handleLikedClick(event: React.MouseEvent) {
+    event.stopPropagation();
+    toggleLiked(movieId);
+  }
+
+  function activeVars(): CSSProperties {
+    return { ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-brand-6)" } as CSSProperties;
+  }
+
   return (
     <Stack gap={6}>
       <Group gap={6}>
-        <ActionIcon radius="xl" size="sm" variant="filled" c="dark.9" bg="white">
+        <ActionIcon
+          radius="xl"
+          size="sm"
+          variant="filled"
+          c="dark.9"
+          style={{ ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-white)" }}
+        >
           <PlayIcon size={12} weight="fill" />
         </ActionIcon>
-        <ActionIcon radius="xl" size="sm" variant="filled" c="white" styles={glassActionIconStyles}>
-          <CheckIcon size={12} />
+        <ActionIcon
+          radius="xl"
+          size="sm"
+          variant="filled"
+          onClick={handleWatchedClick}
+          c={isWatched ? "dark.9" : "white"}
+          style={isWatched ? activeVars() : glassActionIconVars()}
+          aria-label="Marquer comme vu"
+          aria-pressed={isWatched}
+        >
+          <CheckIcon size={12} weight={isWatched ? "bold" : "regular"} />
         </ActionIcon>
-        <ActionIcon radius="xl" size="sm" variant="filled" c="white" styles={glassActionIconStyles}>
-          <ThumbsUpIcon size={12} />
+        <ActionIcon
+          radius="xl"
+          size="sm"
+          variant="filled"
+          onClick={handleLikedClick}
+          c={isLiked ? "dark.9" : "white"}
+          style={isLiked ? activeVars() : glassActionIconVars()}
+          aria-label="J'aime"
+          aria-pressed={isLiked}
+        >
+          <ThumbsUpIcon size={12} weight={isLiked ? "fill" : "regular"} />
         </ActionIcon>
       </Group>
       <Group gap={4}>

@@ -64,7 +64,7 @@ export function MovieCard({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`rounded-md overflow-hidden group cursor-pointer transition-transform duration-200 ${
-          isHoverExpanded ? "scale-150 z-10 shadow-2xl" : "scale-100"
+          isHoverExpanded ? "scale-150 z-[150] shadow-2xl" : "scale-100"
         }`}
         style={{
           backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
@@ -101,7 +101,7 @@ export function MovieCard({
             <MagnifyingGlassPlusIcon size={16} color="white" />
           </ActionIcon>
           <Stack gap={6} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
-            {isHoverExpanded && <MovieCardHoverDetails genres={movieGenres} />}
+            {isHoverExpanded && <MovieCardHoverDetails movieId={id} genres={movieGenres} />}
             <Text fw={600} c="white" size="sm" lineClamp={1}>
               {title}
             </Text>
@@ -133,6 +133,7 @@ export function MovieCard({
         padding={0}
         radius="lg"
         withCloseButton={false}
+        zIndex={300}
       >
         <MovieDetailsOverlay
           title={title}
