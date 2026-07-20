@@ -39,6 +39,17 @@ export function ExplorePage() {
     );
   }, [debouncedSearchValue, setSearchParams]);
 
+  function handleDiscoverMore() {
+    setSearchParams(
+      (previous) => {
+        const next = new URLSearchParams(previous);
+        next.set("view", "all");
+        return next;
+      },
+      { replace: true },
+    );
+  }
+
   function handleCategoryChange(value: string | null) {
     setSearchParams(
       (previous) => {
@@ -79,6 +90,7 @@ export function ExplorePage() {
         <MovieRow
           title="You might like"
           genres={genresData?.genres ?? []}
+          onDiscoverMore={handleDiscoverMore}
           filters={{
             page: 1,
             sortBy: "popularity.desc",
