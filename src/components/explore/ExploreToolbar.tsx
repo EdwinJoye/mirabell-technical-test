@@ -27,28 +27,8 @@ export function ExploreToolbar({
   categoryDisabled = false,
 }: ExploreToolbarProps) {
   return (
-    <Group justify="space-between" wrap="wrap" gap="md">
-      <Group gap="md" className="flex-1 min-w-0">
-        <Select
-          placeholder="All"
-          data={categoryOptions}
-          value={categoryValue}
-          onChange={onCategoryChange}
-          disabled={categoryDisabled}
-          clearable
-          w={140}
-          styles={pillStyles}
-        />
-        <TextInput
-          placeholder="Search"
-          value={searchValue}
-          onChange={(event) => onSearchChange(event.currentTarget.value)}
-          leftSection={<MagnifyingGlassIcon size={16} />}
-          className="flex-1 min-w-50"
-          styles={pillStyles}
-        />
-      </Group>
-      <Group gap="sm">
+    <div className="flex flex-col sm:flex-row-reverse sm:items-center sm:justify-between gap-3">
+      <Group gap="sm" wrap="nowrap" justify="flex-end" className="w-full sm:w-auto shrink-0">
         <ActionIcon
           c="dimmed"
           size="lg"
@@ -59,6 +39,27 @@ export function ExploreToolbar({
         </ActionIcon>
         <Avatar radius="xl" aria-label="Profil utilisateur" />
       </Group>
-    </Group>
+      <div className="flex gap-3 w-full">
+        <Select
+          placeholder="All"
+          data={categoryOptions}
+          value={categoryValue}
+          onChange={onCategoryChange}
+          disabled={categoryDisabled}
+          clearable
+          className="shrink-0"
+          w={{ base: 100, sm: 140 }}
+          styles={pillStyles}
+        />
+        <TextInput
+          placeholder="Search"
+          value={searchValue}
+          onChange={(event) => onSearchChange(event.currentTarget.value)}
+          leftSection={<MagnifyingGlassIcon size={16} />}
+          className="flex-1 w-full"
+          styles={pillStyles}
+        />
+      </div>
+    </div>
   );
 }
