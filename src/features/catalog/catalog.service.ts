@@ -10,6 +10,10 @@ function buildDiscoverMovieSearchParams(filters: CatalogFilters): URLSearchParam
     searchParams.set("sort_by", filters.sortBy);
   }
 
+  if (filters.withGenres && filters.withGenres.length > 0) {
+    searchParams.set("with_genres", filters.withGenres.join(","));
+  }
+
   return searchParams;
 }
 
