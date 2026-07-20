@@ -40,6 +40,7 @@ export function ExplorePage() {
       <MovieGrid
         title={isSearching ? `Résultats pour "${debouncedSearchValue.trim()}"` : "You might like"}
         searchQuery={debouncedSearchValue}
+        genres={genresData?.genres ?? []}
         filters={{
           page: 1,
           sortBy: "popularity.desc",

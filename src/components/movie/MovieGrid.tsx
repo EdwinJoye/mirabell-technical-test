@@ -3,14 +3,16 @@ import { useCatalog, useCatalogSearch } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import type { CatalogFilters } from "~/features/catalog/catalog.types";
+import type { Genre } from "~/features/genres/genres.types";
 
 type MovieGridProps = {
   title: string;
   filters: CatalogFilters;
   searchQuery?: string;
+  genres: Genre[];
 };
 
-export function MovieGrid({ title, filters, searchQuery = "" }: MovieGridProps) {
+export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGridProps) {
   const isSearching = searchQuery.trim().length > 0;
   const {
     data: catalogData,
@@ -45,8 +47,12 @@ export function MovieGrid({ title, filters, searchQuery = "" }: MovieGridProps) 
             id={movie.id}
             title={movie.title}
             posterPath={movie.poster_path}
+            backdropPath={movie.backdrop_path}
+            overview={movie.overview}
             releaseDate={movie.release_date}
             voteAverage={movie.vote_average}
+            genreIds={movie.genre_ids}
+            genres={genres}
           />
         ))}
       </SimpleGrid>

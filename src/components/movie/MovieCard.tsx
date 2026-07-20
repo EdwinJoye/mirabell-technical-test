@@ -1,70 +1,150 @@
-import { AspectRatio, Badge, Center, Group, Stack, Text } from "@mantine/core";
-import { StarIcon } from "@phosphor-icons/react";
+import { AspectRatio, Badge, Center, Group, Stack, Text, ActionIcon, Modal } from "@mantine/core";
+import { StarIcon, MagnifyingGlassPlusIcon } from "@phosphor-icons/react";
+import { useDisclosure } from "@mantine/hooks";
+import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
+import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
+import { MovieCardHoverDetails } from "~/components/movie/MovieCardHoverDetails";
+import { glassBadgeStyles } from "~/components/movie/movie.styles";
+import type { Genre } from "~/features/genres/genres.types";
+
+const HOVER_EXPAND_DELAY_MS = 600;
 
 type MovieCardProps = {
   id: number;
   title: string;
   posterPath: string | null;
+  backdropPath: string | null;
+  overview: string;
   releaseDate: string;
   voteAverage: number;
+  genreIds: number[];
+  genres: Genre[];
 };
 
-export function MovieCard({ id, title, posterPath, releaseDate, voteAverage }: MovieCardProps) {
+export function MovieCard({
+  id,
+  title,
+  posterPath,
+  backdropPath,
+  overview,
+  releaseDate,
+  voteAverage,
+  genreIds,
+  genres = [],
+}: MovieCardProps) {
+  const [opened, { open, close }] = useDisclosure(false);
+  const [isHoverExpanded, setIsHoverExpanded] = useState(false);
+  const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
+  const movieGenres = genres.filter((genre) => genreIds.includes(genre.id));
+
+  function handleMouseEnter() {
+    hoverTimeoutRef.current = setTimeout(() => {
+      setIsHoverExpanded(true);
+    }, HOVER_EXPAND_DELAY_MS);
+  }
+
+  function handleMouseLeave() {
+    clearTimeout(hoverTimeoutRef.current);
+    setIsHoverExpanded(false);
+  }
+
+  function handleMagnifierClick(event: React.MouseEvent) {
+    event.stopPropagation();
+    open();
+  }
 
   return (
-    <AspectRatio
-      ratio={2 / 3}
-      data-movie-id={id}
-      pos="relative"
-      className="rounded-md overflow-hidden"
-      style={{
-        backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundColor: "var(--mantine-color-dark-6)",
-      }}
-    >
-      <div>
-        {!posterPath && (
-          <Center h="100%">
-            <Text size="sm" c="dimmed">
-              No poster
-            </Text>
-          </Center>
-        )}
-        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/10 to-transparent" />
-        <Stack gap={4} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
-          <Text fw={600} c="white" size="sm" lineClamp={1}>
-            {title}
-          </Text>
-          <Group gap="xs">
-            {releaseYear && (
-              <Text size="xs" c="dimmed">
-                {releaseYear}
+    <>
+      <AspectRatio
+        ratio={2 / 3}
+        data-movie-id={id}
+        pos="relative"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        className={`rounded-md overflow-hidden group cursor-pointer transition-transform duration-200 ${
+          isHoverExpanded ? "scale-150 z-10 shadow-2xl" : "scale-100"
+        }`}
+        style={{
+          backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundColor: "var(--mantine-color-dark-6)",
+        }}
+      >
+        <div>
+          {!posterPath && (
+            <Center h="100%">
+              <Text size="sm" c="dimmed">
+                No poster
               </Text>
-            )}
-            <Badge
-              leftSection={<StarIcon size={10} weight="fill" />}
-              variant="filled"
-              tt="none"
-              fw={500}
-              size="sm"
-              styles={{
-                root: {
-                  backgroundColor: "rgba(255, 255, 255, 0.16)",
-                  border: "1px solid rgba(255, 255, 255, 0.15)",
-                  backdropFilter: "blur(12px)",
-                  WebkitBackdropFilter: "blur(12px)",
-                },
-              }}
-            >
-              {voteAverage.toFixed(1)}
-            </Badge>
-          </Group>
-        </Stack>
-      </div>
-    </AspectRatio>
+            </Center>
+          )}
+          <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/10 to-transparent" />
+          <ActionIcon
+            onClick={handleMagnifierClick}
+            aria-label="Voir les détails"
+            variant="filled"
+            size="md"
+            radius="xl"
+            pos="absolute"
+            top={8}
+            right={8}
+            style={{
+              zIndex: 2,
+              backgroundColor: "rgba(255, 255, 255, 0.16)",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
+            }}
+          >
+            <MagnifyingGlassPlusIcon size={16} color="white" />
+          </ActionIcon>
+          <Stack gap={6} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
+            {isHoverExpanded && <MovieCardHoverDetails genres={movieGenres} />}
+            <Text fw={600} c="white" size="sm" lineClamp={1}>
+              {title}
+            </Text>
+            <Group gap="xs">
+              {releaseYear && (
+                <Text size="xs" c="dimmed">
+                  {releaseYear}
+                </Text>
+              )}
+              <Badge
+                leftSection={<StarIcon size={10} weight="fill" />}
+                variant="filled"
+                tt="none"
+                fw={500}
+                size="sm"
+                styles={glassBadgeStyles}
+              >
+                {voteAverage.toFixed(1)}
+              </Badge>
+            </Group>
+          </Stack>
+        </div>
+      </AspectRatio>
+
+      <Modal
+        opened={opened}
+        onClose={close}
+        size="lg"
+        padding={0}
+        radius="lg"
+        withCloseButton={false}
+      >
+        <MovieDetailsOverlay
+          title={title}
+          backdropPath={backdropPath}
+          overview={overview}
+          releaseYear={releaseYear}
+          voteAverage={voteAverage}
+          genreIds={genreIds}
+          genres={genres}
+          onClose={close}
+        />
+      </Modal>
+    </>
   );
 }
