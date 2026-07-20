@@ -1,5 +1,6 @@
 import { ActionIcon, Avatar, Group, Select, TextInput } from "@mantine/core";
 import { BellIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
+import avatarUrl from "~/assets/avatar.jpg";
 
 const pillStyles = {
   input: {
@@ -37,7 +38,7 @@ export function ExploreToolbar({
         >
           <BellIcon size={20} />
         </ActionIcon>
-        <Avatar radius="xl" aria-label="Profil utilisateur" />
+        <Avatar src={avatarUrl} radius="xl" alt="Profil utilisateur" />
       </Group>
       <div className="flex gap-3 w-full">
         <Select
