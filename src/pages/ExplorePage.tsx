@@ -2,6 +2,7 @@ import { Stack } from "@mantine/core";
 import { useDebouncedValue } from "@mantine/hooks";
 import { useState } from "react";
 import { MovieGrid } from "~/components/movie/MovieGrid";
+import { MovieRow } from "~/components/movie/MovieRow";
 import { ExploreToolbar } from "~/components/explore/ExploreToolbar";
 import { ExploreHero } from "~/components/explore/ExploreHero";
 import { useGenres } from "~/features/genres/genres.hooks";
@@ -37,16 +38,25 @@ export function ExplorePage() {
       {featuredMovie && !isSearching && (
         <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
       )}
-      <MovieGrid
-        title={isSearching ? `Résultats pour "${debouncedSearchValue.trim()}"` : "You might like"}
-        searchQuery={debouncedSearchValue}
-        genres={genresData?.genres ?? []}
-        filters={{
-          page: 1,
-          sortBy: "popularity.desc",
-          withGenres: categoryValue ? [Number(categoryValue)] : undefined,
-        }}
-      />
+      {!isSearching && (
+        <MovieRow
+          title="You might like"
+          genres={genresData?.genres ?? []}
+          filters={{
+            page: 1,
+            sortBy: "popularity.desc",
+            withGenres: categoryValue ? [Number(categoryValue)] : undefined,
+          }}
+        />
+      )}
+      {isSearching && (
+        <MovieGrid
+          title={`Résultats pour "${debouncedSearchValue.trim()}"`}
+          searchQuery={debouncedSearchValue}
+          genres={genresData?.genres ?? []}
+          filters={{ page: 1, sortBy: "popularity.desc" }}
+        />
+      )}
     </Stack>
   );
 }
