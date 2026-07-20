@@ -18,6 +18,7 @@ function hoverVars(): CSSProperties {
   return {
     "--button-hover": "var(--mantine-color-brand-6)",
     "--button-hover-color": "var(--mantine-color-dark-9)",
+    transition: "background-color 300ms ease, color 300ms ease",
   } as CSSProperties;
 }
 
