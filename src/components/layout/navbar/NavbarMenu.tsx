@@ -2,7 +2,7 @@ import { ActionIcon, Flex, Stack } from "@mantine/core";
 import { X } from "@phosphor-icons/react";
 import { useNavigate } from "react-router";
 import { getNavItems } from "~/lib/configs/navbar.config";
-import { Logo } from "~/components/navbar/Logo";
+import { Logo } from "./Logo";
 import { NavbarButton } from "./NavbarButton";
 
 type NavbarMenuProps = {

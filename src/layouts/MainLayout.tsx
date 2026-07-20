@@ -3,8 +3,8 @@ import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { ArrowRightIcon } from "@phosphor-icons/react";
 import { Suspense } from "react";
 import { Outlet } from "react-router";
-import { CenteredLoader } from "~/components/loaders/CenteredLoader";
-import { NavbarMenu } from "~/components/navbar/NavbarMenu";
+import { CenteredLoader } from "~/components/ui/CenteredLoader";
+import { NavbarMenu } from "~/components/layout/navbar/NavbarMenu";
 
 const NAVBAR_WIDTH = 220;
 const NAVBAR_TOGGLE_WIDTH = 48;
