@@ -54,7 +54,7 @@ export function MainLayout() {
 
       <AppShell.Navbar
         visibleFrom="sm"
-        bg="dark.7"
+        bg="dark.6"
         className="rounded-2xl overflow-hidden"
         style={{
           margin: "var(--mantine-spacing-md)",
@@ -71,12 +71,12 @@ export function MainLayout() {
         size={MOBILE_NAVBAR_WIDTH}
         padding={0}
         withCloseButton={false}
-        bg="dark.7"
+        bg="dark.6"
       >
         <NavbarMenu closeNavbar={closeMobile} />
       </Drawer>
 
-      <AppShell.Main bg="dark.6">
+      <AppShell.Main bg="dark.7">
         <Suspense fallback={<CenteredLoader />}>
           <Outlet />
         </Suspense>
