@@ -29,3 +29,12 @@ export function createTmdbPaginatedResponseSchema<ItemSchema extends z.ZodTypeAn
 }
 
 export const tmdbDiscoverMovieResponseSchema = createTmdbPaginatedResponseSchema(tmdbMovieSchema);
+
+export const tmdbGenreSchema = z.object({
+  id: z.number(),
+  name: z.string(),
+});
+
+export const tmdbGenreListResponseSchema = z.object({
+  genres: z.array(tmdbGenreSchema),
+});
