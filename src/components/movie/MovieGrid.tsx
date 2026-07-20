@@ -1,5 +1,5 @@
 import { SimpleGrid, Title, Stack } from "@mantine/core";
-import { useCatalog } from "~/features/catalog/catalog.hooks";
+import { useCatalog, useCatalogSearch } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import type { CatalogFilters } from "~/features/catalog/catalog.types";
@@ -7,10 +7,14 @@ import type { CatalogFilters } from "~/features/catalog/catalog.types";
 type MovieGridProps = {
   title: string;
   filters: CatalogFilters;
+  searchQuery?: string;
 };
 
-export function MovieGrid({ title, filters }: MovieGridProps) {
-  const { data, isLoading, isError } = useCatalog(filters);
+export function MovieGrid({ title, filters, searchQuery = "" }: MovieGridProps) {
+  const isSearching = searchQuery.trim().length > 0;
+  const catalog = useCatalog(filters, !isSearching);
+  const search = useCatalogSearch(searchQuery, filters.page, isSearching);
+  const { data, isLoading, isError } = isSearching ? search : catalog;
 
   if (isLoading) {
     return <CenteredLoader />;

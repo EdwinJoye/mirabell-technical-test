@@ -1,6 +1,9 @@
 import { fetchTmdb } from "~/lib/tmdb/tmdb.client";
-import { tmdbDiscoverMovieResponseSchema } from "~/lib/tmdb/tmdb.schemas";
-import type { TmdbDiscoverMovieResponse } from "~/lib/tmdb/tmdb.types";
+import {
+  tmdbDiscoverMovieResponseSchema,
+  tmdbSearchMovieResponseSchema,
+} from "~/lib/tmdb/tmdb.schemas";
+import type { TmdbDiscoverMovieResponse, TmdbSearchMovieResponse } from "~/lib/tmdb/tmdb.types";
 import type { CatalogFilters } from "./catalog.types";
 
 function buildDiscoverMovieSearchParams(filters: CatalogFilters): URLSearchParams {
@@ -21,4 +24,10 @@ export async function fetchCatalog(filters: CatalogFilters): Promise<TmdbDiscove
   const searchParams = buildDiscoverMovieSearchParams(filters);
   const data = await fetchTmdb<unknown>(`/discover/movie?${searchParams.toString()}`);
   return tmdbDiscoverMovieResponseSchema.parse(data);
+}
+
+export async function searchCatalog(query: string, page: number): Promise<TmdbSearchMovieResponse> {
+  const searchParams = new URLSearchParams({ query, page: String(page) });
+  const data = await fetchTmdb<unknown>(`/search/movie?${searchParams.toString()}`);
+  return tmdbSearchMovieResponseSchema.parse(data);
 }

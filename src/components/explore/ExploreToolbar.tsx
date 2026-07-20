@@ -15,6 +15,7 @@ type ExploreToolbarProps = {
   categoryValue: string | null;
   onCategoryChange: (value: string | null) => void;
   categoryOptions: { value: string; label: string }[];
+  categoryDisabled?: boolean;
 };
 
 export function ExploreToolbar({
@@ -23,6 +24,7 @@ export function ExploreToolbar({
   categoryValue,
   onCategoryChange,
   categoryOptions,
+  categoryDisabled = false,
 }: ExploreToolbarProps) {
   return (
     <Group justify="space-between" wrap="wrap" gap="md">
@@ -32,6 +34,7 @@ export function ExploreToolbar({
           data={categoryOptions}
           value={categoryValue}
           onChange={onCategoryChange}
+          disabled={categoryDisabled}
           clearable
           w={140}
           styles={pillStyles}
