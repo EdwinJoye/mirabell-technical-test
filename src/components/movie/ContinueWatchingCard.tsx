@@ -54,7 +54,9 @@ export function ContinueWatchingCard({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       className={`rounded-2xl overflow-hidden cursor-pointer transition-transform duration-500 ease-out ${
-        isHoverExpanded ? "scale-125 z-150 shadow-2xl" : "scale-100"
+        isHoverExpanded
+          ? "scale-125 z-150 shadow-[0_25px_60px_-10px_rgba(0,0,0,0.85)]"
+          : "scale-100"
       }`}
       style={{
         backgroundImage: backgroundImageUrl ? `url(${backgroundImageUrl})` : undefined,

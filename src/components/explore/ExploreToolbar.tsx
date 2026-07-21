@@ -1,4 +1,4 @@
-import { ActionIcon, Avatar, Group, Select, TextInput } from "@mantine/core";
+import { ActionIcon, Avatar, Group, Indicator, Select, TextInput } from "@mantine/core";
 import { BellIcon, MagnifyingGlassIcon } from "@phosphor-icons/react";
 import avatarUrl from "~/assets/avatar.jpg";
 
@@ -30,14 +30,16 @@ export function ExploreToolbar({
   return (
     <div className="flex flex-col sm:flex-row-reverse sm:items-center sm:justify-between gap-3">
       <Group gap="sm" wrap="nowrap" justify="flex-end" className="w-full sm:w-auto shrink-0">
-        <ActionIcon
-          c="dimmed"
-          size="lg"
-          aria-label="Notifications"
-          style={{ backgroundColor: "var(--mantine-color-dark-6)", borderRadius: 9999 }}
-        >
-          <BellIcon size={20} />
-        </ActionIcon>
+        <Indicator label="1" size={16} color="red" offset={4} zIndex={300}>
+          <ActionIcon
+            c="dimmed"
+            size="lg"
+            aria-label="Notifications"
+            style={{ backgroundColor: "var(--mantine-color-dark-6)", borderRadius: 9999 }}
+          >
+            <BellIcon size={20} />
+          </ActionIcon>
+        </Indicator>
         <Avatar src={avatarUrl} radius="xl" alt="Profil utilisateur" />
       </Group>
       <div className="flex gap-3 w-full">

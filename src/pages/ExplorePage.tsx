@@ -81,7 +81,7 @@ export function ExplorePage() {
   const featuredMovie = catalogData?.results[0];
 
   return (
-    <Stack gap="md" pb="md" pl="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
+    <Stack gap="md" pb="md" pl="md" style={{ height: "calc(100dvh" }}>
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}
