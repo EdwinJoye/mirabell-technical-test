@@ -6,9 +6,16 @@ import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
 import { MovieCardHoverDetails } from "~/components/movie/MovieCardHoverDetails";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
+import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { Genre } from "~/features/genres/genres.types";
 
 const HOVER_EXPAND_DELAY_MS = 600;
+
+function formatRuntime(runtime: number): string {
+  const hours = Math.floor(runtime / 60);
+  const minutes = runtime % 60;
+  return hours > 0 ? `${hours}h ${minutes}min` : `${minutes}min`;
+}
 
 type MovieCardProps = {
   id: number;
@@ -38,6 +45,7 @@ export function MovieCard({
   const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
   const movieGenres = genres.filter((genre) => genreIds.includes(genre.id));
+  const { data: movieDetails } = useMovieDetails(id);
 
   function handleMouseEnter() {
     hoverTimeoutRef.current = setTimeout(() => {
@@ -88,6 +96,11 @@ export function MovieCard({
               {releaseYear && (
                 <Text size="xs" c="dimmed">
                   {releaseYear}
+                </Text>
+              )}
+              {movieDetails?.runtime && (
+                <Text size="xs" c="dimmed">
+                  {formatRuntime(movieDetails.runtime)}
                 </Text>
               )}
               <Badge

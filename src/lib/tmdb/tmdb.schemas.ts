@@ -39,3 +39,8 @@ export const tmdbGenreSchema = z.object({
 export const tmdbGenreListResponseSchema = z.object({
   genres: z.array(tmdbGenreSchema),
 });
+
+export const tmdbMovieDetailsSchema = z.object({
+  id: z.number(),
+  runtime: z.number().nullable(),
+});

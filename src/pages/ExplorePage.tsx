@@ -95,7 +95,7 @@ export function ExplorePage() {
       />
 
       <ScrollArea type="auto" style={{ flex: 1 }}>
-        <Stack gap="xl" pb={80}>
+        <Stack gap="xl" pb={90}>
           {featuredMovie && !isShowingGrid && (
             <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
           )}

@@ -5,6 +5,7 @@ import type {
   tmdbSearchMovieResponseSchema,
   tmdbGenreSchema,
   tmdbGenreListResponseSchema,
+  tmdbMovieDetailsSchema,
 } from "./tmdb.schemas";
 
 export type TmdbMovie = z.infer<typeof tmdbMovieSchema>;
@@ -12,3 +13,4 @@ export type TmdbDiscoverMovieResponse = z.infer<typeof tmdbDiscoverMovieResponse
 export type TmdbSearchMovieResponse = z.infer<typeof tmdbSearchMovieResponseSchema>;
 export type TmdbGenre = z.infer<typeof tmdbGenreSchema>;
 export type TmdbGenreListResponse = z.infer<typeof tmdbGenreListResponseSchema>;
+export type TmdbMovieDetails = z.infer<typeof tmdbMovieDetailsSchema>;

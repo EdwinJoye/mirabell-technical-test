@@ -6,7 +6,7 @@ import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import type { CatalogFilters } from "~/features/catalog/catalog.types";
 import type { Genre } from "~/features/genres/genres.types";
 
-const CARD_WIDTH = 160;
+const CARD_WIDTH = 190;
 
 type MovieRowProps = {
   title: string;
@@ -29,8 +29,8 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
-      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-70}>
-        <Group gap="md" wrap="nowrap" py={70}>
+      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-80}>
+        <Group gap="md" wrap="nowrap" py={80}>
           {data.results.map((movie) => (
             <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
               <MovieCard
