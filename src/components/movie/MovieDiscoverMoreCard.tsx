@@ -9,7 +9,7 @@ type MovieDiscoverMoreCardProps = {
 
 export function MovieDiscoverMoreCard({
   onClick,
-  label = "Découvrir plus",
+  label = "Discover more",
 }: MovieDiscoverMoreCardProps) {
   const [isHovered, setIsHovered] = useState(false);
 

@@ -96,8 +96,8 @@ export function ExplorePage() {
   const selectedGenre = genresData?.genres.find((genre) => String(genre.id) === urlGenre);
 
   const gridTitle = isSearching
-    ? `Résultats pour "${debouncedSearchValue.trim()}"`
-    : (selectedGenre?.name ?? (popularOnly ? "Films populaires" : "Tous les films"));
+    ? `Results for "${debouncedSearchValue.trim()}"`
+    : (selectedGenre?.name ?? (popularOnly ? "Popular movies" : "All movies"));
 
   const featuredMovie = catalogData?.results[0];
 
@@ -130,7 +130,7 @@ export function ExplorePage() {
           )}
           {!isShowingGrid && (
             <MovieRow
-              title="Populaires"
+              title="Popular"
               genres={genresData?.genres ?? []}
               filters={{ page: 1, sortBy: "popularity.desc", voteAverageGte: 8 }}
             />
@@ -144,7 +144,7 @@ export function ExplorePage() {
                   title={genre.name}
                   genres={genresData.genres}
                   onDiscoverMore={() => handleCategoryChange(String(genre.id))}
-                  discoverMoreLabel={`Découvrir plus : ${genre.name}`}
+                  discoverMoreLabel={`Discover more: ${genre.name}`}
                   filters={{ page: 1, sortBy: "popularity.desc", withGenres: [genre.id] }}
                 />
               ))}

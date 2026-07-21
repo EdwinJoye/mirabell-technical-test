@@ -26,7 +26,7 @@ export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {
           variant="subtle"
           onClick={closeNavbar}
           hiddenFrom="sm"
-          aria-label="Fermer le menu"
+          aria-label="Close menu"
           pos="absolute"
           top={-8}
           right={-8}

@@ -73,14 +73,14 @@ export function ExploreToolbar({
           size="sm"
           data={[
             {
-              label: <SegmentedItemLabel icon={FilmSlateIcon} label="Tous" />,
+              label: <SegmentedItemLabel icon={FilmSlateIcon} label="All" />,
               value: "all",
             },
             {
               label: (
                 <SegmentedItemLabel
                   icon={StarIcon}
-                  label="Populaires"
+                  label="Popular"
                   iconColor="var(--mantine-color-yellow-4)"
                 />
               ),
@@ -115,7 +115,7 @@ export function ExploreToolbar({
             <BellIcon size={20} />
           </ActionIcon>
         </Indicator>
-        <Avatar src={avatarUrl} radius="xl" alt="Profil utilisateur" />
+        <Avatar src={avatarUrl} radius="xl" alt="User profile" />
       </Group>
       <div className="flex gap-3 w-full">
         <Select

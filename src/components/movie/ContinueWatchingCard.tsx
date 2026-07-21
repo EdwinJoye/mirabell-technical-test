@@ -86,7 +86,7 @@ export function ContinueWatchingCard({
               c="dark.9"
               style={buttonHoverVars()}
             >
-              Reprendre
+              Resume
             </Button>
           ) : (
             <PlayIcon size={28} weight="fill" color="white" />

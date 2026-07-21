@@ -23,7 +23,7 @@ export function ContinueWatchingRow() {
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
       <Stack gap="md">
-        <Title order={3}>Continuer</Title>
+        <Title order={3}>Continue Watching</Title>
         <ScrollArea type="never" my={-25}>
           <Group gap="md" wrap="nowrap" py={25}>
             {entries.map((entry, index) => (

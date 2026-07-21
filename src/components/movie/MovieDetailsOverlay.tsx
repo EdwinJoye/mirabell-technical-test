@@ -40,7 +40,7 @@ export function MovieDetailsOverlay({
       <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/30 to-black/10" />
       <ActionIcon
         onClick={onClose}
-        aria-label="Fermer"
+        aria-label="Close"
         variant="filled"
         radius="xl"
         pos="absolute"

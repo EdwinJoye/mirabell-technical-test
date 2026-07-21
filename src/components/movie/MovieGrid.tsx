@@ -78,7 +78,7 @@ export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGri
   }
 
   if (isError || !data) {
-    return <Title order={3}>Une erreur est survenue lors du chargement des films.</Title>;
+    return <Title order={3}>An error occurred while loading movies.</Title>;
   }
 
   const movies = data.pages.flatMap((page) => page.results);

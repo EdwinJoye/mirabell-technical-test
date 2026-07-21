@@ -42,7 +42,7 @@ export function MainLayout() {
       {isNavbarClosed && (
         <UnstyledButton
           onClick={handleToggle}
-          aria-label="Ouvrir le menu"
+          aria-label="Open menu"
           className="fixed z-50 top-5 left-0 rounded-tr-full rounded-br-full cursor-pointer flex items-center justify-center"
           bg="brand"
           w={NAVBAR_TOGGLE_WIDTH}

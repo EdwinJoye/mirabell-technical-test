@@ -64,7 +64,7 @@ export function MovieCardHoverDetails({
             onClick={handleWatchedClick}
             c={isWatched ? "dark.9" : "white"}
             style={isWatched ? activeVars() : glassActionIconVars()}
-            aria-label="Marquer comme vu"
+            aria-label="Mark as watched"
             aria-pressed={isWatched}
           >
             <CheckIcon size={12} weight={isWatched ? "bold" : "regular"} />
@@ -76,7 +76,7 @@ export function MovieCardHoverDetails({
             onClick={handleLikedClick}
             c={isLiked ? "dark.9" : "white"}
             style={isLiked ? activeVars() : glassActionIconVars()}
-            aria-label="J'aime"
+            aria-label="Like"
             aria-pressed={isLiked}
           >
             <ThumbsUpIcon size={12} weight={isLiked ? "fill" : "regular"} />
@@ -89,7 +89,7 @@ export function MovieCardHoverDetails({
           onClick={handleOpenDetailsClick}
           c="white"
           style={glassActionIconVars()}
-          aria-label="Voir plus de détails"
+          aria-label="See more details"
         >
           <MagnifyingGlassPlusIcon size={12} />
         </ActionIcon>
