@@ -1,5 +1,24 @@
-import { BackgroundImage, Badge, Button, Flex, Group, Stack, Text, Title } from "@mantine/core";
-import { DownloadSimpleIcon, DotsThreeIcon, FireIcon, PlayIcon } from "@phosphor-icons/react";
+import {
+  BackgroundImage,
+  Badge,
+  Button,
+  Flex,
+  Group,
+  Menu,
+  Stack,
+  Text,
+  Title,
+} from "@mantine/core";
+import {
+  BookmarkSimpleIcon,
+  DownloadSimpleIcon,
+  DotsThreeIcon,
+  FireIcon,
+  PlayIcon,
+  ShareNetworkIcon,
+  StarIcon,
+  ThumbsDownIcon,
+} from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { buttonHoverVars } from "~/lib/theme/hover";
@@ -101,16 +120,31 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               >
                 Download
               </Button>
-              <Button
-                variant="filled"
-                color="dark.9"
-                c="white"
-                radius="xl"
-                px="sm"
-                style={buttonHoverVars()}
-              >
-                <DotsThreeIcon size={20} />
-              </Button>
+              <Menu position="bottom-end" shadow="md" width={200} radius="md">
+                <Menu.Target>
+                  <Button
+                    variant="filled"
+                    color="dark.9"
+                    c="white"
+                    radius="xl"
+                    px="sm"
+                    style={buttonHoverVars()}
+                  >
+                    <DotsThreeIcon size={20} />
+                  </Button>
+                </Menu.Target>
+                <Menu.Dropdown>
+                  <Menu.Item leftSection={<BookmarkSimpleIcon size={16} />}>
+                    Add to My List
+                  </Menu.Item>
+                  <Menu.Item leftSection={<StarIcon size={16} />}>Rate this title</Menu.Item>
+                  <Menu.Item leftSection={<ShareNetworkIcon size={16} />}>Share</Menu.Item>
+                  <Menu.Divider />
+                  <Menu.Item color="red" leftSection={<ThumbsDownIcon size={16} />}>
+                    Not Interested
+                  </Menu.Item>
+                </Menu.Dropdown>
+              </Menu>
             </Group>
           </Stack>
         </Flex>
