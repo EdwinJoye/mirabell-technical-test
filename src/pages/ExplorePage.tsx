@@ -80,11 +80,7 @@ export function ExplorePage() {
   const featuredMovie = catalogData?.results[0];
 
   return (
-    <Stack
-      gap="md"
-      p="md"
-      style={{ height: "calc(100dvh - (var(--mantine-spacing-md) * 4))", overflow: "hidden" }}
-    >
+    <Stack gap="md" p="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}

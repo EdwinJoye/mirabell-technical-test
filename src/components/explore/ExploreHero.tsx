@@ -30,7 +30,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
       src={backgroundImageUrl}
       radius="lg"
       pos="relative"
-      mih={400}
+      mih={340}
       style={{ overflow: "hidden", backgroundColor: "var(--mantine-color-dark-6)" }}
     >
       <Flex
@@ -53,7 +53,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
           Now Popular
         </Badge>
 
-        <Stack gap="md">
+        <Stack gap="xs">
           <Group gap="xs">
             {movieGenres.map((genre) => (
               <Badge
@@ -69,10 +69,10 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               </Badge>
             ))}
           </Group>
-          <Title order={1} c="white">
+          <Title order={2} c="white">
             {movie.title}
           </Title>
-          <Text c="dimmed" lineClamp={3}>
+          <Text size="sm" c="dimmed" lineClamp={3}>
             {movie.overview}
           </Text>
           <Group gap="sm">
