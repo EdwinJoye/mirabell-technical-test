@@ -7,6 +7,7 @@ import { MovieRow } from "~/components/movie/MovieRow";
 import { ContinueWatchingRow } from "~/components/movie/ContinueWatchingRow";
 import { ExploreToolbar } from "~/components/explore/ExploreToolbar";
 import { ExploreHero } from "~/components/explore/ExploreHero";
+import { ExploreAllBanner } from "~/components/explore/ExploreAllBanner";
 import { useGenres } from "~/features/genres/genres.hooks";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
 
@@ -115,7 +116,7 @@ export function ExplorePage() {
       />
 
       <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={scrollViewportRef}>
-        <Stack gap="md" pb={90}>
+        <Stack gap="md" pb="md">
           {featuredMovie && !isShowingGrid && (
             <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
           )}
@@ -148,6 +149,7 @@ export function ExplorePage() {
                   filters={{ page: 1, sortBy: "popularity.desc", withGenres: [genre.id] }}
                 />
               ))}
+          {!isShowingGrid && <ExploreAllBanner onClick={() => handleCategoryChange("all")} />}
           {isShowingGrid && (
             <MovieGrid
               title={gridTitle}

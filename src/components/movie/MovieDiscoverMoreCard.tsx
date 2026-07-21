@@ -74,7 +74,7 @@ export function MovieDiscoverMoreCard({
               }}
             >
               <Text size="xs" c="brand.6">
-                Tout consulter
+                View all
               </Text>
             </div>
           </Stack>
