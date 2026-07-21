@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router";
 import { MovieGrid } from "~/components/movie/MovieGrid";
 import { MovieRow } from "~/components/movie/MovieRow";
+import { ContinueWatchingRow } from "~/components/movie/ContinueWatchingRow";
 import { ExploreToolbar } from "~/components/explore/ExploreToolbar";
 import { ExploreHero } from "~/components/explore/ExploreHero";
 import { useGenres } from "~/features/genres/genres.hooks";
@@ -80,7 +81,7 @@ export function ExplorePage() {
   const featuredMovie = catalogData?.results[0];
 
   return (
-    <Stack gap="md" p="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
+    <Stack gap="md" pt="md" pb="md" pl="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}
@@ -91,10 +92,11 @@ export function ExplorePage() {
       />
 
       <ScrollArea type="auto" style={{ flex: 1 }}>
-        <Stack gap="xl" pb={90}>
+        <Stack gap="md" pb={90}>
           {featuredMovie && !isShowingGrid && (
             <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
           )}
+          {!isShowingGrid && <ContinueWatchingRow />}
           {!isShowingGrid && (
             <MovieRow
               title="You might like"

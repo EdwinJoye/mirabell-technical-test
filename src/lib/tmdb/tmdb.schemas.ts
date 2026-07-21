@@ -42,5 +42,8 @@ export const tmdbGenreListResponseSchema = z.object({
 
 export const tmdbMovieDetailsSchema = z.object({
   id: z.number(),
+  title: z.string(),
+  poster_path: z.string().nullable(),
+  backdrop_path: z.string().nullable(),
   runtime: z.number().nullable(),
 });
