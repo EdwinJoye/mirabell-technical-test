@@ -3,10 +3,9 @@ import { useCatalog } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
 import { MovieDiscoverMoreCard } from "~/components/movie/MovieDiscoverMoreCard";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
+import { CARD_WIDTH } from "~/components/movie/movie.styles";
 import type { CatalogFilters } from "~/features/catalog/catalog.types";
 import type { Genre } from "~/features/genres/genres.types";
-
-const CARD_WIDTH = 190;
 
 type MovieRowProps = {
   title: string;
