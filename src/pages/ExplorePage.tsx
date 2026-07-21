@@ -15,6 +15,7 @@ export function ExplorePage() {
 
   const urlGenre = searchParams.get("genre");
   const showAllRequested = searchParams.get("view") === "all";
+  const popularOnly = searchParams.get("popular") === "1";
 
   const [searchValue, setSearchValue] = useState(searchParams.get("q") ?? "");
   const [debouncedSearchValue] = useDebouncedValue(searchValue, 400);
@@ -23,7 +24,7 @@ export function ExplorePage() {
   const { data: catalogData } = useCatalog({ page: 1, sortBy: "popularity.desc" });
 
   const isSearching = debouncedSearchValue.trim().length > 0;
-  const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre);
+  const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre) || popularOnly;
   const scrollViewportRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -62,6 +63,21 @@ export function ExplorePage() {
     );
   }
 
+  function handlePopularChange(value: string) {
+    setSearchParams(
+      (previous) => {
+        const next = new URLSearchParams(previous);
+        if (value === "popular") {
+          next.set("popular", "1");
+        } else {
+          next.delete("popular");
+        }
+        return next;
+      },
+      { replace: true },
+    );
+  }
+
   const categoryOptions = [
     { value: "all", label: "All" },
     ...(genresData?.genres.map((genre) => ({
@@ -76,7 +92,7 @@ export function ExplorePage() {
 
   const gridTitle = isSearching
     ? `Résultats pour "${debouncedSearchValue.trim()}"`
-    : (selectedGenre?.name ?? "Tous les films");
+    : (selectedGenre?.name ?? (popularOnly ? "Films populaires" : "Tous les films"));
 
   const featuredMovie = catalogData?.results[0];
 
@@ -89,6 +105,8 @@ export function ExplorePage() {
         onCategoryChange={handleCategoryChange}
         categoryOptions={categoryOptions}
         categoryDisabled={isSearching}
+        popularValue={popularOnly ? "popular" : "all"}
+        onPopularChange={handlePopularChange}
       />
 
       <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={scrollViewportRef}>
@@ -134,6 +152,7 @@ export function ExplorePage() {
                 page: 1,
                 sortBy: "popularity.desc",
                 withGenres: urlGenre ? [Number(urlGenre)] : undefined,
+                voteAverageGte: popularOnly ? 8 : undefined,
               }}
             />
           )}
