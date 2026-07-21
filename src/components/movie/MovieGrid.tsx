@@ -1,5 +1,6 @@
 import { Center, Loader, Stack, Title } from "@mantine/core";
 import { useElementSize, useIntersection } from "@mantine/hooks";
+import { motion, type Variants } from "framer-motion";
 import { useEffect } from "react";
 import { useInfiniteCatalog, useInfiniteCatalogSearch } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
@@ -9,6 +10,25 @@ import type { CatalogFilters } from "~/features/catalog/catalog.types";
 import type { Genre } from "~/features/genres/genres.types";
 
 const GRID_GAP = 16;
+
+const gridVariants: Variants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const cardVariants: Variants = {
+  hidden: { opacity: 0, scale: 0.9, y: 16 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    y: 0,
+    transition: { duration: 0.7, ease: "easeOut" },
+  },
+};
 
 type MovieGridProps = {
   title: string;
@@ -68,8 +88,12 @@ export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGri
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
-      <div
+      <motion.div
         ref={gridRef}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-40px" }}
+        variants={gridVariants}
         style={{
           display: "grid",
           gridTemplateColumns: `repeat(auto-fill, minmax(${CARD_WIDTH}px, 1fr))`,
@@ -82,22 +106,23 @@ export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGri
             columnIndex === 0 ? "left" : columnIndex === columns - 1 ? "right" : "center";
 
           return (
-            <MovieCard
-              key={movie.id}
-              id={movie.id}
-              title={movie.title}
-              posterPath={movie.poster_path}
-              backdropPath={movie.backdrop_path}
-              overview={movie.overview}
-              releaseDate={movie.release_date}
-              voteAverage={movie.vote_average}
-              genreIds={movie.genre_ids}
-              genres={genres}
-              zoomOrigin={zoomOrigin}
-            />
+            <motion.div key={movie.id} variants={cardVariants}>
+              <MovieCard
+                id={movie.id}
+                title={movie.title}
+                posterPath={movie.poster_path}
+                backdropPath={movie.backdrop_path}
+                overview={movie.overview}
+                releaseDate={movie.release_date}
+                voteAverage={movie.vote_average}
+                genreIds={movie.genre_ids}
+                genres={genres}
+                zoomOrigin={zoomOrigin}
+              />
+            </motion.div>
           );
         })}
-      </div>
+      </motion.div>
       {hasNextPage && (
         <Center ref={sentinelRef} py="md">
           <Loader size="sm" color="brand" />

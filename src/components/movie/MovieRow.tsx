@@ -1,4 +1,5 @@
 import { Group, ScrollArea, Stack, Title } from "@mantine/core";
+import { motion } from "framer-motion";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
 import { MovieDiscoverMoreCard } from "~/components/movie/MovieDiscoverMoreCard";
@@ -35,33 +36,40 @@ export function MovieRow({
   const lastIndex = data.results.length - 1;
 
   return (
-    <Stack gap="md">
-      <Title order={3}>{title}</Title>
-      <ScrollArea type="never" my={-45}>
-        <Group gap="md" wrap="nowrap" py={45}>
-          {data.results.map((movie, index) => (
-            <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
-              <MovieCard
-                id={movie.id}
-                title={movie.title}
-                posterPath={movie.poster_path}
-                backdropPath={movie.backdrop_path}
-                overview={movie.overview}
-                releaseDate={movie.release_date}
-                voteAverage={movie.vote_average}
-                genreIds={movie.genre_ids}
-                genres={genres}
-                zoomOrigin={index === 0 ? "left" : index === lastIndex ? "right" : "center"}
-              />
-            </div>
-          ))}
-          {onDiscoverMore && (
-            <div style={{ width: CARD_WIDTH, flexShrink: 0 }}>
-              <MovieDiscoverMoreCard onClick={onDiscoverMore} label={discoverMoreLabel} />
-            </div>
-          )}
-        </Group>
-      </ScrollArea>
-    </Stack>
+    <motion.div
+      initial={{ opacity: 0, y: 12 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.4, ease: "easeOut" }}
+    >
+      <Stack gap="md">
+        <Title order={3}>{title}</Title>
+        <ScrollArea type="never" my={-45}>
+          <Group gap="md" wrap="nowrap" py={45}>
+            {data.results.map((movie, index) => (
+              <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
+                <MovieCard
+                  id={movie.id}
+                  title={movie.title}
+                  posterPath={movie.poster_path}
+                  backdropPath={movie.backdrop_path}
+                  overview={movie.overview}
+                  releaseDate={movie.release_date}
+                  voteAverage={movie.vote_average}
+                  genreIds={movie.genre_ids}
+                  genres={genres}
+                  zoomOrigin={index === 0 ? "left" : index === lastIndex ? "right" : "center"}
+                />
+              </div>
+            ))}
+            {onDiscoverMore && (
+              <div style={{ width: CARD_WIDTH, flexShrink: 0 }}>
+                <MovieDiscoverMoreCard onClick={onDiscoverMore} label={discoverMoreLabel} />
+              </div>
+            )}
+          </Group>
+        </ScrollArea>
+      </Stack>
+    </motion.div>
   );
 }

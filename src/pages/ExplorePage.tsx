@@ -26,8 +26,13 @@ export function ExplorePage() {
   const isSearching = debouncedSearchValue.trim().length > 0;
   const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre) || popularOnly;
   const scrollViewportRef = useRef<HTMLDivElement>(null);
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
     scrollViewportRef.current?.scrollTo({ top: 0 });
   }, [isShowingGrid]);
 
