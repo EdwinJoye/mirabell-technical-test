@@ -1,6 +1,6 @@
 import { ScrollArea, Stack } from "@mantine/core";
 import { useDebouncedValue } from "@mantine/hooks";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
 import { MovieGrid } from "~/components/movie/MovieGrid";
 import { MovieRow } from "~/components/movie/MovieRow";
@@ -24,6 +24,11 @@ export function ExplorePage() {
 
   const isSearching = debouncedSearchValue.trim().length > 0;
   const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre);
+  const scrollViewportRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    scrollViewportRef.current?.scrollTo({ top: 0 });
+  }, [isShowingGrid]);
 
   useEffect(() => {
     setSearchParams(
@@ -81,7 +86,7 @@ export function ExplorePage() {
   const featuredMovie = catalogData?.results[0];
 
   return (
-    <Stack gap="md" pt="md" pb="md" pl="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
+    <Stack gap="md" pb="md" pl="md" style={{ height: "calc(100dvh", overflow: "hidden" }}>
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}
@@ -91,7 +96,7 @@ export function ExplorePage() {
         categoryDisabled={isSearching}
       />
 
-      <ScrollArea type="auto" style={{ flex: 1 }}>
+      <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={scrollViewportRef}>
         <Stack gap="md" pb={90}>
           {featuredMovie && !isShowingGrid && (
             <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
@@ -105,6 +110,19 @@ export function ExplorePage() {
               filters={{ page: 1, sortBy: "popularity.desc" }}
             />
           )}
+          {!isShowingGrid &&
+            genresData?.genres
+              .slice(0, 6)
+              .map((genre) => (
+                <MovieRow
+                  key={genre.id}
+                  title={genre.name}
+                  genres={genresData.genres}
+                  onDiscoverMore={() => handleCategoryChange(String(genre.id))}
+                  discoverMoreLabel={`Découvrir plus : ${genre.name}`}
+                  filters={{ page: 1, sortBy: "popularity.desc", withGenres: [genre.id] }}
+                />
+              ))}
           {isShowingGrid && (
             <MovieGrid
               title={gridTitle}

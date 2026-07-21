@@ -13,9 +13,16 @@ type MovieRowProps = {
   filters: CatalogFilters;
   genres: Genre[];
   onDiscoverMore?: () => void;
+  discoverMoreLabel?: string;
 };
 
-export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowProps) {
+export function MovieRow({
+  title,
+  filters,
+  genres,
+  onDiscoverMore,
+  discoverMoreLabel,
+}: MovieRowProps) {
   const { data, isLoading, isError } = useCatalog(filters);
 
   if (isLoading) {
@@ -31,7 +38,7 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
-      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-45}>
+      <ScrollArea type="never" my={-45}>
         <Group gap="md" wrap="nowrap" py={45}>
           {data.results.map((movie, index) => (
             <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
@@ -51,7 +58,7 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
           ))}
           {onDiscoverMore && (
             <div style={{ width: CARD_WIDTH, flexShrink: 0 }}>
-              <MovieDiscoverMoreCard onClick={onDiscoverMore} />
+              <MovieDiscoverMoreCard onClick={onDiscoverMore} label={discoverMoreLabel} />
             </div>
           )}
         </Group>

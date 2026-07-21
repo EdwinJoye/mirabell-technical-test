@@ -17,7 +17,7 @@ export function ContinueWatchingRow() {
   return (
     <Stack gap="md">
       <Title order={3}>Continuer</Title>
-      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-25}>
+      <ScrollArea type="never" my={-25}>
         <Group gap="md" wrap="nowrap" py={25}>
           {entries.map((entry, index) => (
             <div key={entry.tmdbMovieId} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
