@@ -1,8 +1,8 @@
 import { Center, Loader, Stack, Title } from "@mantine/core";
-import { useElementSize, useIntersection } from "@mantine/hooks";
-import { motion, type Variants } from "framer-motion";
-import { useEffect } from "react";
-import { useInfiniteCatalog, useInfiniteCatalogSearch } from "~/features/catalog/catalog.hooks";
+import { useElementSize } from "@mantine/hooks";
+import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { useCatalogPages, useCatalogSearchPages } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
 import { CARD_WIDTH } from "~/components/movie/movie.styles";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
@@ -10,103 +10,93 @@ import type { CatalogFilters } from "~/features/catalog/catalog.types";
 import type { Genre } from "~/features/genres/genres.types";
 
 const GRID_GAP = 16;
-
-const gridVariants: Variants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const cardVariants: Variants = {
-  hidden: { opacity: 0, scale: 0.9, y: 16 },
-  visible: {
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: { duration: 0.7, ease: "easeOut" },
-  },
-};
+const REVEAL_BATCH_SIZE = 20;
 
 type MovieGridProps = {
   title: string;
   filters: CatalogFilters;
   searchQuery?: string;
   genres: Genre[];
+  bottomReachedCount?: number;
 };
 
-export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGridProps) {
+export function MovieGrid({
+  title,
+  filters,
+  searchQuery = "",
+  genres,
+  bottomReachedCount = 0,
+}: MovieGridProps) {
   const isSearching = searchQuery.trim().length > 0;
-  const { ref: sentinelRef, entry } = useIntersection({ threshold: 0.1 });
   const { ref: gridRef, width: gridWidth } = useElementSize();
+  const columns =
+    gridWidth > 0 ? Math.max(1, Math.floor((gridWidth + GRID_GAP) / (CARD_WIDTH + GRID_GAP))) : 1;
 
   const {
-    data: catalogData,
+    movies: catalogMovies,
     isLoading: isCatalogLoading,
     isError: isCatalogError,
-    fetchNextPage: fetchNextCatalogPage,
-    hasNextPage: hasNextCatalogPage,
-    isFetchingNextPage: isFetchingNextCatalogPage,
-  } = useInfiniteCatalog(filters, !isSearching);
+  } = useCatalogPages(filters, !isSearching);
 
   const {
-    data: searchData,
+    movies: searchMovies,
     isLoading: isSearchLoading,
     isError: isSearchError,
-    fetchNextPage: fetchNextSearchPage,
-    hasNextPage: hasNextSearchPage,
-    isFetchingNextPage: isFetchingNextSearchPage,
-  } = useInfiniteCatalogSearch(searchQuery, isSearching);
+  } = useCatalogSearchPages(searchQuery, isSearching);
 
-  const data = isSearching ? searchData : catalogData;
+  const movies = isSearching ? searchMovies : catalogMovies;
   const isLoading = isSearching ? isSearchLoading : isCatalogLoading;
   const isError = isSearching ? isSearchError : isCatalogError;
-  const hasNextPage = isSearching ? hasNextSearchPage : hasNextCatalogPage;
-  const isFetchingNextPage = isSearching ? isFetchingNextSearchPage : isFetchingNextCatalogPage;
-  const fetchNextPage = isSearching ? fetchNextSearchPage : fetchNextCatalogPage;
+
+  const rowAlignedCount = movies.length - (movies.length % columns);
+  const rowAlignedMovies = movies.slice(0, rowAlignedCount);
+
+  const [visibleCount, setVisibleCount] = useState(REVEAL_BATCH_SIZE);
+  const hasMoreToReveal = visibleCount < rowAlignedMovies.length;
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
-    if (entry?.isIntersecting && hasNextPage && !isFetchingNextPage) {
-      void fetchNextPage();
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
     }
-  }, [entry?.isIntersecting, hasNextPage, isFetchingNextPage, fetchNextPage]);
+    setVisibleCount((count) => Math.min(count + REVEAL_BATCH_SIZE, rowAlignedMovies.length));
+  }, [bottomReachedCount, rowAlignedMovies.length]);
 
   if (isLoading) {
     return <CenteredLoader />;
   }
 
-  if (isError || !data) {
+  if (isError) {
     return <Title order={3}>An error occurred while loading movies.</Title>;
   }
 
-  const movies = data.pages.flatMap((page) => page.results);
-  const columns =
-    gridWidth > 0 ? Math.max(1, Math.floor((gridWidth + GRID_GAP) / (CARD_WIDTH + GRID_GAP))) : 1;
+  const visibleMovies = rowAlignedMovies.slice(0, visibleCount);
 
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
-      <motion.div
+      <div
         ref={gridRef}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-40px" }}
-        variants={gridVariants}
         style={{
           display: "grid",
           gridTemplateColumns: `repeat(auto-fill, minmax(${CARD_WIDTH}px, 1fr))`,
           gap: "var(--mantine-spacing-md)",
         }}
       >
-        {movies.map((movie, index) => {
+        {visibleMovies.map((movie, index) => {
           const columnIndex = index % columns;
           const zoomOrigin =
             columnIndex === 0 ? "left" : columnIndex === columns - 1 ? "right" : "center";
 
           return (
-            <motion.div key={movie.id} variants={cardVariants}>
+            <motion.div
+              key={movie.id}
+              initial={{ opacity: 0, y: 16, scale: 0.9 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ duration: 0.9, ease: "easeOut", delay: columnIndex * 0.08 }}
+            >
               <MovieCard
                 id={movie.id}
                 title={movie.title}
@@ -122,9 +112,9 @@ export function MovieGrid({ title, filters, searchQuery = "", genres }: MovieGri
             </motion.div>
           );
         })}
-      </motion.div>
-      {hasNextPage && (
-        <Center ref={sentinelRef} py="md">
+      </div>
+      {hasMoreToReveal && (
+        <Center py="md">
           <Loader size="sm" color="brand" />
         </Center>
       )}

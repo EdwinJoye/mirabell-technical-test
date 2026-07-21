@@ -30,7 +30,8 @@ export function ExplorePage() {
 
   const isSearching = debouncedSearchValue.trim().length > 0;
   const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre) || popularOnly;
-  const scrollViewportRef = useRef<HTMLDivElement>(null);
+  const [scrollViewport, setScrollViewport] = useState<HTMLDivElement | null>(null);
+  const [bottomReachedCount, setBottomReachedCount] = useState(0);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -38,8 +39,8 @@ export function ExplorePage() {
       isFirstRender.current = false;
       return;
     }
-    scrollViewportRef.current?.scrollTo({ top: 0 });
-  }, [isShowingGrid]);
+    scrollViewport?.scrollTo({ top: 0 });
+  }, [isShowingGrid, scrollViewport]);
 
   useEffect(() => {
     setSearchParams(
@@ -119,7 +120,12 @@ export function ExplorePage() {
         onPopularChange={handlePopularChange}
       />
 
-      <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={scrollViewportRef}>
+      <ScrollArea
+        type="auto"
+        style={{ flex: 1 }}
+        viewportRef={setScrollViewport}
+        onBottomReached={() => setBottomReachedCount((count) => count + 1)}
+      >
         <Stack gap="md" pb="md">
           {!isShowingGrid && isInitialLoading && (
             <Center mih={340}>
@@ -161,6 +167,7 @@ export function ExplorePage() {
               title={gridTitle}
               searchQuery={debouncedSearchValue}
               genres={genresData?.genres ?? []}
+              bottomReachedCount={bottomReachedCount}
               filters={{
                 page: 1,
                 sortBy: "popularity.desc",
