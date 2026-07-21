@@ -13,3 +13,9 @@ export function getMovieDashboardData(tmdbMovieId: number): MovieDashboardData |
 export function getAvailableMovieIds(): number[] {
   return Object.keys(movieDashboardData).map(Number);
 }
+
+export function getMovieOptions(): { value: string; label: string }[] {
+  return Object.entries(movieDashboardData as Record<number, MovieDashboardData>).map(
+    ([id, data]) => ({ value: id, label: data.stats.title }),
+  );
+}

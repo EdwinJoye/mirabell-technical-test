@@ -5,7 +5,6 @@ import {
   Indicator,
   SegmentedControl,
   Select,
-  Text,
   TextInput,
 } from "@mantine/core";
 import {
@@ -15,8 +14,10 @@ import {
   MagnifyingGlassIcon,
   StarIcon,
 } from "@phosphor-icons/react";
-import { useState, type ElementType } from "react";
+import { useState } from "react";
 import avatarUrl from "~/assets/avatar.jpg";
+import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
+import { segmentedControlStyles } from "~/lib/theme/segmented-control";
 
 const pillStyles = {
   input: {
@@ -30,54 +31,6 @@ const roundIconButtonStyle = {
   backgroundColor: "var(--mantine-color-dark-6)",
   borderRadius: 9999,
 };
-
-const segmentedControlStyles = {
-  root: {
-    backgroundColor: "var(--mantine-color-dark-6)",
-    borderRadius: 9999,
-    height: "2.25rem",
-  },
-  control: { height: "100%" },
-  label: {
-    height: "100%",
-    display: "flex",
-    alignItems: "center",
-  },
-  indicator: { borderRadius: 9999 },
-};
-
-type SegmentedItemLabelProps = {
-  icon: ElementType;
-  label: string;
-  iconColor?: string;
-  showLabel?: boolean;
-};
-
-function SegmentedItemLabel({
-  icon: Icon,
-  label,
-  iconColor,
-  showLabel = true,
-}: SegmentedItemLabelProps) {
-  const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <Group
-      justify="center"
-      gap={6}
-      wrap="nowrap"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <Icon size={14} weight="fill" color={iconColor} />
-      {showLabel && (
-        <Text size="xs" c={isHovered ? "white" : undefined}>
-          {label}
-        </Text>
-      )}
-    </Group>
-  );
-}
 
 type ExploreToolbarProps = {
   onToggleNavbar: () => void;
