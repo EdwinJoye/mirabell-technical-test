@@ -8,7 +8,7 @@ export function PlatformConsumptionRow() {
       <div className="flex-1">
         <GenrePopularityChart />
       </div>
-      <div className="flex-[2]">
+      <div className="flex-2">
         <PlatformWatchTimeChart />
       </div>
     </Group>

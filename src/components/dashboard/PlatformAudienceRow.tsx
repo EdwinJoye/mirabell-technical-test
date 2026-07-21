@@ -5,7 +5,7 @@ import { TopWatchedMoviesChart } from "~/components/dashboard/TopWatchedMoviesCh
 export function PlatformAudienceRow() {
   return (
     <Group align="stretch" gap="md" wrap="nowrap">
-      <div className="flex-[2]">
+      <div className="flex-2">
         <TopWatchedMoviesChart />
       </div>
       <div className="flex-1">
