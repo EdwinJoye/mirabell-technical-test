@@ -6,7 +6,8 @@
     "growthRate": 0.13636,
     "activeUsers": 750000,
     "newUsers": 50000,
-    "totalWatchTimeMinutes": 45000000
+    "totalWatchTimeMinutes": 45000000,
+    "twoPeriodsAgoViews": 25768684
   },
   "watchTimeOverTime": [
     {
@@ -287,6 +288,150 @@
       "genre": "Western",
       "totalViews": 20000,
       "totalWatchTimeMinutes": 500000
+    }
+  ],
+  "activeUsersOverTime": [
+    {
+      "date": "2026-06-01",
+      "activeUsers": 697500
+    },
+    {
+      "date": "2026-06-02",
+      "activeUsers": 691985
+    },
+    {
+      "date": "2026-06-03",
+      "activeUsers": 704295
+    },
+    {
+      "date": "2026-06-04",
+      "activeUsers": 693915
+    },
+    {
+      "date": "2026-06-05",
+      "activeUsers": 705500
+    },
+    {
+      "date": "2026-06-06",
+      "activeUsers": 703705
+    },
+    {
+      "date": "2026-06-07",
+      "activeUsers": 698969
+    },
+    {
+      "date": "2026-06-08",
+      "activeUsers": 710331
+    },
+    {
+      "date": "2026-06-09",
+      "activeUsers": 702104
+    },
+    {
+      "date": "2026-06-10",
+      "activeUsers": 712372
+    },
+    {
+      "date": "2026-06-11",
+      "activeUsers": 706369
+    },
+    {
+      "date": "2026-06-12",
+      "activeUsers": 708605
+    },
+    {
+      "date": "2026-06-13",
+      "activeUsers": 717596
+    },
+    {
+      "date": "2026-06-14",
+      "activeUsers": 728105
+    },
+    {
+      "date": "2026-06-15",
+      "activeUsers": 714687
+    },
+    {
+      "date": "2026-06-16",
+      "activeUsers": 718638
+    },
+    {
+      "date": "2026-06-17",
+      "activeUsers": 729243
+    },
+    {
+      "date": "2026-06-18",
+      "activeUsers": 738058
+    },
+    {
+      "date": "2026-06-19",
+      "activeUsers": 731775
+    },
+    {
+      "date": "2026-06-20",
+      "activeUsers": 729628
+    },
+    {
+      "date": "2026-06-21",
+      "activeUsers": 744190
+    },
+    {
+      "date": "2026-06-22",
+      "activeUsers": 725512
+    },
+    {
+      "date": "2026-06-23",
+      "activeUsers": 745257
+    },
+    {
+      "date": "2026-06-24",
+      "activeUsers": 734473
+    },
+    {
+      "date": "2026-06-25",
+      "activeUsers": 733041
+    },
+    {
+      "date": "2026-06-26",
+      "activeUsers": 734242
+    },
+    {
+      "date": "2026-06-27",
+      "activeUsers": 740291
+    },
+    {
+      "date": "2026-06-28",
+      "activeUsers": 753458
+    },
+    {
+      "date": "2026-06-29",
+      "activeUsers": 741023
+    },
+    {
+      "date": "2026-06-30",
+      "activeUsers": 750000
+    }
+  ],
+  "deviceDistribution": [
+    {
+      "deviceType": "Mobile",
+      "views": 14973959,
+      "percentage": 45
+    },
+    {
+      "deviceType": "Smart TV",
+      "views": 10648148,
+      "percentage": 32
+    },
+    {
+      "deviceType": "Desktop",
+      "views": 5989584,
+      "percentage": 18
+    },
+    {
+      "deviceType": "Console",
+      "views": 1663773,
+      "percentage": 5
     }
   ]
 }

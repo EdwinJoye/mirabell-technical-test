@@ -1,5 +1,5 @@
-import globalDashboardData from "./dashboard-global.data.json";
-import movieDashboardData from "./dashboard-movie.data.json";
+import globalDashboardData from "./dashboard.global.data.json";
+import movieDashboardData from "./dashboard.movie.data.json";
 import type { GlobalDashboardData, MovieDashboardData } from "./dashboard.types";
 
 export function getGlobalDashboardData(): GlobalDashboardData {

@@ -4,6 +4,7 @@ export interface GlobalDashboardStats {
   period: DashboardPeriod;
   totalViews: number;
   previousPeriodViews: number;
+  twoPeriodsAgoViews: number;
   growthRate: number;
   activeUsers: number;
   newUsers: number;
@@ -13,6 +14,11 @@ export interface GlobalDashboardStats {
 export interface WatchTimePoint {
   date: string;
   totalWatchTimeMinutes: number;
+}
+
+export interface ActiveUsersPoint {
+  date: string;
+  activeUsers: number;
 }
 
 export interface TopWatchedMovie {
@@ -28,11 +34,19 @@ export interface GenrePopularity {
   totalWatchTimeMinutes: number;
 }
 
+export interface DeviceDistribution {
+  deviceType: string;
+  views: number;
+  percentage: number;
+}
+
 export interface GlobalDashboardData {
   stats: GlobalDashboardStats;
   watchTimeOverTime: WatchTimePoint[];
+  activeUsersOverTime: ActiveUsersPoint[];
   topWatchedMovies: TopWatchedMovie[];
   genrePopularity: GenrePopularity[];
+  deviceDistribution: DeviceDistribution[];
 }
 
 export interface MovieDashboardStats {
