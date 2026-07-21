@@ -65,7 +65,15 @@ export function ContinueWatchingCard({
       }}
     >
       <div>
-        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent" />
+        <div
+          className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent"
+          style={{
+            backgroundColor: isHoverExpanded ? "rgba(0, 0, 0, 0.25)" : undefined,
+            backdropFilter: isHoverExpanded ? "blur(0.5px)" : undefined,
+            WebkitBackdropFilter: isHoverExpanded ? "blur(0.5px)" : undefined,
+            transition: "background-color 400ms ease, backdrop-filter 400ms ease",
+          }}
+        />
         <Center pos="absolute" style={{ inset: 0 }}>
           {isHoverExpanded ? (
             <Button
