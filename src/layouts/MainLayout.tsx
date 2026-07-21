@@ -1,15 +1,16 @@
-import { AppShell, Drawer, UnstyledButton, useMantineTheme } from "@mantine/core";
+import { AppShell, Drawer, useMantineTheme } from "@mantine/core";
 import { useDisclosure, useMediaQuery } from "@mantine/hooks";
-import { ArrowRightIcon } from "@phosphor-icons/react";
 import { Suspense } from "react";
 import { Outlet } from "react-router";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import { NavbarMenu } from "~/components/layout/navbar/NavbarMenu";
 
 const NAVBAR_WIDTH = 220;
-const NAVBAR_TOGGLE_WIDTH = 48;
-const NAVBAR_TOGGLE_HEIGHT = 35;
 const MOBILE_NAVBAR_WIDTH = "66%";
+
+export type MainLayoutContext = {
+  onToggleNavbar: () => void;
+};
 
 export function MainLayout() {
   const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
@@ -18,8 +19,6 @@ export function MainLayout() {
   const isDesktop = useMediaQuery(`(min-width: ${theme.breakpoints.sm})`, undefined, {
     getInitialValueInEffect: false,
   });
-
-  const isNavbarClosed = isDesktop ? !desktopOpened : !mobileOpened;
 
   function handleToggle() {
     if (isDesktop) {
@@ -39,19 +38,6 @@ export function MainLayout() {
       padding="md"
       withBorder={false}
     >
-      {isNavbarClosed && (
-        <UnstyledButton
-          onClick={handleToggle}
-          aria-label="Open menu"
-          className="fixed z-50 top-5 left-0 rounded-tr-full rounded-br-full cursor-pointer flex items-center justify-center"
-          bg="brand"
-          w={NAVBAR_TOGGLE_WIDTH}
-          h={NAVBAR_TOGGLE_HEIGHT}
-        >
-          <ArrowRightIcon size={18} color="white" />
-        </UnstyledButton>
-      )}
-
       <AppShell.Navbar
         visibleFrom="sm"
         bg="dark.6"
@@ -78,7 +64,7 @@ export function MainLayout() {
 
       <AppShell.Main bg="dark.7">
         <Suspense fallback={<CenteredLoader />}>
-          <Outlet />
+          <Outlet context={{ onToggleNavbar: handleToggle } satisfies MainLayoutContext} />
         </Suspense>
       </AppShell.Main>
     </AppShell>

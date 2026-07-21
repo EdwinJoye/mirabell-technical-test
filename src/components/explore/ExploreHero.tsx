@@ -62,7 +62,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
           direction="column"
           justify="space-between"
           pos="absolute"
-          p="xl"
+          p={{ base: "md", sm: "xl" }}
           maw={512}
           style={{ inset: 0, zIndex: 1 }}
         >
@@ -111,14 +111,14 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
                 Watch Now
               </Button>
               <Button
-                leftSection={<DownloadSimpleIcon size={18} />}
                 variant="filled"
                 color="dark.9"
                 c="white"
                 radius="xl"
                 style={buttonHoverVars()}
               >
-                Download
+                <DownloadSimpleIcon size={18} className="sm:mr-2" />
+                <span className="hidden sm:inline">Download</span>
               </Button>
               <Menu position="bottom-end" shadow="md" width={200} radius="md">
                 <Menu.Target>
