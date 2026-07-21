@@ -30,7 +30,7 @@ export function ContinueWatchingCard({ tmdbMovieId, progressRatio }: ContinueWat
     <AspectRatio
       ratio={16 / 9}
       pos="relative"
-      className="rounded-md overflow-hidden"
+      className="rounded-2xl overflow-hidden"
       style={{
         backgroundImage: backgroundImageUrl ? `url(${backgroundImageUrl})` : undefined,
         backgroundSize: "cover",

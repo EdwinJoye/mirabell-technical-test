@@ -29,8 +29,8 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
-      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-80}>
-        <Group gap="md" wrap="nowrap" py={80}>
+      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-45}>
+        <Group gap="md" wrap="nowrap" py={45}>
           {data.results.map((movie) => (
             <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
               <MovieCard

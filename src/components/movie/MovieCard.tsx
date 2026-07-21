@@ -66,8 +66,8 @@ export function MovieCard({
         pos="relative"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className={`rounded-md overflow-hidden group cursor-pointer transition-transform duration-200 ${
-          isHoverExpanded ? "scale-150 z-150 shadow-2xl" : "scale-100"
+        className={`rounded-2xl overflow-hidden group cursor-pointer transition-transform duration-200 ${
+          isHoverExpanded ? "scale-125 z-150 shadow-2xl" : "scale-100"
         }`}
         style={{
           backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
