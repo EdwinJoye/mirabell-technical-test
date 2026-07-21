@@ -12,16 +12,19 @@ export function ContinueWatchingRow() {
     return null;
   }
 
+  const lastIndex = entries.length - 1;
+
   return (
     <Stack gap="md">
       <Title order={3}>Continuer</Title>
-      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars>
-        <Group gap="md" wrap="nowrap">
-          {entries.map((entry) => (
+      <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-25}>
+        <Group gap="md" wrap="nowrap" py={25}>
+          {entries.map((entry, index) => (
             <div key={entry.tmdbMovieId} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
               <ContinueWatchingCard
                 tmdbMovieId={entry.tmdbMovieId}
                 progressRatio={entry.progressRatio}
+                zoomOrigin={index === 0 ? "left" : index === lastIndex ? "right" : "center"}
               />
             </div>
           ))}

@@ -1,7 +1,10 @@
-import { AspectRatio, Center, Progress, Stack, Text } from "@mantine/core";
+import { AspectRatio, Button, Center, Progress, Stack, Text } from "@mantine/core";
 import { PlayIcon } from "@phosphor-icons/react";
+import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
+import { HOVER_EXPAND_DELAY_MS } from "~/components/movie/movie.styles";
+import { buttonHoverVars } from "~/lib/theme/hover";
 
 function formatRemainingTime(runtime: number, progressRatio: number): string {
   const remainingMinutes = Math.round(runtime * (1 - progressRatio));
@@ -13,10 +16,28 @@ function formatRemainingTime(runtime: number, progressRatio: number): string {
 type ContinueWatchingCardProps = {
   tmdbMovieId: number;
   progressRatio: number;
+  zoomOrigin?: "left" | "center" | "right";
 };
 
-export function ContinueWatchingCard({ tmdbMovieId, progressRatio }: ContinueWatchingCardProps) {
+export function ContinueWatchingCard({
+  tmdbMovieId,
+  progressRatio,
+  zoomOrigin = "center",
+}: ContinueWatchingCardProps) {
   const { data: movie, isLoading, isError } = useMovieDetails(tmdbMovieId);
+  const [isHoverExpanded, setIsHoverExpanded] = useState(false);
+  const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
+
+  function handleMouseEnter() {
+    hoverTimeoutRef.current = setTimeout(() => {
+      setIsHoverExpanded(true);
+    }, HOVER_EXPAND_DELAY_MS);
+  }
+
+  function handleMouseLeave() {
+    clearTimeout(hoverTimeoutRef.current);
+    setIsHoverExpanded(false);
+  }
 
   if (isLoading || isError || !movie) {
     return null;
@@ -30,18 +51,35 @@ export function ContinueWatchingCard({ tmdbMovieId, progressRatio }: ContinueWat
     <AspectRatio
       ratio={16 / 9}
       pos="relative"
-      className="rounded-2xl overflow-hidden"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className={`rounded-2xl overflow-hidden cursor-pointer transition-transform duration-500 ease-out ${
+        isHoverExpanded ? "scale-125 z-150 shadow-2xl" : "scale-100"
+      }`}
       style={{
         backgroundImage: backgroundImageUrl ? `url(${backgroundImageUrl})` : undefined,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundColor: "var(--mantine-color-dark-6)",
+        transformOrigin: zoomOrigin,
       }}
     >
       <div>
         <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent" />
         <Center pos="absolute" style={{ inset: 0 }}>
-          <PlayIcon size={28} weight="fill" color="white" />
+          {isHoverExpanded ? (
+            <Button
+              leftSection={<PlayIcon size={16} weight="fill" />}
+              radius="xl"
+              color="white"
+              c="dark.9"
+              style={buttonHoverVars()}
+            >
+              Reprendre
+            </Button>
+          ) : (
+            <PlayIcon size={28} weight="fill" color="white" />
+          )}
         </Center>
         <Stack gap={4} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
           <Text fw={600} c="white" size="sm" lineClamp={1}>

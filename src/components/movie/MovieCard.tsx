@@ -5,11 +5,9 @@ import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
 import { MovieCardHoverDetails } from "~/components/movie/MovieCardHoverDetails";
-import { glassBadgeStyles } from "~/components/movie/movie.styles";
+import { glassBadgeStyles, HOVER_EXPAND_DELAY_MS } from "~/components/movie/movie.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { Genre } from "~/features/genres/genres.types";
-
-const HOVER_EXPAND_DELAY_MS = 600;
 
 function formatRuntime(runtime: number): string {
   const hours = Math.floor(runtime / 60);
@@ -27,6 +25,7 @@ type MovieCardProps = {
   voteAverage: number;
   genreIds: number[];
   genres: Genre[];
+  zoomOrigin?: "left" | "center" | "right";
 };
 
 export function MovieCard({
@@ -39,6 +38,7 @@ export function MovieCard({
   voteAverage,
   genreIds,
   genres = [],
+  zoomOrigin = "center",
 }: MovieCardProps) {
   const [opened, { open, close }] = useDisclosure(false);
   const [isHoverExpanded, setIsHoverExpanded] = useState(false);
@@ -66,7 +66,7 @@ export function MovieCard({
         pos="relative"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className={`rounded-2xl overflow-hidden group cursor-pointer transition-transform duration-200 ${
+        className={`rounded-2xl overflow-hidden group cursor-pointer transition-transform duration-500 ease-out ${
           isHoverExpanded ? "scale-125 z-150 shadow-2xl" : "scale-100"
         }`}
         style={{
@@ -74,6 +74,7 @@ export function MovieCard({
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundColor: "var(--mantine-color-dark-6)",
+          transformOrigin: zoomOrigin,
         }}
       >
         <div>

@@ -26,12 +26,14 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
     return null;
   }
 
+  const lastIndex = data.results.length - 1;
+
   return (
     <Stack gap="md">
       <Title order={3}>{title}</Title>
       <ScrollArea type="auto" scrollbarSize={6} offsetScrollbars my={-45}>
         <Group gap="md" wrap="nowrap" py={45}>
-          {data.results.map((movie) => (
+          {data.results.map((movie, index) => (
             <div key={movie.id} style={{ width: CARD_WIDTH, flexShrink: 0 }}>
               <MovieCard
                 id={movie.id}
@@ -43,6 +45,7 @@ export function MovieRow({ title, filters, genres, onDiscoverMore }: MovieRowPro
                 voteAverage={movie.vote_average}
                 genreIds={movie.genre_ids}
                 genres={genres}
+                zoomOrigin={index === 0 ? "left" : index === lastIndex ? "right" : "center"}
               />
             </div>
           ))}
