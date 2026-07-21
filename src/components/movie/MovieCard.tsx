@@ -86,6 +86,18 @@ export function MovieCard({
             </Center>
           )}
           <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/10 to-transparent" />
+          {voteAverage >= 8 && (
+            <Center
+              pos="absolute"
+              top={8}
+              right={8}
+              w={26}
+              h={26}
+              style={{ ...glassBadgeStyles.root, zIndex: 1, borderRadius: "50%" }}
+            >
+              <StarIcon size={14} weight="fill" color="var(--mantine-color-yellow-4)" />
+            </Center>
+          )}
           <Stack gap={6} pos="absolute" bottom={0} left={0} right={0} p="sm" style={{ zIndex: 1 }}>
             {isHoverExpanded && (
               <MovieCardHoverDetails movieId={id} genres={movieGenres} onOpenDetails={open} />

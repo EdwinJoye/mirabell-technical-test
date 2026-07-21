@@ -105,6 +105,13 @@ export function ExplorePage() {
               filters={{ page: 1, sortBy: "popularity.desc" }}
             />
           )}
+          {!isShowingGrid && (
+            <MovieRow
+              title="Populaires"
+              genres={genresData?.genres ?? []}
+              filters={{ page: 1, sortBy: "popularity.desc", voteAverageGte: 8 }}
+            />
+          )}
           {!isShowingGrid &&
             genresData?.genres
               .slice(0, 6)

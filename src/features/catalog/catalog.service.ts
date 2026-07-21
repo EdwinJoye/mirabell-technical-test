@@ -17,6 +17,10 @@ function buildDiscoverMovieSearchParams(filters: CatalogFilters): URLSearchParam
     searchParams.set("with_genres", filters.withGenres.join(","));
   }
 
+  if (filters.voteAverageGte !== undefined) {
+    searchParams.set("vote_average.gte", String(filters.voteAverageGte));
+  }
+
   return searchParams;
 }
 
