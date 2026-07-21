@@ -1,0 +1,292 @@
+{
+  "stats": {
+    "period": "month",
+    "totalViews": 33275464,
+    "previousPeriodViews": 29282502,
+    "growthRate": 0.13636,
+    "activeUsers": 750000,
+    "newUsers": 50000,
+    "totalWatchTimeMinutes": 45000000
+  },
+  "watchTimeOverTime": [
+    {
+      "date": "2026-06-01",
+      "totalWatchTimeMinutes": 1200000
+    },
+    {
+      "date": "2026-06-02",
+      "totalWatchTimeMinutes": 1350000
+    },
+    {
+      "date": "2026-06-03",
+      "totalWatchTimeMinutes": 1180000
+    },
+    {
+      "date": "2026-06-04",
+      "totalWatchTimeMinutes": 1420000
+    },
+    {
+      "date": "2026-06-05",
+      "totalWatchTimeMinutes": 1500000
+    },
+    {
+      "date": "2026-06-06",
+      "totalWatchTimeMinutes": 1600000
+    },
+    {
+      "date": "2026-06-07",
+      "totalWatchTimeMinutes": 1750000
+    },
+    {
+      "date": "2026-06-08",
+      "totalWatchTimeMinutes": 1300000
+    },
+    {
+      "date": "2026-06-09",
+      "totalWatchTimeMinutes": 1450000
+    },
+    {
+      "date": "2026-06-10",
+      "totalWatchTimeMinutes": 1550000
+    },
+    {
+      "date": "2026-06-11",
+      "totalWatchTimeMinutes": 1650000
+    },
+    {
+      "date": "2026-06-12",
+      "totalWatchTimeMinutes": 1800000
+    },
+    {
+      "date": "2026-06-13",
+      "totalWatchTimeMinutes": 1900000
+    },
+    {
+      "date": "2026-06-14",
+      "totalWatchTimeMinutes": 2000000
+    },
+    {
+      "date": "2026-06-15",
+      "totalWatchTimeMinutes": 1850000
+    },
+    {
+      "date": "2026-06-16",
+      "totalWatchTimeMinutes": 1700000
+    },
+    {
+      "date": "2026-06-17",
+      "totalWatchTimeMinutes": 1950000
+    },
+    {
+      "date": "2026-06-18",
+      "totalWatchTimeMinutes": 2100000
+    },
+    {
+      "date": "2026-06-19",
+      "totalWatchTimeMinutes": 2200000
+    },
+    {
+      "date": "2026-06-20",
+      "totalWatchTimeMinutes": 2300000
+    },
+    {
+      "date": "2026-06-21",
+      "totalWatchTimeMinutes": 2150000
+    },
+    {
+      "date": "2026-06-22",
+      "totalWatchTimeMinutes": 2050000
+    },
+    {
+      "date": "2026-06-23",
+      "totalWatchTimeMinutes": 1950000
+    },
+    {
+      "date": "2026-06-24",
+      "totalWatchTimeMinutes": 2000000
+    },
+    {
+      "date": "2026-06-25",
+      "totalWatchTimeMinutes": 2100000
+    },
+    {
+      "date": "2026-06-26",
+      "totalWatchTimeMinutes": 2200000
+    },
+    {
+      "date": "2026-06-27",
+      "totalWatchTimeMinutes": 2400000
+    },
+    {
+      "date": "2026-06-28",
+      "totalWatchTimeMinutes": 2500000
+    },
+    {
+      "date": "2026-06-29",
+      "totalWatchTimeMinutes": 2300000
+    },
+    {
+      "date": "2026-06-30",
+      "totalWatchTimeMinutes": 2600000
+    }
+  ],
+  "topWatchedMovies": [
+    {
+      "tmdbMovieId": 1368337,
+      "movieTitle": "The Odyssey",
+      "totalViews": 388495,
+      "uniqueViewers": 81599
+    },
+    {
+      "tmdbMovieId": 1083381,
+      "movieTitle": "Backrooms",
+      "totalViews": 378552,
+      "uniqueViewers": 92332
+    },
+    {
+      "tmdbMovieId": 1108427,
+      "movieTitle": "Moana",
+      "totalViews": 376928,
+      "uniqueViewers": 98064
+    },
+    {
+      "tmdbMovieId": 1339713,
+      "movieTitle": "Obsession",
+      "totalViews": 376016,
+      "uniqueViewers": 93572
+    },
+    {
+      "tmdbMovieId": 1084244,
+      "movieTitle": "Toy Story 5",
+      "totalViews": 364977,
+      "uniqueViewers": 79549
+    },
+    {
+      "tmdbMovieId": 1275779,
+      "movieTitle": "Disclosure Day",
+      "totalViews": 362058,
+      "uniqueViewers": 83996
+    },
+    {
+      "tmdbMovieId": 1315772,
+      "movieTitle": "Minions & Monsters",
+      "totalViews": 354628,
+      "uniqueViewers": 85171
+    },
+    {
+      "tmdbMovieId": 1273221,
+      "movieTitle": "Scary Movie",
+      "totalViews": 345507,
+      "uniqueViewers": 74745
+    },
+    {
+      "tmdbMovieId": 1081003,
+      "movieTitle": "Supergirl",
+      "totalViews": 345228,
+      "uniqueViewers": 76929
+    },
+    {
+      "tmdbMovieId": 1368314,
+      "movieTitle": "Passenger",
+      "totalViews": 340281,
+      "uniqueViewers": 79822
+    }
+  ],
+  "genrePopularity": [
+    {
+      "genre": "Action",
+      "totalViews": 250000,
+      "totalWatchTimeMinutes": 6250000
+    },
+    {
+      "genre": "Adventure",
+      "totalViews": 220000,
+      "totalWatchTimeMinutes": 5500000
+    },
+    {
+      "genre": "Animation",
+      "totalViews": 300000,
+      "totalWatchTimeMinutes": 7500000
+    },
+    {
+      "genre": "Comedy",
+      "totalViews": 280000,
+      "totalWatchTimeMinutes": 6000000
+    },
+    {
+      "genre": "Crime",
+      "totalViews": 150000,
+      "totalWatchTimeMinutes": 3750000
+    },
+    {
+      "genre": "Documentary",
+      "totalViews": 80000,
+      "totalWatchTimeMinutes": 2000000
+    },
+    {
+      "genre": "Drama",
+      "totalViews": 200000,
+      "totalWatchTimeMinutes": 5000000
+    },
+    {
+      "genre": "Family",
+      "totalViews": 180000,
+      "totalWatchTimeMinutes": 4500000
+    },
+    {
+      "genre": "Fantasy",
+      "totalViews": 120000,
+      "totalWatchTimeMinutes": 3000000
+    },
+    {
+      "genre": "History",
+      "totalViews": 50000,
+      "totalWatchTimeMinutes": 1250000
+    },
+    {
+      "genre": "Horror",
+      "totalViews": 100000,
+      "totalWatchTimeMinutes": 2500000
+    },
+    {
+      "genre": "Music",
+      "totalViews": 40000,
+      "totalWatchTimeMinutes": 1000000
+    },
+    {
+      "genre": "Mystery",
+      "totalViews": 90000,
+      "totalWatchTimeMinutes": 2250000
+    },
+    {
+      "genre": "Romance",
+      "totalViews": 160000,
+      "totalWatchTimeMinutes": 4000000
+    },
+    {
+      "genre": "Science Fiction",
+      "totalViews": 240000,
+      "totalWatchTimeMinutes": 6000000
+    },
+    {
+      "genre": "TV Movie",
+      "totalViews": 30000,
+      "totalWatchTimeMinutes": 750000
+    },
+    {
+      "genre": "Thriller",
+      "totalViews": 140000,
+      "totalWatchTimeMinutes": 3500000
+    },
+    {
+      "genre": "War",
+      "totalViews": 40000,
+      "totalWatchTimeMinutes": 1000000
+    },
+    {
+      "genre": "Western",
+      "totalViews": 20000,
+      "totalWatchTimeMinutes": 500000
+    }
+  ]
+}
