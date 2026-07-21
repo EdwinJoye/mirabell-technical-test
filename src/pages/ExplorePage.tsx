@@ -137,7 +137,7 @@ export function ExplorePage() {
           )}
           {!isShowingGrid &&
             genresData?.genres
-              .slice(0, 6)
+              .slice(0, 11)
               .map((genre) => (
                 <MovieRow
                   key={genre.id}
