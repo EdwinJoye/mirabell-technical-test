@@ -45,25 +45,16 @@ export function ExplorePage() {
     );
   }, [debouncedSearchValue, setSearchParams]);
 
-  function handleDiscoverMore() {
-    setSearchParams(
-      (previous) => {
-        const next = new URLSearchParams(previous);
-        next.set("view", "all");
-        return next;
-      },
-      { replace: true },
-    );
-  }
-
   function handleCategoryChange(value: string | null) {
     setSearchParams(
       (previous) => {
         const next = new URLSearchParams(previous);
-        if (value) {
+        next.delete("genre");
+        next.delete("view");
+        if (value === "all") {
+          next.set("view", "all");
+        } else if (value) {
           next.set("genre", value);
-        } else {
-          next.delete("genre");
         }
         return next;
       },
@@ -71,11 +62,15 @@ export function ExplorePage() {
     );
   }
 
-  const categoryOptions =
-    genresData?.genres.map((genre) => ({
+  const categoryOptions = [
+    { value: "all", label: "All" },
+    ...(genresData?.genres.map((genre) => ({
       value: String(genre.id),
       label: genre.name,
-    })) ?? [];
+    })) ?? []),
+  ];
+
+  const categoryValue = showAllRequested ? "all" : urlGenre;
 
   const selectedGenre = genresData?.genres.find((genre) => String(genre.id) === urlGenre);
 
@@ -90,7 +85,7 @@ export function ExplorePage() {
       <ExploreToolbar
         searchValue={searchValue}
         onSearchChange={setSearchValue}
-        categoryValue={urlGenre}
+        categoryValue={categoryValue}
         onCategoryChange={handleCategoryChange}
         categoryOptions={categoryOptions}
         categoryDisabled={isSearching}
@@ -106,7 +101,7 @@ export function ExplorePage() {
             <MovieRow
               title="You might like"
               genres={genresData?.genres ?? []}
-              onDiscoverMore={handleDiscoverMore}
+              onDiscoverMore={() => handleCategoryChange("all")}
               filters={{ page: 1, sortBy: "popularity.desc" }}
             />
           )}

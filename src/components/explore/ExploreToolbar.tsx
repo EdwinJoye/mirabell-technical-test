@@ -42,7 +42,7 @@ export function ExploreToolbar({
       </Group>
       <div className="flex gap-3 w-full">
         <Select
-          placeholder="All"
+          placeholder="Categories"
           data={categoryOptions}
           value={categoryValue}
           onChange={onCategoryChange}
