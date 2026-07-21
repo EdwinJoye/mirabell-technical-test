@@ -1,4 +1,4 @@
-import { ActionIcon, Flex, Stack } from "@mantine/core";
+import { ActionIcon, Divider, Flex, Stack } from "@mantine/core";
 import { X } from "@phosphor-icons/react";
 import { useNavigate } from "react-router";
 import { getNavItems } from "~/lib/configs/navbar.config";
@@ -18,9 +18,10 @@ export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {
   }
 
   return (
-    <Stack gap="xl" className="px-2.5 py-3">
-      <Flex justify="center" align="center" pos="relative" py="md">
+    <Stack gap="md" className="px-2.5 py-3">
+      <Flex justify="center" align="center" pos="relative" pt="md">
         <Logo height={24} onClick={handleGoHome} />
+
         <ActionIcon
           variant="subtle"
           onClick={closeNavbar}
@@ -33,10 +34,17 @@ export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {
           <X size={18} />
         </ActionIcon>
       </Flex>
+
+      <Divider mt={0} mb="xs" w="60%" mx="auto" />
+
       <Stack gap="xs">
-        {navItems.map((item) => (
-          <NavbarButton key={item.id} closeNavbar={closeNavbar} {...item} />
-        ))}
+        {navItems.map((item) =>
+          item.type === "divider" ? (
+            <Divider key={item.id} my="sm" size="xs" />
+          ) : (
+            <NavbarButton key={item.id} closeNavbar={closeNavbar} {...item} />
+          ),
+        )}
       </Stack>
     </Stack>
   );

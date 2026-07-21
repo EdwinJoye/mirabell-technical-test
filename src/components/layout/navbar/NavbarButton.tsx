@@ -1,9 +1,9 @@
 import { NavLink as MantineNavLink } from "@mantine/core";
 import { NavLink } from "react-router";
 import { useState } from "react";
-import type { NavItem } from "~/lib/configs/navbar.config";
+import type { NavLinkItem } from "~/lib/configs/navbar.config";
 
-type NavbarButtonProps = NavItem & {
+type NavbarButtonProps = NavLinkItem & {
   closeNavbar?: () => void;
 };
 
