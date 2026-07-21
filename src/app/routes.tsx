@@ -1,9 +1,9 @@
 import type { RouteObject } from "react-router";
 import { MainLayout } from "~/layouts/MainLayout";
+import { ComingSoonPage } from "~/pages/ComingSoonPage";
 import { DashboardPage } from "~/pages/DashboardPage";
 import { ExplorePage } from "~/pages/ExplorePage";
 import { HomePage } from "~/pages/HomePage";
-import { NotFoundPage } from "~/pages/NotFoundPage";
 
 export const appRoutes: RouteObject[] = [
   {
@@ -25,6 +25,6 @@ export const appRoutes: RouteObject[] = [
   },
   {
     path: "*",
-    element: <NotFoundPage />,
+    element: <ComingSoonPage />,
   },
 ];
