@@ -5,10 +5,10 @@ import { TopWatchedMoviesChart } from "~/components/dashboard/TopWatchedMoviesCh
 export function PlatformAudienceRow() {
   return (
     <Group align="stretch" gap="md" wrap="nowrap">
-      <div style={{ flex: 2 }}>
+      <div className="flex-[2]">
         <TopWatchedMoviesChart />
       </div>
-      <div style={{ flex: 1 }}>
+      <div className="flex-1">
         <DeviceDistributionChart />
       </div>
     </Group>
