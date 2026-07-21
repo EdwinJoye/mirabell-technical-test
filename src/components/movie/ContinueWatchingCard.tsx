@@ -79,8 +79,9 @@ export function ContinueWatchingCard({
         <Center pos="absolute" style={{ inset: 0 }}>
           {isHoverExpanded ? (
             <Button
-              leftSection={<PlayIcon size={16} weight="fill" />}
+              leftSection={<PlayIcon size={14} weight="fill" />}
               radius="xl"
+              size="xs"
               color="white"
               c="dark.9"
               style={buttonHoverVars()}
