@@ -1,6 +1,7 @@
 import { ActionIcon, Badge, Group, Stack, Text, Title, Button } from "@mantine/core";
-import { XIcon, DownloadSimpleIcon, StarIcon, GaugeIcon } from "@phosphor-icons/react";
+import { XIcon, StarIcon, GaugeIcon } from "@phosphor-icons/react";
 import { useNavigate } from "react-router";
+import { DownloadButton } from "~/components/ui/DownloadButton";
 import { WatchNowButton } from "~/components/ui/WatchNowButton";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { buttonHoverVars, glassActionIconVars } from "~/lib/theme/hover";
@@ -91,16 +92,7 @@ export function MovieDetailsOverlay({
         <Group justify="space-between">
           <Group gap="sm">
             <WatchNowButton />
-            <Button
-              leftSection={<DownloadSimpleIcon size={18} />}
-              variant="filled"
-              color="dark.9"
-              c="white"
-              radius="xl"
-              style={buttonHoverVars()}
-            >
-              Download
-            </Button>
+            <DownloadButton />
           </Group>
           <Button
             leftSection={<GaugeIcon size={18} />}
