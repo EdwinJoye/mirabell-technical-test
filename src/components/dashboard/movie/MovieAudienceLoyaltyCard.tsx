@@ -4,6 +4,8 @@ import { ArrowClockwiseIcon, InfoIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieAudienceLoyaltyCardProps = {
   tmdbMovieId: number;
@@ -45,7 +47,7 @@ export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCa
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <ArrowClockwiseIcon size={16} color="var(--mantine-color-brand-6)" />
+            <ArrowClockwiseIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Rewatch Rate
@@ -66,12 +68,7 @@ export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCa
               onMouseEnter={() => setIsInfoHovered(true)}
               onMouseLeave={() => setIsInfoHovered(false)}
             >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
+              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
             </ActionIcon>
           </Tooltip>
         </Group>

@@ -3,6 +3,8 @@ import { DownloadSimpleIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react
 import { useState } from "react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieOfflineViewsCardProps = {
   tmdbMovieId: number;
@@ -31,7 +33,7 @@ export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProp
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <DownloadSimpleIcon size={16} color="var(--mantine-color-brand-6)" />
+            <DownloadSimpleIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Offline Downloads
@@ -65,12 +67,7 @@ export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProp
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>

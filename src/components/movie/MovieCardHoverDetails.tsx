@@ -6,6 +6,7 @@ import { actionIconHoverVars, glassActionIconVars } from "~/lib/theme/hover";
 import { useWatchStatusStore } from "~/features/watch-status/watch-status.store";
 import type { CSSProperties } from "react";
 import type { Genre } from "~/features/genres/genres.types";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieCardHoverDetailsProps = {
   movieId: number;
@@ -44,7 +45,7 @@ export function MovieCardHoverDetails({
   function activeVars(): CSSProperties {
     return {
       ...actionIconHoverVars(),
-      "--ai-bg": "var(--mantine-color-brand-6)",
+      "--ai-bg": BRAND_COLOR,
     } as CSSProperties;
   }
 

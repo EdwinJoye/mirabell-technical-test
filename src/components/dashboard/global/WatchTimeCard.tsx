@@ -4,6 +4,8 @@ import { ClockIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats, WatchTimePoint } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 function formatWatchTime(totalMinutes: number): string {
   const hours = Math.floor(totalMinutes / 60);
@@ -50,7 +52,7 @@ export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) 
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <ClockIcon size={16} color="var(--mantine-color-brand-6)" />
+            <ClockIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Total Watch Time
@@ -83,12 +85,7 @@ export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) 
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>

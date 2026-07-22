@@ -6,6 +6,8 @@ import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieUniqueViewersCardProps = {
   stats: MovieDashboardStats;
@@ -48,12 +50,7 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
               onMouseEnter={() => setIsInfoHovered(true)}
               onMouseLeave={() => setIsInfoHovered(false)}
             >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
+              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
             </ActionIcon>
           </Tooltip>
         </Group>
@@ -71,7 +68,7 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
 
           <Stack gap={8}>
             <Group gap={6}>
-              <LegendDot color="var(--mantine-color-brand-6)" />
+              <LegendDot color={BRAND_COLOR} />
               <Text size="xs" c="dimmed">
                 {stats.uniqueViewers.toLocaleString()} unique
               </Text>

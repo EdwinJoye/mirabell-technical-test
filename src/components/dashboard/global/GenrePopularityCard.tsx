@@ -4,6 +4,8 @@ import { FilmSlateIcon, InfoIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type ChartGenre = {
   genre: string;
@@ -37,7 +39,7 @@ export function GenrePopularityCard() {
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <FilmSlateIcon size={16} color="var(--mantine-color-brand-6)" />
+            <FilmSlateIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Genre Popularity
@@ -58,12 +60,7 @@ export function GenrePopularityCard() {
               onMouseEnter={() => setIsInfoHovered(true)}
               onMouseLeave={() => setIsInfoHovered(false)}
             >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
+              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
             </ActionIcon>
           </Tooltip>
         </Group>

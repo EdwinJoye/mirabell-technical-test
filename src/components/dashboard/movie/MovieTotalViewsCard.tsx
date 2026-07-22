@@ -5,6 +5,7 @@ import { useState } from "react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { MovieDashboardStats, MovieViewsPoint } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 const MIN_BAR_WIDTH = 28;
 
@@ -70,12 +71,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>

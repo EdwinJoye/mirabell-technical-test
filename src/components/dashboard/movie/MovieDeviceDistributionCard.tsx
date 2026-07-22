@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 const DEVICE_ICONS = {
   Mobile: DeviceMobileIcon,
@@ -58,10 +59,7 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
             onMouseEnter={() => setIsInfoHovered(true)}
             onMouseLeave={() => setIsInfoHovered(false)}
           >
-            <InfoIcon
-              size={18}
-              color={isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"}
-            />
+            <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
           </ActionIcon>
         </Tooltip>
       </Group>

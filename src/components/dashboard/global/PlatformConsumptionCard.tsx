@@ -5,6 +5,8 @@ import { useState } from "react";
 import { DEVICE_COLORS, dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 export function PlatformConsumptionCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
@@ -45,7 +47,7 @@ export function PlatformConsumptionCard() {
     >
       <Group justify="space-between" align="center" mb="md">
         <Group gap={8}>
-          <ClockIcon size={16} color="var(--mantine-color-brand-6)" />
+          <ClockIcon size={16} color={BRAND_COLOR} />
 
           <Text size="sm" c="dimmed" fw={500}>
             Platform Consumption
@@ -66,10 +68,7 @@ export function PlatformConsumptionCard() {
             onMouseEnter={() => setIsInfoHovered(true)}
             onMouseLeave={() => setIsInfoHovered(false)}
           >
-            <InfoIcon
-              size={18}
-              color={isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"}
-            />
+            <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
           </ActionIcon>
         </Tooltip>
       </Group>

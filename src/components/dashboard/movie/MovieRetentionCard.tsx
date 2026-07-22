@@ -4,6 +4,7 @@ import { InfoIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import type { RetentionPoint } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 const PLATFORM_AVERAGE_RETENTION = [100, 92, 80, 65, 54, 49, 46];
 
@@ -44,10 +45,7 @@ export function MovieRetentionCard({ retentionCurve }: MovieRetentionCardProps) 
             onMouseEnter={() => setIsInfoHovered(true)}
             onMouseLeave={() => setIsInfoHovered(false)}
           >
-            <InfoIcon
-              size={18}
-              color={isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"}
-            />
+            <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
           </ActionIcon>
         </Tooltip>
       </Group>

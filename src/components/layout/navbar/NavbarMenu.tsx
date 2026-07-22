@@ -5,6 +5,7 @@ import { useNavigate } from "react-router";
 import { getNavItems } from "~/lib/configs/navbar.config";
 import { Logo } from "./Logo";
 import { NavbarButton } from "./NavbarButton";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 type NavbarMenuProps = {
   closeNavbar?: () => void;
@@ -36,10 +37,7 @@ export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {
           top={-4}
           right={0}
         >
-          <X
-            size={18}
-            color={isCloseHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"}
-          />
+          <X size={18} color={getHoverIconColor(isCloseHovered)} />
         </ActionIcon>
       </Flex>
 

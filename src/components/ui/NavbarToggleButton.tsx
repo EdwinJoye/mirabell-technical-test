@@ -2,6 +2,7 @@ import { ActionIcon } from "@mantine/core";
 import { ListIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { useIsNavbarClosed, useNavbarStore } from "~/features/navbar/navbar.store";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 export function NavbarToggleButton() {
   const isNavbarClosed = useIsNavbarClosed();
@@ -21,10 +22,7 @@ export function NavbarToggleButton() {
       onMouseLeave={() => setIsHovered(false)}
       aria-label="Open menu"
     >
-      <ListIcon
-        size={20}
-        color={isHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-white)"}
-      />
+      <ListIcon size={20} color={isHovered ? BRAND_COLOR : "var(--mantine-color-white)"} />
     </ActionIcon>
   );
 }

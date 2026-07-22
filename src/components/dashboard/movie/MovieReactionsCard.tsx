@@ -4,6 +4,8 @@ import { useState } from "react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import type { MovieReactions } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieReactionsCardProps = {
   reactions: MovieReactions;
@@ -42,12 +44,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
               onMouseEnter={() => setIsInfoHovered(true)}
               onMouseLeave={() => setIsInfoHovered(false)}
             >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
+              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
             </ActionIcon>
           </Tooltip>
         </Group>
@@ -69,9 +66,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
               backgroundColor: "rgba(255, 255, 255, 0.06)",
             }}
           >
-            <Box
-              style={{ width: `${likedRate}%`, backgroundColor: "var(--mantine-color-brand-6)" }}
-            />
+            <Box style={{ width: `${likedRate}%`, backgroundColor: BRAND_COLOR }} />
             <Box
               style={{ width: `${dislikedRate}%`, backgroundColor: "var(--mantine-color-red-5)" }}
             />
@@ -85,7 +80,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
 
           <Group gap={12} wrap="nowrap">
             <Group gap={4}>
-              <ThumbsUpIcon size={12} color="var(--mantine-color-brand-6)" />
+              <ThumbsUpIcon size={12} color={BRAND_COLOR} />
               <Text size="xs" c="dimmed">
                 {likedViewers.toLocaleString()}
               </Text>

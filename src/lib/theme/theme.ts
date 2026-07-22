@@ -43,3 +43,6 @@ export const theme = createTheme({
   primaryColor: "brand",
   colors: { brand, dimmed, dark },
 });
+
+export const BRAND_COLOR = "var(--mantine-color-brand-6)";
+export const INACTIVE_ICON_COLOR = "var(--mantine-color-gray-5)";

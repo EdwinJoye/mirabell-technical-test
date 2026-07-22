@@ -5,6 +5,8 @@ import { useState } from "react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { ActiveUsersPoint, GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type ActiveUsersCardProps = {
   stats: GlobalDashboardStats;
@@ -36,7 +38,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <UsersIcon size={16} color="var(--mantine-color-brand-6)" />
+            <UsersIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Active Users
@@ -70,12 +72,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>
@@ -124,7 +121,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
           <Group justify="space-between" align="center">
             <Group gap="md">
               <Group gap={8}>
-                <LegendDot color="var(--mantine-color-brand-6)" />
+                <LegendDot color={BRAND_COLOR} />
 
                 <Text size="xs" c="dimmed">
                   {stats.newUsers.toLocaleString()} new

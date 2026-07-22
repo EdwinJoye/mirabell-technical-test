@@ -5,7 +5,7 @@ import { AvatarMenu } from "~/components/ui/AvatarMenu";
 import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { segmentedControlStyles } from "~/lib/theme/segmented-control";
-import { theme } from "~/lib/theme/theme";
+import { BRAND_COLOR, theme } from "~/lib/theme/theme";
 
 const DASHBOARD_TOOLBAR_BREAKPOINT = theme.breakpoints?.sm ?? DEFAULT_THEME.breakpoints.sm;
 
@@ -63,22 +63,12 @@ function DashboardToolbarDesktop({
           onChange={onViewChange}
           data={[
             {
-              label: (
-                <SegmentedItemLabel
-                  icon={GlobeIcon}
-                  label="Global"
-                  iconColor="var(--mantine-color-brand-6)"
-                />
-              ),
+              label: <SegmentedItemLabel icon={GlobeIcon} label="Global" iconColor={BRAND_COLOR} />,
               value: "global",
             },
             {
               label: (
-                <SegmentedItemLabel
-                  icon={FilmSlateIcon}
-                  label="Movie"
-                  iconColor="var(--mantine-color-brand-6)"
-                />
+                <SegmentedItemLabel icon={FilmSlateIcon} label="Movie" iconColor={BRAND_COLOR} />
               ),
               value: "movie",
             },

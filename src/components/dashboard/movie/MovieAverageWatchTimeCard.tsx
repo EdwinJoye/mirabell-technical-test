@@ -5,6 +5,7 @@ import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 type MovieAverageWatchTimeCardProps = {
   tmdbMovieId: number;
@@ -67,12 +68,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>

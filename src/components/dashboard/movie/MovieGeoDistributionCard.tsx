@@ -5,6 +5,7 @@ import { useState } from "react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { getHoverIconColor } from "~/lib/theme/hover";
 
 type MovieGeoDistributionCardProps = {
   tmdbMovieId: number;
@@ -62,12 +63,7 @@ export function MovieGeoDistributionCard({ tmdbMovieId }: MovieGeoDistributionCa
               onMouseEnter={() => setIsInfoHovered(true)}
               onMouseLeave={() => setIsInfoHovered(false)}
             >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
+              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
             </ActionIcon>
           </Tooltip>
         </Group>
