@@ -3,7 +3,7 @@ import { useMediaQuery } from "@mantine/hooks";
 import { create } from "zustand";
 import { theme } from "~/lib/theme/theme";
 
-const NAVBAR_BREAKPOINT = theme.breakpoints?.sm ?? DEFAULT_THEME.breakpoints.sm;
+export const NAVBAR_BREAKPOINT = theme.breakpoints?.sm ?? DEFAULT_THEME.breakpoints.sm;
 
 function isDesktopViewport(): boolean {
   return window.matchMedia(`(min-width: ${NAVBAR_BREAKPOINT})`).matches;
