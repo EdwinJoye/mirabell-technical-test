@@ -133,29 +133,51 @@ export function ExplorePage() {
         viewportRef={setScrollViewport}
         onBottomReached={() => setBottomReachedCount((count) => count + 1)}
       >
-        <Stack gap="md" pb="md">
+        <Stack
+          gap="md"
+          pb="md"
+          style={{
+            minHeight: "100%",
+          }}
+        >
           {!isShowingGrid && isInitialLoading && (
-            <Center mih={340}>
+            <Center
+              style={{
+                minHeight: "calc(100dvh - 120px)",
+              }}
+            >
               <Loader color="brand" />
             </Center>
           )}
+
           {!isShowingGrid && !isInitialLoading && (
             <>
               {featuredMovie && (
                 <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
               )}
+
               <ContinueWatchingRow />
+
               <MovieRow
                 title="You might like"
                 genres={genresData?.genres ?? []}
                 onDiscoverMore={() => handleCategoryChange("all")}
-                filters={{ page: 1, sortBy: "popularity.desc" }}
+                filters={{
+                  page: 1,
+                  sortBy: "popularity.desc",
+                }}
               />
+
               <MovieRow
                 title="Popular"
                 genres={genresData?.genres ?? []}
-                filters={{ page: 1, sortBy: "popularity.desc", voteAverageGte: 8 }}
+                filters={{
+                  page: 1,
+                  sortBy: "popularity.desc",
+                  voteAverageGte: 8,
+                }}
               />
+
               {genresData?.genres.slice(0, 11).map((genre) => (
                 <MovieRow
                   key={genre.id}
@@ -163,12 +185,18 @@ export function ExplorePage() {
                   genres={genresData.genres}
                   onDiscoverMore={() => handleCategoryChange(String(genre.id))}
                   discoverMoreLabel={`Discover more: ${genre.name}`}
-                  filters={{ page: 1, sortBy: "popularity.desc", withGenres: [genre.id] }}
+                  filters={{
+                    page: 1,
+                    sortBy: "popularity.desc",
+                    withGenres: [genre.id],
+                  }}
                 />
               ))}
+
               <ExploreAllBanner onClick={() => handleCategoryChange("all")} />
             </>
           )}
+
           {isShowingGrid && (
             <MovieGrid
               title={gridTitle}
