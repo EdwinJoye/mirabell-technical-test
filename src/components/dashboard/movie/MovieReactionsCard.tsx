@@ -1,10 +1,10 @@
-import { Box, Card, Group, Stack, Text } from "@mantine/core";
+import { Box, Group, Stack, Text } from "@mantine/core";
 import { MinusCircleIcon, ThumbsDownIcon, ThumbsUpIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import type { MovieReactions } from "~/features/dashboard/dashboard.types";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieReactionsCardProps = {
   reactions: MovieReactions;
@@ -18,7 +18,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
   const noReactionRate = Math.round((noReactionViewers / totalViewers) * 100);
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -81,6 +81,6 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

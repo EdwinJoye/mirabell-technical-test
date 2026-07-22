@@ -1,12 +1,12 @@
-import { Card, Group, Stack, Text } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import { UsersIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieUniqueViewersCardProps = {
   stats: MovieDashboardStats;
@@ -23,7 +23,7 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
   ];
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -66,6 +66,6 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
           </Stack>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

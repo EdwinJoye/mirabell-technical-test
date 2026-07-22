@@ -1,11 +1,12 @@
 import { AreaChart } from "@mantine/charts";
-import { Card, Group, Text } from "@mantine/core";
+import { Group, Text } from "@mantine/core";
 import { ClockIcon } from "@phosphor-icons/react";
-import { DEVICE_COLORS, dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+import { DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 export function GlobalConsumptionCard() {
   const { stats, watchTimeOverTime, deviceDistribution } = getGlobalDashboardData();
@@ -32,16 +33,7 @@ export function GlobalConsumptionCard() {
   );
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <DashboardCard style={{ display: "flex", flexDirection: "column" }}>
       <Group justify="space-between" align="center" mb="md">
         <Group gap={8}>
           <ClockIcon size={16} color={BRAND_COLOR} />
@@ -108,6 +100,6 @@ export function GlobalConsumptionCard() {
           </Text>
         </Text>
       </Group>
-    </Card>
+    </DashboardCard>
   );
 }

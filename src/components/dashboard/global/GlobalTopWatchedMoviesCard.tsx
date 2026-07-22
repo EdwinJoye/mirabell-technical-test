@@ -1,14 +1,14 @@
-import { Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Group, Stack, Text, Tooltip } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
 import { FilmSlateIcon, TrophyIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { useMoviesDetails } from "~/features/movie-details/movie-details.hooks";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const Y_AXIS_WIDTH = 170;
 const POSTER_WIDTH = 18;
@@ -148,7 +148,7 @@ export function GlobalTopWatchedMoviesCard() {
   }));
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -287,6 +287,6 @@ export function GlobalTopWatchedMoviesCard() {
           </Text>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

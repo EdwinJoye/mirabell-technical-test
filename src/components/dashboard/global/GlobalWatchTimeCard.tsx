@@ -1,11 +1,12 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { ActionIcon, Badge, Group, Stack, Text, Tooltip } from "@mantine/core";
 import { AreaChart } from "@mantine/charts";
 import { ClockIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats, WatchTimePoint } from "~/features/dashboard/dashboard.types";
 import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 function formatWatchTime(totalMinutes: number): string {
   const hours = Math.floor(totalMinutes / 60);
@@ -41,14 +42,7 @@ export function GlobalWatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardP
   );
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -136,6 +130,6 @@ export function GlobalWatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardP
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

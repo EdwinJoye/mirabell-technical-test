@@ -1,8 +1,8 @@
-import { Card, Group, Text } from "@mantine/core";
+import { Group, Text } from "@mantine/core";
 import { AreaChart } from "@mantine/charts";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import type { RetentionPoint } from "~/features/dashboard/dashboard.types";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const PLATFORM_AVERAGE_RETENTION = [100, 92, 80, 65, 54, 49, 46];
 
@@ -17,11 +17,7 @@ export function MovieRetentionCard({ retentionCurve }: MovieRetentionCardProps) 
   }));
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{ ...dashboardCardGradient, height: "100%", display: "flex", flexDirection: "column" }}
-    >
+    <DashboardCard style={{ display: "flex", flexDirection: "column" }}>
       <Group justify="space-between" align="center" mb="md">
         <Text size="sm" c="dimmed" fw={500}>
           Audience Retention
@@ -50,6 +46,6 @@ export function MovieRetentionCard({ retentionCurve }: MovieRetentionCardProps) 
           gridAxis="y"
         />
       </div>
-    </Card>
+    </DashboardCard>
   );
 }

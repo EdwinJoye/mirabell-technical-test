@@ -1,4 +1,4 @@
-import { Card, Group, Stack, Text } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import {
   DeviceMobileIcon,
@@ -8,9 +8,10 @@ import {
   TelevisionIcon,
 } from "@phosphor-icons/react";
 
-import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
+import { DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const DEVICE_ICONS = {
   Mobile: DeviceMobileIcon,
@@ -38,7 +39,7 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
   }));
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Group justify="space-between" align="center" mb="md">
         <Text size="sm" c="dimmed" fw={500}>
           Viewing Devices
@@ -84,6 +85,6 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
           );
         })}
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

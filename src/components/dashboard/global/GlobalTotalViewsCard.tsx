@@ -1,10 +1,11 @@
-import { Badge, Card, Group, Stack, Text } from "@mantine/core";
+import { Badge, Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
 import { EyeIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type TotalViewsCardProps = {
   stats: GlobalDashboardStats;
@@ -22,14 +23,7 @@ export function GlobalTotalViewsCard({ stats }: TotalViewsCardProps) {
   ];
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -104,6 +98,6 @@ export function GlobalTotalViewsCard({ stats }: TotalViewsCardProps) {
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

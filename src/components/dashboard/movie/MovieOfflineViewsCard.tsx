@@ -1,9 +1,10 @@
-import { Badge, Card, Group, Progress, Stack, Text } from "@mantine/core";
+import { Badge, Group, Progress, Stack, Text } from "@mantine/core";
 import { DownloadSimpleIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieOfflineViewsCardProps = {
   tmdbMovieId: number;
@@ -20,14 +21,7 @@ export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProp
   const totalViews = dashboardData.stats.totalViews;
 
   return (
-    <Card
-      radius="lg"
-      p="lg"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -110,6 +104,6 @@ export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProp
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

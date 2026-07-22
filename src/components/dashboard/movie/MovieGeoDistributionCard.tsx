@@ -1,10 +1,10 @@
-import { Card, Group, Stack, Text } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
 import { GlobeIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieGeoDistributionCardProps = {
   tmdbMovieId: number;
@@ -29,14 +29,7 @@ export function MovieGeoDistributionCard({ tmdbMovieId }: MovieGeoDistributionCa
   );
 
   return (
-    <Card
-      radius="lg"
-      p="lg"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -89,6 +82,6 @@ export function MovieGeoDistributionCard({ tmdbMovieId }: MovieGeoDistributionCa
           </Group>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

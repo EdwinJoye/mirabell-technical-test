@@ -1,10 +1,11 @@
-import { Badge, Card, Group, Stack, Text } from "@mantine/core";
+import { Badge, Group, Stack, Text } from "@mantine/core";
 import { AreaChart } from "@mantine/charts";
 import { TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const LAST_30_DAYS_POINT_COUNT = 4;
 
@@ -43,16 +44,7 @@ export function MovieMomentumCard({ tmdbMovieId }: MovieMomentumCardProps) {
   const growthPercent = (stats.growthRate * 100).toFixed(1);
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <DashboardCard style={{ display: "flex", flexDirection: "column" }}>
       <Group justify="space-between" align="center" mb="md">
         <Group gap={8}>
           <TrendUpIcon size={16} color={BRAND_COLOR} />
@@ -143,6 +135,6 @@ export function MovieMomentumCard({ tmdbMovieId }: MovieMomentumCardProps) {
           </Text>
         </Stack>
       </Group>
-    </Card>
+    </DashboardCard>
   );
 }

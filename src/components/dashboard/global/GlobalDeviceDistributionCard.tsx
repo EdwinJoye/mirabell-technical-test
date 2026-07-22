@@ -1,10 +1,11 @@
-import { Card, Group, Stack, Text } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import { DeviceMobileIcon } from "@phosphor-icons/react";
-import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
+import { DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 export function GlobalDeviceDistributionCard() {
   const { deviceDistribution: devices } = getGlobalDashboardData();
@@ -20,7 +21,7 @@ export function GlobalDeviceDistributionCard() {
   const topDevice = [...devices].sort((a, b) => b.percentage - a.percentage)[0];
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -78,6 +79,6 @@ export function GlobalDeviceDistributionCard() {
           </Text>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

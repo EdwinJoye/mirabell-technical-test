@@ -1,10 +1,11 @@
-import { Badge, Card, Group, Progress, Stack, Text } from "@mantine/core";
+import { Badge, Group, Progress, Stack, Text } from "@mantine/core";
 import { ClockIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieAverageWatchTimeCardProps = {
   tmdbMovieId: number;
@@ -28,7 +29,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
   const engagement = watchedPercent !== null ? getEngagementLabel(watchedPercent) : null;
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -85,6 +86,6 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
           </Stack>
         )}
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

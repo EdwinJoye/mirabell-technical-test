@@ -1,10 +1,10 @@
-import { Card, Group, Stack, Text } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { PieChart } from "@mantine/charts";
 import { ArrowClockwiseIcon } from "@phosphor-icons/react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieAudienceLoyaltyCardProps = {
   tmdbMovieId: number;
@@ -34,14 +34,7 @@ export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCa
   ];
 
   return (
-    <Card
-      radius="lg"
-      p="lg"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -83,6 +76,6 @@ export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCa
           {rewatchedViewers.toLocaleString()} viewers watched this movie more than once
         </Text>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }
