@@ -6,5 +6,5 @@ export function formatWatchTime(totalMinutes: number): string {
     return `${minutes} min`;
   }
 
-  return `${hours}h ${minutes}min`;
+  return `${hours.toLocaleString()}h ${minutes}min`;
 }

@@ -2,6 +2,7 @@ import { Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
 import { FilmSlateIcon } from "@phosphor-icons/react";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
+import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 import { DashboardCard } from "~/components/dashboard/DashboardCard";
@@ -11,13 +12,6 @@ type ChartGenre = {
   views: number;
   watchTime: number;
 };
-
-function formatWatchTime(totalMinutes: number): string {
-  const hours = Math.floor(totalMinutes / 60);
-  const minutes = totalMinutes % 60;
-
-  return `${hours}h ${minutes}min`;
-}
 
 export function GlobalGenrePopularityCard() {
   const { stats, genrePopularity: genres } = getGlobalDashboardData();

@@ -4,16 +4,10 @@ import { ClockIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats, WatchTimePoint } from "~/features/dashboard/dashboard.types";
+import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
 import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { DashboardCard } from "~/components/dashboard/DashboardCard";
-
-function formatWatchTime(totalMinutes: number): string {
-  const hours = Math.floor(totalMinutes / 60);
-  const minutes = totalMinutes % 60;
-
-  return `${hours.toLocaleString()}h ${minutes}min`;
-}
 
 type WatchTimeCardProps = {
   stats: GlobalDashboardStats;
