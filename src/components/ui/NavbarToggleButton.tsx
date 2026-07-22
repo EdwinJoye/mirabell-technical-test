@@ -23,7 +23,7 @@ export function NavbarToggleButton() {
     >
       <ListIcon
         size={20}
-        color={isHovered ? "var(--mantine-color-white)" : "var(--mantine-color-brand-6)"}
+        color={isHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-white)"}
       />
     </ActionIcon>
   );
