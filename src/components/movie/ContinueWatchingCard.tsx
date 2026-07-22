@@ -1,5 +1,5 @@
 import { AspectRatio, Button, Center, Progress, Stack, Text } from "@mantine/core";
-import { useDisclosure } from "@mantine/hooks";
+import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { PlayIcon } from "@phosphor-icons/react";
 import { useRef, useState } from "react";
 import { HOVER_EXPAND_DELAY_MS } from "~/components/movie/movie.styles";
@@ -31,10 +31,15 @@ export function ContinueWatchingCard({
 
   const [opened, { open, close }] = useDisclosure(false);
   const [isHoverExpanded, setIsHoverExpanded] = useState(false);
+  const isHoverCapable = useMediaQuery("(hover: hover)");
 
   const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   function handleMouseEnter() {
+    if (!isHoverCapable) {
+      return;
+    }
+
     hoverTimeoutRef.current = setTimeout(() => {
       setIsHoverExpanded(true);
     }, HOVER_EXPAND_DELAY_MS);
@@ -60,6 +65,7 @@ export function ContinueWatchingCard({
       <AspectRatio
         ratio={16 / 9}
         pos="relative"
+        onClick={open}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`rounded-2xl overflow-hidden cursor-pointer transition-transform duration-500 ease-out ${

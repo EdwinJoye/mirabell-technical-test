@@ -1,6 +1,6 @@
 import { AspectRatio, Badge, Center, Group, Stack, Text } from "@mantine/core";
 import { StarIcon } from "@phosphor-icons/react";
-import { useDisclosure } from "@mantine/hooks";
+import { useDisclosure, useMediaQuery } from "@mantine/hooks";
 import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { MovieDetailsModal } from "~/components/movie/MovieDetailsModal";
@@ -42,12 +42,17 @@ export function MovieCard({
 }: MovieCardProps) {
   const [opened, { open, close }] = useDisclosure(false);
   const [isHoverExpanded, setIsHoverExpanded] = useState(false);
+  const isHoverCapable = useMediaQuery("(hover: hover)");
   const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
   const movieGenres = genres.filter((genre) => genreIds.includes(genre.id));
   const { data: movieDetails } = useMovieDetails(id);
 
   function handleMouseEnter() {
+    if (!isHoverCapable) {
+      return;
+    }
+
     hoverTimeoutRef.current = setTimeout(() => {
       setIsHoverExpanded(true);
     }, HOVER_EXPAND_DELAY_MS);
@@ -64,6 +69,7 @@ export function MovieCard({
         ratio={2 / 3}
         data-movie-id={id}
         pos="relative"
+        onClick={open}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`rounded-2xl overflow-hidden group cursor-pointer transition-transform duration-500 ease-out ${
