@@ -14,7 +14,7 @@ export function ExploreAllBanner({ onClick }: ExploreAllBannerProps) {
     <motion.div
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
+      viewport={{ once: true }}
       transition={{ duration: 0.4, ease: "easeOut" }}
       className="mt-8"
     >
@@ -24,7 +24,7 @@ export function ExploreAllBanner({ onClick }: ExploreAllBannerProps) {
         onMouseLeave={() => setIsHovered(false)}
         className="rounded-full overflow-hidden cursor-pointer relative mx-auto block"
         style={{
-          width: "90%",
+          width: "85%",
           background: isHovered
             ? "linear-gradient(120deg, rgba(79, 217, 196, 0.18), var(--mantine-color-dark-6) 60%)"
             : "linear-gradient(120deg, var(--mantine-color-dark-5), var(--mantine-color-dark-7) 70%)",
