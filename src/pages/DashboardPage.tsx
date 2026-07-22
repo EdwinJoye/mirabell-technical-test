@@ -31,9 +31,26 @@ export function DashboardPage() {
     );
   }
 
+  function handleMovieChange(value: string) {
+    setSearchParams(
+      (previous) => {
+        const next = new URLSearchParams(previous);
+        next.set("movieId", value);
+        return next;
+      },
+      { replace: true },
+    );
+  }
+
   return (
     <Stack gap="md" style={{ height: "calc(100dvh - 35px)" }}>
-      <DashboardToolbar view={view} onViewChange={handleViewChange} />
+      <DashboardToolbar
+        view={view}
+        onViewChange={handleViewChange}
+        movieOptions={movieOptions}
+        movieId={movieId}
+        onMovieChange={handleMovieChange}
+      />
 
       <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={setScrollViewport}>
         <Stack gap="md">

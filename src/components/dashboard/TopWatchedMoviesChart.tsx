@@ -12,6 +12,7 @@ const Y_AXIS_WIDTH = 170;
 const POSTER_WIDTH = 18;
 const POSTER_HEIGHT = 26;
 const MAX_TITLE_LENGTH = 20;
+const LEFT_OFFSET = 12;
 
 type ChartMovie = {
   tmdbMovieId: number;
@@ -42,7 +43,7 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
   const movie = movies[index];
   const posterUrl = movie?.posterPath ? getTmdbImageUrl(movie.posterPath, "w200") : null;
   const posterPreviewUrl = movie?.posterPath ? getTmdbImageUrl(movie.posterPath, "w300") : null;
-  const posterX = tickX - Y_AXIS_WIDTH;
+  const posterX = tickX - Y_AXIS_WIDTH + LEFT_OFFSET;
   const posterY = tickY - POSTER_HEIGHT / 2;
 
   function handleViewMovie() {
@@ -113,7 +114,7 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
         </Tooltip>
       )}
       <text
-        x={tickX - Y_AXIS_WIDTH + POSTER_WIDTH + 8}
+        x={tickX - Y_AXIS_WIDTH + LEFT_OFFSET + POSTER_WIDTH + 8}
         y={tickY}
         dy={4}
         textAnchor="start"
@@ -132,7 +133,6 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
 
 export function TopWatchedMoviesChart() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const { stats, topWatchedMovies: movies } = getGlobalDashboardData();
   const topMovies = movies.slice(0, 10);
   const { data: movieDetailsList } = useMoviesDetails(topMovies.map((movie) => movie.tmdbMovieId));
@@ -152,12 +152,10 @@ export function TopWatchedMoviesChart() {
         <Group justify="space-between" align="center">
           <Group gap={8}>
             <FilmSlateIcon size={16} color="var(--mantine-color-brand-6)" />
-
             <Text size="sm" c="dimmed" fw={500}>
               Top Watched Movies
             </Text>
           </Group>
-
           <Tooltip
             label="Ranks the most watched movies based on total views and unique viewers."
             withArrow
@@ -193,7 +191,6 @@ export function TopWatchedMoviesChart() {
         >
           {movies.length}
         </Text>
-
         <Text size="xs" c="dimmed">
           Most watched movies this {stats.period}
         </Text>
@@ -231,12 +228,10 @@ export function TopWatchedMoviesChart() {
               if (!payload?.length) {
                 return null;
               }
-
               const movie = payload[0].payload as ChartMovie;
               const backdropUrl = movie.backdropPath
                 ? getTmdbImageUrl(movie.backdropPath, "w300")
                 : null;
-
               return (
                 <div
                   style={{
@@ -271,20 +266,16 @@ export function TopWatchedMoviesChart() {
                       </Text>
                     </div>
                   )}
-
                   <div style={{ padding: "10px 14px" }}>
                     <Text size="xs" c="dimmed">
                       Total views
                     </Text>
-
                     <Text size="sm" fw={700} c="brand.4">
                       {movie.views.toLocaleString()}
                     </Text>
-
                     <Text size="xs" c="dimmed" mt={6}>
                       Unique viewers
                     </Text>
-
                     <Text size="sm" fw={700} c="white">
                       {movie.viewers.toLocaleString()}
                     </Text>
@@ -298,7 +289,6 @@ export function TopWatchedMoviesChart() {
         <Group justify="space-between">
           <Group gap={6}>
             <TrophyIcon size={14} weight="fill" color="var(--mantine-color-yellow-4)" />
-
             <Text size="xs" c="dimmed">
               #1{" "}
               <Text component="span" c="white" fw={600}>
@@ -306,7 +296,6 @@ export function TopWatchedMoviesChart() {
               </Text>
             </Text>
           </Group>
-
           <Text size="xs" c="dimmed">
             <Text component="span" c="brand.4" fw={600}>
               {movies[0]?.totalViews.toLocaleString()}
