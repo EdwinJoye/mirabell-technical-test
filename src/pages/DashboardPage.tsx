@@ -1,6 +1,7 @@
 import { ScrollArea, Stack } from "@mantine/core";
 import { useSearchParams } from "react-router";
 import { DashboardToolbar } from "~/components/dashboard/DashboardToolbar";
+import { MoviePosterRow } from "~/components/dashboard/MoviePosterRow";
 import { MovieStatsRow } from "~/components/dashboard/MovieStatsRow";
 import { PlatformAudienceRow } from "~/components/dashboard/PlatformAudienceRow";
 import { PlatformConsumptionRow } from "~/components/dashboard/PlatformConsumptionRow";
@@ -39,12 +40,17 @@ export function DashboardPage() {
           {view === "global" && (
             <>
               <PlatformStatsRow />
-              <PlatformConsumptionRow />
               <PlatformAudienceRow />
+              <PlatformConsumptionRow />
             </>
           )}
 
-          {view === "movie" && movieId && <MovieStatsRow tmdbMovieId={Number(movieId)} />}
+          {view === "movie" && movieId && (
+            <>
+              <MoviePosterRow tmdbMovieId={Number(movieId)} />
+              <MovieStatsRow tmdbMovieId={Number(movieId)} />
+            </>
+          )}
         </Stack>
       </ScrollArea>
     </Stack>

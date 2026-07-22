@@ -46,4 +46,7 @@ export const tmdbMovieDetailsSchema = z.object({
   poster_path: z.string().nullable(),
   backdrop_path: z.string().nullable(),
   runtime: z.number().nullable(),
+  release_date: z.string(),
+  vote_average: z.number(),
+  genres: z.array(tmdbGenreSchema),
 });
