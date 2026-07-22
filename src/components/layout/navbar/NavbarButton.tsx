@@ -3,17 +3,9 @@ import { NavLink } from "react-router";
 import { useState } from "react";
 import type { NavLinkItem } from "~/lib/configs/navbar.config";
 
-type NavbarButtonProps = NavLinkItem & {
-  closeNavbar?: () => void;
-};
+type NavbarButtonProps = NavLinkItem;
 
-export function NavbarButton({
-  closeNavbar,
-  label,
-  to,
-  icon: IconComponent,
-  end,
-}: NavbarButtonProps) {
+export function NavbarButton({ label, to, icon: IconComponent, end }: NavbarButtonProps) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -21,7 +13,6 @@ export function NavbarButton({
       end={end}
       to={to}
       className="group w-full no-underline"
-      onClick={closeNavbar}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

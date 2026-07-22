@@ -1,22 +1,15 @@
 import { MantineProvider } from "@mantine/core";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { HouseIcon } from "@phosphor-icons/react";
 import { MemoryRouter } from "react-router";
 import { theme } from "~/lib/theme/theme";
 import { NavbarButton } from "./NavbarButton";
 
-function renderNavbarButton(currentPath: string, closeNavbar: () => void) {
+function renderNavbarButton(currentPath: string) {
   render(
     <MantineProvider theme={theme}>
       <MemoryRouter initialEntries={[currentPath]}>
-        <NavbarButton
-          id="home"
-          label="Home"
-          to="/"
-          icon={HouseIcon}
-          end
-          closeNavbar={closeNavbar}
-        />
+        <NavbarButton id="home" label="Home" to="/" icon={HouseIcon} end />
       </MemoryRouter>
     </MantineProvider>,
   );
@@ -26,7 +19,7 @@ function renderNavbarButton(currentPath: string, closeNavbar: () => void) {
 
 describe("NavbarButton", () => {
   it("shows no background and the brand color on the active item", () => {
-    const { link, navLinkRoot } = renderNavbarButton("/", () => {});
+    const { link, navLinkRoot } = renderNavbarButton("/");
 
     expect(link).toHaveAttribute("aria-current", "page");
     expect(navLinkRoot.style.getPropertyValue("--nl-bg")).toBe("transparent");
@@ -35,18 +28,9 @@ describe("NavbarButton", () => {
   });
 
   it("shows the dimmed text color and no active styling on inactive items", () => {
-    const { link, navLinkRoot } = renderNavbarButton("/somewhere-else", () => {});
+    const { link, navLinkRoot } = renderNavbarButton("/somewhere-else");
 
     expect(link).not.toHaveAttribute("aria-current", "page");
     expect(navLinkRoot.style.color).toBe("var(--mantine-color-dimmed)");
-  });
-
-  it("closes the navbar when clicked", () => {
-    const closeNavbar = vi.fn();
-    const { link } = renderNavbarButton("/", closeNavbar);
-
-    fireEvent.click(link);
-
-    expect(closeNavbar).toHaveBeenCalledTimes(1);
   });
 });

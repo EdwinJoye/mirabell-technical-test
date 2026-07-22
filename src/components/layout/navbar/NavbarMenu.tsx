@@ -50,7 +50,7 @@ export function NavbarMenu({ closeNavbar }: NavbarMenuProps) {
           item.type === "divider" ? (
             <Divider key={item.id} my="sm" size="xs" />
           ) : (
-            <NavbarButton key={item.id} closeNavbar={closeNavbar} {...item} />
+            <NavbarButton key={item.id} {...item} />
           ),
         )}
       </Stack>
