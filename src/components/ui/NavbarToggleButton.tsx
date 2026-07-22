@@ -9,10 +9,6 @@ export function NavbarToggleButton() {
   const toggleNavbar = useNavbarStore((state) => state.toggle);
   const [isHovered, setIsHovered] = useState(false);
 
-  if (!isNavbarClosed) {
-    return null;
-  }
-
   return (
     <ActionIcon
       variant="transparent"
@@ -21,6 +17,7 @@ export function NavbarToggleButton() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       aria-label="Open menu"
+      style={{ visibility: isNavbarClosed ? "visible" : "hidden" }}
     >
       <ListIcon size={20} color={isHovered ? BRAND_COLOR : "var(--mantine-color-white)"} />
     </ActionIcon>

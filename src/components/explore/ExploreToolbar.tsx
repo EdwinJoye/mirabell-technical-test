@@ -69,7 +69,7 @@ export function ExploreToolbar({
             radius="xl"
             styles={segmentedControlStyles}
           />
-          <Indicator label="1" size={16} color="red" offset={4} zIndex={300}>
+          <Indicator label="1" size={16} color="red" offset={4}>
             <ActionIcon
               c="dimmed"
               size="lg"
@@ -109,7 +109,7 @@ export function ExploreToolbar({
         <Group justify="space-between" wrap="nowrap">
           <NavbarToggleButton />
           <Group gap="sm" wrap="nowrap">
-            <Indicator label="1" size={16} color="red" offset={4} zIndex={300}>
+            <Indicator label="1" size={16} color="red" offset={4}>
               <ActionIcon
                 c="dimmed"
                 size="lg"
