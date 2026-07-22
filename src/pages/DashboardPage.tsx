@@ -3,9 +3,9 @@ import { useSearchParams } from "react-router";
 import { DashboardToolbar } from "~/components/dashboard/DashboardToolbar";
 import { MoviePosterRow } from "~/components/dashboard/movie/MoviePosterRow";
 import { MovieStatsRow } from "~/components/dashboard/movie/MovieStatsRow";
-import { PlatformAudienceRow } from "~/components/dashboard/global/PlatformAudienceRow";
-import { PlatformConsumptionRow } from "~/components/dashboard/global/PlatformConsumptionRow";
-import { PlatformStatsRow } from "~/components/dashboard/global/PlatformStatsRow";
+import { GlobalAudienceRow } from "~/components/dashboard/global/GlobalAudienceRow";
+import { GlobalConsumptionRow } from "~/components/dashboard/global/GlobalConsumptionRow";
+import { GlobalStatsRow } from "~/components/dashboard/global/GlobalStatsRow";
 import { getMovieOptions } from "~/features/dashboard/dashboard.service";
 import { useScrollStore } from "~/features/scroll/scroll.store";
 import { MovieInsightsRow } from "~/components/dashboard/movie/MovieInsightsRow";
@@ -58,9 +58,9 @@ export function DashboardPage() {
         <Stack gap="md">
           {view === "global" && (
             <>
-              <PlatformStatsRow />
-              <PlatformAudienceRow />
-              <PlatformConsumptionRow />
+              <GlobalStatsRow />
+              <GlobalAudienceRow />
+              <GlobalConsumptionRow />
             </>
           )}
 
