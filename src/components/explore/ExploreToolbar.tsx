@@ -1,15 +1,7 @@
-import {
-  ActionIcon,
-  Avatar,
-  Group,
-  Indicator,
-  SegmentedControl,
-  Select,
-  TextInput,
-} from "@mantine/core";
+import { ActionIcon, Group, Indicator, SegmentedControl, Select, TextInput } from "@mantine/core";
 import { BellIcon, FilmSlateIcon, MagnifyingGlassIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
-import avatarUrl from "~/assets/avatar.jpg";
+import { AvatarMenu } from "~/components/ui/AvatarMenu";
 import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { segmentedControlStyles } from "~/lib/theme/segmented-control";
@@ -87,7 +79,7 @@ export function ExploreToolbar({
               <BellIcon size={20} />
             </ActionIcon>
           </Indicator>
-          <Avatar src={avatarUrl} radius="xl" alt="User profile" />
+          <AvatarMenu />
         </Group>
         <div className="flex gap-3 w-full">
           <NavbarToggleButton />
@@ -127,7 +119,7 @@ export function ExploreToolbar({
                 <BellIcon size={20} />
               </ActionIcon>
             </Indicator>
-            <Avatar src={avatarUrl} radius="xl" alt="User profile" />
+            <AvatarMenu />
           </Group>
         </Group>
 

@@ -1,16 +1,7 @@
-import {
-  Avatar,
-  DEFAULT_THEME,
-  Group,
-  Select,
-  SegmentedControl,
-  Stack,
-  Text,
-  Title,
-} from "@mantine/core";
+import { DEFAULT_THEME, Group, Select, SegmentedControl, Stack, Text, Title } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { FilmSlateIcon, GlobeIcon } from "@phosphor-icons/react";
-import avatarUrl from "~/assets/avatar.jpg";
+import { AvatarMenu } from "~/components/ui/AvatarMenu";
 import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { segmentedControlStyles } from "~/lib/theme/segmented-control";
@@ -83,7 +74,7 @@ function DashboardToolbarDesktop({
           radius="xl"
           styles={segmentedControlStyles}
         />
-        <Avatar src={avatarUrl} radius="xl" alt="User profile" />
+        <AvatarMenu />
       </Group>
     </Group>
   );
@@ -106,7 +97,7 @@ function DashboardToolbarMobile({
         <Title order={4} ta="center" style={{ flex: 1 }}>
           {title}
         </Title>
-        <Avatar src={avatarUrl} radius="xl" alt="User profile" />
+        <AvatarMenu />
       </Group>
 
       <Stack gap="sm" align="center">
