@@ -67,9 +67,7 @@ export function MovieCard({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         className={`rounded-2xl overflow-hidden group cursor-pointer transition-transform duration-500 ease-out ${
-          isHoverExpanded
-            ? "scale-125 z-150 shadow-[0_25px_60px_-10px_rgba(0,0,0,0.85)]"
-            : "scale-100"
+          isHoverExpanded ? "scale-125 z-150 shadow-[0_60px_180px_10px_rgba(0,0,0,1)]" : "scale-100"
         }`}
         style={{
           backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
@@ -95,7 +93,11 @@ export function MovieCard({
               right={8}
               w={26}
               h={26}
-              style={{ ...glassBadgeStyles.root, zIndex: 1, borderRadius: "50%" }}
+              style={{
+                ...glassBadgeStyles.root,
+                zIndex: 1,
+                borderRadius: "50%",
+              }}
             >
               <StarIcon size={14} weight="fill" color="var(--mantine-color-yellow-4)" />
             </Center>
@@ -140,6 +142,7 @@ export function MovieCard({
         padding={0}
         radius="lg"
         withCloseButton={false}
+        centered
         zIndex={300}
       >
         <MovieDetailsOverlay
