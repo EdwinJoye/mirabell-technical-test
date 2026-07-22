@@ -24,7 +24,6 @@ export function ContinueWatchingRow() {
     >
       <Stack gap="md">
         <Flex align="center" gap="sm">
-          <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} hiddenFrom="sm" />
           <Title order={3} size="h4" c="white">
             Continue Watching
           </Title>
