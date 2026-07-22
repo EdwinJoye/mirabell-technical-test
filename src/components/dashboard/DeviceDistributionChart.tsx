@@ -28,7 +28,7 @@ export function DeviceDistributionChart() {
   const topDevice = [...devices].sort((a, b) => b.percentage - a.percentage)[0];
 
   return (
-    <Card radius="lg" p="lg" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -64,7 +64,7 @@ export function DeviceDistributionChart() {
         </Group>
 
         <Text
-          size="2rem"
+          size="1.5rem"
           fw={700}
           c="white"
           style={{

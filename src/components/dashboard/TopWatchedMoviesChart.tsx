@@ -147,7 +147,7 @@ export function TopWatchedMoviesChart() {
   }));
 
   return (
-    <Card radius="lg" p="md" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>

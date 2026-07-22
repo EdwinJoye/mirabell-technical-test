@@ -18,7 +18,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
     : null;
 
   return (
-    <Card radius="lg" p="lg" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
       <Stack gap={6} h="100%">
         <Group gap={8}>
           <ClockIcon size={16} color="var(--mantine-color-brand-6)" />
@@ -28,7 +28,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
           </Text>
         </Group>
 
-        <Text size="2rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {stats.averageWatchTimeMinutes} min
         </Text>
 

@@ -17,7 +17,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
   const growthPercent = (stats.growthRate * 100).toFixed(1);
 
   return (
-    <Card radius="lg" p="lg" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -69,7 +69,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
           </Group>
         </Group>
 
-        <Text size="2rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {stats.totalViews.toLocaleString()}
         </Text>
 

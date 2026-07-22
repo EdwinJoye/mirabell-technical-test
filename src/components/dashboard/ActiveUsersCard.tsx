@@ -26,7 +26,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
   return (
     <Card
       radius="lg"
-      p="lg"
+      p="sm"
       style={{
         ...dashboardCardGradient,
         height: "100%",
@@ -81,7 +81,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
         </Group>
 
         <Text
-          size="2rem"
+          size="1.5rem"
           fw={700}
           c="white"
           style={{
@@ -121,7 +121,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
           />
 
           <Group justify="space-between" align="center">
-            <Group gap="lg">
+            <Group gap="md">
               <Group gap={8}>
                 <div
                   style={{

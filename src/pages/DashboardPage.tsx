@@ -32,7 +32,7 @@ export function DashboardPage() {
   }
 
   return (
-    <Stack gap="md" style={{ height: "calc(100dvh - 44px)" }}>
+    <Stack gap="md" style={{ height: "calc(100dvh - 35px)" }}>
       <DashboardToolbar view={view} onViewChange={handleViewChange} />
 
       <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={setScrollViewport}>

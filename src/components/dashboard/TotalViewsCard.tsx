@@ -25,7 +25,7 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
   return (
     <Card
       radius="lg"
-      p="lg"
+      p="sm"
       style={{
         ...dashboardCardGradient,
         height: "100%",
@@ -82,7 +82,7 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
           </Group>
         </Group>
 
-        <Text size="2rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {stats.totalViews.toLocaleString()}
         </Text>
 
