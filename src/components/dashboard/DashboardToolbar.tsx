@@ -10,12 +10,14 @@ type DashboardToolbarProps = {
 };
 
 export function DashboardToolbar({ view, onViewChange }: DashboardToolbarProps) {
+  const title = view === "movie" ? "Movie Dashboard" : "Global Dashboard";
+
   return (
     <Group justify="space-between" wrap="wrap">
       <Group gap="sm">
         <NavbarToggleButton />
 
-        <Title order={2}>Dashboard</Title>
+        <Title order={2}>{title}</Title>
       </Group>
 
       <SegmentedControl
