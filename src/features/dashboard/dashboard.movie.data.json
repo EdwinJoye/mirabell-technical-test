@@ -146,7 +146,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 35353,
+      "downloadRate": 9.1
+    }
   },
   "1108427": {
     "stats": {
@@ -295,7 +299,11 @@
         "percentageWatched": "100%",
         "thisMovie": 58
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 15831,
+      "downloadRate": 4.2
+    }
   },
   "1339713": {
     "stats": {
@@ -444,7 +452,11 @@
         "percentageWatched": "100%",
         "thisMovie": 79
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 23313,
+      "downloadRate": 6.2
+    }
   },
   "1083381": {
     "stats": {
@@ -593,7 +605,11 @@
         "percentageWatched": "100%",
         "thisMovie": 56
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 21956,
+      "downloadRate": 5.8
+    }
   },
   "1275779": {
     "stats": {
@@ -742,7 +758,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 35844,
+      "downloadRate": 9.9
+    }
   },
   "1084244": {
     "stats": {
@@ -891,7 +911,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 34308,
+      "downloadRate": 9.4
+    }
   },
   "1315772": {
     "stats": {
@@ -1040,7 +1064,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 39364,
+      "downloadRate": 11.1
+    }
   },
   "1081003": {
     "stats": {
@@ -1189,7 +1217,11 @@
         "percentageWatched": "100%",
         "thisMovie": 79
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 16226,
+      "downloadRate": 4.7
+    }
   },
   "1273221": {
     "stats": {
@@ -1338,7 +1370,11 @@
         "percentageWatched": "100%",
         "thisMovie": 71
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 25568,
+      "downloadRate": 7.4
+    }
   },
   "1368314": {
     "stats": {
@@ -1487,7 +1523,11 @@
         "percentageWatched": "100%",
         "thisMovie": 57
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 14292,
+      "downloadRate": 4.2
+    }
   },
   "687163": {
     "stats": {
@@ -1636,7 +1676,11 @@
         "percentageWatched": "100%",
         "thisMovie": 90
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 19273,
+      "downloadRate": 5.7
+    }
   },
   "1314481": {
     "stats": {
@@ -1785,7 +1829,11 @@
         "percentageWatched": "100%",
         "thisMovie": 55
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 26966,
+      "downloadRate": 8.0
+    }
   },
   "1280738": {
     "stats": {
@@ -1934,7 +1982,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 13777,
+      "downloadRate": 4.2
+    }
   },
   "1318621": {
     "stats": {
@@ -2083,7 +2135,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 17848,
+      "downloadRate": 5.6
+    }
   },
   "261639": {
     "stats": {
@@ -2232,7 +2288,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 29280,
+      "downloadRate": 9.2
+    }
   },
   "1668364": {
     "stats": {
@@ -2381,7 +2441,11 @@
         "percentageWatched": "100%",
         "thisMovie": 90
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 25586,
+      "downloadRate": 8.4
+    }
   },
   "1228710": {
     "stats": {
@@ -2530,7 +2594,11 @@
         "percentageWatched": "100%",
         "thisMovie": 68
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 18127,
+      "downloadRate": 5.8
+    }
   },
   "1523145": {
     "stats": {
@@ -2679,7 +2747,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 26185,
+      "downloadRate": 8.7
+    }
   },
   "1127384": {
     "stats": {
@@ -2828,7 +2900,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 31482,
+      "downloadRate": 10.5
+    }
   },
   "1285366": {
     "stats": {
@@ -2977,7 +3053,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12027,
+      "downloadRate": 4.1
+    }
   },
   "936075": {
     "stats": {
@@ -3126,7 +3206,11 @@
         "percentageWatched": "100%",
         "thisMovie": 82
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 30264,
+      "downloadRate": 10.4
+    }
   },
   "83533": {
     "stats": {
@@ -3275,7 +3359,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 27639,
+      "downloadRate": 9.6
+    }
   },
   "931285": {
     "stats": {
@@ -3424,7 +3512,11 @@
         "percentageWatched": "100%",
         "thisMovie": 80
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 18323,
+      "downloadRate": 6.7
+    }
   },
   "969681": {
     "stats": {
@@ -3573,7 +3665,11 @@
         "percentageWatched": "100%",
         "thisMovie": 84
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 14155,
+      "downloadRate": 5.2
+    }
   },
   "1413976": {
     "stats": {
@@ -3722,7 +3818,11 @@
         "percentageWatched": "100%",
         "thisMovie": 61
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 31861,
+      "downloadRate": 11.7
+    }
   },
   "1321008": {
     "stats": {
@@ -3871,7 +3971,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 17559,
+      "downloadRate": 6.7
+    }
   },
   "1226863": {
     "stats": {
@@ -4020,7 +4124,11 @@
         "percentageWatched": "100%",
         "thisMovie": 62
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12328,
+      "downloadRate": 4.7
+    }
   },
   "1304313": {
     "stats": {
@@ -4169,7 +4277,11 @@
         "percentageWatched": "100%",
         "thisMovie": 90
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12347,
+      "downloadRate": 4.8
+    }
   },
   "1321491": {
     "stats": {
@@ -4318,7 +4430,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 28097,
+      "downloadRate": 10.8
+    }
   },
   "1645603": {
     "stats": {
@@ -4467,7 +4583,11 @@
         "percentageWatched": "100%",
         "thisMovie": 73
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 21854,
+      "downloadRate": 8.8
+    }
   },
   "1311031": {
     "stats": {
@@ -4616,7 +4736,11 @@
         "percentageWatched": "100%",
         "thisMovie": 87
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 26399,
+      "downloadRate": 10.5
+    }
   },
   "1110034": {
     "stats": {
@@ -4765,7 +4889,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 23901,
+      "downloadRate": 9.8
+    }
   },
   "1491920": {
     "stats": {
@@ -4914,7 +5042,11 @@
         "percentageWatched": "100%",
         "thisMovie": 77
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 20118,
+      "downloadRate": 8.3
+    }
   },
   "980431": {
     "stats": {
@@ -5063,7 +5195,11 @@
         "percentageWatched": "100%",
         "thisMovie": 87
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 28704,
+      "downloadRate": 11.8
+    }
   },
   "200066": {
     "stats": {
@@ -5212,7 +5348,11 @@
         "percentageWatched": "100%",
         "thisMovie": 68
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 16664,
+      "downloadRate": 7.0
+    }
   },
   "976912": {
     "stats": {
@@ -5361,7 +5501,11 @@
         "percentageWatched": "100%",
         "thisMovie": 65
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 19886,
+      "downloadRate": 8.4
+    }
   },
   "1003596": {
     "stats": {
@@ -5510,7 +5654,11 @@
         "percentageWatched": "100%",
         "thisMovie": 51
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 24104,
+      "downloadRate": 10.6
+    }
   },
   "1318447": {
     "stats": {
@@ -5659,7 +5807,11 @@
         "percentageWatched": "100%",
         "thisMovie": 69
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 20100,
+      "downloadRate": 8.9
+    }
   },
   "1212763": {
     "stats": {
@@ -5808,7 +5960,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 24620,
+      "downloadRate": 10.9
+    }
   },
   "1327819": {
     "stats": {
@@ -5957,7 +6113,11 @@
         "percentageWatched": "100%",
         "thisMovie": 73
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 18826,
+      "downloadRate": 8.6
+    }
   },
   "47612": {
     "stats": {
@@ -6106,7 +6266,11 @@
         "percentageWatched": "100%",
         "thisMovie": 55
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 20962,
+      "downloadRate": 9.6
+    }
   },
   "1301421": {
     "stats": {
@@ -6255,7 +6419,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9094,
+      "downloadRate": 4.4
+    }
   },
   "1727780": {
     "stats": {
@@ -6404,7 +6572,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12156,
+      "downloadRate": 5.8
+    }
   },
   "1007757": {
     "stats": {
@@ -6553,7 +6725,11 @@
         "percentageWatched": "100%",
         "thisMovie": 56
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12840,
+      "downloadRate": 6.3
+    }
   },
   "1279493": {
     "stats": {
@@ -6702,7 +6878,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9283,
+      "downloadRate": 4.6
+    }
   },
   "1439930": {
     "stats": {
@@ -6851,7 +7031,11 @@
         "percentageWatched": "100%",
         "thisMovie": 87
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11650,
+      "downloadRate": 5.9
+    }
   },
   "1595852": {
     "stats": {
@@ -7000,7 +7184,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9491,
+      "downloadRate": 4.8
+    }
   },
   "1443894": {
     "stats": {
@@ -7149,7 +7337,11 @@
         "percentageWatched": "100%",
         "thisMovie": 77
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11469,
+      "downloadRate": 6.2
+    }
   },
   "718833": {
     "stats": {
@@ -7298,7 +7490,11 @@
         "percentageWatched": "100%",
         "thisMovie": 83
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 17327,
+      "downloadRate": 9.1
+    }
   },
   "619": {
     "stats": {
@@ -7447,7 +7643,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12747,
+      "downloadRate": 6.9
+    }
   },
   "11012": {
     "stats": {
@@ -7596,7 +7796,11 @@
         "percentageWatched": "100%",
         "thisMovie": 51
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12762,
+      "downloadRate": 7.0
+    }
   },
   "1656220": {
     "stats": {
@@ -7745,7 +7949,11 @@
         "percentageWatched": "100%",
         "thisMovie": 56
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 10025,
+      "downloadRate": 5.7
+    }
   },
   "1301310": {
     "stats": {
@@ -7894,7 +8102,11 @@
         "percentageWatched": "100%",
         "thisMovie": 65
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11029,
+      "downloadRate": 6.1
+    }
   },
   "278": {
     "stats": {
@@ -8043,7 +8255,11 @@
         "percentageWatched": "100%",
         "thisMovie": 92
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 19685,
+      "downloadRate": 11.5
+    }
   },
   "1541560": {
     "stats": {
@@ -8192,7 +8408,11 @@
         "percentageWatched": "100%",
         "thisMovie": 64
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 15474,
+      "downloadRate": 9.2
+    }
   },
   "157336": {
     "stats": {
@@ -8341,7 +8561,11 @@
         "percentageWatched": "100%",
         "thisMovie": 65
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 15368,
+      "downloadRate": 8.9
+    }
   },
   "1305672": {
     "stats": {
@@ -8490,7 +8714,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9199,
+      "downloadRate": 5.4
+    }
   },
   "1380291": {
     "stats": {
@@ -8639,7 +8867,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 16519,
+      "downloadRate": 9.8
+    }
   },
   "1290821": {
     "stats": {
@@ -8788,7 +9020,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8757,
+      "downloadRate": 5.3
+    }
   },
   "432279": {
     "stats": {
@@ -8937,7 +9173,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11117,
+      "downloadRate": 7.0
+    }
   },
   "1468683": {
     "stats": {
@@ -9086,7 +9326,11 @@
         "percentageWatched": "100%",
         "thisMovie": 51
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 18932,
+      "downloadRate": 11.9
+    }
   },
   "5721": {
     "stats": {
@@ -9235,7 +9479,11 @@
         "percentageWatched": "100%",
         "thisMovie": 64
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 13731,
+      "downloadRate": 9.1
+    }
   },
   "1419406": {
     "stats": {
@@ -9384,7 +9632,11 @@
         "percentageWatched": "100%",
         "thisMovie": 81
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12962,
+      "downloadRate": 8.5
+    }
   },
   "1711175": {
     "stats": {
@@ -9533,7 +9785,11 @@
         "percentageWatched": "100%",
         "thisMovie": 82
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 14132,
+      "downloadRate": 9.5
+    }
   },
   "1725116": {
     "stats": {
@@ -9682,7 +9938,11 @@
         "percentageWatched": "100%",
         "thisMovie": 72
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 16300,
+      "downloadRate": 10.7
+    }
   },
   "1451078": {
     "stats": {
@@ -9831,7 +10091,11 @@
         "percentageWatched": "100%",
         "thisMovie": 57
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 15297,
+      "downloadRate": 10.2
+    }
   },
   "687259": {
     "stats": {
@@ -9980,7 +10244,11 @@
         "percentageWatched": "100%",
         "thisMovie": 92
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8129,
+      "downloadRate": 5.8
+    }
   },
   "634649": {
     "stats": {
@@ -10129,7 +10397,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6162,
+      "downloadRate": 4.3
+    }
   },
   "1397385": {
     "stats": {
@@ -10278,7 +10550,11 @@
         "percentageWatched": "100%",
         "thisMovie": 77
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8821,
+      "downloadRate": 6.5
+    }
   },
   "64439": {
     "stats": {
@@ -10427,7 +10703,11 @@
         "percentageWatched": "100%",
         "thisMovie": 69
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8510,
+      "downloadRate": 6.1
+    }
   },
   "1309083": {
     "stats": {
@@ -10576,7 +10856,11 @@
         "percentageWatched": "100%",
         "thisMovie": 76
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7917,
+      "downloadRate": 5.7
+    }
   },
   "1122573": {
     "stats": {
@@ -10725,7 +11009,11 @@
         "percentageWatched": "100%",
         "thisMovie": 84
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 15623,
+      "downloadRate": 11.5
+    }
   },
   "1368166": {
     "stats": {
@@ -10874,7 +11162,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 13882,
+      "downloadRate": 11.0
+    }
   },
   "755898": {
     "stats": {
@@ -11023,7 +11315,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8721,
+      "downloadRate": 6.5
+    }
   },
   "1227241": {
     "stats": {
@@ -11172,7 +11468,11 @@
         "percentageWatched": "100%",
         "thisMovie": 81
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11932,
+      "downloadRate": 9.2
+    }
   },
   "1440050": {
     "stats": {
@@ -11321,7 +11621,11 @@
         "percentageWatched": "100%",
         "thisMovie": 83
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9496,
+      "downloadRate": 7.2
+    }
   },
   "1241982": {
     "stats": {
@@ -11470,7 +11774,11 @@
         "percentageWatched": "100%",
         "thisMovie": 83
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 13904,
+      "downloadRate": 11.3
+    }
   },
   "1057265": {
     "stats": {
@@ -11619,7 +11927,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9551,
+      "downloadRate": 7.7
+    }
   },
   "1084242": {
     "stats": {
@@ -11768,7 +12080,11 @@
         "percentageWatched": "100%",
         "thisMovie": 82
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7367,
+      "downloadRate": 6.1
+    }
   },
   "713704": {
     "stats": {
@@ -11917,7 +12233,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7037,
+      "downloadRate": 6.0
+    }
   },
   "1325734": {
     "stats": {
@@ -12066,7 +12386,11 @@
         "percentageWatched": "100%",
         "thisMovie": 61
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9670,
+      "downloadRate": 8.5
+    }
   },
   "1728704": {
     "stats": {
@@ -12215,7 +12539,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6721,
+      "downloadRate": 6.1
+    }
   },
   "1265609": {
     "stats": {
@@ -12364,7 +12692,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 10008,
+      "downloadRate": 8.7
+    }
   },
   "27205": {
     "stats": {
@@ -12513,7 +12845,11 @@
         "percentageWatched": "100%",
         "thisMovie": 58
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 13010,
+      "downloadRate": 11.2
+    }
   },
   "1234821": {
     "stats": {
@@ -12662,7 +12998,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7691,
+      "downloadRate": 7.2
+    }
   },
   "614945": {
     "stats": {
@@ -12811,7 +13151,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6149,
+      "downloadRate": 5.8
+    }
   },
   "1175942": {
     "stats": {
@@ -12960,7 +13304,11 @@
         "percentageWatched": "100%",
         "thisMovie": 58
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 12832,
+      "downloadRate": 12.0
+    }
   },
   "424711": {
     "stats": {
@@ -13109,7 +13457,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8219,
+      "downloadRate": 8.1
+    }
   },
   "1288341": {
     "stats": {
@@ -13258,7 +13610,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4801,
+      "downloadRate": 4.7
+    }
   },
   "1242898": {
     "stats": {
@@ -13407,7 +13763,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4462,
+      "downloadRate": 4.4
+    }
   },
   "1363387": {
     "stats": {
@@ -13556,7 +13916,11 @@
         "percentageWatched": "100%",
         "thisMovie": 62
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4922,
+      "downloadRate": 4.9
+    }
   },
   "1641319": {
     "stats": {
@@ -13705,7 +14069,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9204,
+      "downloadRate": 9.0
+    }
   },
   "1297842": {
     "stats": {
@@ -13854,7 +14222,11 @@
         "percentageWatched": "100%",
         "thisMovie": 79
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 10221,
+      "downloadRate": 10.3
+    }
   },
   "872585": {
     "stats": {
@@ -14003,7 +14375,11 @@
         "percentageWatched": "100%",
         "thisMovie": 79
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7516,
+      "downloadRate": 7.4
+    }
   },
   "803796": {
     "stats": {
@@ -14152,7 +14528,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4155,
+      "downloadRate": 4.5
+    }
   },
   "652": {
     "stats": {
@@ -14301,7 +14681,11 @@
         "percentageWatched": "100%",
         "thisMovie": 77
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6837,
+      "downloadRate": 7.1
+    }
   },
   "104894": {
     "stats": {
@@ -14450,7 +14834,11 @@
         "percentageWatched": "100%",
         "thisMovie": 92
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 10795,
+      "downloadRate": 12.0
+    }
   },
   "438631": {
     "stats": {
@@ -14599,7 +14987,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7525,
+      "downloadRate": 8.2
+    }
   },
   "1058424": {
     "stats": {
@@ -14748,7 +15140,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 11118,
+      "downloadRate": 11.8
+    }
   },
   "76600": {
     "stats": {
@@ -14897,7 +15293,11 @@
         "percentageWatched": "100%",
         "thisMovie": 63
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 9494,
+      "downloadRate": 10.9
+    }
   },
   "24428": {
     "stats": {
@@ -15046,7 +15446,11 @@
         "percentageWatched": "100%",
         "thisMovie": 58
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3319,
+      "downloadRate": 4.1
+    }
   },
   "1353926": {
     "stats": {
@@ -15195,7 +15599,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8513,
+      "downloadRate": 9.8
+    }
   },
   "1171145": {
     "stats": {
@@ -15344,7 +15752,11 @@
         "percentageWatched": "100%",
         "thisMovie": 57
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8010,
+      "downloadRate": 9.5
+    }
   },
   "155": {
     "stats": {
@@ -15493,7 +15905,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6430,
+      "downloadRate": 8.3
+    }
   },
   "204407": {
     "stats": {
@@ -15642,7 +16058,11 @@
         "percentageWatched": "100%",
         "thisMovie": 55
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5292,
+      "downloadRate": 6.1
+    }
   },
   "1472951": {
     "stats": {
@@ -15791,7 +16211,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6878,
+      "downloadRate": 9.1
+    }
   },
   "299536": {
     "stats": {
@@ -15940,7 +16364,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3641,
+      "downloadRate": 4.9
+    }
   },
   "329505": {
     "stats": {
@@ -16089,7 +16517,11 @@
         "percentageWatched": "100%",
         "thisMovie": 54
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5923,
+      "downloadRate": 7.5
+    }
   },
   "1242332": {
     "stats": {
@@ -16238,7 +16670,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5501,
+      "downloadRate": 7.6
+    }
   },
   "840464": {
     "stats": {
@@ -16387,7 +16823,11 @@
         "percentageWatched": "100%",
         "thisMovie": 79
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7987,
+      "downloadRate": 11.6
+    }
   },
   "454639": {
     "stats": {
@@ -16536,7 +16976,11 @@
         "percentageWatched": "100%",
         "thisMovie": 76
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 7608,
+      "downloadRate": 11.0
+    }
   },
   "502356": {
     "stats": {
@@ -16685,7 +17129,11 @@
         "percentageWatched": "100%",
         "thisMovie": 68
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4186,
+      "downloadRate": 6.1
+    }
   },
   "1010581": {
     "stats": {
@@ -16834,7 +17282,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5498,
+      "downloadRate": 8.0
+    }
   },
   "1432631": {
     "stats": {
@@ -16983,7 +17435,11 @@
         "percentageWatched": "100%",
         "thisMovie": 72
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3736,
+      "downloadRate": 5.4
+    }
   },
   "862": {
     "stats": {
@@ -17132,7 +17588,11 @@
         "percentageWatched": "100%",
         "thisMovie": 81
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8178,
+      "downloadRate": 11.3
+    }
   },
   "1198994": {
     "stats": {
@@ -17281,7 +17741,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 8115,
+      "downloadRate": 11.0
+    }
   },
   "448772": {
     "stats": {
@@ -17430,7 +17894,11 @@
         "percentageWatched": "100%",
         "thisMovie": 68
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4209,
+      "downloadRate": 6.4
+    }
   },
   "299710": {
     "stats": {
@@ -17579,7 +18047,11 @@
         "percentageWatched": "100%",
         "thisMovie": 82
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5931,
+      "downloadRate": 9.1
+    }
   },
   "496243": {
     "stats": {
@@ -17728,7 +18200,11 @@
         "percentageWatched": "100%",
         "thisMovie": 68
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6313,
+      "downloadRate": 8.9
+    }
   },
   "1305781": {
     "stats": {
@@ -17877,7 +18353,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3540,
+      "downloadRate": 5.2
+    }
   },
   "122": {
     "stats": {
@@ -18026,7 +18506,11 @@
         "percentageWatched": "100%",
         "thisMovie": 64
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6980,
+      "downloadRate": 10.1
+    }
   },
   "1477317": {
     "stats": {
@@ -18175,7 +18659,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5072,
+      "downloadRate": 8.3
+    }
   },
   "1272837": {
     "stats": {
@@ -18324,7 +18812,11 @@
         "percentageWatched": "100%",
         "thisMovie": 92
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6117,
+      "downloadRate": 10.2
+    }
   },
   "1397201": {
     "stats": {
@@ -18473,7 +18965,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5059,
+      "downloadRate": 8.2
+    }
   },
   "109428": {
     "stats": {
@@ -18622,7 +19118,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2265,
+      "downloadRate": 4.0
+    }
   },
   "1266127": {
     "stats": {
@@ -18771,7 +19271,11 @@
         "percentageWatched": "100%",
         "thisMovie": 50
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4104,
+      "downloadRate": 6.6
+    }
   },
   "950387": {
     "stats": {
@@ -18920,7 +19424,11 @@
         "percentageWatched": "100%",
         "thisMovie": 61
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2661,
+      "downloadRate": 4.2
+    }
   },
   "1292415": {
     "stats": {
@@ -19069,7 +19577,11 @@
         "percentageWatched": "100%",
         "thisMovie": 55
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6419,
+      "downloadRate": 11.4
+    }
   },
   "1359685": {
     "stats": {
@@ -19218,7 +19730,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6315,
+      "downloadRate": 11.0
+    }
   },
   "569094": {
     "stats": {
@@ -19367,7 +19883,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6375,
+      "downloadRate": 10.7
+    }
   },
   "1671541": {
     "stats": {
@@ -19516,7 +20036,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3791,
+      "downloadRate": 6.5
+    }
   },
   "226674": {
     "stats": {
@@ -19665,7 +20189,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2206,
+      "downloadRate": 4.5
+    }
   },
   "1632181": {
     "stats": {
@@ -19814,7 +20342,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 6224,
+      "downloadRate": 11.0
+    }
   },
   "238": {
     "stats": {
@@ -19963,7 +20495,11 @@
         "percentageWatched": "100%",
         "thisMovie": 63
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5932,
+      "downloadRate": 11.6
+    }
   },
   "1184918": {
     "stats": {
@@ -20112,7 +20648,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2256,
+      "downloadRate": 4.7
+    }
   },
   "1061474": {
     "stats": {
@@ -20261,7 +20801,11 @@
         "percentageWatched": "100%",
         "thisMovie": 87
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3913,
+      "downloadRate": 7.9
+    }
   },
   "301528": {
     "stats": {
@@ -20410,7 +20954,11 @@
         "percentageWatched": "100%",
         "thisMovie": 61
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2039,
+      "downloadRate": 4.6
+    }
   },
   "177572": {
     "stats": {
@@ -20559,7 +21107,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5532,
+      "downloadRate": 10.1
+    }
   },
   "557": {
     "stats": {
@@ -20708,7 +21260,11 @@
         "percentageWatched": "100%",
         "thisMovie": 86
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5084,
+      "downloadRate": 10.1
+    }
   },
   "1430077": {
     "stats": {
@@ -20857,7 +21413,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2418,
+      "downloadRate": 5.0
+    }
   },
   "1616674": {
     "stats": {
@@ -21006,7 +21566,11 @@
         "percentageWatched": "100%",
         "thisMovie": 62
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3259,
+      "downloadRate": 7.8
+    }
   },
   "1580803": {
     "stats": {
@@ -21155,7 +21719,11 @@
         "percentageWatched": "100%",
         "thisMovie": 63
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3826,
+      "downloadRate": 8.4
+    }
   },
   "680": {
     "stats": {
@@ -21304,7 +21872,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2968,
+      "downloadRate": 6.1
+    }
   },
   "950028": {
     "stats": {
@@ -21453,7 +22025,11 @@
         "percentageWatched": "100%",
         "thisMovie": 72
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5051,
+      "downloadRate": 11.0
+    }
   },
   "120": {
     "stats": {
@@ -21602,7 +22178,11 @@
         "percentageWatched": "100%",
         "thisMovie": 89
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2912,
+      "downloadRate": 7.4
+    }
   },
   "1330021": {
     "stats": {
@@ -21751,7 +22331,11 @@
         "percentageWatched": "100%",
         "thisMovie": 56
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2767,
+      "downloadRate": 5.7
+    }
   },
   "863": {
     "stats": {
@@ -21900,7 +22484,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3892,
+      "downloadRate": 8.3
+    }
   },
   "425274": {
     "stats": {
@@ -22049,7 +22637,11 @@
         "percentageWatched": "100%",
         "thisMovie": 88
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 4605,
+      "downloadRate": 9.8
+    }
   },
   "585": {
     "stats": {
@@ -22198,7 +22790,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2453,
+      "downloadRate": 5.6
+    }
   },
   "385687": {
     "stats": {
@@ -22347,7 +22943,11 @@
         "percentageWatched": "100%",
         "thisMovie": 65
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2682,
+      "downloadRate": 6.5
+    }
   },
   "1390300": {
     "stats": {
@@ -22496,7 +23096,11 @@
         "percentageWatched": "100%",
         "thisMovie": 55
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 5050,
+      "downloadRate": 12.0
+    }
   },
   "603": {
     "stats": {
@@ -22645,7 +23249,11 @@
         "percentageWatched": "100%",
         "thisMovie": 90
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3495,
+      "downloadRate": 9.2
+    }
   },
   "10193": {
     "stats": {
@@ -22794,7 +23402,11 @@
         "percentageWatched": "100%",
         "thisMovie": 80
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3061,
+      "downloadRate": 7.5
+    }
   },
   "1123261": {
     "stats": {
@@ -22943,7 +23555,11 @@
         "percentageWatched": "100%",
         "thisMovie": 73
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3345,
+      "downloadRate": 8.1
+    }
   },
   "1723013": {
     "stats": {
@@ -23092,7 +23708,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1726,
+      "downloadRate": 5.0
+    }
   },
   "1002398": {
     "stats": {
@@ -23241,7 +23861,11 @@
         "percentageWatched": "100%",
         "thisMovie": 58
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2117,
+      "downloadRate": 5.8
+    }
   },
   "350": {
     "stats": {
@@ -23390,7 +24014,11 @@
         "percentageWatched": "100%",
         "thisMovie": 71
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2461,
+      "downloadRate": 6.7
+    }
   },
   "980477": {
     "stats": {
@@ -23539,7 +24167,11 @@
         "percentageWatched": "100%",
         "thisMovie": 65
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3482,
+      "downloadRate": 8.7
+    }
   },
   "479787": {
     "stats": {
@@ -23688,7 +24320,11 @@
         "percentageWatched": "100%",
         "thisMovie": 91
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2371,
+      "downloadRate": 5.8
+    }
   },
   "693134": {
     "stats": {
@@ -23837,7 +24473,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2258,
+      "downloadRate": 5.8
+    }
   },
   "299534": {
     "stats": {
@@ -23986,7 +24626,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1615,
+      "downloadRate": 4.6
+    }
   },
   "414906": {
     "stats": {
@@ -24135,7 +24779,11 @@
         "percentageWatched": "100%",
         "thisMovie": 81
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2845,
+      "downloadRate": 9.0
+    }
   },
   "11770": {
     "stats": {
@@ -24284,7 +24932,11 @@
         "percentageWatched": "100%",
         "thisMovie": 78
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1746,
+      "downloadRate": 5.8
+    }
   },
   "1630423": {
     "stats": {
@@ -24433,7 +25085,11 @@
         "percentageWatched": "100%",
         "thisMovie": 83
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3984,
+      "downloadRate": 11.2
+    }
   },
   "28322": {
     "stats": {
@@ -24582,7 +25238,11 @@
         "percentageWatched": "100%",
         "thisMovie": 56
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3186,
+      "downloadRate": 10.9
+    }
   },
   "1254896": {
     "stats": {
@@ -24731,7 +25391,11 @@
         "percentageWatched": "100%",
         "thisMovie": 59
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1435,
+      "downloadRate": 4.6
+    }
   },
   "911430": {
     "stats": {
@@ -24880,7 +25544,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1796,
+      "downloadRate": 5.9
+    }
   },
   "129": {
     "stats": {
@@ -25029,7 +25697,11 @@
         "percentageWatched": "100%",
         "thisMovie": 71
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2890,
+      "downloadRate": 9.4
+    }
   },
   "1613798": {
     "stats": {
@@ -25178,7 +25850,11 @@
         "percentageWatched": "100%",
         "thisMovie": 70
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1526,
+      "downloadRate": 5.7
+    }
   },
   "1168190": {
     "stats": {
@@ -25327,7 +26003,11 @@
         "percentageWatched": "100%",
         "thisMovie": 76
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1632,
+      "downloadRate": 5.1
+    }
   },
   "68726": {
     "stats": {
@@ -25476,7 +26156,11 @@
         "percentageWatched": "100%",
         "thisMovie": 75
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3518,
+      "downloadRate": 11.5
+    }
   },
   "270303": {
     "stats": {
@@ -25625,7 +26309,11 @@
         "percentageWatched": "100%",
         "thisMovie": 66
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2416,
+      "downloadRate": 8.6
+    }
   },
   "1038392": {
     "stats": {
@@ -25774,7 +26462,11 @@
         "percentageWatched": "100%",
         "thisMovie": 76
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2313,
+      "downloadRate": 7.8
+    }
   },
   "550": {
     "stats": {
@@ -25923,7 +26615,11 @@
         "percentageWatched": "100%",
         "thisMovie": 59
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3481,
+      "downloadRate": 10.3
+    }
   },
   "324857": {
     "stats": {
@@ -26072,7 +26768,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 3090,
+      "downloadRate": 10.5
+    }
   },
   "1022789": {
     "stats": {
@@ -26221,7 +26921,11 @@
         "percentageWatched": "100%",
         "thisMovie": 83
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1594,
+      "downloadRate": 5.5
+    }
   },
   "1233413": {
     "stats": {
@@ -26370,7 +27074,11 @@
         "percentageWatched": "100%",
         "thisMovie": 64
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1241,
+      "downloadRate": 4.8
+    }
   },
   "1156594": {
     "stats": {
@@ -26519,7 +27227,11 @@
         "percentageWatched": "100%",
         "thisMovie": 71
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1723,
+      "downloadRate": 7.4
+    }
   },
   "1654313": {
     "stats": {
@@ -26668,7 +27380,11 @@
         "percentageWatched": "100%",
         "thisMovie": 50
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2333,
+      "downloadRate": 7.4
+    }
   },
   "39254": {
     "stats": {
@@ -26817,7 +27533,11 @@
         "percentageWatched": "100%",
         "thisMovie": 74
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1805,
+      "downloadRate": 7.7
+    }
   },
   "138843": {
     "stats": {
@@ -26966,7 +27686,11 @@
         "percentageWatched": "100%",
         "thisMovie": 64
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2522,
+      "downloadRate": 9.8
+    }
   },
   "505026": {
     "stats": {
@@ -27115,7 +27839,11 @@
         "percentageWatched": "100%",
         "thisMovie": 85
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2908,
+      "downloadRate": 9.4
+    }
   },
   "975511": {
     "stats": {
@@ -27264,7 +27992,11 @@
         "percentageWatched": "100%",
         "thisMovie": 82
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2712,
+      "downloadRate": 11.9
+    }
   },
   "1694978": {
     "stats": {
@@ -27413,7 +28145,11 @@
         "percentageWatched": "100%",
         "thisMovie": 87
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 902,
+      "downloadRate": 4.8
+    }
   },
   "597": {
     "stats": {
@@ -27562,7 +28298,11 @@
         "percentageWatched": "100%",
         "thisMovie": 72
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1773,
+      "downloadRate": 7.2
+    }
   },
   "1669057": {
     "stats": {
@@ -27711,7 +28451,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1563,
+      "downloadRate": 6.7
+    }
   },
   "1155818": {
     "stats": {
@@ -27860,7 +28604,11 @@
         "percentageWatched": "100%",
         "thisMovie": 69
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 2248,
+      "downloadRate": 10.9
+    }
   },
   "497": {
     "stats": {
@@ -28009,7 +28757,11 @@
         "percentageWatched": "100%",
         "thisMovie": 61
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1755,
+      "downloadRate": 6.0
+    }
   },
   "575265": {
     "stats": {
@@ -28158,7 +28910,11 @@
         "percentageWatched": "100%",
         "thisMovie": 60
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1356,
+      "downloadRate": 5.5
+    }
   },
   "950396": {
     "stats": {
@@ -28307,7 +29063,11 @@
         "percentageWatched": "100%",
         "thisMovie": 71
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1775,
+      "downloadRate": 7.6
+    }
   },
   "1246049": {
     "stats": {
@@ -28456,7 +29216,11 @@
         "percentageWatched": "100%",
         "thisMovie": 53
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1795,
+      "downloadRate": 7.4
+    }
   },
   "1141970": {
     "stats": {
@@ -28605,6 +29369,10 @@
         "percentageWatched": "100%",
         "thisMovie": 54
       }
-    ]
+    ],
+    "offlineViews": {
+      "downloads": 1520,
+      "downloadRate": 6.2
+    }
   }
 }

@@ -80,6 +80,11 @@ export interface MovieReactions {
   noReactionViewers: number;
 }
 
+export interface MovieOfflineViews {
+  downloads: number;
+  downloadRate: number;
+}
+
 export interface RetentionPoint {
   percentageWatched: string;
   thisMovie: number;
@@ -93,4 +98,5 @@ export interface MovieDashboardData {
   deviceDistribution: DeviceDistribution[];
   reactions: MovieReactions;
   retentionCurve: RetentionPoint[];
+  offlineViews: MovieOfflineViews;
 }
