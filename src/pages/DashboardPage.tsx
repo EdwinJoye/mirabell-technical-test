@@ -8,6 +8,8 @@ import { PlatformConsumptionRow } from "~/components/dashboard/global/PlatformCo
 import { PlatformStatsRow } from "~/components/dashboard/global/PlatformStatsRow";
 import { getMovieOptions } from "~/features/dashboard/dashboard.service";
 import { useScrollStore } from "~/features/scroll/scroll.store";
+import { MovieInsightsRow } from "~/components/dashboard/movie/MovieInsightsRow";
+import { MovieConsumptionRow } from "~/components/dashboard/movie/MovieConsumptionRow";
 
 export function DashboardPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -66,6 +68,8 @@ export function DashboardPage() {
             <>
               <MoviePosterRow tmdbMovieId={Number(movieId)} />
               <MovieStatsRow tmdbMovieId={Number(movieId)} />
+              <MovieInsightsRow tmdbMovieId={Number(movieId)} />
+              <MovieConsumptionRow tmdbMovieId={Number(movieId)} />
             </>
           )}
         </Stack>

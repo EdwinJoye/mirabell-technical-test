@@ -1,7 +1,7 @@
 import { Flex } from "@mantine/core";
 import { motion } from "framer-motion";
 import { GenrePopularityCard } from "~/components/dashboard/global/GenrePopularityCard";
-import { PlatformWatchTimeCard } from "~/components/dashboard/global/PlatformWatchTimeCard";
+import { PlatformConsumptionCard } from "./PlatformConsumptionCard";
 
 export function PlatformConsumptionRow() {
   return (
@@ -15,7 +15,7 @@ export function PlatformConsumptionRow() {
           <GenrePopularityCard />
         </div>
         <div className="sm:flex-2">
-          <PlatformWatchTimeCard />
+          <PlatformConsumptionCard />
         </div>
       </Flex>
     </motion.div>
