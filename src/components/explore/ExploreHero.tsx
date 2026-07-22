@@ -97,7 +97,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
             <Title order={2} c="white">
               {movie.title}
             </Title>
-            <Text size="sm" c="dimmed" lineClamp="md">
+            <Text size="sm" c="dimmed" lineClamp={3}>
               {movie.overview}
             </Text>
             <Group gap="sm">
