@@ -1,7 +1,7 @@
 import { Center, Loader, ScrollArea, Stack } from "@mantine/core";
 import { useDebouncedValue } from "@mantine/hooks";
 import { useEffect, useRef, useState } from "react";
-import { useOutletContext, useSearchParams } from "react-router";
+import { useSearchParams } from "react-router";
 import { MovieGrid } from "~/components/movie/MovieGrid";
 import { MovieRow } from "~/components/movie/MovieRow";
 import { ContinueWatchingRow } from "~/components/movie/ContinueWatchingRow";
@@ -10,10 +10,8 @@ import { ExploreHero } from "~/components/explore/ExploreHero";
 import { ExploreAllBanner } from "~/components/explore/ExploreAllBanner";
 import { useGenres } from "~/features/genres/genres.hooks";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
-import type { MainLayoutContext } from "~/layouts/MainLayout";
 
 export function ExplorePage() {
-  const { onToggleNavbar } = useOutletContext<MainLayoutContext>();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const urlGenre = searchParams.get("genre");
@@ -117,7 +115,6 @@ export function ExplorePage() {
       style={{ height: "calc(100dvh" }}
     >
       <ExploreToolbar
-        onToggleNavbar={onToggleNavbar}
         searchValue={searchValue}
         onSearchChange={setSearchValue}
         categoryValue={categoryValue}

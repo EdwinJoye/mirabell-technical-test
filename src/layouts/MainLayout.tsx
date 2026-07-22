@@ -1,70 +1,58 @@
-import { AppShell, Drawer, useMantineTheme } from "@mantine/core";
-import { useDisclosure, useMediaQuery } from "@mantine/hooks";
+import { AppShell, Drawer } from "@mantine/core";
 import { Suspense } from "react";
 import { Outlet } from "react-router";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import { NavbarMenu } from "~/components/layout/navbar/NavbarMenu";
+import { useNavbarStore } from "~/features/navbar/navbar.store";
 
 const NAVBAR_WIDTH = 220;
 const MOBILE_NAVBAR_WIDTH = "66%";
 
-export type MainLayoutContext = {
-  onToggleNavbar: () => void;
-};
-
 export function MainLayout() {
-  const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
-  const [mobileOpened, { toggle: toggleMobile, close: closeMobile }] = useDisclosure(false);
-  const theme = useMantineTheme();
-  const isDesktop = useMediaQuery(`(min-width: ${theme.breakpoints.sm})`, undefined, {
-    getInitialValueInEffect: false,
-  });
-
-  function handleToggle() {
-    if (isDesktop) {
-      toggleDesktop();
-      return;
-    }
-    toggleMobile();
-  }
+  const isDesktopOpen = useNavbarStore((state) => state.isDesktopOpen);
+  const isMobileOpen = useNavbarStore((state) => state.isMobileOpen);
+  const closeNavbar = useNavbarStore((state) => state.close);
 
   return (
     <AppShell
       navbar={{
         width: NAVBAR_WIDTH,
         breakpoint: "sm",
-        collapsed: { desktop: !desktopOpened, mobile: true },
+        collapsed: { desktop: !isDesktopOpen, mobile: !isMobileOpen },
       }}
       padding="md"
       withBorder={false}
     >
-      <AppShell.Navbar
-        visibleFrom="sm"
-        bg="dark.6"
-        className="rounded-2xl overflow-hidden"
-        style={{
-          margin: "var(--mantine-spacing-md)",
-          height: "calc(100dvh - (var(--mantine-spacing-md) * 2))",
-        }}
-      >
-        <NavbarMenu />
+      <AppShell.Navbar visibleFrom="sm">
+        <div
+          className="rounded-2xl overflow-hidden"
+          style={{
+            marginTop: "var(--mantine-spacing-md)",
+            marginBottom: "var(--mantine-spacing-md)",
+            marginLeft: "var(--mantine-spacing-md)",
+            height: "calc(100dvh - (var(--mantine-spacing-md) * 2))",
+            backgroundColor: "var(--mantine-color-dark-6)",
+          }}
+        >
+          <NavbarMenu closeNavbar={closeNavbar} />
+        </div>
       </AppShell.Navbar>
 
       <Drawer
-        opened={mobileOpened}
-        onClose={closeMobile}
+        opened={isMobileOpen}
+        onClose={closeNavbar}
         position="left"
         size={MOBILE_NAVBAR_WIDTH}
         padding={0}
         withCloseButton={false}
         bg="dark.6"
       >
-        <NavbarMenu closeNavbar={closeMobile} />
+        <NavbarMenu closeNavbar={closeNavbar} />
       </Drawer>
 
       <AppShell.Main bg="dark.7">
         <Suspense fallback={<CenteredLoader />}>
-          <Outlet context={{ onToggleNavbar: handleToggle } satisfies MainLayoutContext} />
+          <Outlet />
         </Suspense>
       </AppShell.Main>
     </AppShell>

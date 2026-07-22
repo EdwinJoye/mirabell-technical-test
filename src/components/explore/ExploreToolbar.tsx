@@ -7,15 +7,10 @@ import {
   Select,
   TextInput,
 } from "@mantine/core";
-import {
-  BellIcon,
-  FilmSlateIcon,
-  ListIcon,
-  MagnifyingGlassIcon,
-  StarIcon,
-} from "@phosphor-icons/react";
+import { BellIcon, FilmSlateIcon, MagnifyingGlassIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import avatarUrl from "~/assets/avatar.jpg";
+import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { segmentedControlStyles } from "~/lib/theme/segmented-control";
 
@@ -33,7 +28,6 @@ const roundIconButtonStyle = {
 };
 
 type ExploreToolbarProps = {
-  onToggleNavbar: () => void;
   searchValue: string;
   onSearchChange: (value: string) => void;
   categoryValue: string | null;
@@ -45,7 +39,6 @@ type ExploreToolbarProps = {
 };
 
 export function ExploreToolbar({
-  onToggleNavbar,
   searchValue,
   onSearchChange,
   categoryValue,
@@ -97,6 +90,7 @@ export function ExploreToolbar({
           <Avatar src={avatarUrl} radius="xl" alt="User profile" />
         </Group>
         <div className="flex gap-3 w-full">
+          <NavbarToggleButton />
           <Select
             placeholder="Categories"
             data={categoryOptions}
@@ -121,9 +115,7 @@ export function ExploreToolbar({
 
       <div className="flex sm:hidden flex-col gap-3">
         <Group justify="space-between" wrap="nowrap">
-          <ActionIcon onClick={onToggleNavbar} aria-label="Open menu" size="lg" variant="subtle">
-            <ListIcon size={20} />
-          </ActionIcon>
+          <NavbarToggleButton />
           <Group gap="sm" wrap="nowrap">
             <Indicator label="1" size={16} color="red" offset={4} zIndex={300}>
               <ActionIcon

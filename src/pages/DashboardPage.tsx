@@ -1,13 +1,11 @@
-import { Group, ScrollArea, SegmentedControl, Stack, Title } from "@mantine/core";
-import { FilmSlateIcon, GlobeIcon } from "@phosphor-icons/react";
+import { ScrollArea, Stack } from "@mantine/core";
 import { useSearchParams } from "react-router";
+import { DashboardToolbar } from "~/components/dashboard/DashboardToolbar";
 import { MovieStatsRow } from "~/components/dashboard/MovieStatsRow";
 import { PlatformAudienceRow } from "~/components/dashboard/PlatformAudienceRow";
 import { PlatformConsumptionRow } from "~/components/dashboard/PlatformConsumptionRow";
 import { PlatformStatsRow } from "~/components/dashboard/PlatformStatsRow";
-import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { getMovieOptions } from "~/features/dashboard/dashboard.service";
-import { segmentedControlStyles } from "~/lib/theme/segmented-control";
 
 export function DashboardPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -31,29 +29,8 @@ export function DashboardPage() {
   }
 
   return (
-    <Stack gap="md" pl={{ base: 0, sm: "md" }} style={{ height: "calc(100dvh - 44px)" }}>
-      <Group justify="space-between" wrap="wrap">
-        <Title order={2}>Dashboard</Title>
-
-        <Group gap="sm">
-          <SegmentedControl
-            value={view}
-            onChange={handleViewChange}
-            data={[
-              {
-                label: <SegmentedItemLabel icon={GlobeIcon} label="Global" />,
-                value: "global",
-              },
-              {
-                label: <SegmentedItemLabel icon={FilmSlateIcon} label="Movie" />,
-                value: "movie",
-              },
-            ]}
-            radius="xl"
-            styles={segmentedControlStyles}
-          />
-        </Group>
-      </Group>
+    <Stack gap="md" style={{ height: "calc(100dvh - 44px)" }}>
+      <DashboardToolbar view={view} onViewChange={handleViewChange} />
 
       <ScrollArea type="auto" style={{ flex: 1 }}>
         <Stack gap="md">
