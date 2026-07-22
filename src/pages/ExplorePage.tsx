@@ -129,7 +129,7 @@ export function ExplorePage() {
       />
 
       {!isShowingGrid && isInitialLoading ? (
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>
           <CenteredLoader />
         </div>
       ) : (
