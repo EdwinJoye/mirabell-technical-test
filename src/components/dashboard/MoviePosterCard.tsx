@@ -1,5 +1,6 @@
-import { AspectRatio, Badge, Group, Stack, Text } from "@mantine/core";
-import { StarIcon } from "@phosphor-icons/react";
+import { AspectRatio, Badge, Center, Loader, Stack, Text } from "@mantine/core";
+import { ClockIcon, StarIcon } from "@phosphor-icons/react";
+import { useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 
@@ -8,14 +9,23 @@ type MoviePosterCardProps = {
   backdropPath: string | null;
   releaseDate: string;
   voteAverage: number;
+  runtime?: number | null;
 };
+
+function formatRuntime(runtime: number): string {
+  const hours = Math.floor(runtime / 60);
+  const minutes = runtime % 60;
+  return hours > 0 ? `${hours}h ${minutes}min` : `${minutes}min`;
+}
 
 export function MoviePosterCard({
   title,
   backdropPath,
   releaseDate,
   voteAverage,
+  runtime,
 }: MoviePosterCardProps) {
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
   const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "original") : undefined;
 
@@ -25,7 +35,7 @@ export function MoviePosterCard({
       pos="relative"
       className="rounded-2xl overflow-hidden"
       style={{
-        backgroundImage: backdropUrl ? `url(${backdropUrl})` : undefined,
+        backgroundImage: isImageLoaded && backdropUrl ? `url(${backdropUrl})` : undefined,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundColor: "var(--mantine-color-dark-6)",
@@ -33,24 +43,34 @@ export function MoviePosterCard({
     >
       <div>
         {backdropUrl && (
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: `url(${backdropUrl})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              filter: "blur(28px)",
-              transform: "scale(1.15)",
-              WebkitMaskImage:
-                "linear-gradient(to bottom, transparent 0%, transparent 55%, black 100%)",
-              maskImage: "linear-gradient(to bottom, transparent 0%, transparent 55%, black 100%)",
-            }}
+          <img
+            src={backdropUrl}
+            alt=""
+            style={{ display: "none" }}
+            onLoad={() => setIsImageLoaded(true)}
           />
         )}
-        <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/10 to-transparent" />
-        <Stack gap={6} pos="absolute" bottom={0} left={0} right={0} p="md" style={{ zIndex: 1 }}>
-          <Group justify="space-between" align="flex-end" wrap="nowrap">
-            <Stack gap={2}>
+
+        {!isImageLoaded && (
+          <Center h="100%">
+            <Loader size="sm" color="brand" />
+          </Center>
+        )}
+
+        {isImageLoaded && (
+          <>
+            <div
+              className="absolute inset-0"
+              style={{
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                WebkitMaskImage: "linear-gradient(to top, black 0%, transparent 100%)",
+                maskImage: "linear-gradient(to top, black 0%, transparent 100%)",
+              }}
+            />
+            <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/20 to-transparent" />
+
+            <Stack gap={2} pos="absolute" top={0} left={0} right={0} p="md" style={{ zIndex: 1 }}>
               <Text fw={700} c="white" size="lg" lineClamp={1} style={{ letterSpacing: -0.3 }}>
                 {title}
               </Text>
@@ -61,18 +81,43 @@ export function MoviePosterCard({
               )}
             </Stack>
 
-            <Badge
-              leftSection={<StarIcon size={12} weight="fill" />}
-              variant="outline"
-              tt="none"
-              fw={500}
-              size="lg"
-              styles={glassBadgeStyles}
+            <Stack
+              gap={6}
+              pos="absolute"
+              bottom={0}
+              left={0}
+              right={0}
+              p="md"
+              style={{ zIndex: 1 }}
             >
-              {voteAverage.toFixed(1)}
-            </Badge>
-          </Group>
-        </Stack>
+              <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+                <Badge
+                  leftSection={<StarIcon size={12} weight="fill" />}
+                  variant="outline"
+                  tt="none"
+                  fw={500}
+                  size="lg"
+                  styles={glassBadgeStyles}
+                >
+                  {voteAverage.toFixed(1)}
+                </Badge>
+
+                {runtime && (
+                  <Badge
+                    leftSection={<ClockIcon size={12} />}
+                    variant="outline"
+                    tt="none"
+                    fw={500}
+                    size="lg"
+                    styles={glassBadgeStyles}
+                  >
+                    {formatRuntime(runtime)}
+                  </Badge>
+                )}
+              </div>
+            </Stack>
+          </>
+        )}
       </div>
     </AspectRatio>
   );
