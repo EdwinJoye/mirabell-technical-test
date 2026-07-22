@@ -1,16 +1,23 @@
 import { Group } from "@mantine/core";
+import { motion } from "framer-motion";
 import { GenrePopularityCard } from "~/components/dashboard/global/GenrePopularityCard";
 import { PlatformWatchTimeCard } from "~/components/dashboard/global/PlatformWatchTimeCard";
 
 export function PlatformConsumptionRow() {
   return (
-    <Group align="stretch" gap="md" wrap="nowrap">
-      <div className="flex-1">
-        <GenrePopularityCard />
-      </div>
-      <div className="flex-2">
-        <PlatformWatchTimeCard />
-      </div>
-    </Group>
+    <motion.div
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
+    >
+      <Group align="stretch" gap="md" wrap="nowrap">
+        <div className="flex-1">
+          <GenrePopularityCard />
+        </div>
+        <div className="flex-2">
+          <PlatformWatchTimeCard />
+        </div>
+      </Group>
+    </motion.div>
   );
 }
