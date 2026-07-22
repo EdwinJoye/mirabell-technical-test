@@ -43,6 +43,7 @@ export function MoviePosterRow({ tmdbMovieId }: MoviePosterRowProps) {
       >
         <div style={isDesktop ? { gridColumn: 1, gridRow: 1 } : undefined}>
           <MoviePosterCard
+            tmdbMovieId={tmdbMovieId}
             title={movieDetails.title}
             backdropPath={movieDetails.backdrop_path}
             releaseDate={movieDetails.release_date}

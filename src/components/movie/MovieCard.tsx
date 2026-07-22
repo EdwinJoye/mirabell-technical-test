@@ -157,6 +157,7 @@ export function MovieCard({
         zIndex={300}
       >
         <MovieDetailsOverlay
+          tmdbMovieId={id}
           title={title}
           backdropPath={backdropPath}
           overview={overview}

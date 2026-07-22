@@ -10,6 +10,7 @@ import { PlayButton } from "~/components/ui/PlayButton";
 import type { Genre } from "~/features/genres/genres.types";
 
 type MoviePosterCardProps = {
+  tmdbMovieId: number;
   title: string;
   backdropPath: string | null;
   releaseDate: string;
@@ -26,6 +27,7 @@ function formatRuntime(runtime: number): string {
 }
 
 export function MoviePosterCard({
+  tmdbMovieId,
   title,
   backdropPath,
   releaseDate,
@@ -155,6 +157,7 @@ export function MoviePosterCard({
           zIndex={300}
         >
           <MovieDetailsOverlay
+            tmdbMovieId={tmdbMovieId}
             title={title}
             backdropPath={backdropPath}
             overview={overview}

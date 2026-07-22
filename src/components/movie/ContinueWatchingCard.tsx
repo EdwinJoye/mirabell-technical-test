@@ -141,6 +141,7 @@ export function ContinueWatchingCard({
         zIndex={300}
       >
         <MovieDetailsOverlay
+          tmdbMovieId={tmdbMovieId}
           title={movie.title}
           backdropPath={movie.backdrop_path}
           overview={movie.overview}
