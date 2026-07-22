@@ -2,15 +2,8 @@ import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import { DeviceMobileIcon, InfoIcon } from "@phosphor-icons/react";
 import { useState } from "react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
-
-const deviceColors: Record<string, string> = {
-  Mobile: "brand.6",
-  "Smart TV": "teal.6",
-  Desktop: "violet.6",
-  Console: "orange.6",
-};
 
 export function DeviceDistributionCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
@@ -20,7 +13,7 @@ export function DeviceDistributionCard() {
   const chartData = devices.map((device) => ({
     name: device.deviceType,
     value: device.percentage,
-    color: deviceColors[device.deviceType] ?? "gray.6",
+    color: DEVICE_COLORS[device.deviceType] ?? "gray.6",
   }));
 
   const totalViews = devices.reduce((total, device) => total + device.views, 0);

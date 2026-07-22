@@ -415,18 +415,23 @@
   "deviceDistribution": [
     {
       "deviceType": "Mobile",
-      "views": 14973959,
-      "percentage": 45
+      "views": 13975695,
+      "percentage": 42
     },
     {
       "deviceType": "Smart TV",
-      "views": 10648148,
-      "percentage": 32
+      "views": 9982639,
+      "percentage": 30
     },
     {
       "deviceType": "Desktop",
-      "views": 5989584,
-      "percentage": 18
+      "views": 5656829,
+      "percentage": 17
+    },
+    {
+      "deviceType": "Tablet",
+      "views": 1996528,
+      "percentage": 6
     },
     {
       "deviceType": "Console",

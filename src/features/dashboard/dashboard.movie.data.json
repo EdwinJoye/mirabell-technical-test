@@ -88,23 +88,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 167053,
-        "percentage": 43
+        "views": 155397,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 104894,
-        "percentage": 27
+        "views": 101009,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 81584,
-        "percentage": 21
+        "views": 77699,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 34964,
+        "views": 34965,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 19425,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -232,23 +237,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 180925,
-        "percentage": 48
+        "views": 173387,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 116848,
-        "percentage": 31
+        "views": 109309,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 56539,
-        "percentage": 15
+        "views": 52770,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
         "views": 22616,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 18846,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -376,23 +386,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 203049,
-        "percentage": 54
+        "views": 191768,
+        "percentage": 51
       },
       {
         "deviceType": "Smart TV",
-        "views": 105284,
-        "percentage": 28
+        "views": 101524,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 45122,
-        "percentage": 12
+        "views": 41362,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 22561,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 18801,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -520,22 +535,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 147635,
-        "percentage": 39
+        "views": 140063,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 113566,
-        "percentage": 30
+        "views": 105995,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 98424,
-        "percentage": 26
+        "views": 94638,
+        "percentage": 25
       },
       {
         "deviceType": "Tablet",
-        "views": 18927,
+        "views": 18928,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 18928,
         "percentage": 5
       }
     ],
@@ -664,23 +684,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 133961,
-        "percentage": 37
+        "views": 130340,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 119479,
-        "percentage": 33
+        "views": 112238,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 57929,
-        "percentage": 16
+        "views": 54309,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 50689,
-        "percentage": 14
+        "views": 47068,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 18103,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -808,23 +833,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 164240,
-        "percentage": 45
+        "views": 156939,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 87594,
-        "percentage": 24
+        "views": 83945,
+        "percentage": 23
       },
       {
         "deviceType": "Desktop",
-        "views": 58396,
-        "percentage": 16
+        "views": 54747,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 54747,
-        "percentage": 15
+        "views": 51097,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 18249,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -952,23 +982,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 163129,
-        "percentage": 46
+        "views": 156037,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 113481,
-        "percentage": 32
+        "views": 106388,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 53194,
-        "percentage": 15
+        "views": 49648,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
         "views": 24824,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 17731,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1096,23 +1131,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 158805,
-        "percentage": 46
+        "views": 151901,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 93212,
-        "percentage": 27
+        "views": 89759,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
+        "views": 41427,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
         "views": 44880,
         "percentage": 13
       },
       {
-        "deviceType": "Tablet",
-        "views": 48331,
-        "percentage": 14
+        "deviceType": "Console",
+        "views": 17261,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1240,23 +1280,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 124383,
-        "percentage": 36
-      },
-      {
-        "deviceType": "Smart TV",
-        "views": 117472,
+        "views": 117473,
         "percentage": 34
       },
       {
+        "deviceType": "Smart TV",
+        "views": 110562,
+        "percentage": 32
+      },
+      {
         "deviceType": "Desktop",
-        "views": 72556,
-        "percentage": 21
+        "views": 69101,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 31096,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 17275,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1384,23 +1429,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 122501,
-        "percentage": 36
+        "views": 115696,
+        "percentage": 34
       },
       {
         "deviceType": "Smart TV",
-        "views": 129307,
-        "percentage": 38
+        "views": 125903,
+        "percentage": 37
       },
       {
         "deviceType": "Desktop",
-        "views": 44237,
-        "percentage": 13
+        "views": 40834,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 44236,
-        "percentage": 13
+        "views": 40834,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Console",
+        "views": 17014,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1528,23 +1578,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 128486,
-        "percentage": 38
+        "views": 121724,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 111580,
-        "percentage": 33
+        "views": 104817,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 74386,
-        "percentage": 22
+        "views": 71005,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
         "views": 23668,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 16906,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1672,23 +1727,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 138203,
-        "percentage": 41
+        "views": 131461,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 94382,
-        "percentage": 28
+        "views": 91012,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 67416,
-        "percentage": 20
+        "views": 64045,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 37079,
-        "percentage": 11
+        "views": 33708,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 16854,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1816,23 +1876,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 127934,
-        "percentage": 39
+        "views": 124652,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 108252,
-        "percentage": 33
+        "views": 101691,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 45925,
-        "percentage": 14
+        "views": 42645,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 45924,
-        "percentage": 14
+        "views": 42645,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 16402,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -1960,23 +2025,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 124302,
-        "percentage": 39
+        "views": 117928,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 111553,
-        "percentage": 35
+        "views": 105178,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 63744,
-        "percentage": 20
+        "views": 60557,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
         "views": 19123,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 15936,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2104,23 +2174,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 136853,
-        "percentage": 43
+        "views": 130487,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 105026,
-        "percentage": 33
+        "views": 98661,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 47739,
-        "percentage": 15
+        "views": 44557,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
         "views": 28644,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 15913,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2248,23 +2323,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 124885,
-        "percentage": 41
+        "views": 118793,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 97471,
-        "percentage": 32
+        "views": 91379,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 60920,
-        "percentage": 20
+        "views": 57874,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
         "views": 21322,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 15230,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2392,23 +2472,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 137511,
-        "percentage": 44
+        "views": 131261,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 100008,
-        "percentage": 32
+        "views": 93758,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 53129,
-        "percentage": 17
+        "views": 50004,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 21878,
+        "views": 21877,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 15626,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2536,23 +2621,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 144468,
-        "percentage": 48
+        "views": 135438,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 81263,
-        "percentage": 27
+        "views": 78254,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 57185,
-        "percentage": 19
+        "views": 54176,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 18059,
+        "views": 18058,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 15049,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2680,21 +2770,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 128928,
-        "percentage": 43
+        "views": 122930,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 101943,
-        "percentage": 34
+        "views": 95947,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 53970,
-        "percentage": 18
+        "views": 50972,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
+        "views": 14992,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 14992,
         "percentage": 5
       }
@@ -2824,23 +2919,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 114404,
-        "percentage": 39
+        "views": 111471,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 90937,
-        "percentage": 31
+        "views": 85070,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 44002,
-        "percentage": 15
+        "views": 41068,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
-        "views": 44001,
-        "percentage": 15
+        "views": 41068,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 14667,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -2968,23 +3068,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 128041,
-        "percentage": 44
+        "views": 122221,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 101851,
-        "percentage": 35
+        "views": 96031,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 37830,
-        "percentage": 13
+        "views": 34920,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 23280,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 14550,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -3112,23 +3217,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 109404,
-        "percentage": 38
+        "views": 106525,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 86372,
-        "percentage": 30
+        "views": 80613,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 51823,
-        "percentage": 18
+        "views": 48944,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 40306,
-        "percentage": 14
+        "views": 37428,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 14395,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -3256,21 +3366,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 123065,
-        "percentage": 45
+        "views": 117596,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 90248,
-        "percentage": 33
+        "views": 84778,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 46491,
-        "percentage": 17
+        "views": 43756,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
+        "views": 13674,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 13674,
         "percentage": 5
       }
@@ -3400,21 +3515,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 130659,
-        "percentage": 48
+        "views": 125216,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 97995,
-        "percentage": 36
+        "views": 92550,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 29943,
-        "percentage": 11
+        "views": 27221,
+        "percentage": 10
       },
       {
         "deviceType": "Tablet",
+        "views": 13610,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 13610,
         "percentage": 5
       }
@@ -3544,23 +3664,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 108926,
-        "percentage": 40
+        "views": 103479,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 78971,
-        "percentage": 29
+        "views": 76248,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 43570,
-        "percentage": 16
+        "views": 40847,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 40847,
-        "percentage": 15
+        "views": 38124,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 13616,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -3688,23 +3813,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 89105,
-        "percentage": 34
+        "views": 86484,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 83864,
-        "percentage": 32
+        "views": 78622,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 52415,
-        "percentage": 20
+        "views": 49794,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 36690,
-        "percentage": 14
+        "views": 34070,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 13104,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -3832,13 +3962,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 139013,
-        "percentage": 53
+        "views": 131145,
+        "percentage": 50
       },
       {
         "deviceType": "Smart TV",
-        "views": 83932,
-        "percentage": 32
+        "views": 78687,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
@@ -3847,7 +3977,12 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 13115,
+        "views": 13114,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 13114,
         "percentage": 5
       }
     ],
@@ -3976,23 +4111,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 110611,
-        "percentage": 43
+        "views": 105466,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 87460,
-        "percentage": 34
+        "views": 82315,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 33440,
-        "percentage": 13
+        "views": 30868,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 25723,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 12862,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -4120,21 +4260,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 117072,
-        "percentage": 45
+        "views": 109267,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 70243,
-        "percentage": 27
+        "views": 67642,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 59837,
-        "percentage": 23
+        "views": 57235,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
+        "views": 13008,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 13008,
         "percentage": 5
       }
@@ -4264,23 +4409,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 91887,
-        "percentage": 37
+        "views": 89403,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 86920,
-        "percentage": 35
+        "views": 81953,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 32284,
-        "percentage": 13
+        "views": 29801,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 37251,
-        "percentage": 15
+        "views": 34768,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 12417,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -4408,23 +4558,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 93026,
-        "percentage": 37
+        "views": 87998,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 77941,
-        "percentage": 31
+        "views": 72912,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 62856,
-        "percentage": 25
+        "views": 60341,
+        "percentage": 24
       },
       {
         "deviceType": "Tablet",
-        "views": 17599,
+        "views": 17600,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 12571,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -4552,23 +4707,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 90237,
-        "percentage": 37
+        "views": 87798,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 80482,
-        "percentage": 33
+        "views": 75604,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 34144,
-        "percentage": 14
+        "views": 31705,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 39021,
-        "percentage": 16
+        "views": 36583,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Console",
+        "views": 12194,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -4696,21 +4856,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 84834,
-        "percentage": 35
+        "views": 79986,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 82410,
-        "percentage": 34
+        "views": 77562,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 63019,
-        "percentage": 26
+        "views": 60596,
+        "percentage": 25
       },
       {
         "deviceType": "Tablet",
+        "views": 12119,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 12119,
         "percentage": 5
       }
@@ -4840,23 +5005,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 92438,
-        "percentage": 38
+        "views": 87572,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 85140,
-        "percentage": 35
+        "views": 80275,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 46219,
-        "percentage": 19
+        "views": 43786,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 19460,
+        "views": 19461,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 12163,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -4984,23 +5154,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 99984,
-        "percentage": 42
+        "views": 95222,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 88081,
-        "percentage": 37
+        "views": 83320,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 35708,
-        "percentage": 15
+        "views": 33328,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
         "views": 14283,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 11903,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5128,21 +5303,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 125472,
-        "percentage": 53
+        "views": 118370,
+        "percentage": 50
       },
       {
         "deviceType": "Smart TV",
-        "views": 63920,
-        "percentage": 27
+        "views": 61552,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 35511,
-        "percentage": 15
+        "views": 33144,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
+        "views": 11837,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 11837,
         "percentage": 5
       }
@@ -5272,23 +5452,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 100055,
-        "percentage": 44
+        "views": 95506,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 56850,
-        "percentage": 25
+        "views": 54576,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 36384,
-        "percentage": 16
+        "views": 34110,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 34109,
-        "percentage": 15
+        "views": 31836,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 11370,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5416,23 +5601,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 103886,
-        "percentage": 46
+        "views": 97111,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 63235,
-        "percentage": 28
+        "views": 60977,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 36134,
-        "percentage": 16
+        "views": 33876,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 22585,
+        "views": 22584,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 11292,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5560,23 +5750,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 85831,
-        "percentage": 38
+        "views": 81313,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 63244,
-        "percentage": 28
+        "views": 60985,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 45174,
-        "percentage": 20
+        "views": 42915,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 31621,
-        "percentage": 14
+        "views": 29363,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 11294,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5704,23 +5899,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 107264,
-        "percentage": 49
+        "views": 100697,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 56916,
-        "percentage": 26
+        "views": 54727,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 37214,
-        "percentage": 17
+        "views": 35025,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
         "views": 17513,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 10945,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5848,23 +6048,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 91709,
-        "percentage": 42
+        "views": 87341,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 82975,
-        "percentage": 38
+        "views": 78608,
+        "percentage": 36
       },
       {
         "deviceType": "Desktop",
-        "views": 24019,
-        "percentage": 11
+        "views": 21836,
+        "percentage": 10
       },
       {
         "deviceType": "Tablet",
         "views": 19652,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 10918,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -5992,23 +6197,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 105406,
-        "percentage": 51
+        "views": 99205,
+        "percentage": 48
       },
       {
         "deviceType": "Smart TV",
-        "views": 57870,
-        "percentage": 28
+        "views": 55803,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 31002,
-        "percentage": 15
+        "views": 28935,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
-        "views": 12400,
+        "views": 12401,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 10334,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6136,23 +6346,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 100600,
-        "percentage": 48
+        "views": 96409,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 58684,
-        "percentage": 28
+        "views": 56588,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 25150,
-        "percentage": 12
+        "views": 23054,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
-        "views": 25150,
-        "percentage": 12
+        "views": 23054,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 10479,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6280,23 +6495,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 71331,
-        "percentage": 35
+        "views": 67255,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 79483,
-        "percentage": 39
+        "views": 75407,
+        "percentage": 37
       },
       {
         "deviceType": "Desktop",
-        "views": 34646,
-        "percentage": 17
+        "views": 32608,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
         "views": 18342,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 10190,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6424,23 +6644,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 90812,
-        "percentage": 45
+        "views": 86776,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 54487,
-        "percentage": 27
+        "views": 52469,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 26235,
-        "percentage": 13
+        "views": 24217,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 30271,
-        "percentage": 15
+        "views": 28253,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 10090,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6568,23 +6793,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 75033,
-        "percentage": 38
+        "views": 71084,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 69109,
-        "percentage": 35
+        "views": 65160,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 41466,
-        "percentage": 21
+        "views": 39491,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 11847,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 9873,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6712,23 +6942,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 75136,
-        "percentage": 38
+        "views": 71181,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 53386,
-        "percentage": 27
+        "views": 51408,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 45477,
-        "percentage": 23
+        "views": 43500,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 23726,
-        "percentage": 12
+        "views": 21750,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 9886,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -6856,23 +7091,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 79540,
-        "percentage": 43
+        "views": 75840,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 59192,
-        "percentage": 32
+        "views": 55493,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 38845,
-        "percentage": 21
+        "views": 36995,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 7399,
         "percentage": 4
+      },
+      {
+        "deviceType": "Console",
+        "views": 9249,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7000,23 +7240,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 74257,
-        "percentage": 39
+        "views": 70450,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 49505,
-        "percentage": 26
+        "views": 47600,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 43792,
-        "percentage": 23
+        "views": 41888,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 22848,
-        "percentage": 12
+        "views": 20944,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 9520,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7144,23 +7389,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 75743,
-        "percentage": 41
+        "views": 72049,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 60964,
-        "percentage": 33
+        "views": 57269,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 33253,
-        "percentage": 18
+        "views": 31406,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 14780,
+        "views": 14779,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 9237,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7288,23 +7538,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 83868,
-        "percentage": 46
+        "views": 78399,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 47403,
-        "percentage": 26
+        "views": 45580,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 40111,
-        "percentage": 22
+        "views": 38287,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
         "views": 10939,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 9116,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7432,22 +7687,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 72112,
-        "percentage": 41
+        "views": 68596,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 65077,
-        "percentage": 37
+        "views": 61559,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 29900,
-        "percentage": 17
+        "views": 28141,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 8795,
+        "views": 8794,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 8794,
         "percentage": 5
       }
     ],
@@ -7576,23 +7836,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 95825,
-        "percentage": 53
+        "views": 90401,
+        "percentage": 50
       },
       {
         "deviceType": "Smart TV",
-        "views": 52432,
-        "percentage": 29
+        "views": 50624,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 21696,
-        "percentage": 12
+        "views": 19888,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 10848,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 9040,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7720,23 +7985,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 63334,
-        "percentage": 37
+        "views": 61623,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 54776,
-        "percentage": 32
+        "views": 51352,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 27388,
-        "percentage": 16
+        "views": 25676,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 25676,
-        "percentage": 15
+        "views": 23964,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 8559,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -7864,23 +8134,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 70644,
-        "percentage": 42
+        "views": 68963,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 55506,
-        "percentage": 33
+        "views": 52142,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 23548,
-        "percentage": 14
+        "views": 21866,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 18503,
-        "percentage": 11
+        "views": 16820,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 8410,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8008,23 +8283,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 67343,
-        "percentage": 39
+        "views": 63890,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 53529,
-        "percentage": 31
+        "views": 50075,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 41442,
-        "percentage": 24
+        "views": 39715,
+        "percentage": 23
       },
       {
         "deviceType": "Tablet",
         "views": 10360,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 8634,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8152,23 +8432,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 69842,
-        "percentage": 41
+        "views": 64732,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 47697,
-        "percentage": 28
+        "views": 45993,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 37476,
-        "percentage": 22
+        "views": 35773,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
         "views": 15331,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 8517,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8296,23 +8581,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 74167,
-        "percentage": 44
+        "views": 70797,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 60682,
-        "percentage": 36
+        "views": 57311,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 21913,
-        "percentage": 13
+        "views": 20227,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 11800,
+        "views": 11799,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 8428,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8440,23 +8730,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 80963,
-        "percentage": 49
+        "views": 77658,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 54526,
-        "percentage": 33
+        "views": 51222,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 19828,
-        "percentage": 12
+        "views": 18175,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 9914,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 8262,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8584,23 +8879,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 73054,
-        "percentage": 46
+        "views": 69878,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 39704,
-        "percentage": 25
+        "views": 38115,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 19058,
-        "percentage": 12
+        "views": 17470,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
-        "views": 26998,
-        "percentage": 17
+        "views": 25410,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Console",
+        "views": 7941,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -8728,21 +9028,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 71593,
-        "percentage": 45
+        "views": 68411,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 57274,
-        "percentage": 36
+        "views": 54092,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 22273,
-        "percentage": 14
+        "views": 20682,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
+        "views": 7955,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 7955,
         "percentage": 5
       }
@@ -8872,21 +9177,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 79969,
-        "percentage": 53
+        "views": 75443,
+        "percentage": 50
       },
       {
         "deviceType": "Smart TV",
-        "views": 39230,
-        "percentage": 26
+        "views": 37721,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 24142,
-        "percentage": 16
+        "views": 22633,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
+        "views": 7544,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 7544,
         "percentage": 5
       }
@@ -9016,22 +9326,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 59473,
-        "percentage": 39
+        "views": 56422,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 48798,
-        "percentage": 32
+        "views": 45748,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 36599,
-        "percentage": 24
+        "views": 35074,
+        "percentage": 23
       },
       {
         "deviceType": "Tablet",
-        "views": 7624,
+        "views": 7625,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 7625,
         "percentage": 5
       }
     ],
@@ -9160,23 +9475,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 68431,
-        "percentage": 46
+        "views": 65456,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 38678,
-        "percentage": 26
+        "views": 37190,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 19339,
-        "percentage": 13
+        "views": 17851,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 22314,
-        "percentage": 15
+        "views": 20827,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 7438,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -9304,23 +9624,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 70076,
-        "percentage": 46
+        "views": 67030,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 47225,
-        "percentage": 31
+        "views": 44179,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 25898,
-        "percentage": 17
+        "views": 24374,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 9141,
+        "views": 9140,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 7617,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -9448,23 +9773,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 62987,
-        "percentage": 42
+        "views": 59988,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 43491,
-        "percentage": 29
+        "views": 41991,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 25495,
-        "percentage": 17
+        "views": 23995,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 17996,
-        "percentage": 12
+        "views": 16497,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 7498,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -9592,23 +9922,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 51860,
-        "percentage": 37
+        "views": 49057,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 42049,
-        "percentage": 30
+        "views": 39246,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 32237,
-        "percentage": 23
+        "views": 30836,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 14017,
+        "views": 14016,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 7008,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -9736,23 +10071,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 58758,
-        "percentage": 41
+        "views": 54458,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 37261,
-        "percentage": 26
+        "views": 35828,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 38694,
-        "percentage": 27
+        "views": 37261,
+        "percentage": 26
       },
       {
         "deviceType": "Tablet",
         "views": 8599,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 7166,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -9880,23 +10220,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 48856,
-        "percentage": 36
+        "views": 44783,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 39356,
-        "percentage": 29
+        "views": 37999,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 35285,
-        "percentage": 26
+        "views": 33928,
+        "percentage": 25
       },
       {
         "deviceType": "Tablet",
-        "views": 12213,
+        "views": 12214,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 6786,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10024,23 +10369,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 57200,
-        "percentage": 41
+        "views": 54409,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 51619,
-        "percentage": 37
+        "views": 48829,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 18136,
-        "percentage": 13
+        "views": 16741,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 12556,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 6976,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10168,23 +10518,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 58335,
-        "percentage": 42
+        "views": 56947,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 41668,
-        "percentage": 30
+        "views": 38890,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 19445,
-        "percentage": 14
+        "views": 18056,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 19446,
-        "percentage": 14
+        "views": 18056,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 6945,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10312,13 +10667,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 57060,
-        "percentage": 42
+        "views": 52983,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 51625,
-        "percentage": 38
+        "views": 48908,
+        "percentage": 36
       },
       {
         "deviceType": "Desktop",
@@ -10327,8 +10682,13 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 13585,
+        "views": 13586,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 6793,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10456,23 +10816,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 53005,
-        "percentage": 42
+        "views": 50481,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 39123,
-        "percentage": 31
+        "views": 36599,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 26502,
-        "percentage": 21
+        "views": 25240,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 7572,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 6310,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10600,23 +10965,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 53667,
-        "percentage": 40
+        "views": 50983,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 38908,
-        "percentage": 29
+        "views": 37567,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 26833,
-        "percentage": 20
+        "views": 25492,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 14759,
-        "percentage": 11
+        "views": 13417,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 6708,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10744,23 +11114,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 53176,
-        "percentage": 41
+        "views": 50581,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 44097,
-        "percentage": 34
+        "views": 41503,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 20752,
-        "percentage": 16
+        "views": 19455,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 11672,
+        "views": 11673,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 6485,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -10888,21 +11263,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 59348,
-        "percentage": 45
+        "views": 56711,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 44841,
-        "percentage": 34
+        "views": 42203,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 21102,
-        "percentage": 16
+        "views": 19783,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
+        "views": 6594,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 6594,
         "percentage": 5
       }
@@ -11032,22 +11412,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 46756,
-        "percentage": 38
+        "views": 44296,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 46756,
-        "percentage": 38
+        "views": 44295,
+        "percentage": 36
       },
       {
         "deviceType": "Desktop",
-        "views": 23378,
-        "percentage": 19
+        "views": 22148,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 6153,
+        "views": 6152,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 6152,
         "percentage": 5
       }
     ],
@@ -11176,23 +11561,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 45895,
-        "percentage": 37
+        "views": 43414,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 45895,
-        "percentage": 37
+        "views": 43414,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 19846,
-        "percentage": 16
+        "views": 18606,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
         "views": 12404,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 6202,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -11320,21 +11710,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 44687,
-        "percentage": 37
+        "views": 42270,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 43479,
-        "percentage": 36
+        "views": 41064,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 26570,
-        "percentage": 22
+        "views": 25363,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
+        "views": 6039,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 6039,
         "percentage": 5
       }
@@ -11464,23 +11859,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 53947,
-        "percentage": 46
+        "views": 51601,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 36356,
-        "percentage": 31
+        "views": 34010,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 19937,
-        "percentage": 17
+        "views": 18764,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 7036,
+        "views": 7037,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 5864,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -11608,21 +12008,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 51194,
-        "percentage": 45
+        "views": 47782,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 30717,
-        "percentage": 27
+        "views": 29579,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 26166,
-        "percentage": 23
+        "views": 25028,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
+        "views": 5688,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 5688,
         "percentage": 5
       }
@@ -11752,21 +12157,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 41871,
-        "percentage": 38
+        "views": 39667,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 37463,
-        "percentage": 34
+        "views": 35260,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 25343,
-        "percentage": 23
+        "views": 24241,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
+        "views": 5509,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 5509,
         "percentage": 5
       }
@@ -11896,21 +12306,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 54069,
-        "percentage": 47
+        "views": 51768,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 34512,
-        "percentage": 30
+        "views": 32211,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 20707,
-        "percentage": 18
+        "views": 19557,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
+        "views": 5752,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 5752,
         "percentage": 5
       }
@@ -12040,23 +12455,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 49950,
-        "percentage": 43
+        "views": 47627,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 40657,
-        "percentage": 35
+        "views": 38334,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 16263,
-        "percentage": 14
+        "views": 15101,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
         "views": 9293,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 5808,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -12184,22 +12604,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 44864,
-        "percentage": 42
+        "views": 41660,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 30978,
-        "percentage": 29
+        "views": 29909,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 25637,
-        "percentage": 24
+        "views": 24568,
+        "percentage": 23
       },
       {
         "deviceType": "Tablet",
-        "views": 5340,
+        "views": 5341,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 5341,
         "percentage": 5
       }
     ],
@@ -12328,23 +12753,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 40286,
-        "percentage": 38
+        "views": 38166,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 33925,
-        "percentage": 32
+        "views": 31804,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 23323,
-        "percentage": 22
+        "views": 22263,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
         "views": 8481,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 5301,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -12472,23 +12902,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 45980,
-        "percentage": 43
+        "views": 43841,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 31010,
-        "percentage": 29
+        "views": 29941,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 14970,
-        "percentage": 14
+        "views": 13901,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 14971,
-        "percentage": 14
+        "views": 13901,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 5347,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -12616,23 +13051,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 36531,
-        "percentage": 36
+        "views": 34502,
+        "percentage": 34
       },
       {
         "deviceType": "Smart TV",
-        "views": 39575,
-        "percentage": 39
+        "views": 37545,
+        "percentage": 37
       },
       {
         "deviceType": "Desktop",
-        "views": 18266,
-        "percentage": 18
+        "views": 17251,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
         "views": 7103,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 5074,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -12760,23 +13200,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 45963,
-        "percentage": 45
+        "views": 43920,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 31664,
-        "percentage": 31
+        "views": 29621,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 17364,
-        "percentage": 17
+        "views": 16343,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
         "views": 7150,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 5107,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -12904,23 +13349,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 44620,
-        "percentage": 44
+        "views": 42593,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 25352,
-        "percentage": 25
+        "views": 24338,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 17240,
-        "percentage": 17
+        "views": 16225,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 14197,
-        "percentage": 14
+        "views": 13183,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 5070,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13048,23 +13498,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 47215,
-        "percentage": 47
+        "views": 45206,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 32146,
-        "percentage": 32
+        "views": 30137,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 12055,
-        "percentage": 12
+        "views": 11050,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 9041,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 5023,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13192,23 +13647,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 39884,
-        "percentage": 39
+        "views": 37839,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 33748,
-        "percentage": 33
+        "views": 31703,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 19431,
-        "percentage": 19
+        "views": 18408,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
         "views": 9204,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 5113,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13336,23 +13796,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 40687,
-        "percentage": 41
+        "views": 38702,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 30763,
-        "percentage": 31
+        "views": 28778,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 20840,
-        "percentage": 21
+        "views": 19847,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 6946,
+        "views": 6947,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 4962,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13480,23 +13945,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 45708,
-        "percentage": 45
+        "views": 43676,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 26409,
-        "percentage": 26
+        "views": 25394,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
+        "views": 13205,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
         "views": 14220,
         "percentage": 14
       },
       {
-        "deviceType": "Tablet",
-        "views": 15237,
-        "percentage": 15
+        "deviceType": "Console",
+        "views": 5079,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13624,23 +14094,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 36007,
-        "percentage": 39
+        "views": 34161,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 25851,
-        "percentage": 28
+        "views": 24928,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 17542,
-        "percentage": 19
+        "views": 16618,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 12925,
-        "percentage": 14
+        "views": 12002,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 4616,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13768,23 +14243,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 37555,
-        "percentage": 39
+        "views": 35629,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 34667,
-        "percentage": 36
+        "views": 32741,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 15407,
-        "percentage": 16
+        "views": 14444,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
         "views": 8667,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 4815,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -13912,13 +14392,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 32384,
-        "percentage": 36
+        "views": 30585,
+        "percentage": 34
       },
       {
         "deviceType": "Smart TV",
-        "views": 33283,
-        "percentage": 37
+        "views": 31483,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
@@ -13927,8 +14407,13 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 15292,
-        "percentage": 17
+        "views": 14393,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Console",
+        "views": 4498,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14056,21 +14541,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 35789,
-        "percentage": 39
+        "views": 33954,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 30283,
-        "percentage": 33
+        "views": 28447,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 21106,
-        "percentage": 23
+        "views": 20189,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
+        "views": 4588,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 4588,
         "percentage": 5
       }
@@ -14200,23 +14690,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 41459,
-        "percentage": 44
+        "views": 39575,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 31094,
-        "percentage": 33
+        "views": 29209,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 12249,
-        "percentage": 13
+        "views": 11307,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 9422,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 4711,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14344,23 +14839,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 37452,
-        "percentage": 43
+        "views": 34839,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 24387,
-        "percentage": 28
+        "views": 23516,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 17420,
-        "percentage": 20
+        "views": 16549,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
         "views": 7839,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 4355,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14488,23 +14988,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 38048,
-        "percentage": 47
+        "views": 36429,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 25905,
-        "percentage": 32
+        "views": 24286,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 11334,
-        "percentage": 14
+        "views": 10524,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
         "views": 5667,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 4048,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14632,23 +15137,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 38221,
-        "percentage": 44
+        "views": 36484,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 28666,
-        "percentage": 33
+        "views": 26928,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 12161,
-        "percentage": 14
+        "views": 11293,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
         "views": 7818,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 4343,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14776,23 +15286,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 40474,
-        "percentage": 48
+        "views": 37944,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 19394,
-        "percentage": 23
+        "views": 18551,
+        "percentage": 22
       },
       {
         "deviceType": "Desktop",
-        "views": 16021,
-        "percentage": 19
+        "views": 15178,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
         "views": 8432,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 4216,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -14920,23 +15435,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 27891,
-        "percentage": 36
+        "views": 27116,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 24792,
-        "percentage": 32
+        "views": 23242,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 13946,
-        "percentage": 18
+        "views": 13171,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 10846,
-        "percentage": 14
+        "views": 10072,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 3874,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15064,23 +15584,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 35570,
-        "percentage": 41
+        "views": 34703,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 26894,
-        "percentage": 31
+        "views": 25159,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 12146,
-        "percentage": 14
+        "views": 11278,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 12146,
-        "percentage": 14
+        "views": 11278,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 4338,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15208,23 +15733,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 37794,
-        "percentage": 50
+        "views": 35526,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 21164,
-        "percentage": 28
+        "views": 20408,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 9070,
-        "percentage": 12
+        "views": 8315,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 7559,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 3779,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15352,23 +15882,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 35671,
-        "percentage": 48
+        "views": 34185,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 23781,
-        "percentage": 32
+        "views": 22294,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 8918,
-        "percentage": 12
+        "views": 8175,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 5945,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 3716,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15496,21 +16031,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 36326,
-        "percentage": 46
+        "views": 34747,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 25270,
-        "percentage": 32
+        "views": 23691,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 13425,
-        "percentage": 17
+        "views": 12635,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
+        "views": 3948,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 3948,
         "percentage": 5
       }
@@ -15640,23 +16180,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 26783,
-        "percentage": 37
+        "views": 25336,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 18820,
-        "percentage": 26
+        "views": 18096,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 13753,
-        "percentage": 19
+        "views": 13029,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 13030,
-        "percentage": 18
+        "views": 12306,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Console",
+        "views": 3619,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15784,23 +16329,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 24098,
-        "percentage": 35
+        "views": 22720,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 24786,
-        "percentage": 36
+        "views": 23410,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 15147,
-        "percentage": 22
+        "views": 14458,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
-        "views": 4819,
+        "views": 4820,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 3442,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -15928,23 +16478,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 28358,
-        "percentage": 41
+        "views": 26974,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 22824,
-        "percentage": 33
+        "views": 21441,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 13141,
-        "percentage": 19
+        "views": 12450,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
         "views": 4842,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 3458,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16072,23 +16627,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 29506,
-        "percentage": 43
+        "views": 28133,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 17841,
-        "percentage": 26
+        "views": 17154,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
+        "views": 9607,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
         "views": 10293,
         "percentage": 15
       },
       {
-        "deviceType": "Tablet",
-        "views": 10978,
-        "percentage": 16
+        "deviceType": "Console",
+        "views": 3431,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16216,23 +16776,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 25430,
-        "percentage": 37
+        "views": 24056,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 17182,
-        "percentage": 25
-      },
-      {
-        "deviceType": "Desktop",
         "views": 16495,
         "percentage": 24
       },
       {
+        "deviceType": "Desktop",
+        "views": 15808,
+        "percentage": 23
+      },
+      {
         "deviceType": "Tablet",
-        "views": 9623,
-        "percentage": 14
+        "views": 8935,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 3436,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16360,23 +16925,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 26289,
-        "percentage": 38
+        "views": 25597,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 22138,
-        "percentage": 32
+        "views": 20754,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 9685,
-        "percentage": 14
+        "views": 8994,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 11069,
-        "percentage": 16
+        "views": 10377,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Console",
+        "views": 3459,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16504,23 +17074,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 24607,
-        "percentage": 34
+        "views": 23159,
+        "percentage": 32
       },
       {
         "deviceType": "Smart TV",
-        "views": 23883,
-        "percentage": 33
+        "views": 22436,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 16646,
-        "percentage": 23
+        "views": 15922,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
         "views": 7237,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 3619,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16648,23 +17223,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 28772,
-        "percentage": 39
+        "views": 28034,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 22870,
-        "percentage": 31
+        "views": 21394,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 13279,
-        "percentage": 18
+        "views": 12542,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 8853,
-        "percentage": 12
+        "views": 8115,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 3689,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16792,23 +17372,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 23015,
-        "percentage": 35
+        "views": 21700,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 23015,
-        "percentage": 35
+        "views": 21700,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 14467,
-        "percentage": 22
+        "views": 13809,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
         "views": 5261,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 3288,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -16936,23 +17521,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 23464,
-        "percentage": 36
+        "views": 22161,
+        "percentage": 34
       },
       {
         "deviceType": "Smart TV",
-        "views": 17598,
-        "percentage": 27
+        "views": 16946,
+        "percentage": 26
       },
       {
         "deviceType": "Desktop",
-        "views": 14991,
-        "percentage": 23
+        "views": 14339,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 9125,
-        "percentage": 14
+        "views": 8473,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 3259,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17080,21 +17670,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 28374,
-        "percentage": 40
+        "views": 26956,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 21990,
-        "percentage": 31
+        "views": 20571,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 17025,
-        "percentage": 24
+        "views": 16315,
+        "percentage": 23
       },
       {
         "deviceType": "Tablet",
+        "views": 3547,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 3547,
         "percentage": 5
       }
@@ -17224,23 +17819,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 28591,
-        "percentage": 42
+        "views": 27229,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 19741,
-        "percentage": 29
+        "views": 19061,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 12253,
-        "percentage": 18
+        "views": 11573,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 7489,
-        "percentage": 11
+        "views": 6807,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 3404,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17368,23 +17968,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 34553,
-        "percentage": 50
+        "views": 32480,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 19350,
-        "percentage": 28
+        "views": 18659,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 11057,
-        "percentage": 16
+        "views": 10366,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
         "views": 4146,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 3455,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17512,23 +18117,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 26278,
-        "percentage": 43
+        "views": 25055,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 22000,
-        "percentage": 36
+        "views": 20778,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 8556,
-        "percentage": 14
+        "views": 7944,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
-        "views": 4277,
+        "views": 4278,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 3056,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17656,23 +18266,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 20390,
-        "percentage": 34
+        "views": 19191,
+        "percentage": 32
       },
       {
         "deviceType": "Smart TV",
-        "views": 20390,
-        "percentage": 34
+        "views": 19191,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 13194,
-        "percentage": 22
+        "views": 12594,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
-        "views": 5998,
+        "views": 5997,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2999,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17800,23 +18415,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 28997,
-        "percentage": 47
+        "views": 27762,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 21594,
-        "percentage": 35
+        "views": 20360,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 6787,
-        "percentage": 11
+        "views": 6170,
+        "percentage": 10
       },
       {
         "deviceType": "Tablet",
-        "views": 4318,
+        "views": 4319,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 3085,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -17944,13 +18564,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 25484,
-        "percentage": 45
+        "views": 24351,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 18688,
-        "percentage": 33
+        "views": 17555,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
@@ -17959,8 +18579,13 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 6795,
-        "percentage": 12
+        "views": 6229,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 2832,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18088,23 +18713,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 29851,
-        "percentage": 48
+        "views": 27985,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 13682,
-        "percentage": 22
+        "views": 13060,
+        "percentage": 21
       },
       {
         "deviceType": "Desktop",
-        "views": 12438,
-        "percentage": 20
+        "views": 11816,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 6218,
+        "views": 6219,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 3109,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18232,23 +18862,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 25343,
-        "percentage": 40
+        "views": 24709,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 19641,
-        "percentage": 31
+        "views": 18374,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 9504,
-        "percentage": 15
+        "views": 8870,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
-        "views": 8869,
-        "percentage": 14
+        "views": 8236,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 3168,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18376,23 +19011,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 20835,
-        "percentage": 37
+        "views": 19708,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 15767,
-        "percentage": 28
+        "views": 15204,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 11825,
-        "percentage": 21
+        "views": 11262,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 7883,
-        "percentage": 14
+        "views": 7320,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 2816,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18520,23 +19160,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 18944,
-        "percentage": 33
+        "views": 17796,
+        "percentage": 31
       },
       {
         "deviceType": "Smart TV",
-        "views": 19518,
-        "percentage": 34
+        "views": 18945,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 11481,
-        "percentage": 20
+        "views": 10907,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 7464,
-        "percentage": 13
+        "views": 6889,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Console",
+        "views": 2870,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18664,21 +19309,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 24429,
-        "percentage": 41
-      },
-      {
-        "deviceType": "Smart TV",
-        "views": 23237,
+        "views": 23238,
         "percentage": 39
       },
       {
+        "deviceType": "Smart TV",
+        "views": 22045,
+        "percentage": 37
+      },
+      {
         "deviceType": "Desktop",
-        "views": 8937,
-        "percentage": 15
+        "views": 8341,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
+        "views": 2979,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 2979,
         "percentage": 5
       }
@@ -18808,23 +19458,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 27996,
-        "percentage": 48
+        "views": 26829,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 13998,
-        "percentage": 24
+        "views": 13415,
+        "percentage": 23
       },
       {
         "deviceType": "Desktop",
-        "views": 7582,
-        "percentage": 13
+        "views": 6999,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 8748,
-        "percentage": 15
+        "views": 8165,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 2916,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -18952,21 +19607,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 19610,
-        "percentage": 40
+        "views": 18629,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 19119,
-        "percentage": 39
+        "views": 18139,
+        "percentage": 37
       },
       {
         "deviceType": "Desktop",
-        "views": 7844,
-        "percentage": 16
+        "views": 7354,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
+        "views": 2451,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 2451,
         "percentage": 5
       }
@@ -19096,23 +19756,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 22631,
-        "percentage": 40
+        "views": 21500,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 19237,
-        "percentage": 34
+        "views": 18105,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 10750,
-        "percentage": 19
+        "views": 10184,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
         "views": 3960,
         "percentage": 7
+      },
+      {
+        "deviceType": "Console",
+        "views": 2829,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -19240,23 +19905,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 21477,
-        "percentage": 42
+        "views": 20453,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 14829,
-        "percentage": 29
+        "views": 14318,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 9204,
-        "percentage": 18
+        "views": 8693,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 5625,
-        "percentage": 11
+        "views": 5114,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2557,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -19384,21 +20054,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 19681,
-        "percentage": 41
+        "views": 18721,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 17281,
-        "percentage": 36
+        "views": 16321,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 8641,
-        "percentage": 18
+        "views": 8161,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
+        "views": 2400,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 2400,
         "percentage": 5
       }
@@ -19528,23 +20203,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 25263,
-        "percentage": 51
+        "views": 24273,
+        "percentage": 49
       },
       {
         "deviceType": "Smart TV",
-        "views": 11889,
-        "percentage": 24
+        "views": 11393,
+        "percentage": 23
       },
       {
         "deviceType": "Desktop",
+        "views": 5449,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
         "views": 5944,
         "percentage": 12
       },
       {
-        "deviceType": "Tablet",
-        "views": 6440,
-        "percentage": 13
+        "deviceType": "Console",
+        "views": 2477,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -19672,23 +20352,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 22611,
-        "percentage": 51
+        "views": 21725,
+        "percentage": 49
       },
       {
         "deviceType": "Smart TV",
-        "views": 13301,
-        "percentage": 30
+        "views": 12414,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 5764,
-        "percentage": 13
+        "views": 5320,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 2660,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 2217,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -19816,23 +20501,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 26292,
-        "percentage": 48
+        "views": 25196,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 18623,
-        "percentage": 34
+        "views": 17528,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 6573,
-        "percentage": 12
+        "views": 6025,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 3286,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 2739,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -19960,21 +20650,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 20638,
-        "percentage": 41
+        "views": 19127,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 14094,
-        "percentage": 28
+        "views": 13591,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 13087,
-        "percentage": 26
+        "views": 12584,
+        "percentage": 25
       },
       {
         "deviceType": "Tablet",
+        "views": 2517,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 2517,
         "percentage": 5
       }
@@ -20104,23 +20799,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 17891,
-        "percentage": 37
+        "views": 17407,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 16924,
-        "percentage": 35
+        "views": 15957,
+        "percentage": 33
       },
       {
         "deviceType": "Desktop",
-        "views": 8220,
-        "percentage": 17
+        "views": 7737,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 5320,
-        "percentage": 11
+        "views": 4836,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2418,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -20248,23 +20948,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 17965,
-        "percentage": 43
+        "views": 17130,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 12116,
-        "percentage": 29
+        "views": 11698,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 7103,
-        "percentage": 17
+        "views": 6685,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 4596,
-        "percentage": 11
+        "views": 4178,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2089,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -20392,23 +21097,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 18219,
-        "percentage": 40
+        "views": 17309,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 11387,
-        "percentage": 25
+        "views": 10931,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 9565,
-        "percentage": 21
+        "views": 9109,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 6376,
-        "percentage": 14
+        "views": 5921,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 2277,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -20536,23 +21246,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 23358,
-        "percentage": 48
+        "views": 22385,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 15085,
-        "percentage": 31
+        "views": 14112,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 6326,
-        "percentage": 13
+        "views": 5839,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
         "views": 3893,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 2433,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -20680,23 +21395,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 19284,
-        "percentage": 42
+        "views": 18365,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 16988,
-        "percentage": 37
+        "views": 16070,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 6887,
-        "percentage": 15
+        "views": 6428,
+        "percentage": 14
       },
       {
         "deviceType": "Tablet",
         "views": 2755,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 2296,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -20824,21 +21544,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 16133,
-        "percentage": 41
+        "views": 15347,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 13378,
-        "percentage": 34
+        "views": 12591,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 7870,
-        "percentage": 20
+        "views": 7476,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
+        "views": 1967,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 1967,
         "percentage": 5
       }
@@ -20968,13 +21693,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 22813,
-        "percentage": 47
+        "views": 21842,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 15047,
-        "percentage": 31
+        "views": 14076,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
@@ -20983,8 +21708,13 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 6310,
-        "percentage": 13
+        "views": 5825,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Console",
+        "views": 2427,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21112,23 +21842,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 20630,
-        "percentage": 44
+        "views": 19692,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 11253,
-        "percentage": 24
+        "views": 10784,
+        "percentage": 23
       },
       {
         "deviceType": "Desktop",
-        "views": 9846,
-        "percentage": 21
+        "views": 9377,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 5157,
-        "percentage": 11
+        "views": 4689,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2344,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21256,23 +21991,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 21615,
-        "percentage": 46
+        "views": 20205,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 12217,
-        "percentage": 26
+        "views": 11748,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 10338,
-        "percentage": 22
+        "views": 9868,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
-        "views": 2820,
+        "views": 2819,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 2350,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21400,23 +22140,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 17962,
-        "percentage": 41
+        "views": 17087,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 11391,
-        "percentage": 26
+        "views": 10952,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 9200,
-        "percentage": 21
+        "views": 8762,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 5257,
-        "percentage": 12
+        "views": 4819,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 2190,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21544,23 +22289,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 18154,
-        "percentage": 44
+        "views": 16916,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 11965,
-        "percentage": 29
+        "views": 11552,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 7839,
-        "percentage": 19
+        "views": 7426,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
-        "views": 3300,
+        "views": 3301,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 2063,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21688,23 +22438,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 15572,
-        "percentage": 37
+        "views": 14730,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 13047,
-        "percentage": 31
+        "views": 12205,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 10101,
-        "percentage": 24
+        "views": 9680,
+        "percentage": 23
       },
       {
         "deviceType": "Tablet",
-        "views": 3366,
+        "views": 3367,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 2104,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -21832,21 +22587,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 16713,
-        "percentage": 44
+        "views": 15954,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 12155,
-        "percentage": 32
+        "views": 11395,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 7217,
-        "percentage": 19
+        "views": 6837,
+        "percentage": 18
       },
       {
         "deviceType": "Tablet",
+        "views": 1899,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 1899,
         "percentage": 5
       }
@@ -21976,23 +22736,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 17960,
-        "percentage": 44
+        "views": 17144,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 11837,
-        "percentage": 29
+        "views": 11429,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
+        "views": 4898,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
         "views": 5306,
         "percentage": 13
       },
       {
-        "deviceType": "Tablet",
-        "views": 5715,
-        "percentage": 14
+        "deviceType": "Console",
+        "views": 2041,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22120,23 +22885,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 16104,
-        "percentage": 39
+        "views": 15690,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 13626,
-        "percentage": 33
+        "views": 12801,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 7020,
-        "percentage": 17
+        "views": 6607,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 4542,
-        "percentage": 11
+        "views": 4129,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2065,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22264,13 +23034,13 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14501,
-        "percentage": 42
+        "views": 13810,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 10703,
-        "percentage": 31
+        "views": 10013,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
@@ -22279,8 +23049,13 @@
       },
       {
         "deviceType": "Tablet",
-        "views": 5869,
-        "percentage": 17
+        "views": 5524,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Console",
+        "views": 1726,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22408,23 +23183,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14966,
-        "percentage": 41
+        "views": 14236,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 9491,
-        "percentage": 26
+        "views": 9126,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
-        "views": 6570,
-        "percentage": 18
+        "views": 6205,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 5475,
-        "percentage": 15
+        "views": 5110,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 1825,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22552,23 +23332,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 15063,
-        "percentage": 41
+        "views": 14327,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 9184,
-        "percentage": 25
+        "views": 8817,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 7715,
-        "percentage": 21
+        "views": 7348,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 4776,
-        "percentage": 13
+        "views": 4409,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Console",
+        "views": 1837,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22696,23 +23481,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 20413,
-        "percentage": 51
+        "views": 19613,
+        "percentage": 49
       },
       {
         "deviceType": "Smart TV",
-        "views": 10006,
-        "percentage": 25
+        "views": 9606,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
-        "views": 5203,
-        "percentage": 13
+        "views": 4803,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 4404,
-        "percentage": 11
+        "views": 4003,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2001,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22840,23 +23630,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 15941,
-        "percentage": 39
+        "views": 15123,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 13897,
-        "percentage": 34
+        "views": 13080,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 6949,
-        "percentage": 17
+        "views": 6540,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
         "views": 4087,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 2044,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -22984,23 +23779,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14796,
-        "percentage": 38
+        "views": 14017,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 12071,
-        "percentage": 31
+        "views": 11292,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 8177,
-        "percentage": 21
+        "views": 7788,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 3894,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 1947,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -23128,23 +23928,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14392,
-        "percentage": 41
+        "views": 13690,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 9829,
-        "percentage": 28
+        "views": 9478,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 6318,
-        "percentage": 18
+        "views": 5967,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 4563,
-        "percentage": 13
+        "views": 4212,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Console",
+        "views": 1755,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -23272,23 +24077,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 13279,
-        "percentage": 42
+        "views": 12646,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 10117,
-        "percentage": 32
+        "views": 9485,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 5691,
-        "percentage": 18
+        "views": 5375,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
         "views": 2529,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 1581,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -23416,22 +24226,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12341,
-        "percentage": 41
+        "views": 11738,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 9632,
-        "percentage": 32
+        "views": 9030,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 6622,
-        "percentage": 22
+        "views": 6321,
+        "percentage": 21
       },
       {
         "deviceType": "Tablet",
-        "views": 1504,
+        "views": 1505,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 1505,
         "percentage": 5
       }
     ],
@@ -23560,23 +24375,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 13872,
-        "percentage": 39
+        "views": 13160,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 10315,
-        "percentage": 29
+        "views": 9960,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 5691,
-        "percentage": 16
+        "views": 5336,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 5692,
-        "percentage": 16
+        "views": 5336,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Console",
+        "views": 1778,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -23704,22 +24524,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 11690,
-        "percentage": 40
+        "views": 11106,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 10813,
-        "percentage": 37
+        "views": 10229,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 5260,
-        "percentage": 18
+        "views": 4968,
+        "percentage": 17
       },
       {
         "deviceType": "Tablet",
-        "views": 1462,
+        "views": 1461,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 1461,
         "percentage": 5
       }
     ],
@@ -23848,23 +24673,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12169,
-        "percentage": 39
+        "views": 11858,
+        "percentage": 38
       },
       {
         "deviceType": "Smart TV",
-        "views": 9985,
-        "percentage": 32
+        "views": 9361,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 5305,
-        "percentage": 17
+        "views": 4992,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
-        "views": 3744,
-        "percentage": 12
+        "views": 3432,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 1560,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -23992,23 +24822,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 13696,
-        "percentage": 45
+        "views": 13087,
+        "percentage": 43
       },
       {
         "deviceType": "Smart TV",
-        "views": 11261,
-        "percentage": 37
+        "views": 10652,
+        "percentage": 35
       },
       {
         "deviceType": "Desktop",
-        "views": 3652,
-        "percentage": 12
+        "views": 3348,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 1826,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 1522,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -24136,23 +24971,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14757,
-        "percentage": 48
+        "views": 14143,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 8608,
-        "percentage": 28
+        "views": 8301,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 3997,
-        "percentage": 13
+        "views": 3689,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 3382,
-        "percentage": 11
+        "views": 3074,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 1537,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -24280,21 +25120,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 10979,
-        "percentage": 41
+        "views": 10444,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 10712,
-        "percentage": 40
+        "views": 10176,
+        "percentage": 38
       },
       {
         "deviceType": "Desktop",
-        "views": 3749,
-        "percentage": 14
+        "views": 3481,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
+        "views": 1339,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 1339,
         "percentage": 5
       }
@@ -24424,23 +25269,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 11520,
-        "percentage": 36
+        "views": 11201,
+        "percentage": 35
       },
       {
         "deviceType": "Smart TV",
-        "views": 9920,
-        "percentage": 31
+        "views": 9280,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 6720,
-        "percentage": 21
+        "views": 6400,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 3841,
-        "percentage": 12
+        "views": 3520,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Console",
+        "views": 1600,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -24568,23 +25418,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14684,
-        "percentage": 48
+        "views": 14072,
+        "percentage": 46
       },
       {
         "deviceType": "Smart TV",
-        "views": 9177,
-        "percentage": 30
+        "views": 8565,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 3671,
-        "percentage": 12
+        "views": 3365,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 3059,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 1530,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -24712,23 +25567,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 13767,
-        "percentage": 49
+        "views": 13204,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 7305,
-        "percentage": 26
+        "views": 7024,
+        "percentage": 25
       },
       {
         "deviceType": "Desktop",
+        "views": 3091,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
         "views": 3372,
         "percentage": 12
       },
       {
-        "deviceType": "Tablet",
-        "views": 3652,
-        "percentage": 13
+        "deviceType": "Console",
+        "views": 1405,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -24856,23 +25716,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 16016,
-        "percentage": 54
+        "views": 15126,
+        "percentage": 51
       },
       {
         "deviceType": "Smart TV",
-        "views": 8305,
-        "percentage": 28
+        "views": 8008,
+        "percentage": 27
       },
       {
         "deviceType": "Desktop",
-        "views": 3559,
-        "percentage": 12
+        "views": 3263,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
         "views": 1780,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 1483,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -25000,23 +25865,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 14193,
-        "percentage": 42
+        "views": 13517,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 12165,
-        "percentage": 36
+        "views": 11490,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 4393,
-        "percentage": 13
+        "views": 4055,
+        "percentage": 12
       },
       {
         "deviceType": "Tablet",
-        "views": 3042,
+        "views": 3041,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 1690,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -25144,23 +26014,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 10007,
-        "percentage": 34
+        "views": 9712,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 10007,
-        "percentage": 34
+        "views": 9418,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 4709,
-        "percentage": 16
+        "views": 4415,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 4709,
-        "percentage": 16
+        "views": 4415,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Console",
+        "views": 1472,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -25288,23 +26163,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 11014,
-        "percentage": 38
+        "views": 10434,
+        "percentage": 36
       },
       {
         "deviceType": "Smart TV",
-        "views": 9275,
-        "percentage": 32
+        "views": 8695,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 6086,
-        "percentage": 21
+        "views": 5797,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 2608,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 1449,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -25432,22 +26312,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12664,
-        "percentage": 49
+        "views": 12148,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 8787,
-        "percentage": 34
+        "views": 8270,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 3101,
-        "percentage": 12
+        "views": 2843,
+        "percentage": 11
       },
       {
         "deviceType": "Tablet",
-        "views": 1293,
+        "views": 1292,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 1292,
         "percentage": 5
       }
     ],
@@ -25576,22 +26461,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 10014,
-        "percentage": 43
+        "views": 9549,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 7452,
-        "percentage": 32
+        "views": 6987,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 4658,
-        "percentage": 20
+        "views": 4425,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
-        "views": 1165,
+        "views": 1164,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 1164,
         "percentage": 5
       }
     ],
@@ -25720,23 +26610,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 13555,
-        "percentage": 43
+        "views": 12925,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 10718,
-        "percentage": 34
+        "views": 10087,
+        "percentage": 32
       },
       {
         "deviceType": "Desktop",
-        "views": 5359,
-        "percentage": 17
+        "views": 5044,
+        "percentage": 16
       },
       {
         "deviceType": "Tablet",
         "views": 1891,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 1576,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -25864,23 +26759,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 9142,
-        "percentage": 39
+        "views": 8672,
+        "percentage": 37
       },
       {
         "deviceType": "Smart TV",
-        "views": 5391,
-        "percentage": 23
+        "views": 5157,
+        "percentage": 22
       },
       {
         "deviceType": "Desktop",
-        "views": 5391,
-        "percentage": 23
+        "views": 5157,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 3516,
-        "percentage": 15
+        "views": 3282,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Console",
+        "views": 1172,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -26008,23 +26908,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12608,
-        "percentage": 49
+        "views": 12094,
+        "percentage": 47
       },
       {
         "deviceType": "Smart TV",
-        "views": 8234,
-        "percentage": 32
+        "views": 7719,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 2830,
-        "percentage": 11
+        "views": 2573,
+        "percentage": 10
       },
       {
         "deviceType": "Tablet",
-        "views": 2059,
+        "views": 2058,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 1287,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -26152,21 +27057,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12684,
-        "percentage": 41
+        "views": 12065,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 9590,
-        "percentage": 31
+        "views": 8972,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 7116,
-        "percentage": 23
+        "views": 6806,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
+        "views": 1547,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 1547,
         "percentage": 5
       }
@@ -26296,23 +27206,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 9117,
-        "percentage": 40
+        "views": 8889,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 6838,
-        "percentage": 30
+        "views": 6382,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 3647,
-        "percentage": 16
+        "views": 3419,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 3191,
-        "percentage": 14
+        "views": 2963,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Console",
+        "views": 1140,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -26440,23 +27355,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 7703,
-        "percentage": 41
+        "views": 7327,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 6200,
-        "percentage": 33
+        "views": 5824,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 3006,
-        "percentage": 16
+        "views": 2818,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
-        "views": 1878,
+        "views": 1879,
         "percentage": 10
+      },
+      {
+        "deviceType": "Console",
+        "views": 939,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -26584,23 +27504,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 11571,
-        "percentage": 47
+        "views": 11078,
+        "percentage": 45
       },
       {
         "deviceType": "Smart TV",
-        "views": 7632,
-        "percentage": 31
+        "views": 7140,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 3447,
-        "percentage": 14
+        "views": 3201,
+        "percentage": 13
       },
       {
         "deviceType": "Tablet",
         "views": 1970,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 1231,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -26728,22 +27653,27 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 9564,
-        "percentage": 41
+        "views": 9098,
+        "percentage": 39
       },
       {
         "deviceType": "Smart TV",
-        "views": 7231,
-        "percentage": 31
+        "views": 6765,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 5365,
-        "percentage": 23
+        "views": 5132,
+        "percentage": 22
       },
       {
         "deviceType": "Tablet",
-        "views": 1167,
+        "views": 1166,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
+        "views": 1166,
         "percentage": 5
       }
     ],
@@ -26872,23 +27802,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 8869,
-        "percentage": 43
+        "views": 8251,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 5982,
-        "percentage": 29
+        "views": 5775,
+        "percentage": 28
       },
       {
         "deviceType": "Desktop",
-        "views": 4125,
-        "percentage": 20
+        "views": 3919,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
         "views": 1650,
         "percentage": 8
+      },
+      {
+        "deviceType": "Console",
+        "views": 1031,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -27016,23 +27951,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 12576,
-        "percentage": 43
+        "views": 11991,
+        "percentage": 41
       },
       {
         "deviceType": "Smart TV",
-        "views": 9359,
-        "percentage": 32
+        "views": 8774,
+        "percentage": 30
       },
       {
         "deviceType": "Desktop",
-        "views": 6142,
-        "percentage": 21
+        "views": 5849,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
-        "views": 1169,
+        "views": 1170,
         "percentage": 4
+      },
+      {
+        "deviceType": "Console",
+        "views": 1462,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -27160,23 +28100,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 8626,
-        "percentage": 35
+        "views": 8133,
+        "percentage": 33
       },
       {
         "deviceType": "Smart TV",
-        "views": 8873,
-        "percentage": 36
+        "views": 8380,
+        "percentage": 34
       },
       {
         "deviceType": "Desktop",
-        "views": 4929,
-        "percentage": 20
+        "views": 4683,
+        "percentage": 19
       },
       {
         "deviceType": "Tablet",
         "views": 2218,
         "percentage": 9
+      },
+      {
+        "deviceType": "Console",
+        "views": 1232,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -27304,23 +28249,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 9807,
-        "percentage": 42
+        "views": 9339,
+        "percentage": 40
       },
       {
         "deviceType": "Smart TV",
-        "views": 7238,
-        "percentage": 31
+        "views": 6772,
+        "percentage": 29
       },
       {
         "deviceType": "Desktop",
-        "views": 4904,
-        "percentage": 21
+        "views": 4670,
+        "percentage": 20
       },
       {
         "deviceType": "Tablet",
         "views": 1401,
         "percentage": 6
+      },
+      {
+        "deviceType": "Console",
+        "views": 1168,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -27448,23 +28398,28 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 10675,
-        "percentage": 44
+        "views": 10189,
+        "percentage": 42
       },
       {
         "deviceType": "Smart TV",
-        "views": 6065,
-        "percentage": 25
+        "views": 5823,
+        "percentage": 24
       },
       {
         "deviceType": "Desktop",
+        "views": 3397,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
         "views": 3639,
         "percentage": 15
       },
       {
-        "deviceType": "Tablet",
-        "views": 3882,
-        "percentage": 16
+        "deviceType": "Console",
+        "views": 1213,
+        "percentage": 5
       }
     ],
     "reactions": {
@@ -27592,21 +28547,26 @@
     "deviceDistribution": [
       {
         "deviceType": "Mobile",
-        "views": 11281,
-        "percentage": 46
+        "views": 10791,
+        "percentage": 44
       },
       {
         "deviceType": "Smart TV",
-        "views": 8093,
-        "percentage": 33
+        "views": 7602,
+        "percentage": 31
       },
       {
         "deviceType": "Desktop",
-        "views": 3924,
-        "percentage": 16
+        "views": 3679,
+        "percentage": 15
       },
       {
         "deviceType": "Tablet",
+        "views": 1226,
+        "percentage": 5
+      },
+      {
+        "deviceType": "Console",
         "views": 1226,
         "percentage": 5
       }

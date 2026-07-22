@@ -3,12 +3,13 @@ import { DonutChart } from "@mantine/charts";
 import {
   DeviceMobileIcon,
   DeviceTabletIcon,
+  GameControllerIcon,
   InfoIcon,
   MonitorIcon,
   TelevisionIcon,
 } from "@phosphor-icons/react";
 import { useState } from "react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 
 const DEVICE_ICONS = {
@@ -16,14 +17,8 @@ const DEVICE_ICONS = {
   Tablet: DeviceTabletIcon,
   "Smart TV": TelevisionIcon,
   Desktop: MonitorIcon,
+  Console: GameControllerIcon,
 } as const;
-
-const DEVICE_COLORS: Record<string, string> = {
-  Mobile: "brand.6",
-  "Smart TV": "violet.5",
-  Desktop: "yellow.5",
-  Tablet: "pink.5",
-};
 
 type MovieDeviceDistributionCardProps = {
   tmdbMovieId: number;
