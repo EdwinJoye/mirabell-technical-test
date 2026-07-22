@@ -1,4 +1,4 @@
-import { Group } from "@mantine/core";
+import { Flex } from "@mantine/core";
 import { motion } from "framer-motion";
 import { GenrePopularityCard } from "~/components/dashboard/global/GenrePopularityCard";
 import { PlatformWatchTimeCard } from "~/components/dashboard/global/PlatformWatchTimeCard";
@@ -10,14 +10,14 @@ export function PlatformConsumptionRow() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
     >
-      <Group align="stretch" gap="md" wrap="nowrap">
-        <div className="flex-1">
+      <Flex direction={{ base: "column", sm: "row" }} align="stretch" gap="md">
+        <div className="sm:flex-1">
           <GenrePopularityCard />
         </div>
-        <div className="flex-2">
+        <div className="sm:flex-2">
           <PlatformWatchTimeCard />
         </div>
-      </Group>
+      </Flex>
     </motion.div>
   );
 }

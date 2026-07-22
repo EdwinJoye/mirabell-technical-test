@@ -1,11 +1,11 @@
-import { ActionIcon, AspectRatio, Badge, Center, Loader, Modal, Stack, Text } from "@mantine/core";
+import { AspectRatio, Badge, Center, Loader, Modal, Stack, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { ClockIcon, PlayIcon, StarIcon } from "@phosphor-icons/react";
+import { ClockIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
-import { actionIconHoverVars } from "~/lib/theme/hover";
+import { PlayButton } from "~/components/ui/PlayButton";
 import type { Genre } from "~/features/genres/genres.types";
 
 type MoviePosterCardProps = {
@@ -36,7 +36,7 @@ export function MoviePosterCard({
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const [opened, { open, close }] = useDisclosure(false);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
-  const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "original") : undefined;
+  const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "w780") : undefined;
 
   return (
     <AspectRatio
@@ -133,19 +133,7 @@ export function MoviePosterCard({
                   )}
                 </div>
 
-                {overview && (
-                  <ActionIcon
-                    onClick={open}
-                    radius="xl"
-                    size="sm"
-                    variant="filled"
-                    c="dark.9"
-                    aria-label="See overview"
-                    style={{ ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-white)" }}
-                  >
-                    <PlayIcon size={12} weight="fill" />
-                  </ActionIcon>
-                )}
+                {overview && <PlayButton onClick={open} ariaLabel="See overview" />}
               </div>
             </Stack>
           </>

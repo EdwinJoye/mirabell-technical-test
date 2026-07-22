@@ -14,12 +14,12 @@ import {
   DownloadSimpleIcon,
   DotsThreeIcon,
   FireIcon,
-  PlayIcon,
   ShareNetworkIcon,
   StarIcon,
   ThumbsDownIcon,
 } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
+import { WatchNowButton } from "~/components/ui/WatchNowButton";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { buttonHoverVars } from "~/lib/theme/hover";
 import type { TmdbMovie } from "~/lib/tmdb/tmdb.types";
@@ -42,7 +42,7 @@ type ExploreHeroProps = {
 export function ExploreHero({ movie, genres }: ExploreHeroProps) {
   const movieGenres = genres.filter((genre) => movie.genre_ids.includes(genre.id));
   const backgroundImageUrl = movie.backdrop_path
-    ? getTmdbImageUrl(movie.backdrop_path, "original")
+    ? getTmdbImageUrl(movie.backdrop_path, "w1280")
     : "";
 
   return (
@@ -101,15 +101,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
               {movie.overview}
             </Text>
             <Group gap="sm">
-              <Button
-                leftSection={<PlayIcon size={18} weight="fill" />}
-                color="white"
-                c="dark.9"
-                radius="xl"
-                style={buttonHoverVars()}
-              >
-                Watch Now
-              </Button>
+              <WatchNowButton />
               <Button
                 variant="filled"
                 color="dark.9"

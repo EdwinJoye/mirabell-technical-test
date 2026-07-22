@@ -19,6 +19,6 @@ describe("ComingSoonPage", () => {
 
   it("renders the countdown message", () => {
     renderWithProviders(<ComingSoonPage />);
-    expect(screen.getByText(/Redirecting to home in/)).toBeInTheDocument();
+    expect(screen.getByText(/Redirecting to explore in/)).toBeInTheDocument();
   });
 });

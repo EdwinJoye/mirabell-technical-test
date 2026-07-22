@@ -11,6 +11,8 @@ import type { Genre } from "~/features/genres/genres.types";
 
 const GRID_GAP = 16;
 const REVEAL_BATCH_SIZE = 20;
+const MIN_COLUMNS = 2;
+const MIN_WIDTH_FOR_MIN_COLUMNS = CARD_WIDTH * MIN_COLUMNS + GRID_GAP * (MIN_COLUMNS - 1);
 
 type MovieGridProps = {
   title: string;
@@ -29,8 +31,12 @@ export function MovieGrid({
 }: MovieGridProps) {
   const isSearching = searchQuery.trim().length > 0;
   const { ref: gridRef, width: gridWidth } = useElementSize();
+  const cardWidth =
+    gridWidth > 0 && gridWidth < MIN_WIDTH_FOR_MIN_COLUMNS
+      ? Math.floor((gridWidth - GRID_GAP * (MIN_COLUMNS - 1)) / MIN_COLUMNS)
+      : CARD_WIDTH;
   const columns =
-    gridWidth > 0 ? Math.max(1, Math.floor((gridWidth + GRID_GAP) / (CARD_WIDTH + GRID_GAP))) : 1;
+    gridWidth > 0 ? Math.max(1, Math.floor((gridWidth + GRID_GAP) / (cardWidth + GRID_GAP))) : 1;
 
   const {
     movies: catalogMovies,
@@ -80,7 +86,7 @@ export function MovieGrid({
         ref={gridRef}
         style={{
           display: "grid",
-          gridTemplateColumns: `repeat(auto-fill, minmax(${CARD_WIDTH}px, 1fr))`,
+          gridTemplateColumns: `repeat(auto-fill, minmax(${cardWidth}px, 1fr))`,
           gap: "var(--mantine-spacing-md)",
         }}
       >

@@ -1,4 +1,4 @@
-import { Center, Loader, ScrollArea, Stack } from "@mantine/core";
+import { ScrollArea, Stack } from "@mantine/core";
 import { useDebouncedValue } from "@mantine/hooks";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router";
@@ -8,6 +8,7 @@ import { ContinueWatchingRow } from "~/components/movie/ContinueWatchingRow";
 import { ExploreToolbar } from "~/components/explore/ExploreToolbar";
 import { ExploreHero } from "~/components/explore/ExploreHero";
 import { ExploreAllBanner } from "~/components/explore/ExploreAllBanner";
+import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import { useGenres } from "~/features/genres/genres.hooks";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
 import { useScrollStore } from "~/features/scroll/scroll.store";
@@ -127,64 +128,88 @@ export function ExplorePage() {
         onPopularChange={handlePopularChange}
       />
 
-      <ScrollArea
-        type="auto"
-        style={{ flex: 1 }}
-        viewportRef={setScrollViewport}
-        onBottomReached={() => setBottomReachedCount((count) => count + 1)}
-      >
-        <Stack gap="md" pb="md">
-          {!isShowingGrid && isInitialLoading && (
-            <Center mih={340}>
-              <Loader color="brand" />
-            </Center>
-          )}
-          {!isShowingGrid && !isInitialLoading && (
-            <>
-              {featuredMovie && (
-                <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
-              )}
-              <ContinueWatchingRow />
-              <MovieRow
-                title="You might like"
-                genres={genresData?.genres ?? []}
-                onDiscoverMore={() => handleCategoryChange("all")}
-                filters={{ page: 1, sortBy: "popularity.desc" }}
-              />
-              <MovieRow
-                title="Popular"
-                genres={genresData?.genres ?? []}
-                filters={{ page: 1, sortBy: "popularity.desc", voteAverageGte: 8 }}
-              />
-              {genresData?.genres.slice(0, 11).map((genre) => (
+      {!isShowingGrid && isInitialLoading ? (
+        <div style={{ flex: 1 }}>
+          <CenteredLoader />
+        </div>
+      ) : (
+        <ScrollArea
+          type="auto"
+          style={{ flex: 1 }}
+          viewportRef={setScrollViewport}
+          onBottomReached={() => setBottomReachedCount((count) => count + 1)}
+        >
+          <Stack
+            gap="md"
+            pb="md"
+            style={{
+              minHeight: "100%",
+            }}
+          >
+            {!isShowingGrid && (
+              <>
+                {featuredMovie && (
+                  <ExploreHero movie={featuredMovie} genres={genresData?.genres ?? []} />
+                )}
+
+                <ContinueWatchingRow />
+
                 <MovieRow
-                  key={genre.id}
-                  title={genre.name}
-                  genres={genresData.genres}
-                  onDiscoverMore={() => handleCategoryChange(String(genre.id))}
-                  discoverMoreLabel={`Discover more: ${genre.name}`}
-                  filters={{ page: 1, sortBy: "popularity.desc", withGenres: [genre.id] }}
+                  title="You might like"
+                  genres={genresData?.genres ?? []}
+                  onDiscoverMore={() => handleCategoryChange("all")}
+                  filters={{
+                    page: 1,
+                    sortBy: "popularity.desc",
+                  }}
                 />
-              ))}
-              <ExploreAllBanner onClick={() => handleCategoryChange("all")} />
-            </>
-          )}
-          {isShowingGrid && (
-            <MovieGrid
-              title={gridTitle}
-              searchQuery={debouncedSearchValue}
-              genres={genresData?.genres ?? []}
-              bottomReachedCount={bottomReachedCount}
-              filters={{
-                page: 1,
-                sortBy: "popularity.desc",
-                withGenres: urlGenre ? [Number(urlGenre)] : undefined,
-                voteAverageGte: popularOnly ? 8 : undefined,
-              }}
-            />
-          )}
-        </Stack>
-      </ScrollArea>
+
+                <MovieRow
+                  title="Popular"
+                  genres={genresData?.genres ?? []}
+                  filters={{
+                    page: 1,
+                    sortBy: "popularity.desc",
+                    voteAverageGte: 8,
+                  }}
+                />
+
+                {genresData?.genres.slice(0, 11).map((genre) => (
+                  <MovieRow
+                    key={genre.id}
+                    title={genre.name}
+                    genres={genresData.genres}
+                    onDiscoverMore={() => handleCategoryChange(String(genre.id))}
+                    discoverMoreLabel={`Discover more: ${genre.name}`}
+                    filters={{
+                      page: 1,
+                      sortBy: "popularity.desc",
+                      withGenres: [genre.id],
+                    }}
+                  />
+                ))}
+
+                <ExploreAllBanner onClick={() => handleCategoryChange("all")} />
+              </>
+            )}
+
+            {isShowingGrid && (
+              <MovieGrid
+                title={gridTitle}
+                searchQuery={debouncedSearchValue}
+                genres={genresData?.genres ?? []}
+                bottomReachedCount={bottomReachedCount}
+                filters={{
+                  page: 1,
+                  sortBy: "popularity.desc",
+                  withGenres: urlGenre ? [Number(urlGenre)] : undefined,
+                  voteAverageGte: popularOnly ? 8 : undefined,
+                }}
+              />
+            )}
+          </Stack>
+        </ScrollArea>
+      )}
     </Stack>
   );
 }

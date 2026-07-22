@@ -14,6 +14,7 @@ type NavbarState = {
   isMobileOpen: boolean;
   toggle: () => void;
   close: () => void;
+  closeMobile: () => void;
 };
 
 export const useNavbarStore = create<NavbarState>()((set) => ({
@@ -27,6 +28,7 @@ export const useNavbarStore = create<NavbarState>()((set) => ({
     ),
   close: () =>
     set(() => (isDesktopViewport() ? { isDesktopOpen: false } : { isMobileOpen: false })),
+  closeMobile: () => set({ isMobileOpen: false }),
 }));
 
 export function useIsNavbarClosed(): boolean {

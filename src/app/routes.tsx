@@ -1,9 +1,6 @@
 import type { RouteObject } from "react-router";
+import { ComingSoonPage, DashboardPage, ExplorePage, HomePage } from "~/app/lazyPages";
 import { MainLayout } from "~/layouts/MainLayout";
-import { ComingSoonPage } from "~/pages/ComingSoonPage";
-import { DashboardPage } from "~/pages/DashboardPage";
-import { ExplorePage } from "~/pages/ExplorePage";
-import { HomePage } from "~/pages/HomePage";
 
 export const appRoutes: RouteObject[] = [
   {

@@ -47,6 +47,7 @@ export function MainLayout() {
         padding={0}
         withCloseButton={false}
         bg="dark.6"
+        transitionProps={{ duration: 250, exitDuration: 400, timingFunction: "ease" }}
       >
         <NavbarMenu closeNavbar={closeNavbar} />
       </Drawer>
