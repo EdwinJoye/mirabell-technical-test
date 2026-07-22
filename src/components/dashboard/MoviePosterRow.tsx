@@ -45,7 +45,7 @@ export function MoviePosterRow({ tmdbMovieId }: MoviePosterRowProps) {
       </div>
 
       <div style={{ gridColumn: 3, gridRow: "1 / 3", minWidth: 0 }}>
-        <MovieRetentionChart />
+        <MovieRetentionChart retentionCurve={dashboardData.retentionCurve} />
       </div>
     </div>
   );

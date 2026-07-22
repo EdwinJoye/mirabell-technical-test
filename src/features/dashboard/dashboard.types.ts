@@ -80,6 +80,11 @@ export interface MovieReactions {
   noReactionViewers: number;
 }
 
+export interface RetentionPoint {
+  percentageWatched: string;
+  thisMovie: number;
+}
+
 export interface MovieDashboardData {
   stats: MovieDashboardStats;
   viewsEvolution: MovieViewsPoint[];
@@ -87,4 +92,5 @@ export interface MovieDashboardData {
   ratingDistribution: MovieRatingDistributionEntry[];
   deviceDistribution: DeviceDistribution[];
   reactions: MovieReactions;
+  retentionCurve: RetentionPoint[];
 }

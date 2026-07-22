@@ -111,7 +111,37 @@
       "likedViewers": 44879,
       "dislikedViewers": 2448,
       "noReactionViewers": 34272
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "1108427": {
     "stats": {
@@ -225,7 +255,37 @@
       "likedViewers": 63742,
       "dislikedViewers": 2942,
       "noReactionViewers": 31380
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 61
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 58
+      }
+    ]
   },
   "1339713": {
     "stats": {
@@ -339,7 +399,37 @@
       "likedViewers": 54272,
       "dislikedViewers": 2807,
       "noReactionViewers": 36493
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 79
+      }
+    ]
   },
   "1083381": {
     "stats": {
@@ -453,7 +543,37 @@
       "likedViewers": 51706,
       "dislikedViewers": 2770,
       "noReactionViewers": 37856
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 59
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 56
+      }
+    ]
   },
   "1275779": {
     "stats": {
@@ -567,7 +687,37 @@
       "likedViewers": 49558,
       "dislikedViewers": 3360,
       "noReactionViewers": 31078
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "1084244": {
     "stats": {
@@ -681,7 +831,37 @@
       "likedViewers": 45343,
       "dislikedViewers": 8750,
       "noReactionViewers": 25456
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 57
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "1315772": {
     "stats": {
@@ -795,7 +975,37 @@
       "likedViewers": 43437,
       "dislikedViewers": 2555,
       "noReactionViewers": 39179
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "1081003": {
     "stats": {
@@ -909,7 +1119,37 @@
       "likedViewers": 40772,
       "dislikedViewers": 2308,
       "noReactionViewers": 33849
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 79
+      }
+    ]
   },
   "1273221": {
     "stats": {
@@ -1023,7 +1263,37 @@
       "likedViewers": 34383,
       "dislikedViewers": 3737,
       "noReactionViewers": 36625
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 71
+      }
+    ]
   },
   "1368314": {
     "stats": {
@@ -1137,7 +1407,37 @@
       "likedViewers": 46297,
       "dislikedViewers": 11973,
       "noReactionViewers": 21552
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 57
+      }
+    ]
   },
   "687163": {
     "stats": {
@@ -1251,7 +1551,37 @@
       "likedViewers": 43329,
       "dislikedViewers": 11666,
       "noReactionViewers": 28330
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 90
+      }
+    ]
   },
   "1314481": {
     "stats": {
@@ -1365,7 +1695,37 @@
       "likedViewers": 49856,
       "dislikedViewers": 5342,
       "noReactionViewers": 33831
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 55
+      }
+    ]
   },
   "1280738": {
     "stats": {
@@ -1479,7 +1839,37 @@
       "likedViewers": 46734,
       "dislikedViewers": 2376,
       "noReactionViewers": 30100
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "1318621": {
     "stats": {
@@ -1593,7 +1983,37 @@
       "likedViewers": 44951,
       "dislikedViewers": 2544,
       "noReactionViewers": 37318
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "261639": {
     "stats": {
@@ -1707,7 +2127,37 @@
       "likedViewers": 32697,
       "dislikedViewers": 11373,
       "noReactionViewers": 27011
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 56
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "1668364": {
     "stats": {
@@ -1821,7 +2271,37 @@
       "likedViewers": 52360,
       "dislikedViewers": 2493,
       "noReactionViewers": 28258
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 90
+      }
+    ]
   },
   "1228710": {
     "stats": {
@@ -1935,7 +2415,37 @@
       "likedViewers": 37086,
       "dislikedViewers": 10044,
       "noReactionViewers": 30132
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 68
+      }
+    ]
   },
   "1523145": {
     "stats": {
@@ -2049,7 +2559,37 @@
       "likedViewers": 35900,
       "dislikedViewers": 6648,
       "noReactionViewers": 23934
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "1127384": {
     "stats": {
@@ -2163,7 +2703,37 @@
       "likedViewers": 37947,
       "dislikedViewers": 2070,
       "noReactionViewers": 28977
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "1285366": {
     "stats": {
@@ -2277,7 +2847,37 @@
       "likedViewers": 35852,
       "dislikedViewers": 14029,
       "noReactionViewers": 28059
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "936075": {
     "stats": {
@@ -2391,7 +2991,37 @@
       "likedViewers": 33842,
       "dislikedViewers": 8799,
       "noReactionViewers": 25043
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 82
+      }
+    ]
   },
   "83533": {
     "stats": {
@@ -2505,7 +3135,37 @@
       "likedViewers": 34929,
       "dislikedViewers": 8175,
       "noReactionViewers": 31212
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "931285": {
     "stats": {
@@ -2619,7 +3279,37 @@
       "likedViewers": 36552,
       "dislikedViewers": 5981,
       "noReactionViewers": 23926
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 80
+      }
+    ]
   },
   "969681": {
     "stats": {
@@ -2733,7 +3423,37 @@
       "likedViewers": 31598,
       "dislikedViewers": 1693,
       "noReactionViewers": 23134
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 84
+      }
+    ]
   },
   "1413976": {
     "stats": {
@@ -2847,7 +3567,37 @@
       "likedViewers": 28752,
       "dislikedViewers": 10223,
       "noReactionViewers": 24919
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 61
+      }
+    ]
   },
   "1321008": {
     "stats": {
@@ -2961,7 +3711,37 @@
       "likedViewers": 36523,
       "dislikedViewers": 8269,
       "noReactionViewers": 24120
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "1226863": {
     "stats": {
@@ -3075,7 +3855,37 @@
       "likedViewers": 32508,
       "dislikedViewers": 3824,
       "noReactionViewers": 27409
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 62
+      }
+    ]
   },
   "1304313": {
     "stats": {
@@ -3189,7 +3999,37 @@
       "likedViewers": 25459,
       "dislikedViewers": 1591,
       "noReactionViewers": 25990
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 90
+      }
+    ]
   },
   "1321491": {
     "stats": {
@@ -3303,7 +4143,37 @@
       "likedViewers": 39877,
       "dislikedViewers": 2099,
       "noReactionViewers": 27984
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "1645603": {
     "stats": {
@@ -3417,7 +4287,37 @@
       "likedViewers": 23454,
       "dislikedViewers": 6628,
       "noReactionViewers": 20906
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 73
+      }
+    ]
   },
   "1311031": {
     "stats": {
@@ -3531,7 +4431,37 @@
       "likedViewers": 31716,
       "dislikedViewers": 2024,
       "noReactionViewers": 33741
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 87
+      }
+    ]
   },
   "1110034": {
     "stats": {
@@ -3645,7 +4575,37 @@
       "likedViewers": 34140,
       "dislikedViewers": 4267,
       "noReactionViewers": 22557
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "1491920": {
     "stats": {
@@ -3759,7 +4719,37 @@
       "likedViewers": 23743,
       "dislikedViewers": 7578,
       "noReactionViewers": 19196
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 77
+      }
+    ]
   },
   "980431": {
     "stats": {
@@ -3873,7 +4863,37 @@
       "likedViewers": 33872,
       "dislikedViewers": 6889,
       "noReactionViewers": 16649
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 87
+      }
+    ]
   },
   "200066": {
     "stats": {
@@ -3987,7 +5007,37 @@
       "likedViewers": 29116,
       "dislikedViewers": 3717,
       "noReactionViewers": 29117
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 68
+      }
+    ]
   },
   "976912": {
     "stats": {
@@ -4101,7 +5151,37 @@
       "likedViewers": 29360,
       "dislikedViewers": 1694,
       "noReactionViewers": 25407
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 65
+      }
+    ]
   },
   "1003596": {
     "stats": {
@@ -4215,7 +5295,37 @@
       "likedViewers": 31498,
       "dislikedViewers": 7874,
       "noReactionViewers": 21201
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 55
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 51
+      }
+    ]
   },
   "1318447": {
     "stats": {
@@ -4329,7 +5439,37 @@
       "likedViewers": 25178,
       "dislikedViewers": 4937,
       "noReactionViewers": 19253
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 69
+      }
+    ]
   },
   "1212763": {
     "stats": {
@@ -4443,7 +5583,37 @@
       "likedViewers": 26756,
       "dislikedViewers": 7729,
       "noReactionViewers": 24972
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "1327819": {
     "stats": {
@@ -4557,7 +5727,37 @@
       "likedViewers": 27266,
       "dislikedViewers": 10016,
       "noReactionViewers": 18362
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 73
+      }
+    ]
   },
   "47612": {
     "stats": {
@@ -4671,7 +5871,37 @@
       "likedViewers": 29697,
       "dislikedViewers": 1485,
       "noReactionViewers": 18313
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 55
+      }
+    ]
   },
   "1301421": {
     "stats": {
@@ -4785,7 +6015,37 @@
       "likedViewers": 24543,
       "dislikedViewers": 1292,
       "noReactionViewers": 17223
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "1727780": {
     "stats": {
@@ -4899,7 +6159,37 @@
       "likedViewers": 27824,
       "dislikedViewers": 5008,
       "noReactionViewers": 22815
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 56
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "1007757": {
     "stats": {
@@ -5013,7 +6303,37 @@
       "likedViewers": 20881,
       "dislikedViewers": 1278,
       "noReactionViewers": 20455
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 59
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 56
+      }
+    ]
   },
   "1279493": {
     "stats": {
@@ -5127,7 +6447,37 @@
       "likedViewers": 25589,
       "dislikedViewers": 7024,
       "noReactionViewers": 17562
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "1439930": {
     "stats": {
@@ -5241,7 +6591,37 @@
       "likedViewers": 23751,
       "dislikedViewers": 5806,
       "noReactionViewers": 23222
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 87
+      }
+    ]
   },
   "1595852": {
     "stats": {
@@ -5355,7 +6735,37 @@
       "likedViewers": 23152,
       "dislikedViewers": 5094,
       "noReactionViewers": 18059
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "1443894": {
     "stats": {
@@ -5469,7 +6879,37 @@
       "likedViewers": 24823,
       "dislikedViewers": 2104,
       "noReactionViewers": 15146
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 77
+      }
+    ]
   },
   "718833": {
     "stats": {
@@ -5583,7 +7023,37 @@
       "likedViewers": 24338,
       "dislikedViewers": 1738,
       "noReactionViewers": 17385
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 83
+      }
+    ]
   },
   "619": {
     "stats": {
@@ -5697,7 +7167,37 @@
       "likedViewers": 26118,
       "dislikedViewers": 2612,
       "noReactionViewers": 14800
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "11012": {
     "stats": {
@@ -5811,7 +7311,37 @@
       "likedViewers": 24886,
       "dislikedViewers": 6913,
       "noReactionViewers": 14287
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 54
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 51
+      }
+    ]
   },
   "1656220": {
     "stats": {
@@ -5925,7 +7455,37 @@
       "likedViewers": 24435,
       "dislikedViewers": 3313,
       "noReactionViewers": 13667
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 59
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 56
+      }
+    ]
   },
   "1301310": {
     "stats": {
@@ -6039,7 +7599,37 @@
       "likedViewers": 19166,
       "dislikedViewers": 4685,
       "noReactionViewers": 18741
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 65
+      }
+    ]
   },
   "278": {
     "stats": {
@@ -6153,7 +7743,37 @@
       "likedViewers": 19274,
       "dislikedViewers": 5866,
       "noReactionViewers": 16761
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 92
+      }
+    ]
   },
   "1541560": {
     "stats": {
@@ -6267,7 +7887,37 @@
       "likedViewers": 20266,
       "dislikedViewers": 1169,
       "noReactionViewers": 17539
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 64
+      }
+    ]
   },
   "157336": {
     "stats": {
@@ -6381,7 +8031,37 @@
       "likedViewers": 20492,
       "dislikedViewers": 5855,
       "noReactionViewers": 10246
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 65
+      }
+    ]
   },
   "1305672": {
     "stats": {
@@ -6495,7 +8175,37 @@
       "likedViewers": 22371,
       "dislikedViewers": 5816,
       "noReactionViewers": 16555
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "1380291": {
     "stats": {
@@ -6609,7 +8319,37 @@
       "likedViewers": 23347,
       "dislikedViewers": 4041,
       "noReactionViewers": 17510
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "1290821": {
     "stats": {
@@ -6723,7 +8463,37 @@
       "likedViewers": 15563,
       "dislikedViewers": 4343,
       "noReactionViewers": 16287
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "432279": {
     "stats": {
@@ -6837,7 +8607,37 @@
       "likedViewers": 23311,
       "dislikedViewers": 1185,
       "noReactionViewers": 15014
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "1468683": {
     "stats": {
@@ -6951,7 +8751,37 @@
       "likedViewers": 17336,
       "dislikedViewers": 1415,
       "noReactionViewers": 16628
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 54
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 51
+      }
+    ]
   },
   "5721": {
     "stats": {
@@ -7065,7 +8895,37 @@
       "likedViewers": 18385,
       "dislikedViewers": 1041,
       "noReactionViewers": 15263
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 64
+      }
+    ]
   },
   "1419406": {
     "stats": {
@@ -7179,7 +9039,37 @@
       "likedViewers": 25016,
       "dislikedViewers": 1173,
       "noReactionViewers": 12899
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 81
+      }
+    ]
   },
   "1711175": {
     "stats": {
@@ -7293,7 +9183,37 @@
       "likedViewers": 16450,
       "dislikedViewers": 5950,
       "noReactionViewers": 12599
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 82
+      }
+    ]
   },
   "1725116": {
     "stats": {
@@ -7407,7 +9327,37 @@
       "likedViewers": 20317,
       "dislikedViewers": 1051,
       "noReactionViewers": 13662
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 72
+      }
+    ]
   },
   "1451078": {
     "stats": {
@@ -7521,7 +9471,37 @@
       "likedViewers": 26348,
       "dislikedViewers": 1216,
       "noReactionViewers": 12971
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 57
+      }
+    ]
   },
   "687259": {
     "stats": {
@@ -7635,7 +9615,37 @@
       "likedViewers": 16643,
       "dislikedViewers": 5789,
       "noReactionViewers": 13748
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 92
+      }
+    ]
   },
   "634649": {
     "stats": {
@@ -7749,7 +9759,37 @@
       "likedViewers": 16929,
       "dislikedViewers": 6625,
       "noReactionViewers": 13249
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "1397385": {
     "stats": {
@@ -7863,7 +9903,37 @@
       "likedViewers": 16625,
       "dislikedViewers": 5089,
       "noReactionViewers": 12215
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 77
+      }
+    ]
   },
   "64439": {
     "stats": {
@@ -7977,7 +10047,37 @@
       "likedViewers": 18816,
       "dislikedViewers": 910,
       "noReactionViewers": 10622
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 69
+      }
+    ]
   },
   "1309083": {
     "stats": {
@@ -8091,7 +10191,37 @@
       "likedViewers": 19085,
       "dislikedViewers": 4116,
       "noReactionViewers": 14220
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 76
+      }
+    ]
   },
   "1122573": {
     "stats": {
@@ -8205,7 +10335,37 @@
       "likedViewers": 21034,
       "dislikedViewers": 2454,
       "noReactionViewers": 11568
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 84
+      }
+    ]
   },
   "1368166": {
     "stats": {
@@ -8319,7 +10479,37 @@
       "likedViewers": 16955,
       "dislikedViewers": 960,
       "noReactionViewers": 14076
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "755898": {
     "stats": {
@@ -8433,7 +10623,37 @@
       "likedViewers": 17305,
       "dislikedViewers": 4326,
       "noReactionViewers": 11648
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "1227241": {
     "stats": {
@@ -8547,7 +10767,37 @@
       "likedViewers": 21378,
       "dislikedViewers": 1051,
       "noReactionViewers": 12617
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 81
+      }
+    ]
   },
   "1440050": {
     "stats": {
@@ -8661,7 +10911,37 @@
       "likedViewers": 20653,
       "dislikedViewers": 3205,
       "noReactionViewers": 11750
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 83
+      }
+    ]
   },
   "1241982": {
     "stats": {
@@ -8775,7 +11055,37 @@
       "likedViewers": 15213,
       "dislikedViewers": 815,
       "noReactionViewers": 11138
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 83
+      }
+    ]
   },
   "1057265": {
     "stats": {
@@ -8889,7 +11199,37 @@
       "likedViewers": 16205,
       "dislikedViewers": 5720,
       "noReactionViewers": 9850
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "1084242": {
     "stats": {
@@ -9003,7 +11343,37 @@
       "likedViewers": 12655,
       "dislikedViewers": 3358,
       "noReactionViewers": 9814
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 82
+      }
+    ]
   },
   "713704": {
     "stats": {
@@ -9117,7 +11487,37 @@
       "likedViewers": 13940,
       "dislikedViewers": 2681,
       "noReactionViewers": 10187
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "1325734": {
     "stats": {
@@ -9231,7 +11631,37 @@
       "likedViewers": 12240,
       "dislikedViewers": 2938,
       "noReactionViewers": 9303
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 61
+      }
+    ]
   },
   "1728704": {
     "stats": {
@@ -9345,7 +11775,37 @@
       "likedViewers": 14406,
       "dislikedViewers": 4898,
       "noReactionViewers": 9508
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "1265609": {
     "stats": {
@@ -9459,7 +11919,37 @@
       "likedViewers": 14566,
       "dislikedViewers": 955,
       "noReactionViewers": 8357
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "27205": {
     "stats": {
@@ -9573,7 +12063,37 @@
       "likedViewers": 14383,
       "dislikedViewers": 1240,
       "noReactionViewers": 9175
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 61
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 58
+      }
+    ]
   },
   "1234821": {
     "stats": {
@@ -9687,7 +12207,37 @@
       "likedViewers": 11914,
       "dislikedViewers": 2698,
       "noReactionViewers": 7868
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "614945": {
     "stats": {
@@ -9801,7 +12351,37 @@
       "likedViewers": 12329,
       "dislikedViewers": 948,
       "noReactionViewers": 10432
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "1175942": {
     "stats": {
@@ -9915,7 +12495,37 @@
       "likedViewers": 17129,
       "dislikedViewers": 1742,
       "noReactionViewers": 10162
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 61
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 58
+      }
+    ]
   },
   "424711": {
     "stats": {
@@ -10029,7 +12639,37 @@
       "likedViewers": 11993,
       "dislikedViewers": 1777,
       "noReactionViewers": 8440
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "1288341": {
     "stats": {
@@ -10143,7 +12783,37 @@
       "likedViewers": 14212,
       "dislikedViewers": 2493,
       "noReactionViewers": 8228
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "1242898": {
     "stats": {
@@ -10257,7 +12927,37 @@
       "likedViewers": 12525,
       "dislikedViewers": 671,
       "noReactionViewers": 9170
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "1363387": {
     "stats": {
@@ -10371,7 +13071,37 @@
       "likedViewers": 11907,
       "dislikedViewers": 836,
       "noReactionViewers": 8147
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 62
+      }
+    ]
   },
   "1641319": {
     "stats": {
@@ -10485,7 +13215,37 @@
       "likedViewers": 9781,
       "dislikedViewers": 2608,
       "noReactionViewers": 9347
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "1297842": {
     "stats": {
@@ -10599,7 +13359,37 @@
       "likedViewers": 12757,
       "dislikedViewers": 671,
       "noReactionViewers": 8952
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 79
+      }
+    ]
   },
   "872585": {
     "stats": {
@@ -10713,7 +13503,37 @@
       "likedViewers": 11078,
       "dislikedViewers": 1491,
       "noReactionViewers": 8735
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 79
+      }
+    ]
   },
   "803796": {
     "stats": {
@@ -10827,7 +13647,37 @@
       "likedViewers": 12250,
       "dislikedViewers": 721,
       "noReactionViewers": 11048
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "652": {
     "stats": {
@@ -10941,7 +13791,37 @@
       "likedViewers": 13292,
       "dislikedViewers": 3649,
       "noReactionViewers": 9121
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 77
+      }
+    ]
   },
   "104894": {
     "stats": {
@@ -11055,7 +13935,37 @@
       "likedViewers": 11881,
       "dislikedViewers": 3802,
       "noReactionViewers": 8079
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 92
+      }
+    ]
   },
   "438631": {
     "stats": {
@@ -11169,7 +14079,37 @@
       "likedViewers": 10189,
       "dislikedViewers": 2215,
       "noReactionViewers": 9746
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "1058424": {
     "stats": {
@@ -11283,7 +14223,37 @@
       "likedViewers": 14888,
       "dislikedViewers": 744,
       "noReactionViewers": 9181
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "76600": {
     "stats": {
@@ -11397,7 +14367,37 @@
       "likedViewers": 12893,
       "dislikedViewers": 860,
       "noReactionViewers": 7735
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 63
+      }
+    ]
   },
   "24428": {
     "stats": {
@@ -11511,7 +14511,37 @@
       "likedViewers": 7457,
       "dislikedViewers": 2542,
       "noReactionViewers": 6949
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 61
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 58
+      }
+    ]
   },
   "1353926": {
     "stats": {
@@ -11625,7 +14655,37 @@
       "likedViewers": 10570,
       "dislikedViewers": 577,
       "noReactionViewers": 8071
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "1171145": {
     "stats": {
@@ -11739,7 +14799,37 @@
       "likedViewers": 11483,
       "dislikedViewers": 2339,
       "noReactionViewers": 7442
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 57
+      }
+    ]
   },
   "155": {
     "stats": {
@@ -11853,7 +14943,37 @@
       "likedViewers": 8942,
       "dislikedViewers": 2845,
       "noReactionViewers": 8536
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "204407": {
     "stats": {
@@ -11967,7 +15087,37 @@
       "likedViewers": 12446,
       "dislikedViewers": 844,
       "noReactionViewers": 7805
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 55
+      }
+    ]
   },
   "1472951": {
     "stats": {
@@ -12081,7 +15231,37 @@
       "likedViewers": 9326,
       "dislikedViewers": 491,
       "noReactionViewers": 6545
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "299536": {
     "stats": {
@@ -12195,7 +15375,37 @@
       "likedViewers": 8649,
       "dislikedViewers": 2035,
       "noReactionViewers": 6274
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "329505": {
     "stats": {
@@ -12309,7 +15519,37 @@
       "likedViewers": 10064,
       "dislikedViewers": 549,
       "noReactionViewers": 7686
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 54
+      }
+    ]
   },
   "1242332": {
     "stats": {
@@ -12423,7 +15663,37 @@
       "likedViewers": 8993,
       "dislikedViewers": 1285,
       "noReactionViewers": 8076
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "840464": {
     "stats": {
@@ -12537,7 +15807,37 @@
       "likedViewers": 7625,
       "dislikedViewers": 2383,
       "noReactionViewers": 5877
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 79
+      }
+    ]
   },
   "454639": {
     "stats": {
@@ -12651,7 +15951,37 @@
       "likedViewers": 7679,
       "dislikedViewers": 2287,
       "noReactionViewers": 6372
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 76
+      }
+    ]
   },
   "502356": {
     "stats": {
@@ -12765,7 +16095,37 @@
       "likedViewers": 8367,
       "dislikedViewers": 483,
       "noReactionViewers": 7241
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 68
+      }
+    ]
   },
   "1010581": {
     "stats": {
@@ -12879,7 +16239,37 @@
       "likedViewers": 6924,
       "dislikedViewers": 2020,
       "noReactionViewers": 5481
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "1432631": {
     "stats": {
@@ -12993,7 +16383,37 @@
       "likedViewers": 10206,
       "dislikedViewers": 2646,
       "noReactionViewers": 6048
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 72
+      }
+    ]
   },
   "862": {
     "stats": {
@@ -13107,7 +16527,37 @@
       "likedViewers": 8515,
       "dislikedViewers": 456,
       "noReactionViewers": 6235
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 81
+      }
+    ]
   },
   "1198994": {
     "stats": {
@@ -13221,7 +16671,37 @@
       "likedViewers": 9013,
       "dislikedViewers": 483,
       "noReactionViewers": 6599
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "448772": {
     "stats": {
@@ -13335,7 +16815,37 @@
       "likedViewers": 8133,
       "dislikedViewers": 2871,
       "noReactionViewers": 4944
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 68
+      }
+    ]
   },
   "299710": {
     "stats": {
@@ -13449,7 +16959,37 @@
       "likedViewers": 9489,
       "dislikedViewers": 666,
       "noReactionViewers": 6492
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 82
+      }
+    ]
   },
   "496243": {
     "stats": {
@@ -13563,7 +17103,37 @@
       "likedViewers": 8543,
       "dislikedViewers": 2531,
       "noReactionViewers": 4746
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 68
+      }
+    ]
   },
   "1305781": {
     "stats": {
@@ -13677,7 +17247,37 @@
       "likedViewers": 9139,
       "dislikedViewers": 465,
       "noReactionViewers": 5886
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "122": {
     "stats": {
@@ -13791,7 +17391,37 @@
       "likedViewers": 7472,
       "dislikedViewers": 1793,
       "noReactionViewers": 5679
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 64
+      }
+    ]
   },
   "1477317": {
     "stats": {
@@ -13905,7 +17535,37 @@
       "likedViewers": 7774,
       "dislikedViewers": 432,
       "noReactionViewers": 6190
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "1272837": {
     "stats": {
@@ -14019,7 +17679,37 @@
       "likedViewers": 7582,
       "dislikedViewers": 875,
       "noReactionViewers": 6123
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 92
+      }
+    ]
   },
   "1397201": {
     "stats": {
@@ -14133,7 +17823,37 @@
       "likedViewers": 9906,
       "dislikedViewers": 504,
       "noReactionViewers": 6379
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "109428": {
     "stats": {
@@ -14247,7 +17967,37 @@
       "likedViewers": 6828,
       "dislikedViewers": 1366,
       "noReactionViewers": 5463
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "1266127": {
     "stats": {
@@ -14361,7 +18111,37 @@
       "likedViewers": 6989,
       "dislikedViewers": 437,
       "noReactionViewers": 7135
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 54
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 50
+      }
+    ]
   },
   "950387": {
     "stats": {
@@ -14475,7 +18255,37 @@
       "likedViewers": 7875,
       "dislikedViewers": 2568,
       "noReactionViewers": 6677
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 61
+      }
+    ]
   },
   "1292415": {
     "stats": {
@@ -14589,7 +18399,37 @@
       "likedViewers": 6859,
       "dislikedViewers": 1592,
       "noReactionViewers": 3797
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 55
+      }
+    ]
   },
   "1359685": {
     "stats": {
@@ -14703,7 +18543,37 @@
       "likedViewers": 6689,
       "dislikedViewers": 1565,
       "noReactionViewers": 5977
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "569094": {
     "stats": {
@@ -14817,7 +18687,37 @@
       "likedViewers": 7522,
       "dislikedViewers": 1622,
       "noReactionViewers": 5606
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "1671541": {
     "stats": {
@@ -14931,7 +18831,37 @@
       "likedViewers": 7246,
       "dislikedViewers": 2029,
       "noReactionViewers": 5217
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 57
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "226674": {
     "stats": {
@@ -15045,7 +18975,37 @@
       "likedViewers": 7502,
       "dislikedViewers": 536,
       "noReactionViewers": 5358
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "1632181": {
     "stats": {
@@ -15159,7 +19119,37 @@
       "likedViewers": 7290,
       "dislikedViewers": 1682,
       "noReactionViewers": 5048
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "238": {
     "stats": {
@@ -15273,7 +19263,37 @@
       "likedViewers": 6189,
       "dislikedViewers": 1309,
       "noReactionViewers": 4404
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 63
+      }
+    ]
   },
   "1184918": {
     "stats": {
@@ -15387,7 +19407,37 @@
       "likedViewers": 6153,
       "dislikedViewers": 628,
       "noReactionViewers": 5776
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "1061474": {
     "stats": {
@@ -15501,7 +19551,37 @@
       "likedViewers": 6898,
       "dislikedViewers": 663,
       "noReactionViewers": 5704
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 87
+      }
+    ]
   },
   "301528": {
     "stats": {
@@ -15615,7 +19695,37 @@
       "likedViewers": 5371,
       "dislikedViewers": 343,
       "noReactionViewers": 5713
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 61
+      }
+    ]
   },
   "177572": {
     "stats": {
@@ -15729,7 +19839,37 @@
       "likedViewers": 8201,
       "dislikedViewers": 432,
       "noReactionViewers": 5754
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "557": {
     "stats": {
@@ -15843,7 +19983,37 @@
       "likedViewers": 6734,
       "dislikedViewers": 1787,
       "noReactionViewers": 5222
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 86
+      }
+    ]
   },
   "1430077": {
     "stats": {
@@ -15957,7 +20127,37 @@
       "likedViewers": 5959,
       "dislikedViewers": 1296,
       "noReactionViewers": 5700
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "1616674": {
     "stats": {
@@ -16071,7 +20271,37 @@
       "likedViewers": 6039,
       "dislikedViewers": 659,
       "noReactionViewers": 4282
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 62
+      }
+    ]
   },
   "1580803": {
     "stats": {
@@ -16185,7 +20415,37 @@
       "likedViewers": 5354,
       "dislikedViewers": 1392,
       "noReactionViewers": 3961
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 63
+      }
+    ]
   },
   "680": {
     "stats": {
@@ -16299,7 +20559,37 @@
       "likedViewers": 6432,
       "dislikedViewers": 1310,
       "noReactionViewers": 4170
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "950028": {
     "stats": {
@@ -16413,7 +20703,37 @@
       "likedViewers": 6627,
       "dislikedViewers": 1028,
       "noReactionViewers": 3771
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 72
+      }
+    ]
   },
   "120": {
     "stats": {
@@ -16527,7 +20847,37 @@
       "likedViewers": 4742,
       "dislikedViewers": 254,
       "noReactionViewers": 3472
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 89
+      }
+    ]
   },
   "1330021": {
     "stats": {
@@ -16641,7 +20991,37 @@
       "likedViewers": 6288,
       "dislikedViewers": 1209,
       "noReactionViewers": 4595
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 64
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 59
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 56
+      }
+    ]
   },
   "863": {
     "stats": {
@@ -16755,7 +21135,37 @@
       "likedViewers": 4805,
       "dislikedViewers": 1125,
       "noReactionViewers": 4293
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "425274": {
     "stats": {
@@ -16869,7 +21279,37 @@
       "likedViewers": 6216,
       "dislikedViewers": 1793,
       "noReactionViewers": 3944
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 88
+      }
+    ]
   },
   "585": {
     "stats": {
@@ -16983,7 +21423,37 @@
       "likedViewers": 6406,
       "dislikedViewers": 305,
       "noReactionViewers": 3457
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "385687": {
     "stats": {
@@ -17097,7 +21567,37 @@
       "likedViewers": 5603,
       "dislikedViewers": 374,
       "noReactionViewers": 3362
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 65
+      }
+    ]
   },
   "1390300": {
     "stats": {
@@ -17211,7 +21711,37 @@
       "likedViewers": 6348,
       "dislikedViewers": 753,
       "noReactionViewers": 3659
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 58
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 55
+      }
+    ]
   },
   "603": {
     "stats": {
@@ -17325,7 +21855,37 @@
       "likedViewers": 5354,
       "dislikedViewers": 681,
       "noReactionViewers": 3700
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 90
+      }
+    ]
   },
   "10193": {
     "stats": {
@@ -17439,7 +21999,37 @@
       "likedViewers": 5795,
       "dislikedViewers": 644,
       "noReactionViewers": 4292
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 80
+      }
+    ]
   },
   "1123261": {
     "stats": {
@@ -17553,7 +22143,37 @@
       "likedViewers": 4819,
       "dislikedViewers": 1533,
       "noReactionViewers": 4601
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 73
+      }
+    ]
   },
   "1723013": {
     "stats": {
@@ -17667,7 +22287,37 @@
       "likedViewers": 4774,
       "dislikedViewers": 1061,
       "noReactionViewers": 3005
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "1002398": {
     "stats": {
@@ -17781,7 +22431,37 @@
       "likedViewers": 5294,
       "dislikedViewers": 662,
       "noReactionViewers": 3497
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 61
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 58
+      }
+    ]
   },
   "350": {
     "stats": {
@@ -17895,7 +22575,37 @@
       "likedViewers": 4555,
       "dislikedViewers": 1031,
       "noReactionViewers": 3008
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 71
+      }
+    ]
   },
   "980477": {
     "stats": {
@@ -18009,7 +22719,37 @@
       "likedViewers": 4323,
       "dislikedViewers": 259,
       "noReactionViewers": 4064
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 65
+      }
+    ]
   },
   "479787": {
     "stats": {
@@ -18123,7 +22863,37 @@
       "likedViewers": 6051,
       "dislikedViewers": 770,
       "noReactionViewers": 4181
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 99
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 91
+      }
+    ]
   },
   "693134": {
     "stats": {
@@ -18237,7 +23007,37 @@
       "likedViewers": 5456,
       "dislikedViewers": 433,
       "noReactionViewers": 2772
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "299534": {
     "stats": {
@@ -18351,7 +23151,37 @@
       "likedViewers": 4648,
       "dislikedViewers": 263,
       "noReactionViewers": 3859
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "414906": {
     "stats": {
@@ -18465,7 +23295,37 @@
       "likedViewers": 3719,
       "dislikedViewers": 676,
       "noReactionViewers": 4057
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 81
+      }
+    ]
   },
   "11770": {
     "stats": {
@@ -18579,7 +23439,37 @@
       "likedViewers": 3351,
       "dislikedViewers": 329,
       "noReactionViewers": 2891
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 78
+      }
+    ]
   },
   "1630423": {
     "stats": {
@@ -18693,7 +23583,37 @@
       "likedViewers": 3774,
       "dislikedViewers": 231,
       "noReactionViewers": 3698
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 83
+      }
+    ]
   },
   "28322": {
     "stats": {
@@ -18807,7 +23727,37 @@
       "likedViewers": 4233,
       "dislikedViewers": 223,
       "noReactionViewers": 2971
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 65
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 59
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 56
+      }
+    ]
   },
   "1254896": {
     "stats": {
@@ -18921,7 +23871,37 @@
       "likedViewers": 4315,
       "dislikedViewers": 223,
       "noReactionViewers": 2901
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 59
+      }
+    ]
   },
   "911430": {
     "stats": {
@@ -19035,7 +24015,37 @@
       "likedViewers": 3826,
       "dislikedViewers": 570,
       "noReactionViewers": 3744
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 57
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "129": {
     "stats": {
@@ -19149,7 +24159,37 @@
       "likedViewers": 3909,
       "dislikedViewers": 1073,
       "noReactionViewers": 2683
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 71
+      }
+    ]
   },
   "1613798": {
     "stats": {
@@ -19263,7 +24303,37 @@
       "likedViewers": 3052,
       "dislikedViewers": 699,
       "noReactionViewers": 2608
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 70
+      }
+    ]
   },
   "1168190": {
     "stats": {
@@ -19377,7 +24447,37 @@
       "likedViewers": 3688,
       "dislikedViewers": 434,
       "noReactionViewers": 3109
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 76
+      }
+    ]
   },
   "68726": {
     "stats": {
@@ -19491,7 +24591,37 @@
       "likedViewers": 3387,
       "dislikedViewers": 502,
       "noReactionViewers": 2384
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 80
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 75
+      }
+    ]
   },
   "270303": {
     "stats": {
@@ -19605,7 +24735,37 @@
       "likedViewers": 2919,
       "dislikedViewers": 186,
       "noReactionViewers": 3106
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 66
+      }
+    ]
   },
   "1038392": {
     "stats": {
@@ -19719,7 +24879,37 @@
       "likedViewers": 3901,
       "dislikedViewers": 284,
       "noReactionViewers": 2908
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 76
+      }
+    ]
   },
   "550": {
     "stats": {
@@ -19833,7 +25023,37 @@
       "likedViewers": 4363,
       "dislikedViewers": 397,
       "noReactionViewers": 3172
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 59
+      }
+    ]
   },
   "324857": {
     "stats": {
@@ -19947,7 +25167,37 @@
       "likedViewers": 3191,
       "dislikedViewers": 1262,
       "noReactionViewers": 2969
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "1022789": {
     "stats": {
@@ -20061,7 +25311,37 @@
       "likedViewers": 3268,
       "dislikedViewers": 833,
       "noReactionViewers": 2306
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 83
+      }
+    ]
   },
   "1233413": {
     "stats": {
@@ -20175,7 +25455,37 @@
       "likedViewers": 3890,
       "dislikedViewers": 469,
       "noReactionViewers": 2348
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 70
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 66
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 64
+      }
+    ]
   },
   "1156594": {
     "stats": {
@@ -20289,7 +25599,37 @@
       "likedViewers": 3212,
       "dislikedViewers": 535,
       "noReactionViewers": 2202
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 71
+      }
+    ]
   },
   "1654313": {
     "stats": {
@@ -20403,7 +25743,37 @@
       "likedViewers": 4183,
       "dislikedViewers": 213,
       "noReactionViewers": 2693
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 69
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 60
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 54
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 50
+      }
+    ]
   },
   "39254": {
     "stats": {
@@ -20517,7 +25887,37 @@
       "likedViewers": 3783,
       "dislikedViewers": 189,
       "noReactionViewers": 2333
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 93
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 84
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 79
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 74
+      }
+    ]
   },
   "138843": {
     "stats": {
@@ -20631,7 +26031,37 @@
       "likedViewers": 3154,
       "dislikedViewers": 210,
       "noReactionViewers": 3646
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 90
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 67
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 64
+      }
+    ]
   },
   "505026": {
     "stats": {
@@ -20745,7 +26175,37 @@
       "likedViewers": 3596,
       "dislikedViewers": 746,
       "noReactionViewers": 2443
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 86
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 85
+      }
+    ]
   },
   "975511": {
     "stats": {
@@ -20859,7 +26319,37 @@
       "likedViewers": 2837,
       "dislikedViewers": 170,
       "noReactionViewers": 2667
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 85
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 82
+      }
+    ]
   },
   "1694978": {
     "stats": {
@@ -20973,7 +26463,37 @@
       "likedViewers": 2286,
       "dislikedViewers": 264,
       "noReactionViewers": 1846
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 98
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 88
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 87
+      }
+    ]
   },
   "597": {
     "stats": {
@@ -21087,7 +26607,37 @@
       "likedViewers": 3456,
       "dislikedViewers": 485,
       "noReactionViewers": 2123
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 83
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 78
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 74
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 72
+      }
+    ]
   },
   "1669057": {
     "stats": {
@@ -21201,7 +26751,37 @@
       "likedViewers": 2976,
       "dislikedViewers": 146,
       "noReactionViewers": 1756
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "1155818": {
     "stats": {
@@ -21315,7 +26895,37 @@
       "likedViewers": 2493,
       "dislikedViewers": 589,
       "noReactionViewers": 1451
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 96
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 91
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 81
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 69
+      }
+    ]
   },
   "497": {
     "stats": {
@@ -21429,7 +27039,37 @@
       "likedViewers": 3592,
       "dislikedViewers": 622,
       "noReactionViewers": 2694
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 76
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 61
+      }
+    ]
   },
   "575265": {
     "stats": {
@@ -21543,7 +27183,37 @@
       "likedViewers": 3166,
       "dislikedViewers": 437,
       "noReactionViewers": 1855
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 89
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 75
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 68
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 60
+      }
+    ]
   },
   "950396": {
     "stats": {
@@ -21657,7 +27327,37 @@
       "likedViewers": 3014,
       "dislikedViewers": 473,
       "noReactionViewers": 2423
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 97
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 92
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 82
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 77
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 73
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 71
+      }
+    ]
   },
   "1246049": {
     "stats": {
@@ -21771,7 +27471,37 @@
       "likedViewers": 3536,
       "dislikedViewers": 168,
       "noReactionViewers": 1909
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 94
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 71
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 62
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 56
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 53
+      }
+    ]
   },
   "1141970": {
     "stats": {
@@ -21885,6 +27615,36 @@
       "likedViewers": 3651,
       "dislikedViewers": 717,
       "noReactionViewers": 2151
-    }
+    },
+    "retentionCurve": [
+      {
+        "percentageWatched": "0%",
+        "thisMovie": 100
+      },
+      {
+        "percentageWatched": "10%",
+        "thisMovie": 95
+      },
+      {
+        "percentageWatched": "25%",
+        "thisMovie": 87
+      },
+      {
+        "percentageWatched": "50%",
+        "thisMovie": 72
+      },
+      {
+        "percentageWatched": "75%",
+        "thisMovie": 63
+      },
+      {
+        "percentageWatched": "90%",
+        "thisMovie": 57
+      },
+      {
+        "percentageWatched": "100%",
+        "thisMovie": 54
+      }
+    ]
   }
 }
