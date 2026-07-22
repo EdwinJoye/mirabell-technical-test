@@ -1,8 +1,9 @@
-import { Box, Text, Title } from "@mantine/core";
-import { WrenchIcon } from "@phosphor-icons/react";
+import { Box, Button, Text, Title } from "@mantine/core";
+import { EyeIcon, WrenchIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import { buttonHoverVars } from "~/lib/theme/hover";
 
 export function ComingSoonPage() {
   const navigate = useNavigate();
@@ -13,12 +14,14 @@ export function ComingSoonPage() {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(interval);
-          void navigate("/");
+          void navigate("/explore");
           return 0;
         }
+
         return prev - 1;
       });
     }, 1000);
+
     return () => clearInterval(interval);
   }, [navigate]);
 
@@ -55,34 +58,27 @@ export function ComingSoonPage() {
           <Title order={1} c="white" style={{ fontSize: "clamp(2rem, 5vw, 4rem)" }}>
             Coming Soon
           </Title>
+
           <Text size="md" c="dimmed" maw={400} className="leading-relaxed">
             This page is still under construction. We're working on it!
           </Text>
-          <Text size="sm" c="dimmed" className="leading-relaxed">
-            Redirecting to home in {countdown}s
-          </Text>
-        </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="flex gap-2"
-        >
-          {[0, 1, 2].map((i) => (
-            <motion.div
-              key={i}
-              className="w-2 h-2 rounded-full"
-              style={{ backgroundColor: "var(--mantine-color-brand-6)" }}
-              animate={{ opacity: [0.3, 1, 0.3], scale: [0.8, 1.2, 0.8] }}
-              transition={{
-                duration: 1.2,
-                repeat: Infinity,
-                delay: i * 0.2,
-                ease: "easeInOut",
-              }}
-            />
-          ))}
+          <Text size="sm" c="dimmed" className="leading-relaxed">
+            Redirecting to explore in {countdown}s
+          </Text>
+
+          <Button
+            leftSection={<EyeIcon size={18} />}
+            color="white"
+            c="dark.9"
+            radius="xl"
+            style={buttonHoverVars()}
+            onClick={() => {
+              void navigate("/explore");
+            }}
+          >
+            Explore movies
+          </Button>
         </motion.div>
 
         <motion.div
