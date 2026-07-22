@@ -1,4 +1,4 @@
-import { AspectRatio, Badge, Center, Group, Loader, Modal, Stack, Text } from "@mantine/core";
+import { AspectRatio, Badge, Center, Loader, Modal, Stack, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { ClockIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
@@ -93,6 +93,12 @@ export function MoviePosterCard({
               )}
             </Stack>
 
+            {overview && (
+              <div style={{ position: "absolute", top: 16, right: 16, zIndex: 1 }}>
+                <InfoTooltip label={overview} width={300} />
+              </div>
+            )}
+
             <Stack
               gap={6}
               pos="absolute"
@@ -136,10 +142,7 @@ export function MoviePosterCard({
                   )}
                 </div>
 
-                <Group gap={6}>
-                  {overview && <PlayButton onClick={open} ariaLabel="See overview" />}
-                  {overview && <InfoTooltip label={overview} width={300} />}
-                </Group>
+                {overview && <PlayButton onClick={open} ariaLabel="See overview" />}
               </div>
             </Stack>
           </>
