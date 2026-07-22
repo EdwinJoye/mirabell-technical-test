@@ -36,7 +36,7 @@ export function MoviePosterCard({
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const [opened, { open, close }] = useDisclosure(false);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
-  const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "original") : undefined;
+  const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "w780") : undefined;
 
   return (
     <AspectRatio

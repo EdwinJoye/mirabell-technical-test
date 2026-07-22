@@ -42,7 +42,7 @@ type ExploreHeroProps = {
 export function ExploreHero({ movie, genres }: ExploreHeroProps) {
   const movieGenres = genres.filter((genre) => movie.genre_ids.includes(genre.id));
   const backgroundImageUrl = movie.backdrop_path
-    ? getTmdbImageUrl(movie.backdrop_path, "original")
+    ? getTmdbImageUrl(movie.backdrop_path, "w1280")
     : "";
 
   return (

@@ -28,7 +28,7 @@ export function MovieDetailsOverlay({
   onClose,
 }: MovieDetailsOverlayProps) {
   const movieGenres = genres.filter((genre) => genreIds.includes(genre.id));
-  const backgroundImageUrl = backdropPath ? getTmdbImageUrl(backdropPath, "original") : undefined;
+  const backgroundImageUrl = backdropPath ? getTmdbImageUrl(backdropPath, "w780") : undefined;
 
   return (
     <div
