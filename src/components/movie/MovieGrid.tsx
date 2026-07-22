@@ -70,7 +70,11 @@ export function MovieGrid({
   }, [bottomReachedCount, rowAlignedMovies.length]);
 
   if (isLoading) {
-    return <CenteredLoader />;
+    return (
+      <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <CenteredLoader />
+      </div>
+    );
   }
 
   if (isError) {
