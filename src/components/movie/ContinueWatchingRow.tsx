@@ -1,4 +1,4 @@
-import { Group, ScrollArea, Stack, Title } from "@mantine/core";
+import { Divider, Flex, Group, ScrollArea, Stack, Title } from "@mantine/core";
 import { motion } from "framer-motion";
 import { ContinueWatchingCard } from "~/components/movie/ContinueWatchingCard";
 import watchProgressData from "~/features/watch-progress/watch-progress.data.json";
@@ -23,7 +23,13 @@ export function ContinueWatchingRow() {
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
       <Stack gap="md">
-        <Title order={3}>Continue Watching</Title>
+        <Flex align="center" gap="sm">
+          <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} hiddenFrom="sm" />
+          <Title order={3} size="h4" c="white">
+            Continue Watching
+          </Title>
+          <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} />
+        </Flex>
         <ScrollArea type="never" my={-25}>
           <Group gap="md" wrap="nowrap" py={25}>
             {entries.map((entry, index) => (

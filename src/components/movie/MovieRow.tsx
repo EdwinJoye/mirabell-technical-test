@@ -1,4 +1,4 @@
-import { Group, ScrollArea, Stack, Title } from "@mantine/core";
+import { Divider, Flex, Group, ScrollArea, Stack, Title } from "@mantine/core";
 import { motion } from "framer-motion";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
 import { MovieCard } from "~/components/movie/MovieCard";
@@ -38,7 +38,13 @@ export function MovieRow({
       transition={{ duration: 0.4, ease: "easeOut" }}
     >
       <Stack gap="md">
-        <Title order={3}>{title}</Title>
+        <Flex align="center" gap="sm">
+          <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} hiddenFrom="sm" />
+          <Title order={3} size="h4" c="white">
+            {title}
+          </Title>
+          <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} />
+        </Flex>
         <ScrollArea type="never" my={-45}>
           <Group gap="md" wrap="nowrap" py={45}>
             {data.results.map((movie, index) => (

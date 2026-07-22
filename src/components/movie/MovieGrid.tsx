@@ -1,4 +1,4 @@
-import { Center, Loader, Stack, Title } from "@mantine/core";
+import { Center, Divider, Flex, Loader, Stack, Title } from "@mantine/core";
 import { useElementSize } from "@mantine/hooks";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
@@ -85,7 +85,12 @@ export function MovieGrid({
 
   return (
     <Stack gap="md">
-      <Title order={3}>{title}</Title>
+      <Flex align="center" gap="sm">
+        <Title order={3} size="h4" c="white">
+          {title}
+        </Title>
+        <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} />
+      </Flex>
       <div
         ref={gridRef}
         style={{
