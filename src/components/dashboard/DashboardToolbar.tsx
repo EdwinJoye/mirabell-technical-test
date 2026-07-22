@@ -63,11 +63,23 @@ function DashboardToolbarDesktop({
           onChange={onViewChange}
           data={[
             {
-              label: <SegmentedItemLabel icon={GlobeIcon} label="Global" />,
+              label: (
+                <SegmentedItemLabel
+                  icon={GlobeIcon}
+                  label="Global"
+                  iconColor="var(--mantine-color-brand-6)"
+                />
+              ),
               value: "global",
             },
             {
-              label: <SegmentedItemLabel icon={FilmSlateIcon} label="Movie" />,
+              label: (
+                <SegmentedItemLabel
+                  icon={FilmSlateIcon}
+                  label="Movie"
+                  iconColor="var(--mantine-color-brand-6)"
+                />
+              ),
               value: "movie",
             },
           ]}
