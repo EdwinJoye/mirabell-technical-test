@@ -36,5 +36,6 @@
 - L'application est déployée sur Vercel : https://mirabell-technical-test.vercel.app/
 - Un token d'accès TMDb (`VITE_TMDB_ACCESS_TOKEN`) est nécessaire pour faire fonctionner l'application — voir le `README.md` pour la configuration.
 - L'historique de commits est disponible pour suivre l'avancée du travail au fur et à mesure plutôt que juste le résultat final.
+- N'hésitez pas à interagir avec les différents boutons de l'interface pour explorer l'ensemble des micro-interactions et animations que j'ai mises en place.
 
-En espérant que l'ensemble du travail vous convienne !
+En espérant que l'ensemble du travail vous convienne, je vous souhaite une bonne visite !
