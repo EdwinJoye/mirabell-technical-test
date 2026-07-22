@@ -18,10 +18,10 @@ export const appRoutes: RouteObject[] = [
         path: "/dashboard",
         element: <DashboardPage />,
       },
+      {
+        path: "*",
+        element: <ComingSoonPage />,
+      },
     ],
-  },
-  {
-    path: "*",
-    element: <ComingSoonPage />,
   },
 ];

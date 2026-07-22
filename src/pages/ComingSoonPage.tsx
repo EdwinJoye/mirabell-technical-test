@@ -3,6 +3,7 @@ import { EyeIcon, WrenchIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
+import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { buttonHoverVars } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 
@@ -28,6 +29,10 @@ export function ComingSoonPage() {
 
   return (
     <Box className="min-h-svh flex flex-col items-center justify-center text-center px-6">
+      <Box pos="fixed" top={16} left={16} style={{ zIndex: 9998 }}>
+        <NavbarToggleButton />
+      </Box>
+
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
