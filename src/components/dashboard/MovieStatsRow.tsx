@@ -1,8 +1,8 @@
 import { SimpleGrid, Title } from "@mantine/core";
-import { MovieAverageWatchTimeCard } from "~/components/dashboard/MovieAverageWatchTimeCard";
 import { MovieTotalViewsCard } from "~/components/dashboard/MovieTotalViewsCard";
 import { MovieUniqueViewersCard } from "~/components/dashboard/MovieUniqueViewersCard";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { MovieReactionsCard } from "./MovieReactionsCard";
 
 type MovieStatsRowProps = {
   tmdbMovieId: number;
@@ -15,13 +15,13 @@ export function MovieStatsRow({ tmdbMovieId }: MovieStatsRowProps) {
     return <Title order={4}>No analytics data available for this movie.</Title>;
   }
 
-  const { stats, viewsEvolution } = movieData;
+  const { stats, viewsEvolution, reactions } = movieData;
 
   return (
     <SimpleGrid cols={{ base: 1, sm: 3 }} spacing="md">
       <MovieTotalViewsCard stats={stats} viewsEvolution={viewsEvolution} />
       <MovieUniqueViewersCard stats={stats} />
-      <MovieAverageWatchTimeCard tmdbMovieId={tmdbMovieId} stats={stats} />
+      <MovieReactionsCard reactions={reactions} />
     </SimpleGrid>
   );
 }

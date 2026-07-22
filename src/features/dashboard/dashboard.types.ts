@@ -74,10 +74,17 @@ export interface MovieRatingDistributionEntry {
   count: number;
 }
 
+export interface MovieReactions {
+  likedViewers: number;
+  dislikedViewers: number;
+  noReactionViewers: number;
+}
+
 export interface MovieDashboardData {
   stats: MovieDashboardStats;
   viewsEvolution: MovieViewsPoint[];
   completionRate: MovieCompletionRate;
   ratingDistribution: MovieRatingDistributionEntry[];
   deviceDistribution: DeviceDistribution[];
+  reactions: MovieReactions;
 }
