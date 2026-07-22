@@ -1,9 +1,9 @@
-import { AspectRatio, Badge, Center, Group, Stack, Text, Modal } from "@mantine/core";
+import { AspectRatio, Badge, Center, Group, Stack, Text } from "@mantine/core";
 import { StarIcon } from "@phosphor-icons/react";
 import { useDisclosure } from "@mantine/hooks";
 import { useRef, useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
-import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
+import { MovieDetailsModal } from "~/components/movie/MovieDetailsModal";
 import { MovieCardHoverDetails } from "~/components/movie/MovieCardHoverDetails";
 import { glassBadgeStyles, HOVER_EXPAND_DELAY_MS } from "~/components/movie/movie.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
@@ -146,27 +146,18 @@ export function MovieCard({
         </div>
       </AspectRatio>
 
-      <Modal
+      <MovieDetailsModal
         opened={opened}
         onClose={close}
-        size="lg"
-        padding={0}
-        radius="lg"
-        withCloseButton={false}
-        centered
-        zIndex={300}
-      >
-        <MovieDetailsOverlay
-          title={title}
-          backdropPath={backdropPath}
-          overview={overview}
-          releaseYear={releaseYear}
-          voteAverage={voteAverage}
-          genreIds={genreIds}
-          genres={genres}
-          onClose={close}
-        />
-      </Modal>
+        tmdbMovieId={id}
+        title={title}
+        backdropPath={backdropPath}
+        overview={overview}
+        releaseYear={releaseYear}
+        voteAverage={voteAverage}
+        genreIds={genreIds}
+        genres={genres}
+      />
     </>
   );
 }

@@ -1,23 +1,20 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { ActionIcon, Badge, Group, Stack, Text, Tooltip } from "@mantine/core";
 import { AreaChart } from "@mantine/charts";
 import { ClockIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats, WatchTimePoint } from "~/features/dashboard/dashboard.types";
-
-function formatWatchTime(totalMinutes: number): string {
-  const hours = Math.floor(totalMinutes / 60);
-  const minutes = totalMinutes % 60;
-
-  return `${hours.toLocaleString()}h ${minutes}min`;
-}
+import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
+import { getHoverIconColor } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type WatchTimeCardProps = {
   stats: GlobalDashboardStats;
   watchTimeOverTime: WatchTimePoint[];
 };
 
-export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) {
+export function GlobalWatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const avgPerUser = Math.round(stats.totalWatchTimeMinutes / stats.activeUsers);
@@ -39,18 +36,11 @@ export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) 
   );
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <ClockIcon size={16} color="var(--mantine-color-brand-6)" />
+            <ClockIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Total Watch Time
@@ -83,12 +73,7 @@ export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) 
                 onMouseEnter={() => setIsInfoHovered(true)}
                 onMouseLeave={() => setIsInfoHovered(false)}
               >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
+                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
               </ActionIcon>
             </Tooltip>
           </Group>
@@ -139,6 +124,6 @@ export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) 
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

@@ -2,6 +2,13 @@
 
 Exercice technique pour le poste de Développeur Frontend React.js chez Mirabell Studio : une plateforme de diffusion de contenus vidéo (interface de consultation) et un dashboard d'administration pour suivre l'activité de la plateforme.
 
+## Fonctionnalités
+
+- **Accueil** (`/`) — page de présentation.
+- **Explore** (`/explore`) — catalogue de films alimenté par l'API TMDb : recherche, filtre par genre/popularité, film mis en avant, ligne "Continue Watching", recommandations par genre, grille avec scroll infini. Entièrement responsive.
+- **Dashboard** (`/dashboard`) — analytics de la plateforme (vues, temps de visionnage, appareils, genres, top films) et par film (vues, rétention, appareils, fidélité des spectateurs, téléchargements hors-ligne, momentum). Données simulées via des fichiers JSON, consommées comme le serait une vraie API.
+- Performance : pages chargées en lazy-loading (code-splitting par route), images TMDb dimensionnées selon leur usage, posters/backdrops en chargement différé natif (`loading="lazy"`).
+
 ## Stack
 
 | Layer        | Technologie                    |
@@ -13,10 +20,20 @@ Exercice technique pour le poste de Développeur Frontend React.js chez Mirabell
 | Styling      | Tailwind CSS v4                |
 | Routing      | React Router                   |
 | Server state | TanStack Query                 |
+| Client state | Zustand                        |
+| Validation   | Zod                            |
 | Graphiques   | Recharts / Mantine Charts      |
 | Icônes       | Phosphor Icons                 |
 | Animations   | Framer Motion                  |
 | Tests        | Vitest + React Testing Library |
+
+## Configuration
+
+L'application consomme l'API [TMDb](https://www.themoviedb.org/documentation/api). Créer un fichier `.env` à la racine du projet avec un token d'accès TMDb :
+
+```
+VITE_TMDB_ACCESS_TOKEN=votre_token_tmdb
+```
 
 ## Installation
 
@@ -63,14 +80,32 @@ Une CI GitHub Actions ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) r
 
 ```
 .
-├── .github/workflows/   # CI (lint, format, typecheck, test, build)
-├── public/               # Assets statiques servis tels quels
+├── .github/workflows/    # CI (lint, format, typecheck, test, build)
+├── public/                # Assets statiques servis tels quels
 ├── src/
-│   ├── app/              # Bootstrap de l'application (App, Router, routes)
+│   ├── app/               # Bootstrap de l'application (App, routes, lazy pages)
+│   ├── components/        # Composants UI, organisés par domaine
+│   │   ├── dashboard/        # Cards/rows du dashboard (sous-dossiers movie/ et global/)
+│   │   ├── explore/          # Toolbar, hero, bannières de la page Explore
+│   │   ├── movie/            # Cartes films, overlay de détails
+│   │   ├── layout/            # Navbar, layout partagé
+│   │   └── ui/                 # Composants génériques réutilisables (boutons, tooltips, ...)
+│   ├── features/          # Logique métier par domaine (hooks, services, types, store)
+│   │   ├── catalog/          # Catalogue TMDb (recherche, pagination)
+│   │   ├── dashboard/         # Données mock du dashboard (JSON + service)
+│   │   ├── genres/
+│   │   ├── movie-details/
+│   │   ├── navbar/
+│   │   ├── scroll/
+│   │   ├── watch-progress/
+│   │   └── watch-status/
+│   ├── layouts/            # Layout partagé (navbar, structure de page)
 │   ├── lib/
-│   │   └── configs/       # Configuration des libs (React Query, ...)
-│   ├── pages/             # Composants de page, associés à une route
-│   └── test/              # Setup global des tests
+│   │   ├── configs/          # Configuration des libs (React Query, TMDb)
+│   │   ├── theme/              # Thème Mantine, constantes de couleur, helpers de hover
+│   │   └── tmdb/                 # Client HTTP TMDb, schémas Zod, types
+│   ├── pages/              # Composants de page, associés à une route
+│   └── test/                # Setup global des tests
 ├── .editorconfig
 ├── .prettierrc
 ├── eslint.config.js

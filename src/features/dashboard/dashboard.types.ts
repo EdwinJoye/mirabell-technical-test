@@ -80,6 +80,21 @@ export interface MovieReactions {
   noReactionViewers: number;
 }
 
+export interface MovieOfflineViews {
+  downloads: number;
+  downloadRate: number;
+}
+
+export interface MovieAudienceLoyalty {
+  rewatchedPercentage: number;
+  rewatchedViewers: number;
+}
+
+export interface MovieGeoDistributionEntry {
+  country: string;
+  percentage: number;
+}
+
 export interface RetentionPoint {
   percentageWatched: string;
   thisMovie: number;
@@ -93,4 +108,7 @@ export interface MovieDashboardData {
   deviceDistribution: DeviceDistribution[];
   reactions: MovieReactions;
   retentionCurve: RetentionPoint[];
+  offlineViews: MovieOfflineViews;
+  audienceLoyalty: MovieAudienceLoyalty;
+  geoDistribution: MovieGeoDistributionEntry[];
 }

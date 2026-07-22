@@ -1,10 +1,11 @@
-import { ActionIcon, Badge, Card, Group, ScrollArea, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Group, ScrollArea, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { EyeIcon, InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { EyeIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { MovieDashboardStats, MovieViewsPoint } from "~/features/dashboard/dashboard.types";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const MIN_BAR_WIDTH = 28;
 
@@ -14,8 +15,6 @@ type MovieTotalViewsCardProps = {
 };
 
 export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const isPositiveGrowth = stats.growthRate >= 0;
   const growthPercent = (stats.growthRate * 100).toFixed(1);
 
@@ -30,7 +29,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
   const chartWidth = Math.max(viewsEvolution.length * MIN_BAR_WIDTH, 300);
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -56,28 +55,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
               {growthPercent}%
             </Badge>
 
-            <Tooltip
-              label={`Shows total views for ${stats.title} and their recent evolution, including daily average and peak day.`}
-              withArrow
-              multiline
-              w={240}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
-              </ActionIcon>
-            </Tooltip>
+            <InfoTooltip label="More information" />
           </Group>
         </Group>
 
@@ -122,6 +100,6 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

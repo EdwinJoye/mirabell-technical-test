@@ -1,9 +1,11 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { FilmSlateIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+import { FilmSlateIcon } from "@phosphor-icons/react";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
+import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type ChartGenre = {
   genre: string;
@@ -11,16 +13,7 @@ type ChartGenre = {
   watchTime: number;
 };
 
-function formatWatchTime(totalMinutes: number): string {
-  const hours = Math.floor(totalMinutes / 60);
-  const minutes = totalMinutes % 60;
-
-  return `${hours}h ${minutes}min`;
-}
-
-export function GenrePopularityCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
+export function GlobalGenrePopularityCard() {
   const { stats, genrePopularity: genres } = getGlobalDashboardData();
 
   const chartData: ChartGenre[] = [...genres]
@@ -33,39 +26,21 @@ export function GenrePopularityCard() {
     }));
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <FilmSlateIcon size={16} color="var(--mantine-color-brand-6)" />
+            <FilmSlateIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Genre Popularity
             </Text>
           </Group>
 
-          <Tooltip
+          <InfoTooltip
             label="Shows which genres attract the most audience based on total views and watch time."
-            withArrow
-            multiline
-            w={260}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
-            </ActionIcon>
-          </Tooltip>
+            width={260}
+          />
         </Group>
 
         <Text
@@ -169,6 +144,6 @@ export function GenrePopularityCard() {
           </Text>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import { buttonHoverVars } from "~/lib/theme/hover";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 export function ComingSoonPage() {
   const navigate = useNavigate();
@@ -45,7 +46,7 @@ export function ComingSoonPage() {
               boxShadow: "0 0 40px rgba(79, 217, 196, 0.2)",
             }}
           >
-            <WrenchIcon size={48} color="var(--mantine-color-brand-6)" />
+            <WrenchIcon size={48} color={BRAND_COLOR} />
           </Box>
         </motion.div>
 

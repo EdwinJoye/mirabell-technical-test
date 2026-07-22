@@ -11,7 +11,6 @@ import {
 } from "@mantine/core";
 import {
   BookmarkSimpleIcon,
-  DownloadSimpleIcon,
   DotsThreeIcon,
   FireIcon,
   ShareNetworkIcon,
@@ -19,6 +18,7 @@ import {
   ThumbsDownIcon,
 } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
+import { DownloadButton } from "~/components/ui/DownloadButton";
 import { WatchNowButton } from "~/components/ui/WatchNowButton";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { buttonHoverVars } from "~/lib/theme/hover";
@@ -102,16 +102,7 @@ export function ExploreHero({ movie, genres }: ExploreHeroProps) {
             </Text>
             <Group gap="sm">
               <WatchNowButton />
-              <Button
-                variant="filled"
-                color="dark.9"
-                c="white"
-                radius="xl"
-                style={buttonHoverVars()}
-              >
-                <DownloadSimpleIcon size={18} className="sm:mr-2" />
-                <span className="hidden sm:inline">Download</span>
-              </Button>
+              <DownloadButton />
               <Menu position="bottom-end" shadow="md" width={200} radius="md">
                 <Menu.Target>
                   <Button

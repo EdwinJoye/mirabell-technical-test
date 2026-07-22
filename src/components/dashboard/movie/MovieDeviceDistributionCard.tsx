@@ -1,36 +1,31 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import {
   DeviceMobileIcon,
   DeviceTabletIcon,
-  InfoIcon,
+  GameControllerIcon,
   MonitorIcon,
   TelevisionIcon,
 } from "@phosphor-icons/react";
-import { useState } from "react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+
+import { DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const DEVICE_ICONS = {
   Mobile: DeviceMobileIcon,
   Tablet: DeviceTabletIcon,
   "Smart TV": TelevisionIcon,
   Desktop: MonitorIcon,
+  Console: GameControllerIcon,
 } as const;
-
-const DEVICE_COLORS: Record<string, string> = {
-  Mobile: "brand.6",
-  "Smart TV": "violet.5",
-  Desktop: "yellow.5",
-  Tablet: "pink.5",
-};
 
 type MovieDeviceDistributionCardProps = {
   tmdbMovieId: number;
 };
 
 export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistributionCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 
   if (!dashboardData) {
@@ -44,31 +39,15 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
   }));
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Group justify="space-between" align="center" mb="md">
         <Text size="sm" c="dimmed" fw={500}>
           Viewing Devices
         </Text>
-        <Tooltip
+        <InfoTooltip
           label="Shows the breakdown of viewing devices used to watch this movie."
-          withArrow
-          multiline
-          w={220}
-        >
-          <ActionIcon
-            variant="transparent"
-            radius="xl"
-            size="sm"
-            aria-label="More information"
-            onMouseEnter={() => setIsInfoHovered(true)}
-            onMouseLeave={() => setIsInfoHovered(false)}
-          >
-            <InfoIcon
-              size={18}
-              color={isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"}
-            />
-          </ActionIcon>
-        </Tooltip>
+          width={220}
+        />
       </Group>
 
       <Group justify="center" mb="md">
@@ -106,6 +85,6 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
           );
         })}
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

@@ -10,8 +10,19 @@ import { ExploreHero } from "~/components/explore/ExploreHero";
 import { ExploreAllBanner } from "~/components/explore/ExploreAllBanner";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
 import { useGenres } from "~/features/genres/genres.hooks";
-import { useCatalog } from "~/features/catalog/catalog.hooks";
+import {
+  useCatalog,
+  useCatalogPages,
+  useCatalogSearchPages,
+} from "~/features/catalog/catalog.hooks";
 import { useScrollStore } from "~/features/scroll/scroll.store";
+
+const CENTERED_LOADER_STYLE = {
+  flex: 1,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+} as const;
 
 export function ExplorePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -32,6 +43,20 @@ export function ExplorePage() {
 
   const isSearching = debouncedSearchValue.trim().length > 0;
   const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre) || popularOnly;
+
+  const gridFilters = {
+    page: 1,
+    sortBy: "popularity.desc" as const,
+    withGenres: urlGenre ? [Number(urlGenre)] : undefined,
+    voteAverageGte: popularOnly ? 8 : undefined,
+  };
+  const { isLoading: isCatalogGridLoading } = useCatalogPages(gridFilters, !isSearching);
+  const { isLoading: isSearchGridLoading } = useCatalogSearchPages(
+    debouncedSearchValue,
+    isSearching,
+  );
+  const isGridLoading = isSearching ? isSearchGridLoading : isCatalogGridLoading;
+
   const scrollViewport = useScrollStore((state) => state.scrollViewport);
   const setScrollViewport = useScrollStore((state) => state.setScrollViewport);
   const [bottomReachedCount, setBottomReachedCount] = useState(0);
@@ -129,7 +154,11 @@ export function ExplorePage() {
       />
 
       {!isShowingGrid && isInitialLoading ? (
-        <div style={{ flex: 1 }}>
+        <div style={CENTERED_LOADER_STYLE}>
+          <CenteredLoader />
+        </div>
+      ) : isShowingGrid && isGridLoading ? (
+        <div style={CENTERED_LOADER_STYLE}>
           <CenteredLoader />
         </div>
       ) : (
@@ -199,12 +228,7 @@ export function ExplorePage() {
                 searchQuery={debouncedSearchValue}
                 genres={genresData?.genres ?? []}
                 bottomReachedCount={bottomReachedCount}
-                filters={{
-                  page: 1,
-                  sortBy: "popularity.desc",
-                  withGenres: urlGenre ? [Number(urlGenre)] : undefined,
-                  voteAverageGte: popularOnly ? 8 : undefined,
-                }}
+                filters={gridFilters}
               />
             )}
           </Stack>

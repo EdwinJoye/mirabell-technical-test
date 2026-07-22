@@ -1,12 +1,14 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Group, Stack, Text, Tooltip } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { FilmSlateIcon, InfoIcon, TrophyIcon } from "@phosphor-icons/react";
+import { FilmSlateIcon, TrophyIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { useMoviesDetails } from "~/features/movie-details/movie-details.hooks";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 const Y_AXIS_WIDTH = 170;
 const POSTER_WIDTH = 18;
@@ -131,8 +133,7 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
   );
 }
 
-export function TopWatchedMoviesCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
+export function GlobalTopWatchedMoviesCard() {
   const { stats, topWatchedMovies: movies } = getGlobalDashboardData();
   const topMovies = movies.slice(0, 10);
   const { data: movieDetailsList } = useMoviesDetails(topMovies.map((movie) => movie.tmdbMovieId));
@@ -147,37 +148,19 @@ export function TopWatchedMoviesCard() {
   }));
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <FilmSlateIcon size={16} color="var(--mantine-color-brand-6)" />
+            <FilmSlateIcon size={16} color={BRAND_COLOR} />
             <Text size="sm" c="dimmed" fw={500}>
               Top Watched Movies
             </Text>
           </Group>
-          <Tooltip
+          <InfoTooltip
             label="Ranks the most watched movies based on total views and unique viewers."
-            withArrow
-            multiline
-            w={260}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
-            </ActionIcon>
-          </Tooltip>
+            width={260}
+          />
         </Group>
 
         <Text
@@ -304,6 +287,6 @@ export function TopWatchedMoviesCard() {
           </Text>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

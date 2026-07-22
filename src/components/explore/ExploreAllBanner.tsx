@@ -3,7 +3,7 @@ import { useMediaQuery } from "@mantine/hooks";
 import { ArrowRightIcon, FilmSlateIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { theme } from "~/lib/theme/theme";
+import { BRAND_COLOR, theme } from "~/lib/theme/theme";
 
 const EXPLORE_BANNER_BREAKPOINT = theme.breakpoints?.sm ?? DEFAULT_THEME.breakpoints.sm;
 
@@ -35,7 +35,7 @@ export function ExploreAllBanner({ onClick }: ExploreAllBannerProps) {
           background: isHovered
             ? "linear-gradient(120deg, rgba(79, 217, 196, 0.18), var(--mantine-color-dark-6) 60%)"
             : "linear-gradient(120deg, var(--mantine-color-dark-5), var(--mantine-color-dark-7) 70%)",
-          border: `1px solid ${isHovered ? "var(--mantine-color-brand-6)" : "rgba(255, 255, 255, 0.08)"}`,
+          border: `1px solid ${isHovered ? BRAND_COLOR : "rgba(255, 255, 255, 0.08)"}`,
           transform: isHovered ? "scale(1.005)" : "scale(1)",
           transition: "all 400ms ease",
         }}
@@ -68,9 +68,7 @@ export function ExploreAllBanner({ onClick }: ExploreAllBannerProps) {
               radius="xl"
               variant="filled"
               style={{
-                backgroundColor: isHovered
-                  ? "var(--mantine-color-brand-6)"
-                  : "rgba(255, 255, 255, 0.06)",
+                backgroundColor: isHovered ? BRAND_COLOR : "rgba(255, 255, 255, 0.06)",
                 color: isHovered ? "var(--mantine-color-dark-9)" : "white",
                 transition: "all 400ms ease",
               }}
@@ -92,7 +90,7 @@ export function ExploreAllBanner({ onClick }: ExploreAllBannerProps) {
             wrap="nowrap"
             visibleFrom="sm"
             style={{
-              color: isHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-dimmed)",
+              color: isHovered ? BRAND_COLOR : "var(--mantine-color-dimmed)",
               transition: "color 400ms ease",
             }}
           >

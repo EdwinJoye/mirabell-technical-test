@@ -1,10 +1,11 @@
-import { ActionIcon, Badge, Card, Group, Progress, Stack, Text, Tooltip } from "@mantine/core";
-import { ClockIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { Badge, Group, Progress, Stack, Text } from "@mantine/core";
+import { ClockIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type MovieAverageWatchTimeCardProps = {
   tmdbMovieId: number;
@@ -18,7 +19,6 @@ function getEngagementLabel(percent: number): { label: string; color: string } {
 }
 
 export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWatchTimeCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const { data: movieDetails } = useMovieDetails(tmdbMovieId);
   const runtime = movieDetails?.runtime;
 
@@ -29,7 +29,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
   const engagement = watchedPercent !== null ? getEngagementLabel(watchedPercent) : null;
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
@@ -53,28 +53,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
               </Badge>
             )}
 
-            <Tooltip
-              label="Shows the average time viewers spent watching this movie compared to its full runtime, with an engagement rating."
-              withArrow
-              multiline
-              w={240}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
-              </ActionIcon>
-            </Tooltip>
+            <InfoTooltip label="Shows the average time viewers spent watching this movie compared to its full runtime, with an engagement rating." />
           </Group>
         </Group>
 
@@ -107,6 +86,6 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
           </Stack>
         )}
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

@@ -1,6 +1,7 @@
 import { AspectRatio, Stack, Text, ThemeIcon, UnstyledButton } from "@mantine/core";
 import { EyeIcon } from "@phosphor-icons/react";
 import { useState } from "react";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 type MovieDiscoverMoreCardProps = {
   onClick: () => void;
@@ -22,7 +23,7 @@ export function MovieDiscoverMoreCard({
         className="rounded-2xl cursor-pointer overflow-hidden"
         style={{
           backgroundColor: "var(--mantine-color-dark-6)",
-          border: `1px solid ${isHovered ? "var(--mantine-color-brand-6)" : "rgba(255, 255, 255, 0.1)"}`,
+          border: `1px solid ${isHovered ? BRAND_COLOR : "rgba(255, 255, 255, 0.1)"}`,
           transform: isHovered ? "scale(1.05)" : "scale(1)",
           transition: "all 300ms ease",
         }}
@@ -43,10 +44,8 @@ export function MovieDiscoverMoreCard({
             radius="xl"
             variant="outline"
             style={{
-              borderColor: isHovered
-                ? "var(--mantine-color-brand-6)"
-                : "var(--mantine-color-dimmed)",
-              color: isHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-dimmed)",
+              borderColor: isHovered ? BRAND_COLOR : "var(--mantine-color-dimmed)",
+              color: isHovered ? BRAND_COLOR : "var(--mantine-color-dimmed)",
               transition: "all 300ms ease",
               zIndex: 1,
             }}

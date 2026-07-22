@@ -1,12 +1,15 @@
 import { ActionIcon, Badge, Group, Stack, Text, Title, Button } from "@mantine/core";
-import { XIcon, DownloadSimpleIcon, StarIcon } from "@phosphor-icons/react";
+import { XIcon, StarIcon, GaugeIcon } from "@phosphor-icons/react";
+import { useNavigate } from "react-router";
+import { DownloadButton } from "~/components/ui/DownloadButton";
 import { WatchNowButton } from "~/components/ui/WatchNowButton";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { buttonHoverVars, glassActionIconVars } from "~/lib/theme/hover";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
 import type { Genre } from "~/features/genres/genres.types";
 
-type MovieDetailsOverlayProps = {
+export type MovieDetailsOverlayProps = {
+  tmdbMovieId: number;
   title: string;
   backdropPath: string | null;
   overview: string;
@@ -18,6 +21,7 @@ type MovieDetailsOverlayProps = {
 };
 
 export function MovieDetailsOverlay({
+  tmdbMovieId,
   title,
   backdropPath,
   overview,
@@ -27,8 +31,13 @@ export function MovieDetailsOverlay({
   genres = [],
   onClose,
 }: MovieDetailsOverlayProps) {
+  const navigate = useNavigate();
   const movieGenres = genres.filter((genre) => genreIds.includes(genre.id));
   const backgroundImageUrl = backdropPath ? getTmdbImageUrl(backdropPath, "w780") : undefined;
+
+  function handleGoToDashboard() {
+    void navigate(`/dashboard?view=movie&movieId=${tmdbMovieId}`);
+  }
 
   return (
     <div
@@ -80,17 +89,21 @@ export function MovieDetailsOverlay({
         <Text c="dimmed" lineClamp={4}>
           {overview}
         </Text>
-        <Group gap="sm">
-          <WatchNowButton />
+        <Group justify="space-between">
+          <Group gap="sm">
+            <WatchNowButton />
+            <DownloadButton />
+          </Group>
           <Button
-            leftSection={<DownloadSimpleIcon size={18} />}
+            leftSection={<GaugeIcon size={18} />}
             variant="filled"
             color="dark.9"
             c="white"
             radius="xl"
             style={buttonHoverVars()}
+            onClick={handleGoToDashboard}
           >
-            Download
+            Dashboard
           </Button>
         </Group>
       </Stack>

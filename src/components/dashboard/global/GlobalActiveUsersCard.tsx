@@ -1,19 +1,19 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Group, Stack, Text } from "@mantine/core";
 import { LineChart } from "@mantine/charts";
-import { InfoIcon, TrendUpIcon, UsersIcon } from "@phosphor-icons/react";
-import { useState } from "react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { TrendUpIcon, UsersIcon } from "@phosphor-icons/react";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { ActiveUsersPoint, GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type ActiveUsersCardProps = {
   stats: GlobalDashboardStats;
   activeUsersOverTime: ActiveUsersPoint[];
 };
 
-export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
+export function GlobalActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardProps) {
   const returningUsers = stats.activeUsers - stats.newUsers;
   const returningRate = ((returningUsers / stats.activeUsers) * 100).toFixed(0);
 
@@ -25,18 +25,11 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
   const growthPercent = growthRate.toFixed(1);
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <UsersIcon size={16} color="var(--mantine-color-brand-6)" />
+            <UsersIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Active Users
@@ -56,28 +49,10 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
               +{growthPercent}%
             </Badge>
 
-            <Tooltip
+            <InfoTooltip
               label="Shows the number of active users and the distribution between new and returning users for the current period."
-              withArrow
-              multiline
-              w={260}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
-              </ActionIcon>
-            </Tooltip>
+              width={260}
+            />
           </Group>
         </Group>
 
@@ -124,7 +99,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
           <Group justify="space-between" align="center">
             <Group gap="md">
               <Group gap={8}>
-                <LegendDot color="var(--mantine-color-brand-6)" />
+                <LegendDot color={BRAND_COLOR} />
 
                 <Text size="xs" c="dimmed">
                   {stats.newUsers.toLocaleString()} new
@@ -146,6 +121,6 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

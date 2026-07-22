@@ -1,17 +1,17 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { EyeIcon, InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { useState } from "react";
-import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { EyeIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
+import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
 type TotalViewsCardProps = {
   stats: GlobalDashboardStats;
 };
 
-export function TotalViewsCard({ stats }: TotalViewsCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
+export function GlobalTotalViewsCard({ stats }: TotalViewsCardProps) {
   const isPositiveGrowth = stats.growthRate >= 0;
   const growthPercent = (stats.growthRate * 100).toFixed(1);
   const viewsDelta = stats.totalViews - stats.previousPeriodViews;
@@ -23,18 +23,11 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
   ];
 
   return (
-    <Card
-      radius="lg"
-      p="sm"
-      style={{
-        ...dashboardCardGradient,
-        height: "100%",
-      }}
-    >
+    <DashboardCard>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <EyeIcon size={16} color="var(--mantine-color-brand-6)" />
+            <EyeIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Total Views
@@ -57,28 +50,7 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
               {growthPercent}%
             </Badge>
 
-            <Tooltip
-              label={`Shows the total views for the current ${stats.period} compared to the previous ${stats.period}.`}
-              withArrow
-              multiline
-              w={240}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon
-                  size={18}
-                  color={
-                    isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                  }
-                />
-              </ActionIcon>
-            </Tooltip>
+            <InfoTooltip label="More information" />
           </Group>
         </Group>
 
@@ -126,6 +98,6 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
           </Group>
         </Stack>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

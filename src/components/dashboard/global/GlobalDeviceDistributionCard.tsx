@@ -1,26 +1,19 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
-import { DeviceMobileIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
-import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
+import { DeviceMobileIcon } from "@phosphor-icons/react";
+import { DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
+import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
+import { DashboardCard } from "~/components/dashboard/DashboardCard";
 
-const deviceColors: Record<string, string> = {
-  Mobile: "brand.6",
-  "Smart TV": "teal.6",
-  Desktop: "violet.6",
-  Console: "orange.6",
-};
-
-export function DeviceDistributionCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
+export function GlobalDeviceDistributionCard() {
   const { deviceDistribution: devices } = getGlobalDashboardData();
 
   const chartData = devices.map((device) => ({
     name: device.deviceType,
     value: device.percentage,
-    color: deviceColors[device.deviceType] ?? "gray.6",
+    color: DEVICE_COLORS[device.deviceType] ?? "gray.6",
   }));
 
   const totalViews = devices.reduce((total, device) => total + device.views, 0);
@@ -28,39 +21,18 @@ export function DeviceDistributionCard() {
   const topDevice = [...devices].sort((a, b) => b.percentage - a.percentage)[0];
 
   return (
-    <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
+    <DashboardCard>
       <Stack gap="sm" h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <DeviceMobileIcon size={16} color="var(--mantine-color-brand-6)" />
+            <DeviceMobileIcon size={16} color={BRAND_COLOR} />
 
             <Text size="sm" c="dimmed" fw={500}>
               Device Distribution
             </Text>
           </Group>
 
-          <Tooltip
-            label="Shows how users consume content across different devices."
-            withArrow
-            multiline
-            w={240}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon
-                size={18}
-                color={
-                  isInfoHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-gray-5)"
-                }
-              />
-            </ActionIcon>
-          </Tooltip>
+          <InfoTooltip label="Shows how users consume content across different devices." />
         </Group>
 
         <Text
@@ -107,6 +79,6 @@ export function DeviceDistributionCard() {
           </Text>
         </Group>
       </Stack>
-    </Card>
+    </DashboardCard>
   );
 }

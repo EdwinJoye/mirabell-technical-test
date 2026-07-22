@@ -3,6 +3,7 @@ import { ArrowUpIcon } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useScrollStore } from "~/features/scroll/scroll.store";
+import { BRAND_COLOR } from "~/lib/theme/theme";
 
 export function ScrollToTopButton() {
   const scrollViewport = useScrollStore((state) => state.scrollViewport);
@@ -53,16 +54,13 @@ export function ScrollToTopButton() {
           aria-label="Scroll to top"
           style={{
             backgroundColor: "rgba(0, 0, 0, 0.3)",
-            border: `1px solid ${isHovered ? "var(--mantine-color-brand-6)" : "rgba(255, 255, 255, 0.15)"}`,
+            border: `1px solid ${isHovered ? BRAND_COLOR : "rgba(255, 255, 255, 0.15)"}`,
             backdropFilter: "blur(12px)",
             WebkitBackdropFilter: "blur(12px)",
             transition: "border-color 300ms ease",
           }}
         >
-          <ArrowUpIcon
-            size={20}
-            color={isHovered ? "var(--mantine-color-brand-6)" : "var(--mantine-color-white)"}
-          />
+          <ArrowUpIcon size={20} color={isHovered ? BRAND_COLOR : "var(--mantine-color-white)"} />
         </ActionIcon>
       </motion.div>
     </Box>
