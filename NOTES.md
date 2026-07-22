@@ -22,6 +22,7 @@
 - Réconcilier l'ordre des cards du dashboard entre logique métier et équilibre visuel (voir arbitrage ci-dessus).
 - Une meilleure séparation admin / utilisateur — pour l'instant le lien vers le dashboard est un lien de navigation comme un autre, sans notion de rôle.
 - Davantage de tests automatisés.
+- Pousser la logique plus loin dans le dashboard, notamment en permettant de sélectionner un utilisateur (comme on sélectionne un film) et croiser les données entre les films et cet utilisateur — pour voir par exemple son historique, ses habitudes de visionnage ou son engagement par film.
 
 ## Améliorations envisagées pour une version ultérieure
 
@@ -31,6 +32,7 @@
 
 ## Informations pratiques
 
+- **Le lien "Dashboard" de la navbar est le point d'entrée admin demandé dans le brief** : c'est en cliquant dessus que l'on accède à l'interface d'administration (Livrable 2), avec le switch Global / par film en haut à droite. Je précise que selon mon idée, seul un administrateur aurait ce rendu en se connectant à la plateforme.
 - L'application est déployée sur Vercel : https://mirabell-technical-test.vercel.app/
 - Un token d'accès TMDb (`VITE_TMDB_ACCESS_TOKEN`) est nécessaire pour faire fonctionner l'application — voir le `README.md` pour la configuration.
 - L'historique de commits est disponible pour suivre l'avancée du travail au fur et à mesure plutôt que juste le résultat final.
