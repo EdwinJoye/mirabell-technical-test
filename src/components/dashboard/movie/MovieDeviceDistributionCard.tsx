@@ -25,11 +25,11 @@ const DEVICE_COLORS: Record<string, string> = {
   Tablet: "pink.5",
 };
 
-type MovieDeviceDistributionChartProps = {
+type MovieDeviceDistributionCardProps = {
   tmdbMovieId: number;
 };
 
-export function MovieDeviceDistributionChart({ tmdbMovieId }: MovieDeviceDistributionChartProps) {
+export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistributionCardProps) {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 

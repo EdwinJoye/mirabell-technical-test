@@ -131,7 +131,7 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
   );
 }
 
-export function TopWatchedMoviesChart() {
+export function TopWatchedMoviesCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
   const { stats, topWatchedMovies: movies } = getGlobalDashboardData();
   const topMovies = movies.slice(0, 10);

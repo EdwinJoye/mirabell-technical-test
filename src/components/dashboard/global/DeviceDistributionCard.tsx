@@ -12,7 +12,7 @@ const deviceColors: Record<string, string> = {
   Console: "orange.6",
 };
 
-export function DeviceDistributionChart() {
+export function DeviceDistributionCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const { deviceDistribution: devices } = getGlobalDashboardData();

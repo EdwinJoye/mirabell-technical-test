@@ -1,7 +1,7 @@
 import { SimpleGrid } from "@mantine/core";
-import { TotalViewsCard } from "~/components/dashboard/TotalViewsCard";
-import { ActiveUsersCard } from "~/components/dashboard/ActiveUsersCard";
-import { WatchTimeCard } from "~/components/dashboard/WatchTimeCard";
+import { TotalViewsCard } from "~/components/dashboard/global/TotalViewsCard";
+import { ActiveUsersCard } from "~/components/dashboard/global/ActiveUsersCard";
+import { WatchTimeCard } from "~/components/dashboard/global/WatchTimeCard";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 
 export function PlatformStatsRow() {

@@ -7,11 +7,11 @@ import type { RetentionPoint } from "~/features/dashboard/dashboard.types";
 
 const PLATFORM_AVERAGE_RETENTION = [100, 92, 80, 65, 54, 49, 46];
 
-type MovieRetentionChartProps = {
+type MovieRetentionCardProps = {
   retentionCurve: RetentionPoint[];
 };
 
-export function MovieRetentionChart({ retentionCurve }: MovieRetentionChartProps) {
+export function MovieRetentionCard({ retentionCurve }: MovieRetentionCardProps) {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const retentionData = retentionCurve.map((point, index) => ({

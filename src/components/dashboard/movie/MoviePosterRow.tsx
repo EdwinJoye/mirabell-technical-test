@@ -1,7 +1,7 @@
-import { MoviePosterCard } from "~/components/dashboard/MoviePosterCard";
-import { MovieAverageWatchTimeCard } from "~/components/dashboard/MovieAverageWatchTimeCard";
-import { MovieDeviceDistributionChart } from "~/components/dashboard/MovieDeviceDistributionChart";
-import { MovieRetentionChart } from "~/components/dashboard/MovieRetentionChart";
+import { MoviePosterCard } from "~/components/dashboard/movie/MoviePosterCard";
+import { MovieAverageWatchTimeCard } from "~/components/dashboard/movie/MovieAverageWatchTimeCard";
+import { MovieDeviceDistributionCard } from "~/components/dashboard/movie/MovieDeviceDistributionCard";
+import { MovieRetentionCard } from "~/components/dashboard/movie/MovieRetentionCard";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 
@@ -41,11 +41,11 @@ export function MoviePosterRow({ tmdbMovieId }: MoviePosterRowProps) {
       </div>
 
       <div style={{ gridColumn: 2, gridRow: "1 / 3" }}>
-        <MovieDeviceDistributionChart tmdbMovieId={tmdbMovieId} />
+        <MovieDeviceDistributionCard tmdbMovieId={tmdbMovieId} />
       </div>
 
       <div style={{ gridColumn: 3, gridRow: "1 / 3", minWidth: 0 }}>
-        <MovieRetentionChart retentionCurve={dashboardData.retentionCurve} />
+        <MovieRetentionCard retentionCurve={dashboardData.retentionCurve} />
       </div>
     </div>
   );

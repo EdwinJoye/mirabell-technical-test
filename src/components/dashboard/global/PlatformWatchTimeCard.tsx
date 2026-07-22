@@ -17,7 +17,7 @@ function formatWatchTime(totalMinutes: number): string {
   return `${hours}h ${minutes}min`;
 }
 
-export function PlatformWatchTimeChart() {
+export function PlatformWatchTimeCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const { stats, watchTimeOverTime: watchTimeData } = getGlobalDashboardData();

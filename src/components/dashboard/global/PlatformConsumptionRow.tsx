@@ -1,15 +1,15 @@
 import { Group } from "@mantine/core";
-import { GenrePopularityChart } from "~/components/dashboard/GenrePopularityChart";
-import { PlatformWatchTimeChart } from "~/components/dashboard/PlatformWatchTimeChart";
+import { GenrePopularityCard } from "~/components/dashboard/global/GenrePopularityCard";
+import { PlatformWatchTimeCard } from "~/components/dashboard/global/PlatformWatchTimeCard";
 
 export function PlatformConsumptionRow() {
   return (
     <Group align="stretch" gap="md" wrap="nowrap">
       <div className="flex-1">
-        <GenrePopularityChart />
+        <GenrePopularityCard />
       </div>
       <div className="flex-2">
-        <PlatformWatchTimeChart />
+        <PlatformWatchTimeCard />
       </div>
     </Group>
   );

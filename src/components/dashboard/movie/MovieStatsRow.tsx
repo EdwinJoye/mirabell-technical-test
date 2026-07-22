@@ -1,6 +1,6 @@
 import { SimpleGrid, Title } from "@mantine/core";
-import { MovieTotalViewsCard } from "~/components/dashboard/MovieTotalViewsCard";
-import { MovieUniqueViewersCard } from "~/components/dashboard/MovieUniqueViewersCard";
+import { MovieTotalViewsCard } from "~/components/dashboard/movie/MovieTotalViewsCard";
+import { MovieUniqueViewersCard } from "~/components/dashboard/movie/MovieUniqueViewersCard";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
 import { MovieReactionsCard } from "./MovieReactionsCard";
 

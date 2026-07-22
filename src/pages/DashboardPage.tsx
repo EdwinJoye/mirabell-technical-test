@@ -1,11 +1,11 @@
 import { ScrollArea, Stack } from "@mantine/core";
 import { useSearchParams } from "react-router";
 import { DashboardToolbar } from "~/components/dashboard/DashboardToolbar";
-import { MoviePosterRow } from "~/components/dashboard/MoviePosterRow";
-import { MovieStatsRow } from "~/components/dashboard/MovieStatsRow";
-import { PlatformAudienceRow } from "~/components/dashboard/PlatformAudienceRow";
-import { PlatformConsumptionRow } from "~/components/dashboard/PlatformConsumptionRow";
-import { PlatformStatsRow } from "~/components/dashboard/PlatformStatsRow";
+import { MoviePosterRow } from "~/components/dashboard/movie/MoviePosterRow";
+import { MovieStatsRow } from "~/components/dashboard/movie/MovieStatsRow";
+import { PlatformAudienceRow } from "~/components/dashboard/global/PlatformAudienceRow";
+import { PlatformConsumptionRow } from "~/components/dashboard/global/PlatformConsumptionRow";
+import { PlatformStatsRow } from "~/components/dashboard/global/PlatformStatsRow";
 import { getMovieOptions } from "~/features/dashboard/dashboard.service";
 import { useScrollStore } from "~/features/scroll/scroll.store";
 

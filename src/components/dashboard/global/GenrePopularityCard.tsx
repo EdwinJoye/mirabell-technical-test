@@ -18,7 +18,7 @@ function formatWatchTime(totalMinutes: number): string {
   return `${hours}h ${minutes}min`;
 }
 
-export function GenrePopularityChart() {
+export function GenrePopularityCard() {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const { stats, genrePopularity: genres } = getGlobalDashboardData();
