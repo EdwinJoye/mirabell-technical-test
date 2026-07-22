@@ -1,5 +1,6 @@
 import { ActionIcon, Badge, Group, Stack } from "@mantine/core";
-import { CheckIcon, MagnifyingGlassPlusIcon, PlayIcon, ThumbsUpIcon } from "@phosphor-icons/react";
+import { CheckIcon, MagnifyingGlassPlusIcon, ThumbsUpIcon } from "@phosphor-icons/react";
+import { PlayButton } from "~/components/ui/PlayButton";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
 import { actionIconHoverVars, glassActionIconVars } from "~/lib/theme/hover";
 import { useWatchStatusStore } from "~/features/watch-status/watch-status.store";
@@ -41,22 +42,17 @@ export function MovieCardHoverDetails({
   }
 
   function activeVars(): CSSProperties {
-    return { ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-brand-6)" } as CSSProperties;
+    return {
+      ...actionIconHoverVars(),
+      "--ai-bg": "var(--mantine-color-brand-6)",
+    } as CSSProperties;
   }
 
   return (
     <Stack gap={6}>
       <Group justify="space-between">
         <Group gap={6}>
-          <ActionIcon
-            radius="xl"
-            size="sm"
-            variant="filled"
-            c="dark.9"
-            style={{ ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-white)" }}
-          >
-            <PlayIcon size={12} weight="fill" />
-          </ActionIcon>
+          <PlayButton onClick={handleOpenDetailsClick} ariaLabel="See more details" />
           <ActionIcon
             radius="xl"
             size="sm"
