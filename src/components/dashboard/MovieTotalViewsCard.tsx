@@ -1,9 +1,11 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
-import { LineChart } from "@mantine/charts";
+import { ActionIcon, Badge, Card, Group, ScrollArea, Stack, Text, Tooltip } from "@mantine/core";
+import { BarChart } from "@mantine/charts";
 import { EyeIcon, InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { MovieDashboardStats, MovieViewsPoint } from "~/features/dashboard/dashboard.types";
+
+const MIN_BAR_WIDTH = 28;
 
 type MovieTotalViewsCardProps = {
   stats: MovieDashboardStats;
@@ -16,13 +18,34 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
   const isPositiveGrowth = stats.growthRate >= 0;
   const growthPercent = (stats.growthRate * 100).toFixed(1);
 
+  const averageDailyViews = Math.round(
+    viewsEvolution.reduce((sum, point) => sum + point.views, 0) / viewsEvolution.length,
+  );
+  const peakPoint = viewsEvolution.reduce(
+    (max, point) => (point.views > max.views ? point : max),
+    viewsEvolution[0],
+  );
+
+  const chartWidth = Math.max(viewsEvolution.length * MIN_BAR_WIDTH, 300);
+
   return (
     <Card radius="lg" p="sm" style={{ ...dashboardCardGradient, height: "100%" }}>
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <EyeIcon size={16} color="var(--mantine-color-brand-6)" />
-
+            <div
+              style={{
+                width: 28,
+                height: 28,
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "rgba(79, 217, 196, 0.12)",
+              }}
+            >
+              <EyeIcon size={14} color="var(--mantine-color-brand-6)" />
+            </div>
             <Text size="sm" c="dimmed" fw={500}>
               Total Views
             </Text>
@@ -45,7 +68,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
             </Badge>
 
             <Tooltip
-              label={`Shows total views for ${stats.title} and their recent evolution.`}
+              label={`Shows total views for ${stats.title} and their recent evolution, including daily average and peak day.`}
               withArrow
               multiline
               w={240}
@@ -77,19 +100,37 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
           Views for {stats.title}
         </Text>
 
-        <Stack mt="auto">
-          <LineChart
-            h={80}
-            data={viewsEvolution}
-            dataKey="date"
-            series={[{ name: "views", color: "brand.6" }]}
-            withXAxis={false}
-            withYAxis={false}
-            withDots={false}
-            curveType="natural"
-            gridAxis="none"
-            strokeWidth={2}
-          />
+        <Stack mt="auto" gap="sm">
+          <ScrollArea type="auto" scrollbarSize={4}>
+            <div style={{ width: chartWidth }}>
+              <BarChart
+                h={80}
+                data={viewsEvolution}
+                dataKey="date"
+                series={[{ name: "views", color: "brand.6" }]}
+                withXAxis={false}
+                withYAxis={false}
+                withTooltip
+                gridAxis="none"
+                barProps={{ radius: 4 }}
+              />
+            </div>
+          </ScrollArea>
+
+          <Group justify="space-between">
+            <Text size="xs" c="dimmed">
+              Daily avg:{" "}
+              <Text component="span" c="white" fw={600}>
+                {averageDailyViews.toLocaleString()}
+              </Text>
+            </Text>
+            <Text size="xs" c="dimmed">
+              Peak:{" "}
+              <Text component="span" c="brand.4" fw={600}>
+                {peakPoint.views.toLocaleString()}
+              </Text>
+            </Text>
+          </Group>
         </Stack>
       </Stack>
     </Card>
