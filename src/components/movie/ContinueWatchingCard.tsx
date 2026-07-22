@@ -1,4 +1,4 @@
-import { AspectRatio, Button, Center, Modal, Progress, Stack, Text } from "@mantine/core";
+import { AspectRatio, Button, Center, Progress, Stack, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { PlayIcon } from "@phosphor-icons/react";
 import { useRef, useState } from "react";
@@ -6,7 +6,7 @@ import { HOVER_EXPAND_DELAY_MS } from "~/components/movie/movie.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import { buttonHoverVars } from "~/lib/theme/hover";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
-import { MovieDetailsOverlay } from "./MovieDetailsOverlay";
+import { MovieDetailsModal } from "./MovieDetailsModal";
 
 function formatRemainingTime(runtime: number, progressRatio: number): string {
   const remainingMinutes = Math.round(runtime * (1 - progressRatio));
@@ -130,28 +130,18 @@ export function ContinueWatchingCard({
         </div>
       </AspectRatio>
 
-      <Modal
+      <MovieDetailsModal
         opened={opened}
         onClose={close}
-        size="lg"
-        padding={0}
-        radius="lg"
-        withCloseButton={false}
-        centered
-        zIndex={300}
-      >
-        <MovieDetailsOverlay
-          tmdbMovieId={tmdbMovieId}
-          title={movie.title}
-          backdropPath={movie.backdrop_path}
-          overview={movie.overview}
-          releaseYear={releaseYear}
-          voteAverage={movie.vote_average}
-          genreIds={movie.genres.map((genre) => genre.id)}
-          genres={movie.genres}
-          onClose={close}
-        />
-      </Modal>
+        tmdbMovieId={tmdbMovieId}
+        title={movie.title}
+        backdropPath={movie.backdrop_path}
+        overview={movie.overview}
+        releaseYear={releaseYear}
+        voteAverage={movie.vote_average}
+        genreIds={movie.genres.map((genre) => genre.id)}
+        genres={movie.genres}
+      />
     </>
   );
 }

@@ -8,7 +8,7 @@ import { buttonHoverVars, glassActionIconVars } from "~/lib/theme/hover";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
 import type { Genre } from "~/features/genres/genres.types";
 
-type MovieDetailsOverlayProps = {
+export type MovieDetailsOverlayProps = {
   tmdbMovieId: number;
   title: string;
   backdropPath: string | null;
