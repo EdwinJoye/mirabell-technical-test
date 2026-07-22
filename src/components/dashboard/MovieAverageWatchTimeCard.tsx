@@ -1,6 +1,7 @@
 import { ActionIcon, Badge, Card, Group, Progress, Stack, Text, Tooltip } from "@mantine/core";
 import { ClockIcon, InfoIcon } from "@phosphor-icons/react";
 import { useState } from "react";
+import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { useMovieDetails } from "~/features/movie-details/movie-details.hooks";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
@@ -32,19 +33,7 @@ export function MovieAverageWatchTimeCard({ tmdbMovieId, stats }: MovieAverageWa
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <div
-              style={{
-                width: 28,
-                height: 28,
-                borderRadius: "50%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                backgroundColor: "rgba(79, 217, 196, 0.12)",
-              }}
-            >
-              <ClockIcon size={14} color="var(--mantine-color-brand-6)" />
-            </div>
+            <CardIconBadge icon={ClockIcon} />
             <Text size="sm" c="dimmed" fw={500}>
               Average Watch Time
             </Text>

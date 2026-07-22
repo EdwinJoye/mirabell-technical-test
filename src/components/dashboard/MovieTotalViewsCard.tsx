@@ -2,6 +2,7 @@ import { ActionIcon, Badge, Card, Group, ScrollArea, Stack, Text, Tooltip } from
 import { BarChart } from "@mantine/charts";
 import { EyeIcon, InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
+import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { MovieDashboardStats, MovieViewsPoint } from "~/features/dashboard/dashboard.types";
 
@@ -33,19 +34,7 @@ export function MovieTotalViewsCard({ stats, viewsEvolution }: MovieTotalViewsCa
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <div
-              style={{
-                width: 28,
-                height: 28,
-                borderRadius: "50%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                backgroundColor: "rgba(79, 217, 196, 0.12)",
-              }}
-            >
-              <EyeIcon size={14} color="var(--mantine-color-brand-6)" />
-            </div>
+            <CardIconBadge icon={EyeIcon} />
             <Text size="sm" c="dimmed" fw={500}>
               Total Views
             </Text>

@@ -3,6 +3,7 @@ import { LineChart } from "@mantine/charts";
 import { InfoIcon, TrendUpIcon, UsersIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { ActiveUsersPoint, GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
 
 type ActiveUsersCardProps = {
@@ -123,14 +124,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
           <Group justify="space-between" align="center">
             <Group gap="md">
               <Group gap={8}>
-                <div
-                  style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: "50%",
-                    backgroundColor: "var(--mantine-color-brand-6)",
-                  }}
-                />
+                <LegendDot color="var(--mantine-color-brand-6)" />
 
                 <Text size="xs" c="dimmed">
                   {stats.newUsers.toLocaleString()} new
@@ -138,14 +132,7 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
               </Group>
 
               <Group gap={8}>
-                <div
-                  style={{
-                    width: 8,
-                    height: 8,
-                    borderRadius: "50%",
-                    backgroundColor: "var(--mantine-color-dark-3)",
-                  }}
-                />
+                <LegendDot color="var(--mantine-color-dark-3)" />
 
                 <Text size="xs" c="dimmed">
                   {returningUsers.toLocaleString()} returning

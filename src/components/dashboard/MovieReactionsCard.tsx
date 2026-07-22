@@ -1,6 +1,7 @@
 import { ActionIcon, Box, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
 import { InfoIcon, MinusCircleIcon, ThumbsDownIcon, ThumbsUpIcon } from "@phosphor-icons/react";
 import { useState } from "react";
+import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import type { MovieReactions } from "~/features/dashboard/dashboard.types";
 
@@ -22,19 +23,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
       <Stack gap={6} h="100%">
         <Group justify="space-between" align="center">
           <Group gap={8}>
-            <div
-              style={{
-                width: 28,
-                height: 28,
-                borderRadius: "50%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                backgroundColor: "rgba(79, 217, 196, 0.12)",
-              }}
-            >
-              <ThumbsUpIcon size={14} color="var(--mantine-color-brand-6)" />
-            </div>
+            <CardIconBadge icon={ThumbsUpIcon} />
             <Text size="sm" c="dimmed" fw={500}>
               Viewer Reactions
             </Text>
