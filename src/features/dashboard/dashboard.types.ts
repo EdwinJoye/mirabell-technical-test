@@ -79,4 +79,5 @@ export interface MovieDashboardData {
   viewsEvolution: MovieViewsPoint[];
   completionRate: MovieCompletionRate;
   ratingDistribution: MovieRatingDistributionEntry[];
+  deviceDistribution: DeviceDistribution[];
 }

@@ -84,6 +84,28 @@
         "rating": 5,
         "count": 6958
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 167053,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 104894,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 81584,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 34964,
+        "percentage": 9
+      }
     ]
   },
   "1108427": {
@@ -170,6 +192,28 @@
       {
         "rating": 5,
         "count": 6862
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 180925,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 116848,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 56539,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 22616,
+        "percentage": 6
       }
     ]
   },
@@ -258,6 +302,28 @@
         "rating": 5,
         "count": 9984
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 203049,
+        "percentage": 54
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 105284,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 45122,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 22561,
+        "percentage": 6
+      }
     ]
   },
   "1083381": {
@@ -344,6 +410,28 @@
       {
         "rating": 5,
         "count": 9409
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 147635,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 113566,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 98424,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 18927,
+        "percentage": 5
       }
     ]
   },
@@ -432,6 +520,28 @@
         "rating": 5,
         "count": 5534
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 133961,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 119479,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 57929,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 50689,
+        "percentage": 14
+      }
     ]
   },
   "1084244": {
@@ -518,6 +628,28 @@
       {
         "rating": 5,
         "count": 8673
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 164240,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 87594,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 58396,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 54747,
+        "percentage": 15
       }
     ]
   },
@@ -606,6 +738,28 @@
         "rating": 5,
         "count": 7044
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 163129,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 113481,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 53194,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 24824,
+        "percentage": 7
+      }
     ]
   },
   "1081003": {
@@ -692,6 +846,28 @@
       {
         "rating": 5,
         "count": 8000
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 158805,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 93212,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 44880,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 48331,
+        "percentage": 14
       }
     ]
   },
@@ -780,6 +956,28 @@
         "rating": 5,
         "count": 10759
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 124383,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 117472,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 72556,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 31096,
+        "percentage": 9
+      }
     ]
   },
   "1368314": {
@@ -866,6 +1064,28 @@
       {
         "rating": 5,
         "count": 8203
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 122501,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 129307,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 44237,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 44236,
+        "percentage": 13
       }
     ]
   },
@@ -954,6 +1174,28 @@
         "rating": 5,
         "count": 5557
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 128486,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 111580,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 74386,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 23668,
+        "percentage": 7
+      }
     ]
   },
   "1314481": {
@@ -1040,6 +1282,28 @@
       {
         "rating": 5,
         "count": 5167
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 138203,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 94382,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 67416,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 37079,
+        "percentage": 11
       }
     ]
   },
@@ -1128,6 +1392,28 @@
         "rating": 5,
         "count": 8338
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 127934,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 108252,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 45925,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 45924,
+        "percentage": 14
+      }
     ]
   },
   "1318621": {
@@ -1214,6 +1500,28 @@
       {
         "rating": 5,
         "count": 10611
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 124302,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 111553,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 63744,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 19123,
+        "percentage": 6
       }
     ]
   },
@@ -1302,6 +1610,28 @@
         "rating": 5,
         "count": 6548
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 136853,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 105026,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 47739,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 28644,
+        "percentage": 9
+      }
     ]
   },
   "1668364": {
@@ -1388,6 +1718,28 @@
       {
         "rating": 5,
         "count": 5810
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 124885,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 97471,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 60920,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 21322,
+        "percentage": 7
       }
     ]
   },
@@ -1476,6 +1828,28 @@
         "rating": 5,
         "count": 7596
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 137511,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 100008,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 53129,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 21878,
+        "percentage": 7
+      }
     ]
   },
   "1523145": {
@@ -1562,6 +1936,28 @@
       {
         "rating": 5,
         "count": 5128
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 144468,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 81263,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 57185,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 18059,
+        "percentage": 6
       }
     ]
   },
@@ -1650,6 +2046,28 @@
         "rating": 5,
         "count": 7228
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 128928,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 101943,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 53970,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14992,
+        "percentage": 5
+      }
     ]
   },
   "1285366": {
@@ -1736,6 +2154,28 @@
       {
         "rating": 5,
         "count": 5678
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 114404,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 90937,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 44002,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 44001,
+        "percentage": 15
       }
     ]
   },
@@ -1824,6 +2264,28 @@
         "rating": 5,
         "count": 5146
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 128041,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 101851,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 37830,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 23280,
+        "percentage": 8
+      }
     ]
   },
   "83533": {
@@ -1910,6 +2372,28 @@
       {
         "rating": 5,
         "count": 6716
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 109404,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 86372,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 51823,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 40306,
+        "percentage": 14
       }
     ]
   },
@@ -1998,6 +2482,28 @@
         "rating": 5,
         "count": 8193
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 123065,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 90248,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 46491,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13674,
+        "percentage": 5
+      }
     ]
   },
   "969681": {
@@ -2084,6 +2590,28 @@
       {
         "rating": 5,
         "count": 5582
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 130659,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 97995,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 29943,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13610,
+        "percentage": 5
       }
     ]
   },
@@ -2172,6 +2700,28 @@
         "rating": 5,
         "count": 7727
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 108926,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 78971,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 43570,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 40847,
+        "percentage": 15
+      }
     ]
   },
   "1321008": {
@@ -2258,6 +2808,28 @@
       {
         "rating": 5,
         "count": 5842
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 89105,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 83864,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 52415,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 36690,
+        "percentage": 14
       }
     ]
   },
@@ -2346,6 +2918,28 @@
         "rating": 5,
         "count": 4896
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 139013,
+        "percentage": 53
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 83932,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26229,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13115,
+        "percentage": 5
+      }
     ]
   },
   "1304313": {
@@ -2432,6 +3026,28 @@
       {
         "rating": 5,
         "count": 3813
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 110611,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 87460,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 33440,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 25723,
+        "percentage": 10
       }
     ]
   },
@@ -2520,6 +3136,28 @@
         "rating": 5,
         "count": 4438
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 117072,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 70243,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 59837,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13008,
+        "percentage": 5
+      }
     ]
   },
   "1645603": {
@@ -2606,6 +3244,28 @@
       {
         "rating": 5,
         "count": 4768
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 91887,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 86920,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 32284,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 37251,
+        "percentage": 15
       }
     ]
   },
@@ -2694,6 +3354,28 @@
         "rating": 5,
         "count": 6937
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 93026,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 77941,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 62856,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 17599,
+        "percentage": 7
+      }
     ]
   },
   "1110034": {
@@ -2780,6 +3462,28 @@
       {
         "rating": 5,
         "count": 5392
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 90237,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 80482,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 34144,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 39021,
+        "percentage": 16
       }
     ]
   },
@@ -2868,6 +3572,28 @@
         "rating": 5,
         "count": 5082
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 84834,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 82410,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 63019,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12119,
+        "percentage": 5
+      }
     ]
   },
   "980431": {
@@ -2954,6 +3680,28 @@
       {
         "rating": 5,
         "count": 4886
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 92438,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 85140,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 46219,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 19460,
+        "percentage": 8
       }
     ]
   },
@@ -3042,6 +3790,28 @@
         "rating": 5,
         "count": 5335
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 99984,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 88081,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 35708,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14283,
+        "percentage": 6
+      }
     ]
   },
   "976912": {
@@ -3128,6 +3898,28 @@
       {
         "rating": 5,
         "count": 4799
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 125472,
+        "percentage": 53
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 63920,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 35511,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 11837,
+        "percentage": 5
       }
     ]
   },
@@ -3216,6 +4008,28 @@
         "rating": 5,
         "count": 5086
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 100055,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 56850,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 36384,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 34109,
+        "percentage": 15
+      }
     ]
   },
   "1318447": {
@@ -3302,6 +4116,28 @@
       {
         "rating": 5,
         "count": 4817
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 103886,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 63235,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 36134,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 22585,
+        "percentage": 10
       }
     ]
   },
@@ -3390,6 +4226,28 @@
         "rating": 5,
         "count": 5675
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 85831,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 63244,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 45174,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 31621,
+        "percentage": 14
+      }
     ]
   },
   "1327819": {
@@ -3476,6 +4334,28 @@
       {
         "rating": 5,
         "count": 7103
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 107264,
+        "percentage": 49
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 56916,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 37214,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 17513,
+        "percentage": 8
       }
     ]
   },
@@ -3564,6 +4444,28 @@
         "rating": 5,
         "count": 3914
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 91709,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 82975,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 24019,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 19652,
+        "percentage": 9
+      }
     ]
   },
   "1301421": {
@@ -3650,6 +4552,28 @@
       {
         "rating": 5,
         "count": 2692
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 105406,
+        "percentage": 51
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 57870,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 31002,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12400,
+        "percentage": 6
       }
     ]
   },
@@ -3738,6 +4662,28 @@
         "rating": 5,
         "count": 3529
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 100600,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 58684,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 25150,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 25150,
+        "percentage": 12
+      }
     ]
   },
   "1007757": {
@@ -3824,6 +4770,28 @@
       {
         "rating": 5,
         "count": 2456
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 71331,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 79483,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 34646,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 18342,
+        "percentage": 9
       }
     ]
   },
@@ -3912,6 +4880,28 @@
         "rating": 5,
         "count": 3624
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 90812,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 54487,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26235,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 30271,
+        "percentage": 15
+      }
     ]
   },
   "1439930": {
@@ -3998,6 +4988,28 @@
       {
         "rating": 5,
         "count": 4568
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 75033,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 69109,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 41466,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 11847,
+        "percentage": 6
       }
     ]
   },
@@ -4086,6 +5098,28 @@
         "rating": 5,
         "count": 3829
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 75136,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 53386,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 45477,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 23726,
+        "percentage": 12
+      }
     ]
   },
   "1443894": {
@@ -4172,6 +5206,28 @@
       {
         "rating": 5,
         "count": 3046
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 79540,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 59192,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 38845,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7399,
+        "percentage": 4
       }
     ]
   },
@@ -4260,6 +5316,28 @@
         "rating": 5,
         "count": 4890
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 74257,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 49505,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 43792,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 22848,
+        "percentage": 12
+      }
     ]
   },
   "619": {
@@ -4346,6 +5424,28 @@
       {
         "rating": 5,
         "count": 4688
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 75743,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 60964,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 33253,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14780,
+        "percentage": 8
       }
     ]
   },
@@ -4434,6 +5534,28 @@
         "rating": 5,
         "count": 2656
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 83868,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 47403,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 40111,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 10939,
+        "percentage": 6
+      }
     ]
   },
   "1656220": {
@@ -4520,6 +5642,28 @@
       {
         "rating": 5,
         "count": 2399
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 72112,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 65077,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 29900,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8795,
+        "percentage": 5
       }
     ]
   },
@@ -4608,6 +5752,28 @@
         "rating": 5,
         "count": 3348
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 95825,
+        "percentage": 53
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 52432,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 21696,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 10848,
+        "percentage": 6
+      }
     ]
   },
   "278": {
@@ -4694,6 +5860,28 @@
       {
         "rating": 5,
         "count": 2761
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 63334,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 54776,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 27388,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 25676,
+        "percentage": 15
       }
     ]
   },
@@ -4782,6 +5970,28 @@
         "rating": 5,
         "count": 3356
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 70644,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 55506,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 23548,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 18503,
+        "percentage": 11
+      }
     ]
   },
   "157336": {
@@ -4868,6 +6078,28 @@
       {
         "rating": 5,
         "count": 4553
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 67343,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 53529,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 41442,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 10360,
+        "percentage": 6
       }
     ]
   },
@@ -4956,6 +6188,28 @@
         "rating": 5,
         "count": 3539
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 69842,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 47697,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 37476,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 15331,
+        "percentage": 9
+      }
     ]
   },
   "1380291": {
@@ -5042,6 +6296,28 @@
       {
         "rating": 5,
         "count": 4659
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 74167,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 60682,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 21913,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 11800,
+        "percentage": 7
       }
     ]
   },
@@ -5130,6 +6406,28 @@
         "rating": 5,
         "count": 3084
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 80963,
+        "percentage": 49
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 54526,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19828,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9914,
+        "percentage": 6
+      }
     ]
   },
   "432279": {
@@ -5216,6 +6514,28 @@
       {
         "rating": 5,
         "count": 3077
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 73054,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 39704,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19058,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 26998,
+        "percentage": 17
       }
     ]
   },
@@ -5304,6 +6624,28 @@
         "rating": 5,
         "count": 3969
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 71593,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 57274,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 22273,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7955,
+        "percentage": 5
+      }
     ]
   },
   "5721": {
@@ -5390,6 +6732,28 @@
       {
         "rating": 5,
         "count": 3084
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 79969,
+        "percentage": 53
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 39230,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 24142,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7544,
+        "percentage": 5
       }
     ]
   },
@@ -5478,6 +6842,28 @@
         "rating": 5,
         "count": 2051
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 59473,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 48798,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 36599,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7624,
+        "percentage": 5
+      }
     ]
   },
   "1711175": {
@@ -5564,6 +6950,28 @@
       {
         "rating": 5,
         "count": 2014
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 68431,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 38678,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19339,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 22314,
+        "percentage": 15
       }
     ]
   },
@@ -5652,6 +7060,28 @@
         "rating": 5,
         "count": 3837
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 70076,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 47225,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 25898,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9141,
+        "percentage": 6
+      }
     ]
   },
   "1451078": {
@@ -5738,6 +7168,28 @@
       {
         "rating": 5,
         "count": 5400
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 62987,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 43491,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 25495,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 17996,
+        "percentage": 12
       }
     ]
   },
@@ -5826,6 +7278,28 @@
         "rating": 5,
         "count": 3911
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 51860,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 42049,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 32237,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14017,
+        "percentage": 10
+      }
     ]
   },
   "634649": {
@@ -5912,6 +7386,28 @@
       {
         "rating": 5,
         "count": 3082
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 58758,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 37261,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 38694,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8599,
+        "percentage": 6
       }
     ]
   },
@@ -6000,6 +7496,28 @@
         "rating": 5,
         "count": 2239
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 48856,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 39356,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 35285,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12213,
+        "percentage": 9
+      }
     ]
   },
   "64439": {
@@ -6086,6 +7604,28 @@
       {
         "rating": 5,
         "count": 2500
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 57200,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 51619,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 18136,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12556,
+        "percentage": 9
       }
     ]
   },
@@ -6174,6 +7714,28 @@
         "rating": 5,
         "count": 3801
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 58335,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 41668,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19445,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 19446,
+        "percentage": 14
+      }
     ]
   },
   "1122573": {
@@ -6260,6 +7822,28 @@
       {
         "rating": 5,
         "count": 2858
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 57060,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 51625,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13586,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13585,
+        "percentage": 10
       }
     ]
   },
@@ -6348,6 +7932,28 @@
         "rating": 5,
         "count": 2887
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 53005,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 39123,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26502,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7572,
+        "percentage": 6
+      }
     ]
   },
   "755898": {
@@ -6434,6 +8040,28 @@
       {
         "rating": 5,
         "count": 3019
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 53667,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 38908,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26833,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14759,
+        "percentage": 11
       }
     ]
   },
@@ -6522,6 +8150,28 @@
         "rating": 5,
         "count": 3730
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 53176,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 44097,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 20752,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 11672,
+        "percentage": 9
+      }
     ]
   },
   "1440050": {
@@ -6608,6 +8258,28 @@
       {
         "rating": 5,
         "count": 2723
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 59348,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 44841,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 21102,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6594,
+        "percentage": 5
       }
     ]
   },
@@ -6696,6 +8368,28 @@
         "rating": 5,
         "count": 1905
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 46756,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 46756,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 23378,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6153,
+        "percentage": 5
+      }
     ]
   },
   "1057265": {
@@ -6782,6 +8476,28 @@
       {
         "rating": 5,
         "count": 2515
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 45895,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 45895,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19846,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12404,
+        "percentage": 10
       }
     ]
   },
@@ -6870,6 +8586,28 @@
         "rating": 5,
         "count": 3195
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 44687,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 43479,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26570,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6039,
+        "percentage": 5
+      }
     ]
   },
   "713704": {
@@ -6956,6 +8694,28 @@
       {
         "rating": 5,
         "count": 3051
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 53947,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 36356,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19937,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7036,
+        "percentage": 6
       }
     ]
   },
@@ -7044,6 +8804,28 @@
         "rating": 5,
         "count": 2022
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 51194,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 30717,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 26166,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5688,
+        "percentage": 5
+      }
     ]
   },
   "1728704": {
@@ -7130,6 +8912,28 @@
       {
         "rating": 5,
         "count": 2252
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 41871,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 37463,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 25343,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5509,
+        "percentage": 5
       }
     ]
   },
@@ -7218,6 +9022,28 @@
         "rating": 5,
         "count": 2569
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 54069,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 34512,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 20707,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5752,
+        "percentage": 5
+      }
     ]
   },
   "27205": {
@@ -7304,6 +9130,28 @@
       {
         "rating": 5,
         "count": 3294
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 49950,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 40657,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 16263,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9293,
+        "percentage": 8
       }
     ]
   },
@@ -7392,6 +9240,28 @@
         "rating": 5,
         "count": 2499
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 44864,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 30978,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 25637,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5340,
+        "percentage": 5
+      }
     ]
   },
   "614945": {
@@ -7478,6 +9348,28 @@
       {
         "rating": 5,
         "count": 2771
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 40286,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 33925,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 23323,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8481,
+        "percentage": 8
       }
     ]
   },
@@ -7566,6 +9458,28 @@
         "rating": 5,
         "count": 2658
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 45980,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 31010,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 14970,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14971,
+        "percentage": 14
+      }
     ]
   },
   "424711": {
@@ -7652,6 +9566,28 @@
       {
         "rating": 5,
         "count": 1604
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 36531,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 39575,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 18266,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7103,
+        "percentage": 7
       }
     ]
   },
@@ -7740,6 +9676,28 @@
         "rating": 5,
         "count": 2433
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 45963,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 31664,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 17364,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7150,
+        "percentage": 7
+      }
     ]
   },
   "1242898": {
@@ -7826,6 +9784,28 @@
       {
         "rating": 5,
         "count": 1007
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 44620,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 25352,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 17240,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 14197,
+        "percentage": 14
       }
     ]
   },
@@ -7914,6 +9894,28 @@
         "rating": 5,
         "count": 1470
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 47215,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 32146,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12055,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9041,
+        "percentage": 9
+      }
     ]
   },
   "1641319": {
@@ -8000,6 +10002,28 @@
       {
         "rating": 5,
         "count": 2083
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 39884,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 33748,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 19431,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9204,
+        "percentage": 9
       }
     ]
   },
@@ -8088,6 +10112,28 @@
         "rating": 5,
         "count": 1526
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 40687,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 30763,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 20840,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6946,
+        "percentage": 7
+      }
     ]
   },
   "872585": {
@@ -8174,6 +10220,28 @@
       {
         "rating": 5,
         "count": 1594
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 45708,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 26409,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 14220,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 15237,
+        "percentage": 15
       }
     ]
   },
@@ -8262,6 +10330,28 @@
         "rating": 5,
         "count": 2678
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 36007,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 25851,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 17542,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12925,
+        "percentage": 14
+      }
     ]
   },
   "652": {
@@ -8348,6 +10438,28 @@
       {
         "rating": 5,
         "count": 2362
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 37555,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 34667,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 15407,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8667,
+        "percentage": 9
       }
     ]
   },
@@ -8436,6 +10548,28 @@
         "rating": 5,
         "count": 3045
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 32384,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 33283,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8996,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 15292,
+        "percentage": 17
+      }
     ]
   },
   "438631": {
@@ -8522,6 +10656,28 @@
       {
         "rating": 5,
         "count": 2080
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 35789,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 30283,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 21106,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4588,
+        "percentage": 5
       }
     ]
   },
@@ -8610,6 +10766,28 @@
         "rating": 5,
         "count": 2704
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 41459,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 31094,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12249,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9422,
+        "percentage": 10
+      }
     ]
   },
   "76600": {
@@ -8696,6 +10874,28 @@
       {
         "rating": 5,
         "count": 2133
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 37452,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 24387,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 17420,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7839,
+        "percentage": 9
       }
     ]
   },
@@ -8784,6 +10984,28 @@
         "rating": 5,
         "count": 1538
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 38048,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 25905,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 11334,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5667,
+        "percentage": 7
+      }
     ]
   },
   "1353926": {
@@ -8870,6 +11092,28 @@
       {
         "rating": 5,
         "count": 1308
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 38221,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 28666,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12161,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7818,
+        "percentage": 9
       }
     ]
   },
@@ -8958,6 +11202,28 @@
         "rating": 5,
         "count": 1916
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 40474,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19394,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 16021,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8432,
+        "percentage": 10
+      }
     ]
   },
   "155": {
@@ -9044,6 +11310,28 @@
       {
         "rating": 5,
         "count": 2569
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 27891,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 24792,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13946,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 10846,
+        "percentage": 14
       }
     ]
   },
@@ -9132,6 +11420,28 @@
         "rating": 5,
         "count": 2246
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 35570,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 26894,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12146,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 12146,
+        "percentage": 14
+      }
     ]
   },
   "1472951": {
@@ -9218,6 +11528,28 @@
       {
         "rating": 5,
         "count": 1906
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 37794,
+        "percentage": 50
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 21164,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9070,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7559,
+        "percentage": 10
       }
     ]
   },
@@ -9306,6 +11638,28 @@
         "rating": 5,
         "count": 1798
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 35671,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 23781,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8918,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5945,
+        "percentage": 8
+      }
     ]
   },
   "329505": {
@@ -9392,6 +11746,28 @@
       {
         "rating": 5,
         "count": 1445
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 36326,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 25270,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13425,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3948,
+        "percentage": 5
       }
     ]
   },
@@ -9480,6 +11856,28 @@
         "rating": 5,
         "count": 2265
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 26783,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 18820,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13753,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 13030,
+        "percentage": 18
+      }
     ]
   },
   "840464": {
@@ -9566,6 +11964,28 @@
       {
         "rating": 5,
         "count": 964
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 24098,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 24786,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 15147,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4819,
+        "percentage": 7
       }
     ]
   },
@@ -9654,6 +12074,28 @@
         "rating": 5,
         "count": 1683
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 28358,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 22824,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13141,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4842,
+        "percentage": 7
+      }
     ]
   },
   "502356": {
@@ -9740,6 +12182,28 @@
       {
         "rating": 5,
         "count": 1571
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 29506,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 17841,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 10293,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 10978,
+        "percentage": 16
       }
     ]
   },
@@ -9828,6 +12292,28 @@
         "rating": 5,
         "count": 977
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 25430,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 17182,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 16495,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9623,
+        "percentage": 14
+      }
     ]
   },
   "1432631": {
@@ -9914,6 +12400,28 @@
       {
         "rating": 5,
         "count": 2173
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 26289,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 22138,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9685,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 11069,
+        "percentage": 16
       }
     ]
   },
@@ -10002,6 +12510,28 @@
         "rating": 5,
         "count": 1164
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 24607,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 23883,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 16646,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7237,
+        "percentage": 10
+      }
     ]
   },
   "1198994": {
@@ -10088,6 +12618,28 @@
       {
         "rating": 5,
         "count": 1582
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 28772,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 22870,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13279,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8853,
+        "percentage": 12
       }
     ]
   },
@@ -10176,6 +12728,28 @@
         "rating": 5,
         "count": 809
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 23015,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 23015,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 14467,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5261,
+        "percentage": 8
+      }
     ]
   },
   "299710": {
@@ -10262,6 +12836,28 @@
       {
         "rating": 5,
         "count": 1225
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 23464,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 17598,
+        "percentage": 27
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 14991,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 9125,
+        "percentage": 14
       }
     ]
   },
@@ -10350,6 +12946,28 @@
         "rating": 5,
         "count": 1254
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 28374,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 21990,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 17025,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3547,
+        "percentage": 5
+      }
     ]
   },
   "1305781": {
@@ -10436,6 +13054,28 @@
       {
         "rating": 5,
         "count": 1203
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 28591,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19741,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12253,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7489,
+        "percentage": 11
       }
     ]
   },
@@ -10524,6 +13164,28 @@
         "rating": 5,
         "count": 923
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 34553,
+        "percentage": 50
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19350,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 11057,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4146,
+        "percentage": 6
+      }
     ]
   },
   "1477317": {
@@ -10610,6 +13272,28 @@
       {
         "rating": 5,
         "count": 1479
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 26278,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 22000,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8556,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4277,
+        "percentage": 7
       }
     ]
   },
@@ -10698,6 +13382,28 @@
         "rating": 5,
         "count": 725
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 20390,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 20390,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13194,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5998,
+        "percentage": 10
+      }
     ]
   },
   "1397201": {
@@ -10784,6 +13490,28 @@
       {
         "rating": 5,
         "count": 1503
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 28997,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 21594,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6787,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4318,
+        "percentage": 7
       }
     ]
   },
@@ -10872,6 +13600,28 @@
         "rating": 5,
         "count": 999
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 25484,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 18688,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5663,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6795,
+        "percentage": 12
+      }
     ]
   },
   "1266127": {
@@ -10958,6 +13708,28 @@
       {
         "rating": 5,
         "count": 1158
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 29851,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13682,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 12438,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6218,
+        "percentage": 10
       }
     ]
   },
@@ -11046,6 +13818,28 @@
         "rating": 5,
         "count": 1468
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 25343,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19641,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9504,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8869,
+        "percentage": 14
+      }
     ]
   },
   "1292415": {
@@ -11132,6 +13926,28 @@
       {
         "rating": 5,
         "count": 1247
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 20835,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 15767,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 11825,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7883,
+        "percentage": 14
       }
     ]
   },
@@ -11220,6 +14036,28 @@
         "rating": 5,
         "count": 936
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 18944,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19518,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 11481,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 7464,
+        "percentage": 13
+      }
     ]
   },
   "569094": {
@@ -11306,6 +14144,28 @@
       {
         "rating": 5,
         "count": 1149
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 24429,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 23237,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8937,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2979,
+        "percentage": 5
       }
     ]
   },
@@ -11394,6 +14254,28 @@
         "rating": 5,
         "count": 1622
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 27996,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13998,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7582,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 8748,
+        "percentage": 15
+      }
     ]
   },
   "226674": {
@@ -11480,6 +14362,28 @@
       {
         "rating": 5,
         "count": 1037
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 19610,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19119,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7844,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2451,
+        "percentage": 5
       }
     ]
   },
@@ -11568,6 +14472,28 @@
         "rating": 5,
         "count": 1476
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 22631,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 19237,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 10750,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3960,
+        "percentage": 7
+      }
     ]
   },
   "238": {
@@ -11654,6 +14580,28 @@
       {
         "rating": 5,
         "count": 944
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 21477,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 14829,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9204,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5625,
+        "percentage": 11
       }
     ]
   },
@@ -11742,6 +14690,28 @@
         "rating": 5,
         "count": 1079
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 19681,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 17281,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8641,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2400,
+        "percentage": 5
+      }
     ]
   },
   "1061474": {
@@ -11828,6 +14798,28 @@
       {
         "rating": 5,
         "count": 1685
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 25263,
+        "percentage": 51
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11889,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5944,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6440,
+        "percentage": 13
       }
     ]
   },
@@ -11916,6 +14908,28 @@
         "rating": 5,
         "count": 1043
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 22611,
+        "percentage": 51
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13301,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5764,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2660,
+        "percentage": 6
+      }
     ]
   },
   "177572": {
@@ -12002,6 +15016,28 @@
       {
         "rating": 5,
         "count": 776
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 26292,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 18623,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6573,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3286,
+        "percentage": 6
       }
     ]
   },
@@ -12090,6 +15126,28 @@
         "rating": 5,
         "count": 1475
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 20638,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 14094,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 13087,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2517,
+        "percentage": 5
+      }
     ]
   },
   "1430077": {
@@ -12176,6 +15234,28 @@
       {
         "rating": 5,
         "count": 1358
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 17891,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 16924,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8220,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5320,
+        "percentage": 11
       }
     ]
   },
@@ -12264,6 +15344,28 @@
         "rating": 5,
         "count": 886
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 17965,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 12116,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7103,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4596,
+        "percentage": 11
+      }
     ]
   },
   "1580803": {
@@ -12350,6 +15452,28 @@
       {
         "rating": 5,
         "count": 1010
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 18219,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11387,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9565,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6376,
+        "percentage": 14
       }
     ]
   },
@@ -12438,6 +15562,28 @@
         "rating": 5,
         "count": 774
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 23358,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 15085,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6326,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3893,
+        "percentage": 8
+      }
     ]
   },
   "950028": {
@@ -12524,6 +15670,28 @@
       {
         "rating": 5,
         "count": 1116
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 19284,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 16988,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6887,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2755,
+        "percentage": 6
       }
     ]
   },
@@ -12612,6 +15780,28 @@
         "rating": 5,
         "count": 1100
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 16133,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13378,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7870,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1967,
+        "percentage": 5
+      }
     ]
   },
   "1330021": {
@@ -12698,6 +15888,28 @@
       {
         "rating": 5,
         "count": 1256
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 22813,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 15047,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4368,
+        "percentage": 9
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 6310,
+        "percentage": 13
       }
     ]
   },
@@ -12786,6 +15998,28 @@
         "rating": 5,
         "count": 881
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 20630,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11253,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9846,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5157,
+        "percentage": 11
+      }
     ]
   },
   "425274": {
@@ -12872,6 +16106,28 @@
       {
         "rating": 5,
         "count": 1052
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 21615,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 12217,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 10338,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2820,
+        "percentage": 6
       }
     ]
   },
@@ -12960,6 +16216,28 @@
         "rating": 5,
         "count": 979
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 17962,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11391,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 9200,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5257,
+        "percentage": 12
+      }
     ]
   },
   "385687": {
@@ -13046,6 +16324,28 @@
       {
         "rating": 5,
         "count": 1010
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 18154,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11965,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7839,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3300,
+        "percentage": 8
       }
     ]
   },
@@ -13134,6 +16434,28 @@
         "rating": 5,
         "count": 1178
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 15572,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13047,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 10101,
+        "percentage": 24
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3366,
+        "percentage": 8
+      }
     ]
   },
   "603": {
@@ -13220,6 +16542,28 @@
       {
         "rating": 5,
         "count": 803
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 16713,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 12155,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7217,
+        "percentage": 19
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1899,
+        "percentage": 5
       }
     ]
   },
@@ -13308,6 +16652,28 @@
         "rating": 5,
         "count": 1216
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 17960,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11837,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5306,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5715,
+        "percentage": 14
+      }
     ]
   },
   "1123261": {
@@ -13394,6 +16760,28 @@
       {
         "rating": 5,
         "count": 1068
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 16104,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13626,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7020,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4542,
+        "percentage": 11
       }
     ]
   },
@@ -13482,6 +16870,28 @@
         "rating": 5,
         "count": 787
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14501,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10703,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3453,
+        "percentage": 10
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5869,
+        "percentage": 17
+      }
     ]
   },
   "1002398": {
@@ -13568,6 +16978,28 @@
       {
         "rating": 5,
         "count": 1187
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14966,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9491,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6570,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5475,
+        "percentage": 15
       }
     ]
   },
@@ -13656,6 +17088,28 @@
         "rating": 5,
         "count": 714
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 15063,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9184,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7715,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4776,
+        "percentage": 13
+      }
     ]
   },
   "980477": {
@@ -13742,6 +17196,28 @@
       {
         "rating": 5,
         "count": 812
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 20413,
+        "percentage": 51
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10006,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5203,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4404,
+        "percentage": 11
       }
     ]
   },
@@ -13830,6 +17306,28 @@
         "rating": 5,
         "count": 1210
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 15941,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 13897,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6949,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4087,
+        "percentage": 10
+      }
     ]
   },
   "693134": {
@@ -13916,6 +17414,28 @@
       {
         "rating": 5,
         "count": 969
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14796,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 12071,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 8177,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3894,
+        "percentage": 10
       }
     ]
   },
@@ -14004,6 +17524,28 @@
         "rating": 5,
         "count": 972
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14392,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9829,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6318,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4563,
+        "percentage": 13
+      }
     ]
   },
   "414906": {
@@ -14090,6 +17632,28 @@
       {
         "rating": 5,
         "count": 690
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 13279,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10117,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5691,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2529,
+        "percentage": 8
       }
     ]
   },
@@ -14178,6 +17742,28 @@
         "rating": 5,
         "count": 474
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12341,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9632,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6622,
+        "percentage": 22
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1504,
+        "percentage": 5
+      }
     ]
   },
   "1630423": {
@@ -14264,6 +17850,28 @@
       {
         "rating": 5,
         "count": 872
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 13872,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10315,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5691,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 5692,
+        "percentage": 16
       }
     ]
   },
@@ -14352,6 +17960,28 @@
         "rating": 5,
         "count": 610
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 11690,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10813,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5260,
+        "percentage": 18
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1462,
+        "percentage": 5
+      }
     ]
   },
   "1254896": {
@@ -14438,6 +18068,28 @@
       {
         "rating": 5,
         "count": 906
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12169,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9985,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5305,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3744,
+        "percentage": 12
       }
     ]
   },
@@ -14526,6 +18178,28 @@
         "rating": 5,
         "count": 568
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 13696,
+        "percentage": 45
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 11261,
+        "percentage": 37
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3652,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1826,
+        "percentage": 6
+      }
     ]
   },
   "129": {
@@ -14612,6 +18286,28 @@
       {
         "rating": 5,
         "count": 661
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14757,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8608,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3997,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3382,
+        "percentage": 11
       }
     ]
   },
@@ -14700,6 +18396,28 @@
         "rating": 5,
         "count": 683
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 10979,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10712,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3749,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1339,
+        "percentage": 5
+      }
     ]
   },
   "1168190": {
@@ -14786,6 +18504,28 @@
       {
         "rating": 5,
         "count": 402
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 11520,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9920,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6720,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3841,
+        "percentage": 12
       }
     ]
   },
@@ -14874,6 +18614,28 @@
         "rating": 5,
         "count": 560
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14684,
+        "percentage": 48
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9177,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3671,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3059,
+        "percentage": 10
+      }
     ]
   },
   "270303": {
@@ -14960,6 +18722,28 @@
       {
         "rating": 5,
         "count": 461
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 13767,
+        "percentage": 49
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 7305,
+        "percentage": 26
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3372,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3652,
+        "percentage": 13
       }
     ]
   },
@@ -15048,6 +18832,28 @@
         "rating": 5,
         "count": 811
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 16016,
+        "percentage": 54
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8305,
+        "percentage": 28
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3559,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1780,
+        "percentage": 6
+      }
     ]
   },
   "550": {
@@ -15134,6 +18940,28 @@
       {
         "rating": 5,
         "count": 838
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 14193,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 12165,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4393,
+        "percentage": 13
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3042,
+        "percentage": 9
       }
     ]
   },
@@ -15222,6 +19050,28 @@
         "rating": 5,
         "count": 670
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 10007,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10007,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4709,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 4709,
+        "percentage": 16
+      }
     ]
   },
   "1022789": {
@@ -15308,6 +19158,28 @@
       {
         "rating": 5,
         "count": 630
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 11014,
+        "percentage": 38
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9275,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6086,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2608,
+        "percentage": 9
       }
     ]
   },
@@ -15396,6 +19268,28 @@
         "rating": 5,
         "count": 406
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12664,
+        "percentage": 49
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8787,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3101,
+        "percentage": 12
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1293,
+        "percentage": 5
+      }
     ]
   },
   "1156594": {
@@ -15482,6 +19376,28 @@
       {
         "rating": 5,
         "count": 510
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 10014,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 7452,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4658,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1165,
+        "percentage": 5
       }
     ]
   },
@@ -15570,6 +19486,28 @@
         "rating": 5,
         "count": 557
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 13555,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 10718,
+        "percentage": 34
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5359,
+        "percentage": 17
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1891,
+        "percentage": 6
+      }
     ]
   },
   "39254": {
@@ -15656,6 +19594,28 @@
       {
         "rating": 5,
         "count": 503
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 9142,
+        "percentage": 39
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 5391,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5391,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3516,
+        "percentage": 15
       }
     ]
   },
@@ -15744,6 +19704,28 @@
         "rating": 5,
         "count": 495
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12608,
+        "percentage": 49
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8234,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 2830,
+        "percentage": 11
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2059,
+        "percentage": 8
+      }
     ]
   },
   "505026": {
@@ -15830,6 +19812,28 @@
       {
         "rating": 5,
         "count": 457
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12684,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9590,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 7116,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1547,
+        "percentage": 5
       }
     ]
   },
@@ -15918,6 +19922,28 @@
         "rating": 5,
         "count": 603
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 9117,
+        "percentage": 40
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 6838,
+        "percentage": 30
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3647,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3191,
+        "percentage": 14
+      }
     ]
   },
   "1694978": {
@@ -16004,6 +20030,28 @@
       {
         "rating": 5,
         "count": 341
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 7703,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 6200,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3006,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1878,
+        "percentage": 10
       }
     ]
   },
@@ -16092,6 +20140,28 @@
         "rating": 5,
         "count": 643
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 11571,
+        "percentage": 47
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 7632,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3447,
+        "percentage": 14
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1970,
+        "percentage": 8
+      }
     ]
   },
   "1669057": {
@@ -16178,6 +20248,28 @@
       {
         "rating": 5,
         "count": 546
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 9564,
+        "percentage": 41
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 7231,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 5365,
+        "percentage": 23
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1167,
+        "percentage": 5
       }
     ]
   },
@@ -16266,6 +20358,28 @@
         "rating": 5,
         "count": 368
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 8869,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 5982,
+        "percentage": 29
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4125,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1650,
+        "percentage": 8
+      }
     ]
   },
   "497": {
@@ -16352,6 +20466,28 @@
       {
         "rating": 5,
         "count": 862
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 12576,
+        "percentage": 43
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 9359,
+        "percentage": 32
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 6142,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1169,
+        "percentage": 4
       }
     ]
   },
@@ -16440,6 +20576,28 @@
         "rating": 5,
         "count": 416
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 8626,
+        "percentage": 35
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8873,
+        "percentage": 36
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4929,
+        "percentage": 20
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 2218,
+        "percentage": 9
+      }
     ]
   },
   "950396": {
@@ -16526,6 +20684,28 @@
       {
         "rating": 5,
         "count": 512
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 9807,
+        "percentage": 42
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 7238,
+        "percentage": 31
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 4904,
+        "percentage": 21
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1401,
+        "percentage": 6
       }
     ]
   },
@@ -16614,6 +20794,28 @@
         "rating": 5,
         "count": 479
       }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 10675,
+        "percentage": 44
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 6065,
+        "percentage": 25
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3639,
+        "percentage": 15
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 3882,
+        "percentage": 16
+      }
     ]
   },
   "1141970": {
@@ -16700,6 +20902,28 @@
       {
         "rating": 5,
         "count": 567
+      }
+    ],
+    "deviceDistribution": [
+      {
+        "deviceType": "Mobile",
+        "views": 11281,
+        "percentage": 46
+      },
+      {
+        "deviceType": "Smart TV",
+        "views": 8093,
+        "percentage": 33
+      },
+      {
+        "deviceType": "Desktop",
+        "views": 3924,
+        "percentage": 16
+      },
+      {
+        "deviceType": "Tablet",
+        "views": 1226,
+        "percentage": 5
       }
     ]
   }
