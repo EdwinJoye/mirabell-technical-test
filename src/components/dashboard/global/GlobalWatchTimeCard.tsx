@@ -79,7 +79,7 @@ export function GlobalWatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardP
           </Group>
         </Group>
 
-        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.25rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {formatWatchTime(stats.totalWatchTimeMinutes)}
         </Text>
 
