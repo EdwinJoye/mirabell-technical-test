@@ -1,7 +1,7 @@
 import { ActionIcon, Badge, Group, Stack, Text, Title, Button } from "@mantine/core";
 import { XIcon, PlayIcon, DownloadSimpleIcon, StarIcon } from "@phosphor-icons/react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
-import { buttonHoverVars } from "~/lib/theme/hover";
+import { buttonHoverVars, glassActionIconVars } from "~/lib/theme/hover";
 import { glassBadgeStyles } from "~/components/movie/movie.styles";
 import type { Genre } from "~/features/genres/genres.types";
 
@@ -46,7 +46,7 @@ export function MovieDetailsOverlay({
         pos="absolute"
         top={16}
         right={16}
-        style={{ zIndex: 2, backgroundColor: "rgba(255, 255, 255, 0.16)" }}
+        style={{ ...glassActionIconVars(), zIndex: 2 }}
       >
         <XIcon size={18} color="white" />
       </ActionIcon>
