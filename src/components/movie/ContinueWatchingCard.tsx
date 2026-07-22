@@ -66,14 +66,26 @@ export function ContinueWatchingCard({
           isHoverExpanded ? "scale-125 z-150 shadow-[0_60px_180px_10px_rgba(0,0,0,1)]" : "scale-100"
         }`}
         style={{
-          backgroundImage: backgroundImageUrl ? `url(${backgroundImageUrl})` : undefined,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
           backgroundColor: "var(--mantine-color-dark-6)",
           transformOrigin: zoomOrigin,
         }}
       >
         <div>
+          {backgroundImageUrl && (
+            <img
+              src={backgroundImageUrl}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+          )}
           <div
             className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent"
             style={{

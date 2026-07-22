@@ -70,15 +70,26 @@ export function MovieCard({
           isHoverExpanded ? "scale-125 z-150 shadow-[0_60px_180px_10px_rgba(0,0,0,1)]" : "scale-100"
         }`}
         style={{
-          backgroundImage: posterPath ? `url(${getTmdbImageUrl(posterPath)})` : undefined,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
           backgroundColor: "var(--mantine-color-dark-6)",
           transformOrigin: zoomOrigin,
         }}
       >
         <div>
-          {!posterPath && (
+          {posterPath ? (
+            <img
+              src={getTmdbImageUrl(posterPath)}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              style={{
+                position: "absolute",
+                inset: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
+          ) : (
             <Center h="100%">
               <Text size="sm" c="dimmed">
                 No poster
