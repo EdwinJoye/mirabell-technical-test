@@ -154,7 +154,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.9,
       "rewatchedViewers": 12158
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "1108427": {
     "stats": {
@@ -311,7 +337,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.3,
       "rewatchedViewers": 12062
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1339713": {
     "stats": {
@@ -468,7 +520,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.8,
       "rewatchedViewers": 18527
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1083381": {
     "stats": {
@@ -625,7 +703,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.1,
       "rewatchedViewers": 10249
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 27
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "1275779": {
     "stats": {
@@ -782,7 +886,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.0,
       "rewatchedViewers": 15119
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1084244": {
     "stats": {
@@ -939,7 +1069,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 12330
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      }
+    ]
   },
   "1315772": {
     "stats": {
@@ -1096,7 +1252,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 9284
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1081003": {
     "stats": {
@@ -1253,7 +1435,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.6,
       "rewatchedViewers": 13540
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 5
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1273221": {
     "stats": {
@@ -1410,7 +1618,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.6,
       "rewatchedViewers": 7923
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "Others",
+        "percentage": 28
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1368314": {
     "stats": {
@@ -1567,7 +1801,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.5,
       "rewatchedViewers": 13171
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "687163": {
     "stats": {
@@ -1724,7 +1984,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.0,
       "rewatchedViewers": 9166
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      }
+    ]
   },
   "1314481": {
     "stats": {
@@ -1881,7 +2167,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.4,
       "rewatchedViewers": 10149
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      }
+    ]
   },
   "1280738": {
     "stats": {
@@ -2038,7 +2350,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.4,
       "rewatchedViewers": 12990
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1318621": {
     "stats": {
@@ -2195,7 +2533,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.4,
       "rewatchedViewers": 18998
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "261639": {
     "stats": {
@@ -2352,7 +2716,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.9,
       "rewatchedViewers": 8459
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "1668364": {
     "stats": {
@@ -2509,7 +2899,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.3,
       "rewatchedViewers": 11054
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "1228710": {
     "stats": {
@@ -2666,7 +3082,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.4,
       "rewatchedViewers": 14989
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "1523145": {
     "stats": {
@@ -2823,7 +3265,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.2,
       "rewatchedViewers": 16089
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1127384": {
     "stats": {
@@ -2980,7 +3448,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.7,
       "rewatchedViewers": 12902
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1285366": {
     "stats": {
@@ -3137,7 +3631,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.0,
       "rewatchedViewers": 12470
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      }
+    ]
   },
   "936075": {
     "stats": {
@@ -3294,7 +3814,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.6,
       "rewatchedViewers": 16650
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "83533": {
     "stats": {
@@ -3451,7 +3997,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.7,
       "rewatchedViewers": 7952
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "931285": {
     "stats": {
@@ -3608,7 +4180,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.9,
       "rewatchedViewers": 15219
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "969681": {
     "stats": {
@@ -3765,7 +4363,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.3,
       "rewatchedViewers": 8069
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1413976": {
     "stats": {
@@ -3922,7 +4546,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.2,
       "rewatchedViewers": 7795
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1321008": {
     "stats": {
@@ -4079,7 +4729,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.8,
       "rewatchedViewers": 8132
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 40
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1226863": {
     "stats": {
@@ -4236,7 +4912,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.6,
       "rewatchedViewers": 9306
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1304313": {
     "stats": {
@@ -4393,7 +5095,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.2,
       "rewatchedViewers": 11775
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      }
+    ]
   },
   "1321491": {
     "stats": {
@@ -4550,7 +5278,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.7,
       "rewatchedViewers": 8885
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 43
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1645603": {
     "stats": {
@@ -4707,7 +5461,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.7,
       "rewatchedViewers": 9535
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      }
+    ]
   },
   "1311031": {
     "stats": {
@@ -4864,7 +5644,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.6,
       "rewatchedViewers": 13226
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1110034": {
     "stats": {
@@ -5021,7 +5827,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.6,
       "rewatchedViewers": 9510
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1491920": {
     "stats": {
@@ -5178,7 +6010,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.2,
       "rewatchedViewers": 9194
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "France",
+        "percentage": 23
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "980431": {
     "stats": {
@@ -5335,7 +6193,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 6258
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "200066": {
     "stats": {
@@ -5492,7 +6376,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 6753
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 41
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "976912": {
     "stats": {
@@ -5649,7 +6559,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.1,
       "rewatchedViewers": 7396
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      }
+    ]
   },
   "1003596": {
     "stats": {
@@ -5806,7 +6742,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.2,
       "rewatchedViewers": 12236
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1318447": {
     "stats": {
@@ -5963,7 +6925,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.4,
       "rewatchedViewers": 8096
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "1212763": {
     "stats": {
@@ -6120,7 +7108,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.7,
       "rewatchedViewers": 8740
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "1327819": {
     "stats": {
@@ -6277,7 +7291,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.8,
       "rewatchedViewers": 10461
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "47612": {
     "stats": {
@@ -6434,7 +7474,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.8,
       "rewatchedViewers": 8315
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1301421": {
     "stats": {
@@ -6591,7 +7657,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.5,
       "rewatchedViewers": 6243
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1727780": {
     "stats": {
@@ -6748,7 +7840,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.9,
       "rewatchedViewers": 12187
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1007757": {
     "stats": {
@@ -6905,7 +8023,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.5,
       "rewatchedViewers": 8736
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1279493": {
     "stats": {
@@ -7062,7 +8206,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.7,
       "rewatchedViewers": 6874
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Germany",
+        "percentage": 5
+      }
+    ]
   },
   "1439930": {
     "stats": {
@@ -7219,7 +8389,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.6,
       "rewatchedViewers": 9817
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      }
+    ]
   },
   "1595852": {
     "stats": {
@@ -7376,7 +8572,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.9,
       "rewatchedViewers": 8289
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1443894": {
     "stats": {
@@ -7533,7 +8755,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.1,
       "rewatchedViewers": 9719
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "718833": {
     "stats": {
@@ -7690,7 +8938,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.9,
       "rewatchedViewers": 9083
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 40
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "619": {
     "stats": {
@@ -7847,7 +9121,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.3,
       "rewatchedViewers": 6225
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "11012": {
     "stats": {
@@ -8004,7 +9304,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.7,
       "rewatchedViewers": 11383
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1656220": {
     "stats": {
@@ -8161,7 +9487,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.8,
       "rewatchedViewers": 4887
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1301310": {
     "stats": {
@@ -8318,7 +9670,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.3,
       "rewatchedViewers": 6942
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "278": {
     "stats": {
@@ -8475,7 +9853,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.4,
       "rewatchedViewers": 8967
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1541560": {
     "stats": {
@@ -8632,7 +10036,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.3,
       "rewatchedViewers": 4794
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 40
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "157336": {
     "stats": {
@@ -8789,7 +10219,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.3,
       "rewatchedViewers": 6331
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 5
+      }
+    ]
   },
   "1305672": {
     "stats": {
@@ -8946,7 +10402,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.6,
       "rewatchedViewers": 4743
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "France",
+        "percentage": 23
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1380291": {
     "stats": {
@@ -9103,7 +10585,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.0,
       "rewatchedViewers": 8980
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1290821": {
     "stats": {
@@ -9260,7 +10768,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.5,
       "rewatchedViewers": 7781
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "432279": {
     "stats": {
@@ -9417,7 +10951,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.6,
       "rewatchedViewers": 7349
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "1468683": {
     "stats": {
@@ -9574,7 +11134,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.1,
       "rewatchedViewers": 8173
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "5721": {
     "stats": {
@@ -9731,7 +11317,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.7,
       "rewatchedViewers": 5099
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 23
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "1419406": {
     "stats": {
@@ -9888,7 +11500,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.4,
       "rewatchedViewers": 7974
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "1711175": {
     "stats": {
@@ -10045,7 +11683,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.9,
       "rewatchedViewers": 6615
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1725116": {
     "stats": {
@@ -10202,7 +11866,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.7,
       "rewatchedViewers": 6551
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Germany",
+        "percentage": 19
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1451078": {
     "stats": {
@@ -10359,7 +12049,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.8,
       "rewatchedViewers": 6810
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "687259": {
     "stats": {
@@ -10516,7 +12232,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.6,
       "rewatchedViewers": 8177
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 42
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "634649": {
     "stats": {
@@ -10673,7 +12415,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.2,
       "rewatchedViewers": 8906
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "Japan",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "1397385": {
     "stats": {
@@ -10830,7 +12598,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.1,
       "rewatchedViewers": 5802
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 25
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      }
+    ]
   },
   "64439": {
     "stats": {
@@ -10987,7 +12781,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.0,
       "rewatchedViewers": 6070
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1309083": {
     "stats": {
@@ -11144,7 +12964,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 4079
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1122573": {
     "stats": {
@@ -11301,7 +13147,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.5,
       "rewatchedViewers": 7186
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1368166": {
     "stats": {
@@ -11458,7 +13330,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.7,
       "rewatchedViewers": 6302
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "755898": {
     "stats": {
@@ -11615,7 +13513,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.9,
       "rewatchedViewers": 8286
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "United States",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "1227241": {
     "stats": {
@@ -11772,7 +13696,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.3,
       "rewatchedViewers": 7815
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1440050": {
     "stats": {
@@ -11929,7 +13879,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.3,
       "rewatchedViewers": 5092
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 42
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1241982": {
     "stats": {
@@ -12086,7 +14062,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.8,
       "rewatchedViewers": 4292
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "France",
+        "percentage": 22
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1057265": {
     "stats": {
@@ -12243,7 +14245,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.0,
       "rewatchedViewers": 6355
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1084242": {
     "stats": {
@@ -12400,7 +14428,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.3,
       "rewatchedViewers": 2660
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      }
+    ]
   },
   "713704": {
     "stats": {
@@ -12557,7 +14611,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.9,
       "rewatchedViewers": 4531
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 27
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "1325734": {
     "stats": {
@@ -12714,7 +14794,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.5,
       "rewatchedViewers": 3060
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1728704": {
     "stats": {
@@ -12871,7 +14977,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.8,
       "rewatchedViewers": 3400
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1265609": {
     "stats": {
@@ -13028,7 +15160,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 2603
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "27205": {
     "stats": {
@@ -13185,7 +15343,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.5,
       "rewatchedViewers": 5332
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1234821": {
     "stats": {
@@ -13342,7 +15526,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.9,
       "rewatchedViewers": 2675
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "614945": {
     "stats": {
@@ -13499,7 +15709,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.7,
       "rewatchedViewers": 3248
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1175942": {
     "stats": {
@@ -13656,7 +15892,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.9,
       "rewatchedViewers": 4616
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "424711": {
     "stats": {
@@ -13813,7 +16075,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.1,
       "rewatchedViewers": 5131
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1288341": {
     "stats": {
@@ -13970,7 +16258,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.2,
       "rewatchedViewers": 2792
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1242898": {
     "stats": {
@@ -14127,7 +16441,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.7,
       "rewatchedViewers": 3735
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1363387": {
     "stats": {
@@ -14284,7 +16624,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.2,
       "rewatchedViewers": 3802
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      }
+    ]
   },
   "1641319": {
     "stats": {
@@ -14441,7 +16807,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.3,
       "rewatchedViewers": 5064
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      }
+    ]
   },
   "1297842": {
     "stats": {
@@ -14598,7 +16990,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.3,
       "rewatchedViewers": 4991
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "872585": {
     "stats": {
@@ -14755,7 +17173,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.0,
       "rewatchedViewers": 4900
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "Japan",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "803796": {
     "stats": {
@@ -14912,7 +17356,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.2,
       "rewatchedViewers": 3411
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "652": {
     "stats": {
@@ -15069,7 +17539,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.2,
       "rewatchedViewers": 4222
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "104894": {
     "stats": {
@@ -15226,7 +17722,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.4,
       "rewatchedViewers": 3659
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "438631": {
     "stats": {
@@ -15383,7 +17905,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.3,
       "rewatchedViewers": 5161
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1058424": {
     "stats": {
@@ -15540,7 +18088,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.4,
       "rewatchedViewers": 6054
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "76600": {
     "stats": {
@@ -15697,7 +18271,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.3,
       "rewatchedViewers": 2643
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "24428": {
     "stats": {
@@ -15854,7 +18454,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.6,
       "rewatchedViewers": 2135
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      }
+    ]
   },
   "1353926": {
     "stats": {
@@ -16011,7 +18637,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.5,
       "rewatchedViewers": 2594
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1171145": {
     "stats": {
@@ -16168,7 +18820,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.5,
       "rewatchedViewers": 2871
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "155": {
     "stats": {
@@ -16325,7 +19003,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.3,
       "rewatchedViewers": 3516
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "204407": {
     "stats": {
@@ -16482,7 +19186,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.8,
       "rewatchedViewers": 3966
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 14
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "1472951": {
     "stats": {
@@ -16639,7 +19369,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.9,
       "rewatchedViewers": 2274
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "299536": {
     "stats": {
@@ -16796,7 +19552,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.1,
       "rewatchedViewers": 1713
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "329505": {
     "stats": {
@@ -16953,7 +19735,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.3,
       "rewatchedViewers": 2983
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      }
+    ]
   },
   "1242332": {
     "stats": {
@@ -17110,7 +19918,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 2845
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "840464": {
     "stats": {
@@ -17267,7 +20101,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.5,
       "rewatchedViewers": 2939
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 43
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "454639": {
     "stats": {
@@ -17424,7 +20284,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.3,
       "rewatchedViewers": 3970
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "502356": {
     "stats": {
@@ -17581,7 +20467,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.4,
       "rewatchedViewers": 3283
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      }
+    ]
   },
   "1010581": {
     "stats": {
@@ -17738,7 +20650,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.7,
       "rewatchedViewers": 2553
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      }
+    ]
   },
   "1432631": {
     "stats": {
@@ -17895,7 +20833,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.3,
       "rewatchedViewers": 3648
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "862": {
     "stats": {
@@ -18052,7 +21016,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.1,
       "rewatchedViewers": 3056
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1198994": {
     "stats": {
@@ -18209,7 +21199,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.8,
       "rewatchedViewers": 1738
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      }
+    ]
   },
   "448772": {
     "stats": {
@@ -18366,7 +21382,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.5,
       "rewatchedViewers": 3748
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "299710": {
     "stats": {
@@ -18523,7 +21565,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.7,
       "rewatchedViewers": 3612
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "496243": {
     "stats": {
@@ -18680,7 +21748,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.1,
       "rewatchedViewers": 3654
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1305781": {
     "stats": {
@@ -18837,7 +21931,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.0,
       "rewatchedViewers": 3408
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 24
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "122": {
     "stats": {
@@ -18994,7 +22114,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.9,
       "rewatchedViewers": 2376
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1477317": {
     "stats": {
@@ -19151,7 +22297,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.0,
       "rewatchedViewers": 2303
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "1272837": {
     "stats": {
@@ -19308,7 +22480,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.6,
       "rewatchedViewers": 1691
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "Japan",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1397201": {
     "stats": {
@@ -19465,7 +22663,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.5,
       "rewatchedViewers": 3274
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "109428": {
     "stats": {
@@ -19622,7 +22846,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.9,
       "rewatchedViewers": 1489
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1266127": {
     "stats": {
@@ -19779,7 +23029,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.0,
       "rewatchedViewers": 1602
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "Others",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "950387": {
     "stats": {
@@ -19936,7 +23212,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.1,
       "rewatchedViewers": 2243
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      }
+    ]
   },
   "1292415": {
     "stats": {
@@ -20093,7 +23395,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.4,
       "rewatchedViewers": 1519
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1359685": {
     "stats": {
@@ -20250,7 +23578,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.1,
       "rewatchedViewers": 2149
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      },
+      {
+        "country": "Germany",
+        "percentage": 6
+      }
+    ]
   },
   "569094": {
     "stats": {
@@ -20407,7 +23761,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.8,
       "rewatchedViewers": 1593
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "1671541": {
     "stats": {
@@ -20564,7 +23944,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.0,
       "rewatchedViewers": 1449
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "226674": {
     "stats": {
@@ -20721,7 +24127,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.3,
       "rewatchedViewers": 1648
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 5
+      }
+    ]
   },
   "1632181": {
     "stats": {
@@ -20878,7 +24310,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.5,
       "rewatchedViewers": 1612
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "238": {
     "stats": {
@@ -21035,7 +24493,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 1845
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 5
+      }
+    ]
   },
   "1184918": {
     "stats": {
@@ -21192,7 +24676,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.4,
       "rewatchedViewers": 1306
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1061474": {
     "stats": {
@@ -21349,7 +24859,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 23.1,
       "rewatchedViewers": 3064
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "301528": {
     "stats": {
@@ -21506,7 +25042,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 19.2,
       "rewatchedViewers": 2194
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "177572": {
     "stats": {
@@ -21663,7 +25225,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.2,
       "rewatchedViewers": 1755
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      }
+    ]
   },
   "557": {
     "stats": {
@@ -21820,7 +25408,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.8,
       "rewatchedViewers": 1897
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      },
+      {
+        "country": "Germany",
+        "percentage": 6
+      }
+    ]
   },
   "1430077": {
     "stats": {
@@ -21977,7 +25591,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.2,
       "rewatchedViewers": 1969
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 27
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      }
+    ]
   },
   "1616674": {
     "stats": {
@@ -22134,7 +25774,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 1702
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1580803": {
     "stats": {
@@ -22291,7 +25957,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.8,
       "rewatchedViewers": 1263
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "680": {
     "stats": {
@@ -22448,7 +26140,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.7,
       "rewatchedViewers": 2704
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      }
+    ]
   },
   "950028": {
     "stats": {
@@ -22605,7 +26323,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.9,
       "rewatchedViewers": 2845
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 44
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "120": {
     "stats": {
@@ -22762,7 +26506,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.0,
       "rewatchedViewers": 1440
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "United States",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "1330021": {
     "stats": {
@@ -22919,7 +26689,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.3,
       "rewatchedViewers": 2092
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 23
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "863": {
     "stats": {
@@ -23076,7 +26872,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.3,
       "rewatchedViewers": 1155
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "425274": {
     "stats": {
@@ -23233,7 +27055,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 11.5,
       "rewatchedViewers": 1375
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 31
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "585": {
     "stats": {
@@ -23390,7 +27238,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.1,
       "rewatchedViewers": 1535
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 27
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 10
+      }
+    ]
   },
   "385687": {
     "stats": {
@@ -23547,7 +27421,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.0,
       "rewatchedViewers": 1307
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      }
+    ]
   },
   "1390300": {
     "stats": {
@@ -23704,7 +27604,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.4,
       "rewatchedViewers": 2410
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      }
+    ]
   },
   "603": {
     "stats": {
@@ -23861,7 +27787,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.4,
       "rewatchedViewers": 1207
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "10193": {
     "stats": {
@@ -24018,7 +27970,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.3,
       "rewatchedViewers": 1105
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 22
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "1123261": {
     "stats": {
@@ -24175,7 +28153,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.3,
       "rewatchedViewers": 2662
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 17
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      }
+    ]
   },
   "1723013": {
     "stats": {
@@ -24332,7 +28336,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.9,
       "rewatchedViewers": 1582
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1002398": {
     "stats": {
@@ -24489,7 +28519,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.2,
       "rewatchedViewers": 1153
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 23
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      }
+    ]
   },
   "350": {
     "stats": {
@@ -24646,7 +28702,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.1,
       "rewatchedViewers": 1556
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "980477": {
     "stats": {
@@ -24803,7 +28885,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.4,
       "rewatchedViewers": 899
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "479787": {
     "stats": {
@@ -24960,7 +29068,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.9,
       "rewatchedViewers": 1969
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "693134": {
     "stats": {
@@ -25117,7 +29251,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.7,
       "rewatchedViewers": 2139
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "France",
+        "percentage": 23
+      },
+      {
+        "country": "Germany",
+        "percentage": 18
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      },
+      {
+        "country": "Japan",
+        "percentage": 7
+      }
+    ]
   },
   "299534": {
     "stats": {
@@ -25274,7 +29434,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.9,
       "rewatchedViewers": 2008
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      }
+    ]
   },
   "414906": {
     "stats": {
@@ -25431,7 +29617,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.4,
       "rewatchedViewers": 1724
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "France",
+        "percentage": 21
+      },
+      {
+        "country": "Others",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "11770": {
     "stats": {
@@ -25588,7 +29800,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.9,
       "rewatchedViewers": 913
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      }
+    ]
   },
   "1630423": {
     "stats": {
@@ -25745,7 +29983,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 1194
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "France",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "28322": {
     "stats": {
@@ -25902,7 +30166,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 12.5,
       "rewatchedViewers": 928
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 28
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "France",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1254896": {
     "stats": {
@@ -26059,7 +30349,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.6,
       "rewatchedViewers": 1607
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "911430": {
     "stats": {
@@ -26216,7 +30532,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 18.0,
       "rewatchedViewers": 1465
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "129": {
     "stats": {
@@ -26373,7 +30715,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.7,
       "rewatchedViewers": 1663
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "Others",
+        "percentage": 24
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1613798": {
     "stats": {
@@ -26530,7 +30898,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.9,
       "rewatchedViewers": 947
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 27
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 14
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 7
+      }
+    ]
   },
   "1168190": {
     "stats": {
@@ -26687,7 +31081,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.3,
       "rewatchedViewers": 962
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "68726": {
     "stats": {
@@ -26844,7 +31264,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.2,
       "rewatchedViewers": 1393
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 39
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 17
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 3
+      }
+    ]
   },
   "270303": {
     "stats": {
@@ -27001,7 +31447,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.8,
       "rewatchedViewers": 1540
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 18
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "1038392": {
     "stats": {
@@ -27158,7 +31630,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.8,
       "rewatchedViewers": 1617
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 40
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "550": {
     "stats": {
@@ -27315,7 +31813,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.1,
       "rewatchedViewers": 1753
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 22
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 13
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      }
+    ]
   },
   "324857": {
     "stats": {
@@ -27472,7 +31996,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 22.3,
       "rewatchedViewers": 1655
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 37
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      },
+      {
+        "country": "Japan",
+        "percentage": 5
+      }
+    ]
   },
   "1022789": {
     "stats": {
@@ -27629,7 +32179,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 21.1,
       "rewatchedViewers": 1352
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 7
+      }
+    ]
   },
   "1233413": {
     "stats": {
@@ -27786,7 +32362,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.4,
       "rewatchedViewers": 899
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      }
+    ]
   },
   "1156594": {
     "stats": {
@@ -27943,7 +32545,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 17.8,
       "rewatchedViewers": 1059
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "France",
+        "percentage": 20
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      }
+    ]
   },
   "1654313": {
     "stats": {
@@ -28100,7 +32728,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.3,
       "rewatchedViewers": 1085
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 25
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 4
+      }
+    ]
   },
   "39254": {
     "stats": {
@@ -28257,7 +32911,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.4,
       "rewatchedViewers": 656
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 17
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 8
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "138843": {
     "stats": {
@@ -28414,7 +33094,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 10.4,
       "rewatchedViewers": 729
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "Others",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 6
+      }
+    ]
   },
   "505026": {
     "stats": {
@@ -28571,7 +33277,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 14.2,
       "rewatchedViewers": 963
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "975511": {
     "stats": {
@@ -28728,7 +33460,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.9,
       "rewatchedViewers": 789
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 32
+      },
+      {
+        "country": "France",
+        "percentage": 19
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Germany",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "1694978": {
     "stats": {
@@ -28885,7 +33643,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 20.4,
       "rewatchedViewers": 897
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 30
+      },
+      {
+        "country": "Others",
+        "percentage": 27
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Germany",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "597": {
     "stats": {
@@ -29042,7 +33826,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.3,
       "rewatchedViewers": 1474
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 36
+      },
+      {
+        "country": "Others",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 14
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 9
+      }
+    ]
   },
   "1669057": {
     "stats": {
@@ -29199,7 +34009,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 16.7,
       "rewatchedViewers": 815
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 29
+      },
+      {
+        "country": "Others",
+        "percentage": 21
+      },
+      {
+        "country": "France",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "Japan",
+        "percentage": 11
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      }
+    ]
   },
   "1155818": {
     "stats": {
@@ -29356,7 +34192,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.1,
       "rewatchedViewers": 1092
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 18
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 11
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "497": {
     "stats": {
@@ -29513,7 +34375,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.8,
       "rewatchedViewers": 1713
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 28
+      },
+      {
+        "country": "Others",
+        "percentage": 19
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 12
+      },
+      {
+        "country": "Japan",
+        "percentage": 10
+      }
+    ]
   },
   "575265": {
     "stats": {
@@ -29670,7 +34558,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 24.3,
       "rewatchedViewers": 1326
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 35
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 16
+      },
+      {
+        "country": "Others",
+        "percentage": 15
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   },
   "950396": {
     "stats": {
@@ -29827,7 +34741,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 15.5,
       "rewatchedViewers": 916
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 38
+      },
+      {
+        "country": "Others",
+        "percentage": 26
+      },
+      {
+        "country": "France",
+        "percentage": 11
+      },
+      {
+        "country": "Germany",
+        "percentage": 10
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 6
+      }
+    ]
   },
   "1246049": {
     "stats": {
@@ -29984,7 +34924,33 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.3,
       "rewatchedViewers": 747
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 33
+      },
+      {
+        "country": "Others",
+        "percentage": 16
+      },
+      {
+        "country": "France",
+        "percentage": 16
+      },
+      {
+        "country": "Germany",
+        "percentage": 13
+      },
+      {
+        "country": "Japan",
+        "percentage": 12
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 10
+      }
+    ]
   },
   "1141970": {
     "stats": {
@@ -30141,6 +35107,32 @@
     "audienceLoyalty": {
       "rewatchedPercentage": 13.4,
       "rewatchedViewers": 874
-    }
+    },
+    "geoDistribution": [
+      {
+        "country": "United States",
+        "percentage": 34
+      },
+      {
+        "country": "Others",
+        "percentage": 20
+      },
+      {
+        "country": "United Kingdom",
+        "percentage": 15
+      },
+      {
+        "country": "Germany",
+        "percentage": 14
+      },
+      {
+        "country": "France",
+        "percentage": 9
+      },
+      {
+        "country": "Japan",
+        "percentage": 8
+      }
+    ]
   }
 }

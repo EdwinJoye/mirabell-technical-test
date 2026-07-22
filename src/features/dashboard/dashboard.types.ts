@@ -90,6 +90,11 @@ export interface MovieAudienceLoyalty {
   rewatchedViewers: number;
 }
 
+export interface MovieGeoDistributionEntry {
+  country: string;
+  percentage: number;
+}
+
 export interface RetentionPoint {
   percentageWatched: string;
   thisMovie: number;
@@ -105,4 +110,5 @@ export interface MovieDashboardData {
   retentionCurve: RetentionPoint[];
   offlineViews: MovieOfflineViews;
   audienceLoyalty: MovieAudienceLoyalty;
+  geoDistribution: MovieGeoDistributionEntry[];
 }
