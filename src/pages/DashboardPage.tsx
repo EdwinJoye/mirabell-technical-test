@@ -6,10 +6,12 @@ import { PlatformAudienceRow } from "~/components/dashboard/PlatformAudienceRow"
 import { PlatformConsumptionRow } from "~/components/dashboard/PlatformConsumptionRow";
 import { PlatformStatsRow } from "~/components/dashboard/PlatformStatsRow";
 import { getMovieOptions } from "~/features/dashboard/dashboard.service";
+import { useScrollStore } from "~/features/scroll/scroll.store";
 
 export function DashboardPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const movieOptions = getMovieOptions();
+  const setScrollViewport = useScrollStore((state) => state.setScrollViewport);
 
   const view = searchParams.get("view") === "movie" ? "movie" : "global";
   const movieId = searchParams.get("movieId") ?? movieOptions[0]?.value ?? null;
@@ -32,7 +34,7 @@ export function DashboardPage() {
     <Stack gap="md" style={{ height: "calc(100dvh - 44px)" }}>
       <DashboardToolbar view={view} onViewChange={handleViewChange} />
 
-      <ScrollArea type="auto" style={{ flex: 1 }}>
+      <ScrollArea type="auto" style={{ flex: 1 }} viewportRef={setScrollViewport}>
         <Stack gap="md">
           {view === "global" && (
             <>

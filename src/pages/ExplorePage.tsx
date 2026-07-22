@@ -10,6 +10,7 @@ import { ExploreHero } from "~/components/explore/ExploreHero";
 import { ExploreAllBanner } from "~/components/explore/ExploreAllBanner";
 import { useGenres } from "~/features/genres/genres.hooks";
 import { useCatalog } from "~/features/catalog/catalog.hooks";
+import { useScrollStore } from "~/features/scroll/scroll.store";
 
 export function ExplorePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -30,7 +31,8 @@ export function ExplorePage() {
 
   const isSearching = debouncedSearchValue.trim().length > 0;
   const isShowingGrid = isSearching || showAllRequested || Boolean(urlGenre) || popularOnly;
-  const [scrollViewport, setScrollViewport] = useState<HTMLDivElement | null>(null);
+  const scrollViewport = useScrollStore((state) => state.scrollViewport);
+  const setScrollViewport = useScrollStore((state) => state.setScrollViewport);
   const [bottomReachedCount, setBottomReachedCount] = useState(0);
   const isFirstRender = useRef(true);
 

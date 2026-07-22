@@ -2,6 +2,7 @@ import { AppShell, Drawer } from "@mantine/core";
 import { Suspense } from "react";
 import { Outlet } from "react-router";
 import { CenteredLoader } from "~/components/ui/CenteredLoader";
+import { ScrollToTopButton } from "~/components/ui/ScrollToTopButton";
 import { NavbarMenu } from "~/components/layout/navbar/NavbarMenu";
 import { useNavbarStore } from "~/features/navbar/navbar.store";
 
@@ -55,6 +56,8 @@ export function MainLayout() {
           <Outlet />
         </Suspense>
       </AppShell.Main>
+
+      <ScrollToTopButton />
     </AppShell>
   );
 }
