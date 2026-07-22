@@ -85,6 +85,11 @@ export interface MovieOfflineViews {
   downloadRate: number;
 }
 
+export interface MovieAudienceLoyalty {
+  rewatchedPercentage: number;
+  rewatchedViewers: number;
+}
+
 export interface RetentionPoint {
   percentageWatched: string;
   thisMovie: number;
@@ -99,4 +104,5 @@ export interface MovieDashboardData {
   reactions: MovieReactions;
   retentionCurve: RetentionPoint[];
   offlineViews: MovieOfflineViews;
+  audienceLoyalty: MovieAudienceLoyalty;
 }

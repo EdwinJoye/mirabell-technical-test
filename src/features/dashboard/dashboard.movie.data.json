@@ -150,6 +150,10 @@
     "offlineViews": {
       "downloads": 35353,
       "downloadRate": 9.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.9,
+      "rewatchedViewers": 12158
     }
   },
   "1108427": {
@@ -303,6 +307,10 @@
     "offlineViews": {
       "downloads": 15831,
       "downloadRate": 4.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.3,
+      "rewatchedViewers": 12062
     }
   },
   "1339713": {
@@ -456,6 +464,10 @@
     "offlineViews": {
       "downloads": 23313,
       "downloadRate": 6.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.8,
+      "rewatchedViewers": 18527
     }
   },
   "1083381": {
@@ -609,6 +621,10 @@
     "offlineViews": {
       "downloads": 21956,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.1,
+      "rewatchedViewers": 10249
     }
   },
   "1275779": {
@@ -762,6 +778,10 @@
     "offlineViews": {
       "downloads": 35844,
       "downloadRate": 9.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.0,
+      "rewatchedViewers": 15119
     }
   },
   "1084244": {
@@ -915,6 +935,10 @@
     "offlineViews": {
       "downloads": 34308,
       "downloadRate": 9.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 12330
     }
   },
   "1315772": {
@@ -1068,6 +1092,10 @@
     "offlineViews": {
       "downloads": 39364,
       "downloadRate": 11.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 9284
     }
   },
   "1081003": {
@@ -1221,6 +1249,10 @@
     "offlineViews": {
       "downloads": 16226,
       "downloadRate": 4.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.6,
+      "rewatchedViewers": 13540
     }
   },
   "1273221": {
@@ -1374,6 +1406,10 @@
     "offlineViews": {
       "downloads": 25568,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.6,
+      "rewatchedViewers": 7923
     }
   },
   "1368314": {
@@ -1527,6 +1563,10 @@
     "offlineViews": {
       "downloads": 14292,
       "downloadRate": 4.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.5,
+      "rewatchedViewers": 13171
     }
   },
   "687163": {
@@ -1680,6 +1720,10 @@
     "offlineViews": {
       "downloads": 19273,
       "downloadRate": 5.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.0,
+      "rewatchedViewers": 9166
     }
   },
   "1314481": {
@@ -1833,6 +1877,10 @@
     "offlineViews": {
       "downloads": 26966,
       "downloadRate": 8.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.4,
+      "rewatchedViewers": 10149
     }
   },
   "1280738": {
@@ -1986,6 +2034,10 @@
     "offlineViews": {
       "downloads": 13777,
       "downloadRate": 4.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.4,
+      "rewatchedViewers": 12990
     }
   },
   "1318621": {
@@ -2139,6 +2191,10 @@
     "offlineViews": {
       "downloads": 17848,
       "downloadRate": 5.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.4,
+      "rewatchedViewers": 18998
     }
   },
   "261639": {
@@ -2292,6 +2348,10 @@
     "offlineViews": {
       "downloads": 29280,
       "downloadRate": 9.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.9,
+      "rewatchedViewers": 8459
     }
   },
   "1668364": {
@@ -2445,6 +2505,10 @@
     "offlineViews": {
       "downloads": 25586,
       "downloadRate": 8.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.3,
+      "rewatchedViewers": 11054
     }
   },
   "1228710": {
@@ -2598,6 +2662,10 @@
     "offlineViews": {
       "downloads": 18127,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.4,
+      "rewatchedViewers": 14989
     }
   },
   "1523145": {
@@ -2751,6 +2819,10 @@
     "offlineViews": {
       "downloads": 26185,
       "downloadRate": 8.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.2,
+      "rewatchedViewers": 16089
     }
   },
   "1127384": {
@@ -2904,6 +2976,10 @@
     "offlineViews": {
       "downloads": 31482,
       "downloadRate": 10.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.7,
+      "rewatchedViewers": 12902
     }
   },
   "1285366": {
@@ -3057,6 +3133,10 @@
     "offlineViews": {
       "downloads": 12027,
       "downloadRate": 4.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.0,
+      "rewatchedViewers": 12470
     }
   },
   "936075": {
@@ -3210,6 +3290,10 @@
     "offlineViews": {
       "downloads": 30264,
       "downloadRate": 10.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.6,
+      "rewatchedViewers": 16650
     }
   },
   "83533": {
@@ -3363,6 +3447,10 @@
     "offlineViews": {
       "downloads": 27639,
       "downloadRate": 9.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.7,
+      "rewatchedViewers": 7952
     }
   },
   "931285": {
@@ -3516,6 +3604,10 @@
     "offlineViews": {
       "downloads": 18323,
       "downloadRate": 6.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.9,
+      "rewatchedViewers": 15219
     }
   },
   "969681": {
@@ -3669,6 +3761,10 @@
     "offlineViews": {
       "downloads": 14155,
       "downloadRate": 5.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.3,
+      "rewatchedViewers": 8069
     }
   },
   "1413976": {
@@ -3822,6 +3918,10 @@
     "offlineViews": {
       "downloads": 31861,
       "downloadRate": 11.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.2,
+      "rewatchedViewers": 7795
     }
   },
   "1321008": {
@@ -3975,6 +4075,10 @@
     "offlineViews": {
       "downloads": 17559,
       "downloadRate": 6.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.8,
+      "rewatchedViewers": 8132
     }
   },
   "1226863": {
@@ -4128,6 +4232,10 @@
     "offlineViews": {
       "downloads": 12328,
       "downloadRate": 4.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.6,
+      "rewatchedViewers": 9306
     }
   },
   "1304313": {
@@ -4281,6 +4389,10 @@
     "offlineViews": {
       "downloads": 12347,
       "downloadRate": 4.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.2,
+      "rewatchedViewers": 11775
     }
   },
   "1321491": {
@@ -4434,6 +4546,10 @@
     "offlineViews": {
       "downloads": 28097,
       "downloadRate": 10.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.7,
+      "rewatchedViewers": 8885
     }
   },
   "1645603": {
@@ -4587,6 +4703,10 @@
     "offlineViews": {
       "downloads": 21854,
       "downloadRate": 8.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.7,
+      "rewatchedViewers": 9535
     }
   },
   "1311031": {
@@ -4740,6 +4860,10 @@
     "offlineViews": {
       "downloads": 26399,
       "downloadRate": 10.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.6,
+      "rewatchedViewers": 13226
     }
   },
   "1110034": {
@@ -4893,6 +5017,10 @@
     "offlineViews": {
       "downloads": 23901,
       "downloadRate": 9.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.6,
+      "rewatchedViewers": 9510
     }
   },
   "1491920": {
@@ -5046,6 +5174,10 @@
     "offlineViews": {
       "downloads": 20118,
       "downloadRate": 8.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.2,
+      "rewatchedViewers": 9194
     }
   },
   "980431": {
@@ -5199,6 +5331,10 @@
     "offlineViews": {
       "downloads": 28704,
       "downloadRate": 11.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 6258
     }
   },
   "200066": {
@@ -5352,6 +5488,10 @@
     "offlineViews": {
       "downloads": 16664,
       "downloadRate": 7.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 6753
     }
   },
   "976912": {
@@ -5505,6 +5645,10 @@
     "offlineViews": {
       "downloads": 19886,
       "downloadRate": 8.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.1,
+      "rewatchedViewers": 7396
     }
   },
   "1003596": {
@@ -5658,6 +5802,10 @@
     "offlineViews": {
       "downloads": 24104,
       "downloadRate": 10.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.2,
+      "rewatchedViewers": 12236
     }
   },
   "1318447": {
@@ -5811,6 +5959,10 @@
     "offlineViews": {
       "downloads": 20100,
       "downloadRate": 8.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.4,
+      "rewatchedViewers": 8096
     }
   },
   "1212763": {
@@ -5964,6 +6116,10 @@
     "offlineViews": {
       "downloads": 24620,
       "downloadRate": 10.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.7,
+      "rewatchedViewers": 8740
     }
   },
   "1327819": {
@@ -6117,6 +6273,10 @@
     "offlineViews": {
       "downloads": 18826,
       "downloadRate": 8.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.8,
+      "rewatchedViewers": 10461
     }
   },
   "47612": {
@@ -6270,6 +6430,10 @@
     "offlineViews": {
       "downloads": 20962,
       "downloadRate": 9.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.8,
+      "rewatchedViewers": 8315
     }
   },
   "1301421": {
@@ -6423,6 +6587,10 @@
     "offlineViews": {
       "downloads": 9094,
       "downloadRate": 4.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.5,
+      "rewatchedViewers": 6243
     }
   },
   "1727780": {
@@ -6576,6 +6744,10 @@
     "offlineViews": {
       "downloads": 12156,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.9,
+      "rewatchedViewers": 12187
     }
   },
   "1007757": {
@@ -6729,6 +6901,10 @@
     "offlineViews": {
       "downloads": 12840,
       "downloadRate": 6.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.5,
+      "rewatchedViewers": 8736
     }
   },
   "1279493": {
@@ -6882,6 +7058,10 @@
     "offlineViews": {
       "downloads": 9283,
       "downloadRate": 4.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.7,
+      "rewatchedViewers": 6874
     }
   },
   "1439930": {
@@ -7035,6 +7215,10 @@
     "offlineViews": {
       "downloads": 11650,
       "downloadRate": 5.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.6,
+      "rewatchedViewers": 9817
     }
   },
   "1595852": {
@@ -7188,6 +7372,10 @@
     "offlineViews": {
       "downloads": 9491,
       "downloadRate": 4.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.9,
+      "rewatchedViewers": 8289
     }
   },
   "1443894": {
@@ -7341,6 +7529,10 @@
     "offlineViews": {
       "downloads": 11469,
       "downloadRate": 6.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.1,
+      "rewatchedViewers": 9719
     }
   },
   "718833": {
@@ -7494,6 +7686,10 @@
     "offlineViews": {
       "downloads": 17327,
       "downloadRate": 9.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.9,
+      "rewatchedViewers": 9083
     }
   },
   "619": {
@@ -7647,6 +7843,10 @@
     "offlineViews": {
       "downloads": 12747,
       "downloadRate": 6.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.3,
+      "rewatchedViewers": 6225
     }
   },
   "11012": {
@@ -7800,6 +8000,10 @@
     "offlineViews": {
       "downloads": 12762,
       "downloadRate": 7.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.7,
+      "rewatchedViewers": 11383
     }
   },
   "1656220": {
@@ -7953,6 +8157,10 @@
     "offlineViews": {
       "downloads": 10025,
       "downloadRate": 5.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.8,
+      "rewatchedViewers": 4887
     }
   },
   "1301310": {
@@ -8106,6 +8314,10 @@
     "offlineViews": {
       "downloads": 11029,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.3,
+      "rewatchedViewers": 6942
     }
   },
   "278": {
@@ -8259,6 +8471,10 @@
     "offlineViews": {
       "downloads": 19685,
       "downloadRate": 11.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.4,
+      "rewatchedViewers": 8967
     }
   },
   "1541560": {
@@ -8412,6 +8628,10 @@
     "offlineViews": {
       "downloads": 15474,
       "downloadRate": 9.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.3,
+      "rewatchedViewers": 4794
     }
   },
   "157336": {
@@ -8565,6 +8785,10 @@
     "offlineViews": {
       "downloads": 15368,
       "downloadRate": 8.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.3,
+      "rewatchedViewers": 6331
     }
   },
   "1305672": {
@@ -8718,6 +8942,10 @@
     "offlineViews": {
       "downloads": 9199,
       "downloadRate": 5.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.6,
+      "rewatchedViewers": 4743
     }
   },
   "1380291": {
@@ -8871,6 +9099,10 @@
     "offlineViews": {
       "downloads": 16519,
       "downloadRate": 9.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.0,
+      "rewatchedViewers": 8980
     }
   },
   "1290821": {
@@ -9024,6 +9256,10 @@
     "offlineViews": {
       "downloads": 8757,
       "downloadRate": 5.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.5,
+      "rewatchedViewers": 7781
     }
   },
   "432279": {
@@ -9177,6 +9413,10 @@
     "offlineViews": {
       "downloads": 11117,
       "downloadRate": 7.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.6,
+      "rewatchedViewers": 7349
     }
   },
   "1468683": {
@@ -9330,6 +9570,10 @@
     "offlineViews": {
       "downloads": 18932,
       "downloadRate": 11.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.1,
+      "rewatchedViewers": 8173
     }
   },
   "5721": {
@@ -9483,6 +9727,10 @@
     "offlineViews": {
       "downloads": 13731,
       "downloadRate": 9.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.7,
+      "rewatchedViewers": 5099
     }
   },
   "1419406": {
@@ -9636,6 +9884,10 @@
     "offlineViews": {
       "downloads": 12962,
       "downloadRate": 8.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.4,
+      "rewatchedViewers": 7974
     }
   },
   "1711175": {
@@ -9789,6 +10041,10 @@
     "offlineViews": {
       "downloads": 14132,
       "downloadRate": 9.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.9,
+      "rewatchedViewers": 6615
     }
   },
   "1725116": {
@@ -9942,6 +10198,10 @@
     "offlineViews": {
       "downloads": 16300,
       "downloadRate": 10.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.7,
+      "rewatchedViewers": 6551
     }
   },
   "1451078": {
@@ -10095,6 +10355,10 @@
     "offlineViews": {
       "downloads": 15297,
       "downloadRate": 10.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.8,
+      "rewatchedViewers": 6810
     }
   },
   "687259": {
@@ -10248,6 +10512,10 @@
     "offlineViews": {
       "downloads": 8129,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.6,
+      "rewatchedViewers": 8177
     }
   },
   "634649": {
@@ -10401,6 +10669,10 @@
     "offlineViews": {
       "downloads": 6162,
       "downloadRate": 4.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.2,
+      "rewatchedViewers": 8906
     }
   },
   "1397385": {
@@ -10554,6 +10826,10 @@
     "offlineViews": {
       "downloads": 8821,
       "downloadRate": 6.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.1,
+      "rewatchedViewers": 5802
     }
   },
   "64439": {
@@ -10707,6 +10983,10 @@
     "offlineViews": {
       "downloads": 8510,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.0,
+      "rewatchedViewers": 6070
     }
   },
   "1309083": {
@@ -10860,6 +11140,10 @@
     "offlineViews": {
       "downloads": 7917,
       "downloadRate": 5.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 4079
     }
   },
   "1122573": {
@@ -11013,6 +11297,10 @@
     "offlineViews": {
       "downloads": 15623,
       "downloadRate": 11.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.5,
+      "rewatchedViewers": 7186
     }
   },
   "1368166": {
@@ -11166,6 +11454,10 @@
     "offlineViews": {
       "downloads": 13882,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.7,
+      "rewatchedViewers": 6302
     }
   },
   "755898": {
@@ -11319,6 +11611,10 @@
     "offlineViews": {
       "downloads": 8721,
       "downloadRate": 6.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.9,
+      "rewatchedViewers": 8286
     }
   },
   "1227241": {
@@ -11472,6 +11768,10 @@
     "offlineViews": {
       "downloads": 11932,
       "downloadRate": 9.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.3,
+      "rewatchedViewers": 7815
     }
   },
   "1440050": {
@@ -11625,6 +11925,10 @@
     "offlineViews": {
       "downloads": 9496,
       "downloadRate": 7.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.3,
+      "rewatchedViewers": 5092
     }
   },
   "1241982": {
@@ -11778,6 +12082,10 @@
     "offlineViews": {
       "downloads": 13904,
       "downloadRate": 11.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.8,
+      "rewatchedViewers": 4292
     }
   },
   "1057265": {
@@ -11931,6 +12239,10 @@
     "offlineViews": {
       "downloads": 9551,
       "downloadRate": 7.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.0,
+      "rewatchedViewers": 6355
     }
   },
   "1084242": {
@@ -12084,6 +12396,10 @@
     "offlineViews": {
       "downloads": 7367,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.3,
+      "rewatchedViewers": 2660
     }
   },
   "713704": {
@@ -12237,6 +12553,10 @@
     "offlineViews": {
       "downloads": 7037,
       "downloadRate": 6.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.9,
+      "rewatchedViewers": 4531
     }
   },
   "1325734": {
@@ -12390,6 +12710,10 @@
     "offlineViews": {
       "downloads": 9670,
       "downloadRate": 8.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.5,
+      "rewatchedViewers": 3060
     }
   },
   "1728704": {
@@ -12543,6 +12867,10 @@
     "offlineViews": {
       "downloads": 6721,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.8,
+      "rewatchedViewers": 3400
     }
   },
   "1265609": {
@@ -12696,6 +13024,10 @@
     "offlineViews": {
       "downloads": 10008,
       "downloadRate": 8.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 2603
     }
   },
   "27205": {
@@ -12849,6 +13181,10 @@
     "offlineViews": {
       "downloads": 13010,
       "downloadRate": 11.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.5,
+      "rewatchedViewers": 5332
     }
   },
   "1234821": {
@@ -13002,6 +13338,10 @@
     "offlineViews": {
       "downloads": 7691,
       "downloadRate": 7.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.9,
+      "rewatchedViewers": 2675
     }
   },
   "614945": {
@@ -13155,6 +13495,10 @@
     "offlineViews": {
       "downloads": 6149,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.7,
+      "rewatchedViewers": 3248
     }
   },
   "1175942": {
@@ -13308,6 +13652,10 @@
     "offlineViews": {
       "downloads": 12832,
       "downloadRate": 12.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.9,
+      "rewatchedViewers": 4616
     }
   },
   "424711": {
@@ -13461,6 +13809,10 @@
     "offlineViews": {
       "downloads": 8219,
       "downloadRate": 8.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.1,
+      "rewatchedViewers": 5131
     }
   },
   "1288341": {
@@ -13614,6 +13966,10 @@
     "offlineViews": {
       "downloads": 4801,
       "downloadRate": 4.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.2,
+      "rewatchedViewers": 2792
     }
   },
   "1242898": {
@@ -13767,6 +14123,10 @@
     "offlineViews": {
       "downloads": 4462,
       "downloadRate": 4.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.7,
+      "rewatchedViewers": 3735
     }
   },
   "1363387": {
@@ -13920,6 +14280,10 @@
     "offlineViews": {
       "downloads": 4922,
       "downloadRate": 4.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.2,
+      "rewatchedViewers": 3802
     }
   },
   "1641319": {
@@ -14073,6 +14437,10 @@
     "offlineViews": {
       "downloads": 9204,
       "downloadRate": 9.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.3,
+      "rewatchedViewers": 5064
     }
   },
   "1297842": {
@@ -14226,6 +14594,10 @@
     "offlineViews": {
       "downloads": 10221,
       "downloadRate": 10.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.3,
+      "rewatchedViewers": 4991
     }
   },
   "872585": {
@@ -14379,6 +14751,10 @@
     "offlineViews": {
       "downloads": 7516,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.0,
+      "rewatchedViewers": 4900
     }
   },
   "803796": {
@@ -14532,6 +14908,10 @@
     "offlineViews": {
       "downloads": 4155,
       "downloadRate": 4.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.2,
+      "rewatchedViewers": 3411
     }
   },
   "652": {
@@ -14685,6 +15065,10 @@
     "offlineViews": {
       "downloads": 6837,
       "downloadRate": 7.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.2,
+      "rewatchedViewers": 4222
     }
   },
   "104894": {
@@ -14838,6 +15222,10 @@
     "offlineViews": {
       "downloads": 10795,
       "downloadRate": 12.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.4,
+      "rewatchedViewers": 3659
     }
   },
   "438631": {
@@ -14991,6 +15379,10 @@
     "offlineViews": {
       "downloads": 7525,
       "downloadRate": 8.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.3,
+      "rewatchedViewers": 5161
     }
   },
   "1058424": {
@@ -15144,6 +15536,10 @@
     "offlineViews": {
       "downloads": 11118,
       "downloadRate": 11.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.4,
+      "rewatchedViewers": 6054
     }
   },
   "76600": {
@@ -15297,6 +15693,10 @@
     "offlineViews": {
       "downloads": 9494,
       "downloadRate": 10.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.3,
+      "rewatchedViewers": 2643
     }
   },
   "24428": {
@@ -15450,6 +15850,10 @@
     "offlineViews": {
       "downloads": 3319,
       "downloadRate": 4.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.6,
+      "rewatchedViewers": 2135
     }
   },
   "1353926": {
@@ -15603,6 +16007,10 @@
     "offlineViews": {
       "downloads": 8513,
       "downloadRate": 9.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.5,
+      "rewatchedViewers": 2594
     }
   },
   "1171145": {
@@ -15756,6 +16164,10 @@
     "offlineViews": {
       "downloads": 8010,
       "downloadRate": 9.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.5,
+      "rewatchedViewers": 2871
     }
   },
   "155": {
@@ -15909,6 +16321,10 @@
     "offlineViews": {
       "downloads": 6430,
       "downloadRate": 8.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.3,
+      "rewatchedViewers": 3516
     }
   },
   "204407": {
@@ -16062,6 +16478,10 @@
     "offlineViews": {
       "downloads": 5292,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.8,
+      "rewatchedViewers": 3966
     }
   },
   "1472951": {
@@ -16215,6 +16635,10 @@
     "offlineViews": {
       "downloads": 6878,
       "downloadRate": 9.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.9,
+      "rewatchedViewers": 2274
     }
   },
   "299536": {
@@ -16368,6 +16792,10 @@
     "offlineViews": {
       "downloads": 3641,
       "downloadRate": 4.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.1,
+      "rewatchedViewers": 1713
     }
   },
   "329505": {
@@ -16521,6 +16949,10 @@
     "offlineViews": {
       "downloads": 5923,
       "downloadRate": 7.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.3,
+      "rewatchedViewers": 2983
     }
   },
   "1242332": {
@@ -16674,6 +17106,10 @@
     "offlineViews": {
       "downloads": 5501,
       "downloadRate": 7.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 2845
     }
   },
   "840464": {
@@ -16827,6 +17263,10 @@
     "offlineViews": {
       "downloads": 7987,
       "downloadRate": 11.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.5,
+      "rewatchedViewers": 2939
     }
   },
   "454639": {
@@ -16980,6 +17420,10 @@
     "offlineViews": {
       "downloads": 7608,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.3,
+      "rewatchedViewers": 3970
     }
   },
   "502356": {
@@ -17133,6 +17577,10 @@
     "offlineViews": {
       "downloads": 4186,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.4,
+      "rewatchedViewers": 3283
     }
   },
   "1010581": {
@@ -17286,6 +17734,10 @@
     "offlineViews": {
       "downloads": 5498,
       "downloadRate": 8.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.7,
+      "rewatchedViewers": 2553
     }
   },
   "1432631": {
@@ -17439,6 +17891,10 @@
     "offlineViews": {
       "downloads": 3736,
       "downloadRate": 5.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.3,
+      "rewatchedViewers": 3648
     }
   },
   "862": {
@@ -17592,6 +18048,10 @@
     "offlineViews": {
       "downloads": 8178,
       "downloadRate": 11.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.1,
+      "rewatchedViewers": 3056
     }
   },
   "1198994": {
@@ -17745,6 +18205,10 @@
     "offlineViews": {
       "downloads": 8115,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.8,
+      "rewatchedViewers": 1738
     }
   },
   "448772": {
@@ -17898,6 +18362,10 @@
     "offlineViews": {
       "downloads": 4209,
       "downloadRate": 6.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.5,
+      "rewatchedViewers": 3748
     }
   },
   "299710": {
@@ -18051,6 +18519,10 @@
     "offlineViews": {
       "downloads": 5931,
       "downloadRate": 9.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.7,
+      "rewatchedViewers": 3612
     }
   },
   "496243": {
@@ -18204,6 +18676,10 @@
     "offlineViews": {
       "downloads": 6313,
       "downloadRate": 8.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.1,
+      "rewatchedViewers": 3654
     }
   },
   "1305781": {
@@ -18357,6 +18833,10 @@
     "offlineViews": {
       "downloads": 3540,
       "downloadRate": 5.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.0,
+      "rewatchedViewers": 3408
     }
   },
   "122": {
@@ -18510,6 +18990,10 @@
     "offlineViews": {
       "downloads": 6980,
       "downloadRate": 10.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.9,
+      "rewatchedViewers": 2376
     }
   },
   "1477317": {
@@ -18663,6 +19147,10 @@
     "offlineViews": {
       "downloads": 5072,
       "downloadRate": 8.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.0,
+      "rewatchedViewers": 2303
     }
   },
   "1272837": {
@@ -18816,6 +19304,10 @@
     "offlineViews": {
       "downloads": 6117,
       "downloadRate": 10.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.6,
+      "rewatchedViewers": 1691
     }
   },
   "1397201": {
@@ -18969,6 +19461,10 @@
     "offlineViews": {
       "downloads": 5059,
       "downloadRate": 8.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.5,
+      "rewatchedViewers": 3274
     }
   },
   "109428": {
@@ -19122,6 +19618,10 @@
     "offlineViews": {
       "downloads": 2265,
       "downloadRate": 4.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.9,
+      "rewatchedViewers": 1489
     }
   },
   "1266127": {
@@ -19275,6 +19775,10 @@
     "offlineViews": {
       "downloads": 4104,
       "downloadRate": 6.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.0,
+      "rewatchedViewers": 1602
     }
   },
   "950387": {
@@ -19428,6 +19932,10 @@
     "offlineViews": {
       "downloads": 2661,
       "downloadRate": 4.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.1,
+      "rewatchedViewers": 2243
     }
   },
   "1292415": {
@@ -19581,6 +20089,10 @@
     "offlineViews": {
       "downloads": 6419,
       "downloadRate": 11.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.4,
+      "rewatchedViewers": 1519
     }
   },
   "1359685": {
@@ -19734,6 +20246,10 @@
     "offlineViews": {
       "downloads": 6315,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.1,
+      "rewatchedViewers": 2149
     }
   },
   "569094": {
@@ -19887,6 +20403,10 @@
     "offlineViews": {
       "downloads": 6375,
       "downloadRate": 10.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.8,
+      "rewatchedViewers": 1593
     }
   },
   "1671541": {
@@ -20040,6 +20560,10 @@
     "offlineViews": {
       "downloads": 3791,
       "downloadRate": 6.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.0,
+      "rewatchedViewers": 1449
     }
   },
   "226674": {
@@ -20193,6 +20717,10 @@
     "offlineViews": {
       "downloads": 2206,
       "downloadRate": 4.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.3,
+      "rewatchedViewers": 1648
     }
   },
   "1632181": {
@@ -20346,6 +20874,10 @@
     "offlineViews": {
       "downloads": 6224,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.5,
+      "rewatchedViewers": 1612
     }
   },
   "238": {
@@ -20499,6 +21031,10 @@
     "offlineViews": {
       "downloads": 5932,
       "downloadRate": 11.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 1845
     }
   },
   "1184918": {
@@ -20652,6 +21188,10 @@
     "offlineViews": {
       "downloads": 2256,
       "downloadRate": 4.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.4,
+      "rewatchedViewers": 1306
     }
   },
   "1061474": {
@@ -20805,6 +21345,10 @@
     "offlineViews": {
       "downloads": 3913,
       "downloadRate": 7.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 23.1,
+      "rewatchedViewers": 3064
     }
   },
   "301528": {
@@ -20958,6 +21502,10 @@
     "offlineViews": {
       "downloads": 2039,
       "downloadRate": 4.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 19.2,
+      "rewatchedViewers": 2194
     }
   },
   "177572": {
@@ -21111,6 +21659,10 @@
     "offlineViews": {
       "downloads": 5532,
       "downloadRate": 10.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.2,
+      "rewatchedViewers": 1755
     }
   },
   "557": {
@@ -21264,6 +21816,10 @@
     "offlineViews": {
       "downloads": 5084,
       "downloadRate": 10.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.8,
+      "rewatchedViewers": 1897
     }
   },
   "1430077": {
@@ -21417,6 +21973,10 @@
     "offlineViews": {
       "downloads": 2418,
       "downloadRate": 5.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.2,
+      "rewatchedViewers": 1969
     }
   },
   "1616674": {
@@ -21570,6 +22130,10 @@
     "offlineViews": {
       "downloads": 3259,
       "downloadRate": 7.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 1702
     }
   },
   "1580803": {
@@ -21723,6 +22287,10 @@
     "offlineViews": {
       "downloads": 3826,
       "downloadRate": 8.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.8,
+      "rewatchedViewers": 1263
     }
   },
   "680": {
@@ -21876,6 +22444,10 @@
     "offlineViews": {
       "downloads": 2968,
       "downloadRate": 6.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.7,
+      "rewatchedViewers": 2704
     }
   },
   "950028": {
@@ -22029,6 +22601,10 @@
     "offlineViews": {
       "downloads": 5051,
       "downloadRate": 11.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.9,
+      "rewatchedViewers": 2845
     }
   },
   "120": {
@@ -22182,6 +22758,10 @@
     "offlineViews": {
       "downloads": 2912,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.0,
+      "rewatchedViewers": 1440
     }
   },
   "1330021": {
@@ -22335,6 +22915,10 @@
     "offlineViews": {
       "downloads": 2767,
       "downloadRate": 5.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.3,
+      "rewatchedViewers": 2092
     }
   },
   "863": {
@@ -22488,6 +23072,10 @@
     "offlineViews": {
       "downloads": 3892,
       "downloadRate": 8.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.3,
+      "rewatchedViewers": 1155
     }
   },
   "425274": {
@@ -22641,6 +23229,10 @@
     "offlineViews": {
       "downloads": 4605,
       "downloadRate": 9.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 11.5,
+      "rewatchedViewers": 1375
     }
   },
   "585": {
@@ -22794,6 +23386,10 @@
     "offlineViews": {
       "downloads": 2453,
       "downloadRate": 5.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.1,
+      "rewatchedViewers": 1535
     }
   },
   "385687": {
@@ -22947,6 +23543,10 @@
     "offlineViews": {
       "downloads": 2682,
       "downloadRate": 6.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.0,
+      "rewatchedViewers": 1307
     }
   },
   "1390300": {
@@ -23100,6 +23700,10 @@
     "offlineViews": {
       "downloads": 5050,
       "downloadRate": 12.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.4,
+      "rewatchedViewers": 2410
     }
   },
   "603": {
@@ -23253,6 +23857,10 @@
     "offlineViews": {
       "downloads": 3495,
       "downloadRate": 9.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.4,
+      "rewatchedViewers": 1207
     }
   },
   "10193": {
@@ -23406,6 +24014,10 @@
     "offlineViews": {
       "downloads": 3061,
       "downloadRate": 7.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.3,
+      "rewatchedViewers": 1105
     }
   },
   "1123261": {
@@ -23559,6 +24171,10 @@
     "offlineViews": {
       "downloads": 3345,
       "downloadRate": 8.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.3,
+      "rewatchedViewers": 2662
     }
   },
   "1723013": {
@@ -23712,6 +24328,10 @@
     "offlineViews": {
       "downloads": 1726,
       "downloadRate": 5.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.9,
+      "rewatchedViewers": 1582
     }
   },
   "1002398": {
@@ -23865,6 +24485,10 @@
     "offlineViews": {
       "downloads": 2117,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.2,
+      "rewatchedViewers": 1153
     }
   },
   "350": {
@@ -24018,6 +24642,10 @@
     "offlineViews": {
       "downloads": 2461,
       "downloadRate": 6.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.1,
+      "rewatchedViewers": 1556
     }
   },
   "980477": {
@@ -24171,6 +24799,10 @@
     "offlineViews": {
       "downloads": 3482,
       "downloadRate": 8.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.4,
+      "rewatchedViewers": 899
     }
   },
   "479787": {
@@ -24324,6 +24956,10 @@
     "offlineViews": {
       "downloads": 2371,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.9,
+      "rewatchedViewers": 1969
     }
   },
   "693134": {
@@ -24477,6 +25113,10 @@
     "offlineViews": {
       "downloads": 2258,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.7,
+      "rewatchedViewers": 2139
     }
   },
   "299534": {
@@ -24630,6 +25270,10 @@
     "offlineViews": {
       "downloads": 1615,
       "downloadRate": 4.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.9,
+      "rewatchedViewers": 2008
     }
   },
   "414906": {
@@ -24783,6 +25427,10 @@
     "offlineViews": {
       "downloads": 2845,
       "downloadRate": 9.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.4,
+      "rewatchedViewers": 1724
     }
   },
   "11770": {
@@ -24936,6 +25584,10 @@
     "offlineViews": {
       "downloads": 1746,
       "downloadRate": 5.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.9,
+      "rewatchedViewers": 913
     }
   },
   "1630423": {
@@ -25089,6 +25741,10 @@
     "offlineViews": {
       "downloads": 3984,
       "downloadRate": 11.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 1194
     }
   },
   "28322": {
@@ -25242,6 +25898,10 @@
     "offlineViews": {
       "downloads": 3186,
       "downloadRate": 10.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 12.5,
+      "rewatchedViewers": 928
     }
   },
   "1254896": {
@@ -25395,6 +26055,10 @@
     "offlineViews": {
       "downloads": 1435,
       "downloadRate": 4.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.6,
+      "rewatchedViewers": 1607
     }
   },
   "911430": {
@@ -25548,6 +26212,10 @@
     "offlineViews": {
       "downloads": 1796,
       "downloadRate": 5.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 18.0,
+      "rewatchedViewers": 1465
     }
   },
   "129": {
@@ -25701,6 +26369,10 @@
     "offlineViews": {
       "downloads": 2890,
       "downloadRate": 9.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.7,
+      "rewatchedViewers": 1663
     }
   },
   "1613798": {
@@ -25854,6 +26526,10 @@
     "offlineViews": {
       "downloads": 1526,
       "downloadRate": 5.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.9,
+      "rewatchedViewers": 947
     }
   },
   "1168190": {
@@ -26007,6 +26683,10 @@
     "offlineViews": {
       "downloads": 1632,
       "downloadRate": 5.1
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.3,
+      "rewatchedViewers": 962
     }
   },
   "68726": {
@@ -26160,6 +26840,10 @@
     "offlineViews": {
       "downloads": 3518,
       "downloadRate": 11.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.2,
+      "rewatchedViewers": 1393
     }
   },
   "270303": {
@@ -26313,6 +26997,10 @@
     "offlineViews": {
       "downloads": 2416,
       "downloadRate": 8.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.8,
+      "rewatchedViewers": 1540
     }
   },
   "1038392": {
@@ -26466,6 +27154,10 @@
     "offlineViews": {
       "downloads": 2313,
       "downloadRate": 7.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.8,
+      "rewatchedViewers": 1617
     }
   },
   "550": {
@@ -26619,6 +27311,10 @@
     "offlineViews": {
       "downloads": 3481,
       "downloadRate": 10.3
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.1,
+      "rewatchedViewers": 1753
     }
   },
   "324857": {
@@ -26772,6 +27468,10 @@
     "offlineViews": {
       "downloads": 3090,
       "downloadRate": 10.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 22.3,
+      "rewatchedViewers": 1655
     }
   },
   "1022789": {
@@ -26925,6 +27625,10 @@
     "offlineViews": {
       "downloads": 1594,
       "downloadRate": 5.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 21.1,
+      "rewatchedViewers": 1352
     }
   },
   "1233413": {
@@ -27078,6 +27782,10 @@
     "offlineViews": {
       "downloads": 1241,
       "downloadRate": 4.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.4,
+      "rewatchedViewers": 899
     }
   },
   "1156594": {
@@ -27231,6 +27939,10 @@
     "offlineViews": {
       "downloads": 1723,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 17.8,
+      "rewatchedViewers": 1059
     }
   },
   "1654313": {
@@ -27384,6 +28096,10 @@
     "offlineViews": {
       "downloads": 2333,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.3,
+      "rewatchedViewers": 1085
     }
   },
   "39254": {
@@ -27537,6 +28253,10 @@
     "offlineViews": {
       "downloads": 1805,
       "downloadRate": 7.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.4,
+      "rewatchedViewers": 656
     }
   },
   "138843": {
@@ -27690,6 +28410,10 @@
     "offlineViews": {
       "downloads": 2522,
       "downloadRate": 9.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 10.4,
+      "rewatchedViewers": 729
     }
   },
   "505026": {
@@ -27843,6 +28567,10 @@
     "offlineViews": {
       "downloads": 2908,
       "downloadRate": 9.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 14.2,
+      "rewatchedViewers": 963
     }
   },
   "975511": {
@@ -27996,6 +28724,10 @@
     "offlineViews": {
       "downloads": 2712,
       "downloadRate": 11.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.9,
+      "rewatchedViewers": 789
     }
   },
   "1694978": {
@@ -28149,6 +28881,10 @@
     "offlineViews": {
       "downloads": 902,
       "downloadRate": 4.8
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 20.4,
+      "rewatchedViewers": 897
     }
   },
   "597": {
@@ -28302,6 +29038,10 @@
     "offlineViews": {
       "downloads": 1773,
       "downloadRate": 7.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.3,
+      "rewatchedViewers": 1474
     }
   },
   "1669057": {
@@ -28455,6 +29195,10 @@
     "offlineViews": {
       "downloads": 1563,
       "downloadRate": 6.7
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 16.7,
+      "rewatchedViewers": 815
     }
   },
   "1155818": {
@@ -28608,6 +29352,10 @@
     "offlineViews": {
       "downloads": 2248,
       "downloadRate": 10.9
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.1,
+      "rewatchedViewers": 1092
     }
   },
   "497": {
@@ -28761,6 +29509,10 @@
     "offlineViews": {
       "downloads": 1755,
       "downloadRate": 6.0
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.8,
+      "rewatchedViewers": 1713
     }
   },
   "575265": {
@@ -28914,6 +29666,10 @@
     "offlineViews": {
       "downloads": 1356,
       "downloadRate": 5.5
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 24.3,
+      "rewatchedViewers": 1326
     }
   },
   "950396": {
@@ -29067,6 +29823,10 @@
     "offlineViews": {
       "downloads": 1775,
       "downloadRate": 7.6
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 15.5,
+      "rewatchedViewers": 916
     }
   },
   "1246049": {
@@ -29220,6 +29980,10 @@
     "offlineViews": {
       "downloads": 1795,
       "downloadRate": 7.4
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.3,
+      "rewatchedViewers": 747
     }
   },
   "1141970": {
@@ -29373,6 +30137,10 @@
     "offlineViews": {
       "downloads": 1520,
       "downloadRate": 6.2
+    },
+    "audienceLoyalty": {
+      "rewatchedPercentage": 13.4,
+      "rewatchedViewers": 874
     }
   }
 }
