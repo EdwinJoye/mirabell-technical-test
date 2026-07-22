@@ -1,5 +1,6 @@
-import { Group, Select, SegmentedControl, Title } from "@mantine/core";
+import { Avatar, Group, Select, SegmentedControl, Text, Title } from "@mantine/core";
 import { FilmSlateIcon, GlobeIcon } from "@phosphor-icons/react";
+import avatarUrl from "~/assets/avatar.jpg";
 import { NavbarToggleButton } from "~/components/ui/NavbarToggleButton";
 import { SegmentedItemLabel } from "~/components/ui/SegmentedItemLabel";
 import { segmentedControlStyles } from "~/lib/theme/segmented-control";
@@ -20,6 +21,7 @@ export function DashboardToolbar({
   onMovieChange,
 }: DashboardToolbarProps) {
   const title = view === "movie" ? "Movie Dashboard" : "Global Dashboard";
+  const selectedMovieTitle = movieOptions.find((option) => option.value === movieId)?.label;
 
   return (
     <Group justify="space-between" wrap="wrap">
@@ -27,6 +29,11 @@ export function DashboardToolbar({
         <NavbarToggleButton />
 
         <Title order={2}>{title}</Title>
+        {view === "movie" && selectedMovieTitle && (
+          <Text size="md" c="brand.4">
+            {selectedMovieTitle}
+          </Text>
+        )}
       </Group>
 
       <Group gap="sm">
@@ -58,6 +65,8 @@ export function DashboardToolbar({
           radius="xl"
           styles={segmentedControlStyles}
         />
+
+        <Avatar src={avatarUrl} radius="xl" alt="User profile" />
       </Group>
     </Group>
   );
