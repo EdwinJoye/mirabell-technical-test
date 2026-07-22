@@ -6,7 +6,7 @@ import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
-export function DeviceDistributionCard() {
+export function GlobalDeviceDistributionCard() {
   const { deviceDistribution: devices } = getGlobalDashboardData();
 
   const chartData = devices.map((device) => ({

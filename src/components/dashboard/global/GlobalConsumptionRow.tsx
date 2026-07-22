@@ -1,9 +1,9 @@
 import { Flex } from "@mantine/core";
 import { motion } from "framer-motion";
-import { GenrePopularityCard } from "~/components/dashboard/global/GenrePopularityCard";
-import { PlatformConsumptionCard } from "./PlatformConsumptionCard";
+import { GlobalGenrePopularityCard } from "~/components/dashboard/global/GlobalGenrePopularityCard";
+import { GlobalConsumptionCard } from "./GlobalConsumptionCard";
 
-export function PlatformConsumptionRow() {
+export function GlobalConsumptionRow() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 12 }}
@@ -12,10 +12,10 @@ export function PlatformConsumptionRow() {
     >
       <Flex direction={{ base: "column", sm: "row" }} align="stretch" gap="md">
         <div className="sm:flex-1">
-          <GenrePopularityCard />
+          <GlobalGenrePopularityCard />
         </div>
         <div className="sm:flex-2">
-          <PlatformConsumptionCard />
+          <GlobalConsumptionCard />
         </div>
       </Flex>
     </motion.div>

@@ -19,7 +19,7 @@ type WatchTimeCardProps = {
   watchTimeOverTime: WatchTimePoint[];
 };
 
-export function WatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) {
+export function GlobalWatchTimeCard({ stats, watchTimeOverTime }: WatchTimeCardProps) {
   const [isInfoHovered, setIsInfoHovered] = useState(false);
 
   const avgPerUser = Math.round(stats.totalWatchTimeMinutes / stats.activeUsers);

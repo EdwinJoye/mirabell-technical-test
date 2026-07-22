@@ -133,7 +133,7 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
   );
 }
 
-export function TopWatchedMoviesCard() {
+export function GlobalTopWatchedMoviesCard() {
   const { stats, topWatchedMovies: movies } = getGlobalDashboardData();
   const topMovies = movies.slice(0, 10);
   const { data: movieDetailsList } = useMoviesDetails(topMovies.map((movie) => movie.tmdbMovieId));

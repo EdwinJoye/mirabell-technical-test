@@ -10,7 +10,7 @@ type TotalViewsCardProps = {
   stats: GlobalDashboardStats;
 };
 
-export function TotalViewsCard({ stats }: TotalViewsCardProps) {
+export function GlobalTotalViewsCard({ stats }: TotalViewsCardProps) {
   const isPositiveGrowth = stats.growthRate >= 0;
   const growthPercent = (stats.growthRate * 100).toFixed(1);
   const viewsDelta = stats.totalViews - stats.previousPeriodViews;

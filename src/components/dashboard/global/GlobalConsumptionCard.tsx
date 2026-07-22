@@ -7,7 +7,7 @@ import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
 import { BRAND_COLOR } from "~/lib/theme/theme";
 import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
-export function PlatformConsumptionCard() {
+export function GlobalConsumptionCard() {
   const { stats, watchTimeOverTime, deviceDistribution } = getGlobalDashboardData();
 
   const watchTimeByDevice = watchTimeOverTime.map((point) => {

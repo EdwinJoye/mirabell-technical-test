@@ -12,7 +12,7 @@ type ActiveUsersCardProps = {
   activeUsersOverTime: ActiveUsersPoint[];
 };
 
-export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardProps) {
+export function GlobalActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardProps) {
   const returningUsers = stats.activeUsers - stats.newUsers;
   const returningRate = ((returningUsers / stats.activeUsers) * 100).toFixed(0);
 

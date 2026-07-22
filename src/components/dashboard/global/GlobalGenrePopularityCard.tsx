@@ -19,7 +19,7 @@ function formatWatchTime(totalMinutes: number): string {
   return `${hours}h ${minutes}min`;
 }
 
-export function GenrePopularityCard() {
+export function GlobalGenrePopularityCard() {
   const { stats, genrePopularity: genres } = getGlobalDashboardData();
 
   const chartData: ChartGenre[] = [...genres]
