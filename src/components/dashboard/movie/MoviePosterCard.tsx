@@ -1,9 +1,10 @@
-import { AspectRatio, Badge, Center, Loader, Modal, Stack, Text } from "@mantine/core";
+import { AspectRatio, Badge, Center, Group, Loader, Modal, Stack, Text } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { ClockIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
 import { PlayButton } from "~/components/ui/PlayButton";
 import type { Genre } from "~/features/genres/genres.types";
@@ -133,7 +134,10 @@ export function MoviePosterCard({
                   )}
                 </div>
 
-                {overview && <PlayButton onClick={open} ariaLabel="See overview" />}
+                <Group gap={6}>
+                  {overview && <PlayButton onClick={open} ariaLabel="See overview" />}
+                  {overview && <InfoTooltip label={overview} width={300} />}
+                </Group>
               </div>
             </Stack>
           </>

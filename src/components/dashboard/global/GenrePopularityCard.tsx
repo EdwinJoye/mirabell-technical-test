@@ -1,11 +1,10 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { FilmSlateIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { FilmSlateIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type ChartGenre = {
   genre: string;
@@ -21,8 +20,6 @@ function formatWatchTime(totalMinutes: number): string {
 }
 
 export function GenrePopularityCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const { stats, genrePopularity: genres } = getGlobalDashboardData();
 
   const chartData: ChartGenre[] = [...genres]
@@ -46,23 +43,10 @@ export function GenrePopularityCard() {
             </Text>
           </Group>
 
-          <Tooltip
+          <InfoTooltip
             label="Shows which genres attract the most audience based on total views and watch time."
-            withArrow
-            multiline
-            w={260}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+            width={260}
+          />
         </Group>
 
         <Text

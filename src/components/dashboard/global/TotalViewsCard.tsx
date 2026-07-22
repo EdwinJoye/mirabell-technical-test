@@ -1,19 +1,16 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Card, Group, Stack, Text } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { EyeIcon, InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { EyeIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import type { GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type TotalViewsCardProps = {
   stats: GlobalDashboardStats;
 };
 
 export function TotalViewsCard({ stats }: TotalViewsCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const isPositiveGrowth = stats.growthRate >= 0;
   const growthPercent = (stats.growthRate * 100).toFixed(1);
   const viewsDelta = stats.totalViews - stats.previousPeriodViews;
@@ -59,23 +56,7 @@ export function TotalViewsCard({ stats }: TotalViewsCardProps) {
               {growthPercent}%
             </Badge>
 
-            <Tooltip
-              label={`Shows the total views for the current ${stats.period} compared to the previous ${stats.period}.`}
-              withArrow
-              multiline
-              w={240}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-              </ActionIcon>
-            </Tooltip>
+            <InfoTooltip label="More information" />
           </Group>
         </Group>
 

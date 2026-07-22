@@ -1,17 +1,16 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
 import {
   DeviceMobileIcon,
   DeviceTabletIcon,
   GameControllerIcon,
-  InfoIcon,
   MonitorIcon,
   TelevisionIcon,
 } from "@phosphor-icons/react";
-import { useState } from "react";
+
 import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 const DEVICE_ICONS = {
   Mobile: DeviceMobileIcon,
@@ -26,7 +25,6 @@ type MovieDeviceDistributionCardProps = {
 };
 
 export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistributionCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 
   if (!dashboardData) {
@@ -45,23 +43,10 @@ export function MovieDeviceDistributionCard({ tmdbMovieId }: MovieDeviceDistribu
         <Text size="sm" c="dimmed" fw={500}>
           Viewing Devices
         </Text>
-        <Tooltip
+        <InfoTooltip
           label="Shows the breakdown of viewing devices used to watch this movie."
-          withArrow
-          multiline
-          w={220}
-        >
-          <ActionIcon
-            variant="transparent"
-            radius="xl"
-            size="sm"
-            aria-label="More information"
-            onMouseEnter={() => setIsInfoHovered(true)}
-            onMouseLeave={() => setIsInfoHovered(false)}
-          >
-            <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-          </ActionIcon>
-        </Tooltip>
+          width={220}
+        />
       </Group>
 
       <Group justify="center" mb="md">

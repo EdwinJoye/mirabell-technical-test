@@ -1,12 +1,11 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Card, Group, Stack, Text } from "@mantine/core";
 import { LineChart } from "@mantine/charts";
-import { InfoIcon, TrendUpIcon, UsersIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { TrendUpIcon, UsersIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { ActiveUsersPoint, GlobalDashboardStats } from "~/features/dashboard/dashboard.types";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type ActiveUsersCardProps = {
   stats: GlobalDashboardStats;
@@ -14,8 +13,6 @@ type ActiveUsersCardProps = {
 };
 
 export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const returningUsers = stats.activeUsers - stats.newUsers;
   const returningRate = ((returningUsers / stats.activeUsers) * 100).toFixed(0);
 
@@ -58,23 +55,10 @@ export function ActiveUsersCard({ stats, activeUsersOverTime }: ActiveUsersCardP
               +{growthPercent}%
             </Badge>
 
-            <Tooltip
+            <InfoTooltip
               label="Shows the number of active users and the distribution between new and returning users for the current period."
-              withArrow
-              multiline
-              w={260}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-              </ActionIcon>
-            </Tooltip>
+              width={260}
+            />
           </Group>
         </Group>
 

@@ -1,14 +1,14 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text, Tooltip } from "@mantine/core";
 import { BarChart } from "@mantine/charts";
-import { FilmSlateIcon, InfoIcon, TrophyIcon } from "@phosphor-icons/react";
+import { FilmSlateIcon, TrophyIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { useMoviesDetails } from "~/features/movie-details/movie-details.hooks";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 const Y_AXIS_WIDTH = 170;
 const POSTER_WIDTH = 18;
@@ -134,7 +134,6 @@ function TopMoviesYAxisTick({ x = 0, y = 0, index = 0, payload, movies }: YAxisT
 }
 
 export function TopWatchedMoviesCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const { stats, topWatchedMovies: movies } = getGlobalDashboardData();
   const topMovies = movies.slice(0, 10);
   const { data: movieDetailsList } = useMoviesDetails(topMovies.map((movie) => movie.tmdbMovieId));
@@ -158,23 +157,10 @@ export function TopWatchedMoviesCard() {
               Top Watched Movies
             </Text>
           </Group>
-          <Tooltip
+          <InfoTooltip
             label="Ranks the most watched movies based on total views and unique viewers."
-            withArrow
-            multiline
-            w={260}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+            width={260}
+          />
         </Group>
 
         <Text

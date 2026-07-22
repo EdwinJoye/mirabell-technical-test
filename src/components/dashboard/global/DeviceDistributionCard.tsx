@@ -1,15 +1,12 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
-import { DeviceMobileIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { DeviceMobileIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient, DEVICE_COLORS } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 export function DeviceDistributionCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const { deviceDistribution: devices } = getGlobalDashboardData();
 
   const chartData = devices.map((device) => ({
@@ -34,23 +31,7 @@ export function DeviceDistributionCard() {
             </Text>
           </Group>
 
-          <Tooltip
-            label="Shows how users consume content across different devices."
-            withArrow
-            multiline
-            w={240}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+          <InfoTooltip label="Shows how users consume content across different devices." />
         </Group>
 
         <Text

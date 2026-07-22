@@ -1,17 +1,15 @@
-import { ActionIcon, Badge, Card, Group, Progress, Stack, Text, Tooltip } from "@mantine/core";
-import { DownloadSimpleIcon, InfoIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { Badge, Card, Group, Progress, Stack, Text } from "@mantine/core";
+import { DownloadSimpleIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type MovieOfflineViewsCardProps = {
   tmdbMovieId: number;
 };
 
 export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 
   if (!dashboardData) {
@@ -53,23 +51,10 @@ export function MovieOfflineViewsCard({ tmdbMovieId }: MovieOfflineViewsCardProp
               +12%
             </Badge>
 
-            <Tooltip
+            <InfoTooltip
               label="Shows how many users downloaded this movie for offline viewing compared to total streaming views."
-              withArrow
-              multiline
-              w={260}
-            >
-              <ActionIcon
-                variant="transparent"
-                radius="xl"
-                size="sm"
-                aria-label="More information"
-                onMouseEnter={() => setIsInfoHovered(true)}
-                onMouseLeave={() => setIsInfoHovered(false)}
-              >
-                <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-              </ActionIcon>
-            </Tooltip>
+              width={260}
+            />
           </Group>
         </Group>
 

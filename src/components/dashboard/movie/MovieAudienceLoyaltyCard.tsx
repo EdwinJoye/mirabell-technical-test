@@ -1,18 +1,16 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 import { PieChart } from "@mantine/charts";
-import { ArrowClockwiseIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { ArrowClockwiseIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type MovieAudienceLoyaltyCardProps = {
   tmdbMovieId: number;
 };
 
 export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 
   if (!dashboardData) {
@@ -54,23 +52,7 @@ export function MovieAudienceLoyaltyCard({ tmdbMovieId }: MovieAudienceLoyaltyCa
             </Text>
           </Group>
 
-          <Tooltip
-            label="Shows the percentage of viewers who watched this movie more than once."
-            withArrow
-            multiline
-            w={240}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+          <InfoTooltip label="Shows the percentage of viewers who watched this movie more than once." />
         </Group>
 
         <Group justify="center" mt="xs">

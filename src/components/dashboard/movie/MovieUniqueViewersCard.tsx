@@ -1,21 +1,18 @@
-import { ActionIcon, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Card, Group, Stack, Text } from "@mantine/core";
 import { DonutChart } from "@mantine/charts";
-import { InfoIcon, UsersIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { UsersIcon } from "@phosphor-icons/react";
 import { CardIconBadge } from "~/components/dashboard/CardIconBadge";
 import { dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { LegendDot } from "~/components/dashboard/LegendDot";
 import type { MovieDashboardStats } from "~/features/dashboard/dashboard.types";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 type MovieUniqueViewersCardProps = {
   stats: MovieDashboardStats;
 };
 
 export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const repeatViews = Math.max(stats.totalViews - stats.uniqueViewers, 0);
   const uniqueRatio = Math.round((stats.uniqueViewers / stats.totalViews) * 100);
   const avgViewsPerViewer = (stats.totalViews / stats.uniqueViewers).toFixed(2);
@@ -36,23 +33,7 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
             </Text>
           </Group>
 
-          <Tooltip
-            label="Shows how many distinct viewers watched this movie, and how many total views came from repeat watches."
-            withArrow
-            multiline
-            w={240}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+          <InfoTooltip label="Shows how many distinct viewers watched this movie, and how many total views came from repeat watches." />
         </Group>
 
         <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>

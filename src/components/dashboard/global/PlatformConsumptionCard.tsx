@@ -1,16 +1,13 @@
 import { AreaChart } from "@mantine/charts";
-import { ActionIcon, Card, Group, Text, Tooltip } from "@mantine/core";
-import { ClockIcon, InfoIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { Card, Group, Text } from "@mantine/core";
+import { ClockIcon } from "@phosphor-icons/react";
 import { DEVICE_COLORS, dashboardCardGradient } from "~/components/dashboard/dashboard.styles";
 import { getGlobalDashboardData } from "~/features/dashboard/dashboard.service";
 import { formatWatchTime } from "~/features/dashboard/dashboard.utils";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 export function PlatformConsumptionCard() {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
-
   const { stats, watchTimeOverTime, deviceDistribution } = getGlobalDashboardData();
 
   const watchTimeByDevice = watchTimeOverTime.map((point) => {
@@ -54,23 +51,10 @@ export function PlatformConsumptionCard() {
           </Text>
         </Group>
 
-        <Tooltip
+        <InfoTooltip
           label="Shows how total watch time evolves across viewing devices."
-          withArrow
-          multiline
-          w={260}
-        >
-          <ActionIcon
-            variant="transparent"
-            radius="xl"
-            size="sm"
-            aria-label="More information"
-            onMouseEnter={() => setIsInfoHovered(true)}
-            onMouseLeave={() => setIsInfoHovered(false)}
-          >
-            <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-          </ActionIcon>
-        </Tooltip>
+          width={260}
+        />
       </Group>
 
       <Text

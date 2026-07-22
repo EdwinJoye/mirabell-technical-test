@@ -1,11 +1,10 @@
-import { ActionIcon, Badge, Card, Group, Stack, Text, Tooltip } from "@mantine/core";
+import { Badge, Card, Group, Stack, Text } from "@mantine/core";
 import { AreaChart } from "@mantine/charts";
-import { InfoIcon, TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
-import { useState } from "react";
+import { TrendDownIcon, TrendUpIcon } from "@phosphor-icons/react";
 import { dashboardCardGradient, glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
 import { getMovieDashboardData } from "~/features/dashboard/dashboard.service";
-import { getHoverIconColor } from "~/lib/theme/hover";
 import { BRAND_COLOR } from "~/lib/theme/theme";
+import { InfoTooltip } from "~/components/dashboard/InfoTooltip";
 
 const LAST_30_DAYS_POINT_COUNT = 4;
 
@@ -14,7 +13,6 @@ type MovieMomentumCardProps = {
 };
 
 export function MovieMomentumCard({ tmdbMovieId }: MovieMomentumCardProps) {
-  const [isInfoHovered, setIsInfoHovered] = useState(false);
   const dashboardData = getMovieDashboardData(tmdbMovieId);
 
   if (!dashboardData) {
@@ -78,23 +76,10 @@ export function MovieMomentumCard({ tmdbMovieId }: MovieMomentumCardProps) {
             {growthPercent}%
           </Badge>
 
-          <Tooltip
+          <InfoTooltip
             label="Shows how viewing activity evolves over time to identify whether this movie is gaining or losing momentum."
-            withArrow
-            multiline
-            w={260}
-          >
-            <ActionIcon
-              variant="transparent"
-              radius="xl"
-              size="sm"
-              aria-label="More information"
-              onMouseEnter={() => setIsInfoHovered(true)}
-              onMouseLeave={() => setIsInfoHovered(false)}
-            >
-              <InfoIcon size={18} color={getHoverIconColor(isInfoHovered)} />
-            </ActionIcon>
-          </Tooltip>
+            width={260}
+          />
         </Group>
       </Group>
 
