@@ -1,4 +1,4 @@
-import { DEFAULT_THEME } from "@mantine/core";
+import { DEFAULT_THEME, Divider, Flex, Stack, Title } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { motion } from "framer-motion";
 import { MoviePosterCard } from "~/components/dashboard/movie/MoviePosterCard";
@@ -36,7 +36,7 @@ export function MoviePosterRow({ tmdbMovieId }: MoviePosterRowProps) {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: isDesktop ? "1fr 0.55fr 1.85fr" : "1fr",
+          gridTemplateColumns: isDesktop ? "1fr 2.4fr" : "1fr",
           gridTemplateRows: isDesktop ? "auto 1fr" : "auto",
           gap: "var(--mantine-spacing-md)",
         }}
@@ -59,17 +59,35 @@ export function MoviePosterRow({ tmdbMovieId }: MoviePosterRowProps) {
         </div>
 
         <div style={isDesktop ? { gridColumn: 2, gridRow: "1 / 3" } : undefined}>
-          <MovieDeviceDistributionCard tmdbMovieId={tmdbMovieId} />
-        </div>
-
-        <div
-          style={
-            isDesktop
-              ? { minWidth: 0, gridColumn: 3, gridRow: "1 / 3" }
-              : { minWidth: 0, height: MOBILE_RETENTION_CARD_HEIGHT }
-          }
-        >
-          <MovieRetentionCard retentionCurve={dashboardData.retentionCurve} />
+          <Stack gap="md" h="100%">
+            <Flex align="center" gap="sm">
+              <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} hiddenFrom="sm" />
+              <Title order={3} size="h5" c="white">
+                Viewing Insights
+              </Title>
+              <Divider color="rgba(255, 255, 255, 0.1)" style={{ flex: 1 }} />
+            </Flex>
+            <Flex
+              direction={{ base: "column", sm: "row" }}
+              align="stretch"
+              gap="md"
+              style={{ flex: 1 }}
+            >
+              <div className="sm:flex-1">
+                <MovieDeviceDistributionCard tmdbMovieId={tmdbMovieId} />
+              </div>
+              <div
+                className="sm:flex-3"
+                style={
+                  isDesktop
+                    ? { minWidth: 0 }
+                    : { minWidth: 0, height: MOBILE_RETENTION_CARD_HEIGHT }
+                }
+              >
+                <MovieRetentionCard retentionCurve={dashboardData.retentionCurve} />
+              </div>
+            </Flex>
+          </Stack>
         </div>
       </div>
     </motion.div>

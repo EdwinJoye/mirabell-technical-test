@@ -57,7 +57,7 @@ export function GlobalActiveUsersCard({ stats, activeUsersOverTime }: ActiveUser
         </Group>
 
         <Text
-          size="1.5rem"
+          size="1.25rem"
           fw={700}
           c="white"
           style={{

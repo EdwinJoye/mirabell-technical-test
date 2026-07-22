@@ -30,7 +30,7 @@ export function MovieReactionsCard({ reactions }: MovieReactionsCardProps) {
           <InfoTooltip label="Shows how viewers reacted to this movie: liked, disliked, or gave no reaction." />
         </Group>
 
-        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.25rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {likedRate}% liked
         </Text>
         <Text size="xs" c="dimmed">

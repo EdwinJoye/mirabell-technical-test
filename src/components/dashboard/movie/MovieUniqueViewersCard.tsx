@@ -36,7 +36,7 @@ export function MovieUniqueViewersCard({ stats }: MovieUniqueViewersCardProps) {
           <InfoTooltip label="Shows how many distinct viewers watched this movie, and how many total views came from repeat watches." />
         </Group>
 
-        <Text size="1.5rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
+        <Text size="1.25rem" fw={700} c="white" style={{ letterSpacing: -0.5, lineHeight: 1.1 }}>
           {stats.uniqueViewers.toLocaleString()}
         </Text>
 
