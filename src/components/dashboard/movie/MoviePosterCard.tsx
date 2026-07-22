@@ -1,8 +1,12 @@
-import { AspectRatio, Badge, Center, Loader, Stack, Text } from "@mantine/core";
-import { ClockIcon, StarIcon } from "@phosphor-icons/react";
+import { ActionIcon, AspectRatio, Badge, Center, Loader, Modal, Stack, Text } from "@mantine/core";
+import { useDisclosure } from "@mantine/hooks";
+import { ClockIcon, PlayIcon, StarIcon } from "@phosphor-icons/react";
 import { useState } from "react";
 import { getTmdbImageUrl } from "~/lib/tmdb/tmdb.image";
 import { glassBadgeStyles } from "~/components/dashboard/dashboard.styles";
+import { MovieDetailsOverlay } from "~/components/movie/MovieDetailsOverlay";
+import { actionIconHoverVars } from "~/lib/theme/hover";
+import type { Genre } from "~/features/genres/genres.types";
 
 type MoviePosterCardProps = {
   title: string;
@@ -10,6 +14,8 @@ type MoviePosterCardProps = {
   releaseDate: string;
   voteAverage: number;
   runtime?: number | null;
+  overview?: string;
+  genres?: Genre[];
 };
 
 function formatRuntime(runtime: number): string {
@@ -24,8 +30,11 @@ export function MoviePosterCard({
   releaseDate,
   voteAverage,
   runtime,
+  overview,
+  genres = [],
 }: MoviePosterCardProps) {
   const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const [opened, { open, close }] = useDisclosure(false);
   const releaseYear = releaseDate ? new Date(releaseDate).getFullYear() : null;
   const backdropUrl = backdropPath ? getTmdbImageUrl(backdropPath, "original") : undefined;
 
@@ -90,35 +99,81 @@ export function MoviePosterCard({
               p="md"
               style={{ zIndex: 1 }}
             >
-              <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-                <Badge
-                  leftSection={<StarIcon size={12} weight="fill" />}
-                  variant="outline"
-                  tt="none"
-                  fw={500}
-                  size="lg"
-                  styles={glassBadgeStyles}
-                >
-                  {voteAverage.toFixed(1)}
-                </Badge>
-
-                {runtime && (
+              <div
+                style={{
+                  display: "flex",
+                  gap: 6,
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
                   <Badge
-                    leftSection={<ClockIcon size={12} />}
+                    leftSection={<StarIcon size={12} weight="fill" />}
                     variant="outline"
                     tt="none"
                     fw={500}
                     size="lg"
                     styles={glassBadgeStyles}
                   >
-                    {formatRuntime(runtime)}
+                    {voteAverage.toFixed(1)}
                   </Badge>
+
+                  {runtime && (
+                    <Badge
+                      leftSection={<ClockIcon size={12} />}
+                      variant="outline"
+                      tt="none"
+                      fw={500}
+                      size="lg"
+                      styles={glassBadgeStyles}
+                    >
+                      {formatRuntime(runtime)}
+                    </Badge>
+                  )}
+                </div>
+
+                {overview && (
+                  <ActionIcon
+                    onClick={open}
+                    radius="xl"
+                    size="sm"
+                    variant="filled"
+                    c="dark.9"
+                    aria-label="See overview"
+                    style={{ ...actionIconHoverVars(), "--ai-bg": "var(--mantine-color-white)" }}
+                  >
+                    <PlayIcon size={12} weight="fill" />
+                  </ActionIcon>
                 )}
               </div>
             </Stack>
           </>
         )}
       </div>
+
+      {overview && (
+        <Modal
+          opened={opened}
+          onClose={close}
+          size="lg"
+          padding={0}
+          radius="lg"
+          withCloseButton={false}
+          zIndex={300}
+        >
+          <MovieDetailsOverlay
+            title={title}
+            backdropPath={backdropPath}
+            overview={overview}
+            releaseYear={releaseYear}
+            voteAverage={voteAverage}
+            genreIds={genres.map((genre) => genre.id)}
+            genres={genres}
+            onClose={close}
+          />
+        </Modal>
+      )}
     </AspectRatio>
   );
 }
